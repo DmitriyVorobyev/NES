@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6de4ee63-395e-41c7-a6f5-1f3a6f711727">
+  <producedTypes>
+    <refType typeId="7a67694a-6153-423c-b4e4-070d4ce9fc20" valueTypeId="b3aaad05-1d52-4184-a33f-562037e67ef5"/>
+    <listType typeId="f2a29979-3339-4126-b7c6-e9b30e92eb58" valueTypeId="b6b22d3c-2015-4d47-b764-e979b5df4c05"/>
+    <managerType typeId="b81c51ba-682a-4dea-a8c1-969c59b03221" valueTypeId="170a3d80-fabd-4365-9eef-f9db205bea6c"/>
+  </producedTypes>
+  <name>СпособыПроверкиЗаполненияПерсональныхДанныхМедицинскогоСтрахования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы проверки заполнения персональных данных медицинского страхования</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4e8e66ef-96d0-43ac-921c-c48da0a076af">
+    <name>НеПроверять</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не проверять</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2ed9a634-e6d2-4010-82be-473a889c8248">
+    <name>ВыводитьПредупреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить предупреждение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="199bdf1e-d87c-4376-94f6-2cc6b0387bdb">
+    <name>ВыдаватьОшибку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдавать ошибку</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

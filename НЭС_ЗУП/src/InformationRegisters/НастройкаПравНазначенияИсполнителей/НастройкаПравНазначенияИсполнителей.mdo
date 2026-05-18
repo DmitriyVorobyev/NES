@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b99111d5-f77c-47bf-8f15-e2575c4fe344">
+  <producedTypes>
+    <selectionType typeId="c9f1e1b6-e883-4e53-9ead-72745d86f4cf" valueTypeId="3dd1d5ff-aece-429f-9292-50be22105b32"/>
+    <listType typeId="848d8e78-44fb-4a24-8eca-32a58e728586" valueTypeId="faace83b-f704-4791-ade9-42f9220adf10"/>
+    <managerType typeId="6b526dd1-449f-4d5e-89eb-431212885b9f" valueTypeId="31914352-75e1-4146-978b-e8be39d1729f"/>
+    <recordSetType typeId="1c27fdd4-bf6e-472b-ba36-63046797d2c7" valueTypeId="7121328e-f21e-4d17-bb0a-efb585b964be"/>
+    <recordKeyType typeId="e07ee9ff-cfdb-40d0-a889-2f6a80748f0a" valueTypeId="e3fe0cbd-7b32-48e5-82d4-75120a46e849"/>
+    <recordType typeId="ca1b2b23-c2ba-4be8-9872-371539e0f2d9" valueTypeId="5b2de2e0-66b2-48de-b6fa-c678c0fedbfa"/>
+    <recordManagerType typeId="7d0c9c79-3199-44a8-bb74-92954e83ca46" valueTypeId="5bdd07e6-8cbb-49d2-8fbf-a948a7c4b42a"/>
+  </producedTypes>
+  <name>НастройкаПравНазначенияИсполнителей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка прав назначения исполнителей</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.НастройкаПравНазначенияИсполнителей.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.НастройкаПравНазначенияИсполнителей.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="e54d467f-ffde-4f9d-834a-383d0e0608f1">
+    <name>ГруппаИсполнителейЗадачНазначающий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа исполнителей задач назначающий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыИсполнителейЗадач</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="d028a9a4-0b74-4614-9a5f-d960e22d4a09">
+    <name>НазначающийИсполнителей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначающий исполнителей</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РолиИсполнителей</types>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="166407b9-6137-4ec0-a8e7-d547ea7e3131">
+    <name>РольИсполнителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль исполнителя</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РолиИсполнителей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4a6a540f-f492-4b3d-88b3-6984a76a03c1">
+    <name>ОсновнойОбъектАдресацииИсполнителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной объект адресации исполнителя</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ОбъектыАдресацииЗадач</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Основной объект адресации, используемый вместе с ролью</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e895dc1e-f775-46ff-9c1c-aedaae883fa3">
+    <name>ОсновнойОбъектАдресацииНазначающего</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной объект адресации назначающего</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ОбъектыАдресацииЗадач</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Основной объект адресации, используемый вместе с ролью</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="236804c4-07ab-4bb1-b334-3d036516ac1d">
+    <name>ДополнительныйОбъектАдресацииИсполнителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительный объект адресации исполнителя</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ОбъектыАдресацииЗадач</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дополнительный объект адресации, используемый вместе с ролью</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0aa49ffa-78d2-4d3b-9e99-2ab19324db19">
+    <name>ДополнительныйОбъектАдресацииНазначающего</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительный объект адресации назначающего</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ОбъектыАдресацииЗадач</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дополнительный объект адресации, используемый вместе с ролью</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="0b642305-68ed-48ed-86bc-68bf8a209495">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="24b2a662-3058-4381-9d25-b9ccbbc6a507">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

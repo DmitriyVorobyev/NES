@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84b57649-0909-493b-8358-c7eb4b7c996e">
+  <producedTypes>
+    <containerType typeId="afb93464-b7e0-4f85-911a-5adb916c5623" valueTypeId="07206253-b6b1-4d06-9edc-01565d28f344"/>
+  </producedTypes>
+  <name>ДокументОснованиеВыдачиСИЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документ основание выдачи СИЗ</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ВводНачальныхОстатковВыданныхСИЗ</types>
+    <types>DocumentRef.ПродлениеСроковНоскиСИЗ</types>
+    <types>DocumentRef.ВыдачаСИЗ</types>
+  </type>
+</mdclass:DefinedType>

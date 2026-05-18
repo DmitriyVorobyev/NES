@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0393a7b8-f5c4-4ce0-80c7-741f8ee707f5">
+  <name>ИнтеграцияС1САналитикойКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с 1С:Аналитикой клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

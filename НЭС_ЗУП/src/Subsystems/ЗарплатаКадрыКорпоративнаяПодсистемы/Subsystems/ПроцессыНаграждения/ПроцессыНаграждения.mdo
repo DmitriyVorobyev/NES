@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49a21158-52ea-4cb8-b1f1-241d006a0a3f">
+  <name>ПроцессыНаграждения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процессы награждения</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.СтатусыПредставленийКНаградам</content>
+  <content>Catalog.ПредставлениеКНаградеПрисоединенныеФайлы</content>
+  <content>Catalog.НаграждениеПрисоединенныеФайлы</content>
+  <content>Document.Награждение</content>
+  <content>Document.ПредставлениеКНаграде</content>
+  <content>Enum.СтатусыПредставленияКНаградам</content>
+  <content>FunctionalOption.ИспользоватьПроцессыНаграждения</content>
+  <content>Constant.ИспользоватьПроцессыНаграждения</content>
+  <content>CommonModule.ПроцессыНагражденияКлиент</content>
+  <content>CommonModule.ПроцессыНаграждения</content>
+  <content>Report.ОтчетыПоПроцессамНаграждения</content>
+  <content>DefinedType.ПретендентКНаграждению</content>
+  <content>DocumentJournal.ДокументыНаграждения</content>
+  <content>CommonModule.ПроцессыНагражденияВызовСервера</content>
+  <content>CommonModule.ПроцессыНагражденияКлиентСервер</content>
+  <content>Role.ЧтениеДокументовНаграждения</content>
+  <content>Role.ДобавлениеИзменениеДокументовНаграждения</content>
+  <content>Role.ДобавлениеИзменениеНаград</content>
+  <content>Role.ИнтерфейсРабочегоСтолаСпециалистПоНаграждениям</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

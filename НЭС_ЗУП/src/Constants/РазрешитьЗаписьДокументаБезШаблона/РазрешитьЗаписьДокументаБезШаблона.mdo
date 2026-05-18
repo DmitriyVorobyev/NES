@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f298a22c-6ffa-4979-8218-ab043afd214a">
+  <producedTypes>
+    <managerType typeId="e69bf1d2-9398-4630-8c8f-3b33d7690e6d" valueTypeId="19d0fc7d-5f91-485e-b2ac-e9de36e39aaf"/>
+    <valueManagerType typeId="fd0d0f79-ea52-4324-9149-cc283bfe0349" valueTypeId="db48c326-79e2-4108-9239-32c1d7a1b3e9"/>
+    <valueKeyType typeId="1a8cd06b-adc4-4288-8cf7-e4263392282b" valueTypeId="3543fa50-0c88-4105-bbf1-9e5ca4dcc494"/>
+  </producedTypes>
+  <name>РазрешитьЗаписьДокументаБезШаблона</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разрешить запись документа без шаблона, если ни один шаблон не подходит по условию использования</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

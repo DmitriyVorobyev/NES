@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8d528ec-8dcd-45fc-957f-061b83fe5d48">
+  <producedTypes>
+    <containerType typeId="32b6ba5d-49e0-4fe0-befb-f7036dda5145" valueTypeId="c40f5ee8-7816-4885-86e8-545977b1950e"/>
+  </producedTypes>
+  <name>ДокументыОтсутствияНаОснованииОбучения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы отсутствия на основании обучения</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ОплатаПоСреднемуЗаработкуСписком</types>
+    <types>DocumentRef.Отпуск</types>
+    <types>DocumentRef.ОплатаПоСреднемуЗаработку</types>
+    <types>DocumentRef.КомандировкиСотрудников</types>
+    <types>DocumentRef.Командировка</types>
+    <types>DocumentRef.ОтпускаСотрудников</types>
+  </type>
+</mdclass:DefinedType>

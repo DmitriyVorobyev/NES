@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Report.ЖурналРегистрацииИнструктажа.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Report.ИнструктажиПоОхранеТруда.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.ОбучениеПоОхранеТруда.Command.ОбучениеПоОхранеТруда</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>Catalog.КлассификаторПрограммОбученияПоОхранеТруда.StandardCommand.OpenList</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>Catalog.КлассификаторПрограммОбученияПоОхранеТруда.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

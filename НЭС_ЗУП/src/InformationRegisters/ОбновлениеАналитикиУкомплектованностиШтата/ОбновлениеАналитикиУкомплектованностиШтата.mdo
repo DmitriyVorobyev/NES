@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="964e3a96-af58-4037-92eb-d1c189f6a317">
+  <producedTypes>
+    <selectionType typeId="32438d32-4c77-4090-9c1d-d2b8b4eae93d" valueTypeId="5271a8b0-215e-4fc8-b1ad-e1b83f355f0c"/>
+    <listType typeId="8485d144-e134-4f8c-a057-2fa28dae48fc" valueTypeId="17af73c2-09b5-4d51-8b76-076696718413"/>
+    <managerType typeId="2a92b909-e863-4b78-8e66-833bdf4929fe" valueTypeId="fabbf1d5-77fb-4711-a445-646f6aa0036c"/>
+    <recordSetType typeId="1dc20908-067f-4ff4-9c63-e49d10604a55" valueTypeId="d7569082-419e-49cd-b3df-d7860c6b083a"/>
+    <recordKeyType typeId="3b15cbb6-227c-4b11-9a24-044ba544467f" valueTypeId="d80477fd-bb50-46a8-961d-65a42745bd7c"/>
+    <recordType typeId="096e4276-9cb3-493d-bcc6-096e602e4e66" valueTypeId="48a84f8d-e78a-4712-8d24-34334f3f1a3f"/>
+    <recordManagerType typeId="fb914570-1d98-4960-8fee-9eed9da1938a" valueTypeId="27461897-6c26-4e6e-8876-458e381765c3"/>
+  </producedTypes>
+  <name>ОбновлениеАналитикиУкомплектованностиШтата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление аналитики укомплектованности штата</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e01e70de-751c-44f0-80be-b8e8a6bc5ff7">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f25566c3-dc57-4afb-a1f2-30be12b99771">
+    <name>ПозицияШтатногоРасписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Позиция штатного расписания</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШтатноеРасписание</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <templates uuid="24b95e02-20ef-481f-80e2-0f984bfac31b">
+    <name>ПоставляемаяПанельАналитики_КадровыйУчет_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кадровый учет</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:InformationRegister>

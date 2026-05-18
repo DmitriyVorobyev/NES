@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65fa7dcf-14af-4912-b0e1-55e39377c917">
+  <name>РекрутинговыеСайтыФормы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рекрутинговые сайты формы</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

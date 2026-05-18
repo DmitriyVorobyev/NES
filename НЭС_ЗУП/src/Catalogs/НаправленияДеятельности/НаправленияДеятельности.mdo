@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87a384c3-ab2e-4314-85a9-9834c3877db5">
+  <producedTypes>
+    <objectType typeId="b77d8c52-0363-4c1e-b391-6a45d9606294" valueTypeId="36c371e9-a3c6-46bc-bc32-85c702133fac"/>
+    <refType typeId="bf183a56-c710-48e7-85ff-4cc5fae0e549" valueTypeId="b095f009-8c18-4e80-aae9-87d0a2a0d3fc"/>
+    <selectionType typeId="2557bdf1-71f1-4276-8d4c-a5c6c39c86a9" valueTypeId="cba69022-2239-4c44-ad67-0880c7ddd031"/>
+    <listType typeId="cfdaff37-8ce7-4cd9-8961-e5023db389de" valueTypeId="c66864da-e103-444e-9604-ff7bb82104ab"/>
+    <managerType typeId="83be8ba0-74bc-49e6-8d92-056c6f38f86a" valueTypeId="4b16a971-9a31-4e66-98c2-31705ab7c9db"/>
+  </producedTypes>
+  <name>НаправленияДеятельности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Направления деятельности</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Line of business</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НаправленияДеятельности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа направлений</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Lines of business group</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа направлений деятельности предприятия.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Enterprise lines of business group.</value>
+    </toolTip>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.НаправленияДеятельности.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование направления деятельности.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Line of business name.</value>
+    </toolTip>
+    <fillValue xsi:type="core:StringValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Код направления деятельности.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Line of business code.</value>
+    </toolTip>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Направление деятельности</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>en</key>
+    <value>Line of business</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>en</key>
+    <value>Line of business</value>
+  </listPresentation>
+  <explanation>
+    <key>en</key>
+    <value>List of trading activities of the enterprise.  It is used as a cut-through dimension for planning and accounting income, expenses, and cash flow of the enterprise.</value>
+  </explanation>
+  <explanation>
+    <key>ru</key>
+    <value>Список направлений деятельности предприятия.  Используются как сквозной аналитический разрез при планировании и учете расходов на персонал.</value>
+  </explanation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

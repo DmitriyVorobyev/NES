@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb8c2676-e127-497f-87a3-8638b6c86b4e">
+  <name>ЗарегистрироватьКадровыйДокументПоРешениюПередЗаписьюРасширенная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарегистрировать кадровый документ по решению перед записью расширенная</value>
+  </synonym>
+  <source>
+    <types>DefinedType.КадровыйДокументПоРешениюОбъект</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.КадровыеРешенияСобытия.ЗарегистрироватьКадровыйДокументПоРешениюПередЗаписью</handler>
+</mdclass:EventSubscription>

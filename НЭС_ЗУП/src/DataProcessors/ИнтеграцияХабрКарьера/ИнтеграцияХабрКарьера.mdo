@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="724e608b-00d5-4a76-ae11-0b01662ee2c7">
+  <producedTypes>
+    <objectType typeId="cfbb5436-f96e-43fd-b9a4-eca5cbdf7cf0" valueTypeId="49da1973-5ace-4f95-9400-bf2c0d3ee526"/>
+    <managerType typeId="04679391-50d1-41d6-924e-d2e4d067a597" valueTypeId="b5562d72-350e-4532-bcf9-b9a70c5048c5"/>
+  </producedTypes>
+  <name>ИнтеграцияХабрКарьера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с Хабр Карьера</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИнтеграцияХабрКарьера.Form.Форма</defaultForm>
+  <attributes uuid="596dd804-f55b-44ee-be65-61321a3b0125">
+    <name>Сайт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сайт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИсточникиИнформацииОКандидатах</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dea5ba30-225d-4151-af04-4a04a9d6281a">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="311147f9-74c3-4351-8f88-5c3efdad05e0">
+    <name>ИмяПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="255cc8ff-460f-477f-bb93-8c56566fc4bf">
+    <name>МаркерДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маркер доступа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f5b5ec11-d8af-44da-aabb-b2df0ab97039">
+    <name>МаркерОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маркер обновления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="aa488b46-1c75-41c4-8b9d-fd65997ecf5e">
+    <name>ДатаОкончанияДействияМаркераДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания действия маркера доступа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="33ca7b31-95f1-4613-9895-fb3760f6b35f">
+    <name>ИдентификаторПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор пользователя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="67978390-613f-4c50-9fde-3fbbcce41a67">
+    <name>КодАвторизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код авторизации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3c78254c-e9ef-4df7-b823-0305e00ffa98">
+    <name>ДанныеСайта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные сайта</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="a0331eae-2012-4424-962f-224fff9b93a8">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

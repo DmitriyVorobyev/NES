@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a109f91-6e56-4072-9ff5-6d06a873665a">
+  <name>НастройкаВидеоконференций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка видеоконференций</value>
+  </synonym>
+</mdclass:Role>

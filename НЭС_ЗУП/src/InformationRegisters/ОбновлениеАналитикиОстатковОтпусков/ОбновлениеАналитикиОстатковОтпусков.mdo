@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="587a42a0-9e1c-4405-b32d-39ee1d5dddf7">
+  <producedTypes>
+    <selectionType typeId="d0c0c516-a97c-4708-8a8d-f191f1430021" valueTypeId="a0618503-f583-4484-8fff-74c5e2403a1f"/>
+    <listType typeId="f0f2f9c2-47f4-461b-8b46-370dd8675ca4" valueTypeId="858ab289-e982-47ca-82cc-d2ec887d59f4"/>
+    <managerType typeId="8768c92a-19e2-4e84-be0c-4a3e79d2d62c" valueTypeId="e03ced2f-26b8-44a3-ba89-9e92fb3933a4"/>
+    <recordSetType typeId="d806605e-8af3-4940-8dee-63c4bb15cd8c" valueTypeId="2b30fdd2-2ab2-47ff-8595-e3ff99c647d8"/>
+    <recordKeyType typeId="c92246ec-4810-4a02-b443-b79a604260e0" valueTypeId="9204ae24-b5d4-4f50-9d8a-6395811a9712"/>
+    <recordType typeId="00c84274-a9ec-4e3c-96e9-556501cdd0a4" valueTypeId="a0b8eb1d-af5d-4aa6-a394-70c0336d7b8f"/>
+    <recordManagerType typeId="4e3e68d8-d1a5-4fdf-ad7e-9471a0d4d90f" valueTypeId="a3dc93d3-8ef5-43be-ad81-6cb36da5f069"/>
+  </producedTypes>
+  <name>ОбновлениеАналитикиОстатковОтпусков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление аналитики остатков отпусков</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8175b359-a728-4f6e-8391-61b639f9f9be">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f27d1e83-e3ee-4a37-aaa9-2b648b88b57e">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e8ea2cb0-7395-4dfb-a5a1-bb3e552500ae">
+    <name>ВидЕжегодногоОтпуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид ежегодного отпуска</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыОтпусков</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <templates uuid="a958175a-f4f5-4b69-b684-c8c651c1d44c">
+    <name>ПоставляемаяПанельАналитики_ОстаткиОтпусков_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остатки отпусков</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:InformationRegister>

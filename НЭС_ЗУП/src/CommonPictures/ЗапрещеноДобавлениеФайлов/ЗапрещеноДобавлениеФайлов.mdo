@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c14c8ef0-7b33-4ed4-a5a3-bfbf3ef6b345">
+  <name>ЗапрещеноДобавлениеФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запрещено добавление файлов</value>
+  </synonym>
+</mdclass:CommonPicture>

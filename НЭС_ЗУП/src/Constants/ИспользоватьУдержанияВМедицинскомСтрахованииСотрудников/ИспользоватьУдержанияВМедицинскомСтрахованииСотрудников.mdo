@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3f8e4a7-1ebf-4c95-947a-b915ce3c67d1">
+  <producedTypes>
+    <managerType typeId="cba0c324-6800-4deb-b28a-005776cb737c" valueTypeId="ca6f928a-5c01-4d7d-916e-333553fa1414"/>
+    <valueManagerType typeId="5da2c615-246b-4058-8f22-7724d1bff137" valueTypeId="387b77f5-7b2c-4232-a3a6-8c32726594f7"/>
+    <valueKeyType typeId="9d44c7ac-1c5a-44f5-a7a5-16cc6815ca6d" valueTypeId="97cc93a8-58c9-4692-a115-474b96ccc50d"/>
+  </producedTypes>
+  <name>ИспользоватьУдержанияВМедицинскомСтрахованииСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать удержания в медицинском страховании сотрудников</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

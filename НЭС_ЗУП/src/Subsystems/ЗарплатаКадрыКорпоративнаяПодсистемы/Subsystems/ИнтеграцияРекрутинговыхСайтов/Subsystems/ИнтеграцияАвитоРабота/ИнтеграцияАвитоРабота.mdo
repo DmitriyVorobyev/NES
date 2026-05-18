@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebdbd676-deb9-42ba-a661-3466930c6573">
+  <name>ИнтеграцияАвитоРабота</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция Авито Работа</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DataProcessor.ИнтеграцияАвитоРабота</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы.Subsystem.ИнтеграцияРекрутинговыхСайтов</parentSubsystem>
+</mdclass:Subsystem>

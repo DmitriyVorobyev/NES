@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f0a2e87-c2cb-4b88-9973-9f46e73ea434">
+  <name>ЧтениеСтепенейЗнанияЯзыкаКандидата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение степеней знания языка кандидата</value>
+  </synonym>
+</mdclass:Role>

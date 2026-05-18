@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1931b70d-14eb-4d46-bfe1-3f4ccd4c3cd9">
+  <name>НастройкаКлассификаторовПрограммОбученияПоОхранеТруда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка классификаторов программ обучения по охране труда</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77a1f916-ebc5-4c81-94ae-5c847d5824ef">
+  <name>ИспользоватьМатрицуТалантов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать матрицу талантов</value>
+  </synonym>
+  <location>InformationRegister.НастройкаМатрицыТалантов.Resource.ИспользоватьМатрицуТалантов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DataProcessor.МатрицаТалантов</content>
+  <content>Enum.УровниМатрицыТалантов</content>
+  <content>Catalog.СтруктураЦелей.Attribute.ИспользуетсяВМатрицеТалантов</content>
+  <content>ChartOfCharacteristicTypes.ХарактеристикиПерсонала.Attribute.ИспользоватьВМатрицеТалантов</content>
+</mdclass:FunctionalOption>

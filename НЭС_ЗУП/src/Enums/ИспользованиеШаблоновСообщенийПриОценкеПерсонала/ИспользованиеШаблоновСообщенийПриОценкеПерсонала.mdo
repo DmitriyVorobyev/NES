@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ec60a53-3060-4600-a0bf-bf0ca35ca66e">
+  <producedTypes>
+    <refType typeId="806a66cd-9407-4741-b171-6222f908b70d" valueTypeId="626b9517-9763-4614-8fba-48733790472a"/>
+    <listType typeId="253211b3-6488-481c-b9e8-3b6f43f72b93" valueTypeId="7b16a5b8-7157-48a6-b727-369b16337368"/>
+    <managerType typeId="c6d82672-6e7e-41bb-a17b-bed06b97fb74" valueTypeId="3573a3d3-e479-4c55-9b15-8851627d920c"/>
+  </producedTypes>
+  <name>ИспользованиеШаблоновСообщенийПриОценкеПерсонала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование шаблонов сообщений при оценке персонала</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0f84fe70-d0bb-4e1b-b01b-4002e63d54f1">
+    <name>ЭкспертнаяОценка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экспертная оценка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

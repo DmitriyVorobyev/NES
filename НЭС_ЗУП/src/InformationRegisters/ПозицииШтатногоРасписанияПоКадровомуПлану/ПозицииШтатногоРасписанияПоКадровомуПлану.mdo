@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="463bc8ce-7337-4b85-a6fa-a4116e6268a4">
+  <producedTypes>
+    <selectionType typeId="91eeb13b-4164-45e1-a519-89c3225363e3" valueTypeId="f9dc49b3-3dfc-42c9-bc5c-5f52d11f8783"/>
+    <listType typeId="95820c85-d8f0-4baa-9b58-317cd8967292" valueTypeId="ddb79b7c-2de7-490c-afdc-fc8f92875408"/>
+    <managerType typeId="ef2f5b48-7861-446a-8afe-5188c8684344" valueTypeId="df3b91b8-d01a-4940-b49f-ee101c1d3f8b"/>
+    <recordSetType typeId="cbd36710-89c3-479b-b456-ece7602224b5" valueTypeId="1bd3610d-4dc4-4fab-96dc-f8017d73e8d1"/>
+    <recordKeyType typeId="63b05a1f-9441-484a-be55-85cab2569862" valueTypeId="b82d0687-8f94-4f00-89f9-2a03c1301d20"/>
+    <recordType typeId="0cb60def-4c6e-4610-aaf5-56d0056b19db" valueTypeId="36357064-23be-4322-90e4-eaf4303efffa"/>
+    <recordManagerType typeId="7c9dc017-345a-4732-a946-5faa2dd8bbd3" valueTypeId="ecef4ba5-eb45-414d-b783-9c6cc8610c87"/>
+  </producedTypes>
+  <name>ПозицииШтатногоРасписанияПоКадровомуПлану</name>
+  <synonym>
+    <key>ru</key>
+    <value>Позиции штатного расписания по кадровому плану</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="219948ee-232a-4580-94a9-0b0bf024484c">
+    <name>ПозицияКадровогоПлана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Позиция кадрового плана</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПозицииКадровогоПлана</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a9cca390-7f11-444b-b310-ca0432d245cd">
+    <name>ПозицияШтатногоРасписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Позиция штатного расписания</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШтатноеРасписание</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

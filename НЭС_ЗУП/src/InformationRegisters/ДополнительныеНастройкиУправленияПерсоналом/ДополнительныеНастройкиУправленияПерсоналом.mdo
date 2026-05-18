@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85c66254-02f1-440f-ae4f-72ad7b957d57">
+  <producedTypes>
+    <selectionType typeId="4ba04e1f-904e-42ed-ae3b-6518d63804d7" valueTypeId="0b012c24-ec6d-4494-9209-564be891ef5f"/>
+    <listType typeId="9a0ba1c6-f4ce-4818-8905-bf56a9889a52" valueTypeId="09992780-c7db-41af-8437-ee192ebca88c"/>
+    <managerType typeId="cc1e5732-baee-43c1-b9f2-628ef992542e" valueTypeId="e3f1f4da-c0a9-430f-871c-198e35c5b2a3"/>
+    <recordSetType typeId="2e8b7e71-3552-4076-ab8d-d264d7f2fbf5" valueTypeId="3ed8849c-b0fa-4794-b7fe-3ab327402284"/>
+    <recordKeyType typeId="bacce431-4c3b-493b-b3bd-3e872e0eb6b0" valueTypeId="f2559b3f-e055-4fa8-b60c-c49f9154a3ba"/>
+    <recordType typeId="00243365-c237-4b36-bbac-2d6a61bf0984" valueTypeId="b15675b1-0d28-403f-a7aa-058959696166"/>
+    <recordManagerType typeId="c7c1ba50-30cc-4bc7-a5a6-64f48e591d04" valueTypeId="09e6b580-5f2e-41fb-9b02-112fcf0391d8"/>
+  </producedTypes>
+  <name>ДополнительныеНастройкиУправленияПерсоналом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные настройки управления персоналом</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Хранение дополнительных настроек управления персоналом</value>
+  </explanation>
+  <resources uuid="8f64efc3-9f7a-4913-a38a-32d434f0cdad">
+    <name>ДопустимыйПерерывВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Допустимый перерыв в работе</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="eeec591c-c5c2-4fb1-8d00-bb2286282983">
+    <name>ЕдиницаИзмеренияДопустимогоПерерываВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения допустимого перерыва в работе</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Периодичность</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

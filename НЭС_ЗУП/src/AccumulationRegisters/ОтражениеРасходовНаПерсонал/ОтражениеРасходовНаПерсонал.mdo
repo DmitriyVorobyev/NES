@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aca9fcb5-33dc-4b8a-89eb-2ed944e6ac90">
+  <producedTypes>
+    <selectionType typeId="cacfdb52-0c04-4b8f-8639-44e9274045f9" valueTypeId="471ec3e3-aa26-4b4d-9b2e-04d7593e7ade"/>
+    <listType typeId="9a7620bc-0eda-4424-b5fd-df0d7e4ebbbb" valueTypeId="64e8fb96-247d-4685-a834-418405de6f0d"/>
+    <managerType typeId="cb7a5532-b800-4ba0-9434-7a5b60a3d6ad" valueTypeId="28eb5576-fe92-44a5-96aa-6d56b0cf75d2"/>
+    <recordSetType typeId="c01e6fc6-0ea4-41c5-bd0d-34e12f9eb4eb" valueTypeId="8d83712b-2a75-49cb-92df-237e85f1758b"/>
+    <recordKeyType typeId="fcd02257-de0c-45c8-9245-96323eca580c" valueTypeId="b6e95287-e642-4e0d-91b0-a6de5a9d770e"/>
+    <recordType typeId="49c0b7dc-aa2e-4248-b3ca-00d35701a3e0" valueTypeId="9b015598-10de-4b33-97c8-e9183ae7a9cb"/>
+  </producedTypes>
+  <name>ОтражениеРасходовНаПерсонал</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отражение в финансовом учете</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Recording of salary in financial accounting</value>
+  </synonym>
+  <registerType>Turnovers</registerType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="87c4ac9f-96d3-48a7-814d-0a2dca3d78bd">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="7fa838a4-82c9-4db1-9aca-51776eeb83d7">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Department</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Управленческое подразделение, по которому отражаются расходы</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Management department by which income is recorded</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="a787383a-41c3-4592-a781-a48e192d3638">
+    <name>КатегорияРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория расходов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Salary operation kind</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КатегорииРасходовНаПерсонал</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Salary operation kind</value>
+    </toolTip>
+    <toolTip>
+      <key>ru</key>
+      <value>Категория расходов</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="58bf160d-9387-468e-9967-160159830040">
+    <name>СтатьяРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья расходов</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Статья, по которой отражаются расходы на оплату труда</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="628fd812-dc35-4f52-96ca-a8504a4cc203">
+    <name>АналитикаРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аналитика расходов</value>
+    </synonym>
+    <type>
+      <types>Characteristic.СтатьиРасходов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Аналитика статьи</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="3a12cb3c-2947-4eb2-91c0-c66a98d7ee39">
+    <name>НаправлениеДеятельности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направление деятельности</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Line of business</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаправленияДеятельности</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Направление, на которое отнесены расходы</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Line of business the expenses are allocated to</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

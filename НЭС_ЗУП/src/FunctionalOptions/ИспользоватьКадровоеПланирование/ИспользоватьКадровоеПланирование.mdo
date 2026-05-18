@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e605e7c-578b-414a-bc00-b4bf953776a1">
+  <name>ИспользоватьКадровоеПланирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать кадровое планирование</value>
+  </synonym>
+  <location>Constant.ИспользоватьКадровоеПланирование</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ПозицииКадровогоПлана</content>
+  <content>Document.КадровыйПлан</content>
+  <content>InformationRegister.ПозицииШтатногоРасписанияПоКадровомуПлану</content>
+  <content>Catalog.ПоказателиКадровогоПланирования</content>
+  <content>Report.СостояниеКадровогоПлана</content>
+  <content>Report.СравнительныйАнализКадровогоПлана</content>
+  <content>Subsystem.ПодборПерсонала.Subsystem.КадровоеПланирование</content>
+  <content>Subsystem.ПодборПерсонала</content>
+</mdclass:FunctionalOption>

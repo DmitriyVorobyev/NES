@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af9817dd-ed3d-4634-9b78-2f4d2d7688df">
+  <name>ФормаВыбораКлассаУсловийТрудаПоРезультатамСпециальнойОценки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма выбора класса условий труда по результатам специальной оценки</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

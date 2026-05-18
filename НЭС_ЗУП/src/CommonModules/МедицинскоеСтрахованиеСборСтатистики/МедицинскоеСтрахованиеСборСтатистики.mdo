@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4b978f5-391a-4467-a859-3aa1ef30171a">
+  <name>МедицинскоеСтрахованиеСборСтатистики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Медицинское страхование сбор статистики</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

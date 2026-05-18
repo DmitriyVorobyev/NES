@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad75e3bb-eb14-4848-9d0e-be51e98205f5">
+  <producedTypes>
+    <objectType typeId="824ea7d2-2c84-42a4-87c2-704e348f6c5c" valueTypeId="17bef454-f450-433f-9811-444a9af2f5c6"/>
+    <managerType typeId="e0211f18-a99c-4914-99a9-4d925a4bc299" valueTypeId="7136825e-6243-4e0a-9e91-cc42cda81c0c"/>
+  </producedTypes>
+  <name>ПомощникПереносаПодписанныхДанныхXMLВПрисоединенныеФайлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помощник переноса подписанных данных XML в присоединенные файлы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПомощникПереносаПодписанныхДанныхXMLВПрисоединенныеФайлы.Form.Форма</defaultForm>
+  <forms uuid="51b0d4d2-e2a8-4bac-a459-3f228e5f2635">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

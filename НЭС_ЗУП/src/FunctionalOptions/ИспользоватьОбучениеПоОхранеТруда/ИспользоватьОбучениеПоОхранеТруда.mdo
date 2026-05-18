@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c21b03fb-2fa8-4a6f-a7cf-ca4e1ee7ce77">
+  <name>ИспользоватьОбучениеПоОхранеТруда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать обучение по охране труда</value>
+  </synonym>
+  <location>InformationRegister.НастройкиОхраныТруда.Resource.ИспользоватьОбучениеПоОхранеТруда</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.ОхранаТруда</content>
+  <content>Subsystem.ОхранаТруда.Subsystem.ОбучениеПоОхранеТруда</content>
+  <content>InformationRegister.СведенияОбОтветственныхЛицах.Resource.ОтветственныйЗаОхрануТруда</content>
+  <content>InformationRegister.СведенияОбОтветственныхЛицах.Resource.УдалитьДолжностьОтветственногоЗаОхрануТруда</content>
+  <content>InformationRegister.ПроверкиЗнанияТребованийОхраныТрудаСотрудников</content>
+  <content>Catalog.КлассификаторПрограммОбученияПоОхранеТруда</content>
+  <content>DataProcessor.ОбучениеПоОхранеТруда.Command.ОбучениеПоОхранеТруда</content>
+  <content>Catalog.ПрограммыОбученияСотрудниковПоОхранеТруда</content>
+  <content>Document.ОбучениеСотрудниковОхранеТруда</content>
+  <content>Catalog.ПрограммыОбученияСотрудниковПоОхранеТрудаПрисоединенныеФайлы</content>
+  <content>Catalog.ПроверкаЗнанияТребованийОхраныТрудаПрисоединенныеФайлы</content>
+  <content>Catalog.ОбучениеСотрудниковОхранеТрудаПрисоединенныеФайлы</content>
+  <content>Report.ОбучениеИПроверкаЗнанияТребованийОхраныТруда</content>
+  <content>Document.ПроверкаЗнанияТребованийОхраныТруда</content>
+</mdclass:FunctionalOption>

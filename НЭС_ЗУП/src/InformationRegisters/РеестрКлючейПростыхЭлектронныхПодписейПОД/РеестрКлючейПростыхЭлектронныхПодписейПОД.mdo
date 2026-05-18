@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c6abbb1-6d5d-4f7c-829f-00b0c724de7f">
+  <producedTypes>
+    <selectionType typeId="3515552a-fa35-4af8-a3d9-6f952f1e8fb0" valueTypeId="1e876a97-71c0-4994-8638-a399f2e8ec1a"/>
+    <listType typeId="0e19d9b5-e5eb-4ca0-8299-6442f013c77f" valueTypeId="5d5ce25a-f78b-4b03-9a07-69e391718115"/>
+    <managerType typeId="bc621206-a814-411f-a249-507c8220fae1" valueTypeId="e8ccba76-0bfb-4513-add5-aca08caf89ed"/>
+    <recordSetType typeId="9376770e-c28c-433e-908f-10e7a46b14dc" valueTypeId="7bd772d4-3d50-4aa6-9d39-38fc090b7f59"/>
+    <recordKeyType typeId="a522125e-8dcd-4175-a9ac-236d9b95d1e2" valueTypeId="73a8d6c1-5ecf-4a62-b20b-6698a7e16443"/>
+    <recordType typeId="75936bc1-1411-4a7b-82b2-d24cbe76deca" valueTypeId="dace2193-aefc-43bf-852d-8daa43c9c996"/>
+    <recordManagerType typeId="be3c80eb-7200-497f-9b71-2096edf118b8" valueTypeId="3c0af2e3-2090-48e7-a81d-bb268464c230"/>
+  </producedTypes>
+  <name>РеестрКлючейПростыхЭлектронныхПодписейПОД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр ключей простых электронных подписей ПОД</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.РеестрКлючейПростыхЭлектронныхПодписейПОД.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.РеестрКлючейПростыхЭлектронныхПодписейПОД.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выдачи</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Ключ простой электронной подписи</value>
+  </recordPresentation>
+  <resources uuid="e9573885-c29b-4823-bd17-a06463e14e72">
+    <name>ДатаОтзыва</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отзыва</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="58496f1c-99ae-42d5-b9a4-b4f5bb4d6d98">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="4991e4d1-d2ea-4416-9ed9-68701b7f69cd">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ed54a977-c9fc-4bfa-8e59-b912137d8ced">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

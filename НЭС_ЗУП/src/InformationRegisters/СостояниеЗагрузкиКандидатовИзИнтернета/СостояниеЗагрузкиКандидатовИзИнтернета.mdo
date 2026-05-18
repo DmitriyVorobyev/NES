@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7811bb78-b19f-4f32-b93f-8a82467cabf7">
+  <producedTypes>
+    <selectionType typeId="1a630870-f091-4871-8787-86f4f0926a43" valueTypeId="5c9f497b-af77-4901-9cd8-c16155610d93"/>
+    <listType typeId="6e1dbbb8-a31a-4998-a1d1-aea0d6d3cc14" valueTypeId="b26f831a-292f-4108-932b-5769f1650220"/>
+    <managerType typeId="e046b683-5d6a-426d-892b-2012e231f6ff" valueTypeId="d8732ce9-d2b2-4b70-932c-3988f3f03311"/>
+    <recordSetType typeId="be7ba578-28ae-4acb-bf1e-6e5ef9d4c2d9" valueTypeId="5ddceac7-fcb0-4c90-a55b-65a20f2cf0dc"/>
+    <recordKeyType typeId="7ecc9167-13e7-40d3-ac50-3d4f0f3ecfac" valueTypeId="0cdb885d-ae1a-4175-aa2b-2af5edc759ff"/>
+    <recordType typeId="87b2913c-a828-42e3-a837-cede211556b8" valueTypeId="3a7f051e-7542-4d63-8d39-36626e71c371"/>
+    <recordManagerType typeId="d87a5fdc-1d64-447c-9684-43168bae8df9" valueTypeId="87434b69-01ce-4a0c-b619-bf895cb56fc2"/>
+  </producedTypes>
+  <name>СостояниеЗагрузкиКандидатовИзИнтернета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние загрузки кандидатов из Интернета</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1977c2f1-d8c1-4ab3-bcfe-e241d77d7942">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d2c38cc8-eb2b-494b-8a56-a80f8ed5a9f5">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

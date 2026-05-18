@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ac36e01-94ba-4604-8063-e4dea97800f6">
+  <name>ДобавлениеИзменениеОпросовПоКомпетенциям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение опросов по компетенциям</value>
+  </synonym>
+</mdclass:Role>

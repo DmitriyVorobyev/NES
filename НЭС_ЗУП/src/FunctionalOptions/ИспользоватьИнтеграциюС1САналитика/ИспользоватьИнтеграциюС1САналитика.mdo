@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0d5873f-5dca-4920-91b8-f17fef32a130">
+  <name>ИспользоватьИнтеграциюС1САналитика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать интеграцию с 1С:Аналитика</value>
+  </synonym>
+  <location>Constant.ИспользоватьИнтеграциюС1САналитикой</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы.Subsystem.ИнтеграцияС1САналитикой</content>
+</mdclass:FunctionalOption>

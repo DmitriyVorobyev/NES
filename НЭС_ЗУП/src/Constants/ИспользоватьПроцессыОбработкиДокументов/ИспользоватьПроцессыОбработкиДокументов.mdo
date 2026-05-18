@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32ca2568-1a6f-4361-a098-627a4c12ed2d">
+  <producedTypes>
+    <managerType typeId="8b2d28d8-a5a4-44ce-8ade-ab4ebce31b3f" valueTypeId="dcba82b7-07d1-4b32-beb9-1747e62ea98d"/>
+    <valueManagerType typeId="0b958a95-8814-483d-aabc-c82520a4d3dd" valueTypeId="edb6d19e-53f7-457d-82a0-c235c1ba1b46"/>
+    <valueKeyType typeId="e44d7fbb-42e8-5822-b9bb-1fd4c52b02ec" valueTypeId="f040434d-58f4-5284-b584-0dca1036a3c9"/>
+  </producedTypes>
+  <name>ИспользоватьПроцессыОбработкиДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать процессы обработки документов</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

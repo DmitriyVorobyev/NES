@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e21f72d-c131-4cef-9662-824dc5d9f2f6">
+  <producedTypes>
+    <objectType typeId="60611606-f38b-4512-8844-c75081f1e79f" valueTypeId="68d0061a-83e3-46ad-8402-17a96f0fd155"/>
+    <managerType typeId="3c60b995-6a5f-402c-a480-226fd9497f40" valueTypeId="94f89f37-7dc7-4034-a044-abc5756f12e0"/>
+  </producedTypes>
+  <name>УправлениеКадровымРезервом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление кадровым резервом</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УправлениеКадровымРезервом.Form.Форма</defaultForm>
+  <forms uuid="eac6206c-7513-4007-8a9c-ff528d75218c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="73cc518d-4314-4838-893a-d7bde8bb3c8c">
+    <name>МакетРезервисты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет резервисты</value>
+    </synonym>
+  </templates>
+  <templates uuid="eeb94656-f719-43bd-9fdb-14ba04e27c40">
+    <name>МакетСотрудники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет сотрудники</value>
+    </synonym>
+  </templates>
+  <templates uuid="0b602486-1606-47a7-bcd5-388626501e07">
+    <name>МакетКандидаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет кандидаты</value>
+    </synonym>
+  </templates>
+  <templates uuid="6491aa3d-e76a-4d10-af41-a958e26405ae">
+    <name>МакетПотенциальныеРезервисты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет потенциальные резервисты</value>
+    </synonym>
+  </templates>
+  <templates uuid="7463f5b3-8b1d-49e3-b68d-17d7c21fc6d5">
+    <name>МакетПрошлыеРезервисты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет прошлые резервисты</value>
+    </synonym>
+  </templates>
+  <commands uuid="f782f781-6b80-4de0-8b31-4c27c0d005a3">
+    <name>КадровыйРезерв</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кадровый резерв</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ad01cae-4c1e-48ac-89d0-740d1d8a2d78">
+  <producedTypes>
+    <managerType typeId="dd9f64de-32c9-47bf-8c51-dba4cc84659c" valueTypeId="aafcabd7-ddc1-4f45-a58f-c0295aaaf919"/>
+    <valueManagerType typeId="ebc013b5-9e79-43f1-b1a8-b7218be97b98" valueTypeId="ccca4c96-89ac-4f77-a0e9-ae1e06457bd1"/>
+    <valueKeyType typeId="58997416-09ed-44fb-b667-3578eaca375b" valueTypeId="f099e421-16fa-46b9-acd3-f60feccb9e16"/>
+  </producedTypes>
+  <name>НапоминатьОПриближенииСрокаВыполненияЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Напоминать о приближении срока выполнения задач</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

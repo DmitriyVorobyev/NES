@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5f6553f-b418-420c-8256-9ae98104d2df">
+  <producedTypes>
+    <selectionType typeId="535ec0fe-9ce2-4f6f-b104-5c30b190d40e" valueTypeId="17c384af-73e0-444f-b378-5a47e7111e03"/>
+    <listType typeId="6b593b89-da47-417e-b9f1-2e580705e8ce" valueTypeId="d5b13389-3a92-403e-a422-fef8064ff21d"/>
+    <managerType typeId="1a7bc875-20d0-4e06-b69a-ca386ca1d206" valueTypeId="0bf9fb0b-3c13-43ed-a9ae-c22320da688c"/>
+    <recordSetType typeId="9f8db671-06fe-485a-95b8-c96bbb6dd33c" valueTypeId="a5170002-442e-439b-a8bf-d74ea5ac27a0"/>
+    <recordKeyType typeId="afba3c9f-9d1d-4aa1-a80c-b3820eed8ee6" valueTypeId="9ed830de-16c8-416a-bb22-8c22d02a6f0d"/>
+    <recordType typeId="23414351-692b-4589-8ea7-190516747717" valueTypeId="4fc284ca-77f4-4330-9eb2-28a93149589a"/>
+    <recordManagerType typeId="1cd69d9e-845e-4d4a-a701-5314727e8323" valueTypeId="f676d145-23a9-425d-90d1-aba29e718cca"/>
+  </producedTypes>
+  <name>ФизическиеЛицаКандидатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Физические лица кандидатов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a88f1eb5-fda2-4024-9850-c72256dc34a3">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="7e44ee60-6f19-4d96-97d7-1e6af703906e">
+    <name>ЛичныеДанныеКандидата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Личные данные кандидата</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЛичныеДанныеКандидатов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

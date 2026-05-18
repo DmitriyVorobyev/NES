@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9616d0f-55b2-4cd0-b79d-942973e5dc74">
+  <name>ИспользоватьУдержанияВМедицинскомСтрахованииСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать удержания в медицинском страховании сотрудников</value>
+  </synonym>
+  <location>Constant.ИспользоватьУдержанияВМедицинскомСтрахованииСотрудников</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.УдалитьНастройкиГрафиковУдержанийМедицинскогоСтрахования</content>
+  <content>InformationRegister.УдалитьНастройкиУдержанийМедицинскогоСтрахования</content>
+  <content>Document.ПрикреплениеКПрограммамМедицинскогоСтрахования.TabularSection.Родственники.Attribute.УдерживатьССотрудника</content>
+  <content>Document.ПрикреплениеКПрограммамМедицинскогоСтрахования.TabularSection.Сотрудники.Attribute.УдерживатьИзЗарплаты</content>
+  <content>InformationRegister.ГрафикУдержанийМедицинскогоСтрахования</content>
+  <content>Report.АнализУдержанийМедицинскогоСтрахования</content>
+  <content>Document.ИзменениеУсловийМедицинскогоСтрахования.TabularSection.Сотрудники.Attribute.УдерживатьИзЗарплаты</content>
+  <content>Document.ИзменениеУсловийМедицинскогоСтрахования.TabularSection.Родственники.Attribute.УдерживатьССотрудника</content>
+</mdclass:FunctionalOption>

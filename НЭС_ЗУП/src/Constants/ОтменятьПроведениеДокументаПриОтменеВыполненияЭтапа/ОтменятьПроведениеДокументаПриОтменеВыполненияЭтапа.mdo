@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74dd8f0b-b9ee-4ec9-93f8-a20ecf99b296">
+  <producedTypes>
+    <managerType typeId="3ee568ad-99f4-4637-9da1-fe3a52407e44" valueTypeId="a0fca285-c578-476e-ab04-947f5aad0dd3"/>
+    <valueManagerType typeId="401633db-28cf-42f7-9759-ea6acee56e1f" valueTypeId="ded2a070-0988-4018-adfa-44c9f8247213"/>
+    <valueKeyType typeId="fbc6864e-0328-4c5d-8d5d-94ad46373073" valueTypeId="dc256de3-096b-42c9-9354-e41eb157f330"/>
+  </producedTypes>
+  <name>ОтменятьПроведениеДокументаПриОтменеВыполненияЭтапа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отменять проведение документа при отмене выполнения этапа</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

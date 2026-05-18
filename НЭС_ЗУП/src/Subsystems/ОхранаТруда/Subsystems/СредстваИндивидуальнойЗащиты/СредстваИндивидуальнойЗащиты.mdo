@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b1ca093-54af-41dd-9e47-6ed535d9e4f7">
+  <name>СредстваИндивидуальнойЗащиты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Средства индивидуальной защиты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.Размеры</content>
+  <content>Document.ЗаказНаВыдачуСИЗ</content>
+  <content>Document.ВыдачаСИЗ</content>
+  <content>Document.СписаниеСИЗИзЭксплуатации</content>
+  <content>Catalog.ХарактеристикиНоменклатуры</content>
+  <content>Catalog.СредстваИндивидуальнойЗащиты</content>
+  <content>Catalog.Должности</content>
+  <content>Document.ПродлениеСроковНоскиСИЗ</content>
+  <content>Report.СредстваИндивидуальнойЗащиты</content>
+  <content>Report.ЛичнаяКарточкаУчетаВыдачиСИЗ</content>
+  <content>Report.КарточкаУчетаВыдачиДежурныхСИЗ</content>
+  <content>Report.ПланированиеВыдачиСИЗ</content>
+  <content>Catalog.ВидыНоменклатуры</content>
+  <content>Report.НормыВыдачиСИЗРабочихМест</content>
+  <content>Document.ВводНачальныхОстатковВыданныхСИЗ</content>
+  <parentSubsystem>Subsystem.ОхранаТруда</parentSubsystem>
+</mdclass:Subsystem>

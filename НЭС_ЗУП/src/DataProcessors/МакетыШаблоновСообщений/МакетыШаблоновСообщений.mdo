@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="951ef52f-96a2-4299-9b51-56c7dd375502">
+  <producedTypes>
+    <objectType typeId="f7e360c5-6792-4dbb-a29f-948c3a2401ce" valueTypeId="8d50e3a8-4b5a-478b-b566-39f4468a823a"/>
+    <managerType typeId="97fcdd62-3ba2-4b2b-bf81-2162e4829b85" valueTypeId="877dd3e0-5f9d-4962-a30f-1c604155631b"/>
+  </producedTypes>
+  <name>МакетыШаблоновСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Макеты шаблонов сообщений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="056c6c14-0780-4de8-8c5a-e54755329322">
+    <name>ГодовщинаРаботыВКомпании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Годовщина работы в компании</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="50850319-45fc-4dcf-8a41-e1aff0608d1e">
+    <name>ДеньРождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>День рождения</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="30b2fac5-2e30-426c-91fe-dd7715dc5adb">
+    <name>Юбилей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юбилей</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="9199d783-7be4-4310-a811-25a9e72e4fb0">
+    <name>ЮбилейБлагодарность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юбилей благодарность</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="93408ac7-a111-41d5-8051-52e00f140c57">
+    <name>ЮбилейРаботыВКомпании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юбилей работы в компании</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="63fb79c6-bee7-4bd8-9971-c3bea94828ec">
+    <name>ИстечениеСрокаАнкетирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Истечение срока анкетирования</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="2a686f24-2eff-4ddc-95b6-3b7f9a5e9cd6">
+    <name>ПриближающийсяОтпуск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приближающийся отпуск</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="e802dc88-acec-4479-af77-c407ba65db8d">
+    <name>УтвержденныйОтпуск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Утвержденный отпуск</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="96665d7e-0f04-4ce3-89d5-b44da6f0ec27">
+    <name>ПредстоящееОбучение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предстоящее обучение</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="2ea4babc-f0b9-4521-91b0-887f51bc1958">
+    <name>ПервыйРабочийДень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первый рабочий день</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="ff1cea2a-1e47-441d-9cc3-bb2661bfb8bb">
+    <name>ПредстоящееСобеседование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предстоящее собеседование</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

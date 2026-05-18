@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f004af09-984e-4718-b46a-9eafbfb5771a">
+  <producedTypes>
+    <objectType typeId="03ffaa6c-deef-4f42-ace0-ba91e76402b5" valueTypeId="cd0cd73f-5d99-4518-8058-5b15a38ebf7e"/>
+    <managerType typeId="f060a565-2b79-4daa-b37c-f91e6523bf4e" valueTypeId="64cccd16-bfb7-486a-9d50-cdd6925d5457"/>
+  </producedTypes>
+  <name>КартаЦелевыхПоказателейЭффективности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Карта целевых показателей эффективности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.КартаЦелевыхПоказателейЭффективности.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="6565a92b-c911-43c2-a0f3-0fada1738a0b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="2ff2e704-07b4-486b-9db5-4a3d919c1ea6">
+    <name>ПФ_MXL_КартаПоказателейЭффективности_Факт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карта показателей эффективности (факт)</value>
+    </synonym>
+  </templates>
+  <templates uuid="376a0645-219b-4b0f-8809-b2debc1459f1">
+    <name>ПФ_MXL_КартаПоказателейЭффективности_План</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карта показателей эффективности (план)</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

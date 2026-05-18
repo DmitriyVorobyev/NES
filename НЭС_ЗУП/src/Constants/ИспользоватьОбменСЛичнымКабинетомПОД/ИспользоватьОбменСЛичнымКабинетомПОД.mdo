@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0990c1e1-79b7-4bb7-a830-e6d2ec5aa32e">
+  <producedTypes>
+    <managerType typeId="5b1a04a5-553b-4422-b5c0-b90504958148" valueTypeId="97c45e21-dea6-46b2-addc-c61da26c00cc"/>
+    <valueManagerType typeId="6dac291f-8d6f-4fea-98ba-88c7b2b63298" valueTypeId="7f3c1712-dc3c-4fcf-b2c2-d8b4930c0882"/>
+    <valueKeyType typeId="a7c08e07-10e4-4cba-9501-e75d644fe7fd" valueTypeId="72707ed9-632d-466c-8ae3-3b6f888a0ba3"/>
+  </producedTypes>
+  <name>ИспользоватьОбменСЛичнымКабинетомПОД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с личным кабинетом пользователя</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

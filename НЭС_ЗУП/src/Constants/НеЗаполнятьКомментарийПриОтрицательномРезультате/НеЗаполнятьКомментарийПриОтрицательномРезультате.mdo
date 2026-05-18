@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22c9aa7f-41af-4169-87b2-1594bc5248cd">
+  <producedTypes>
+    <managerType typeId="5f1ca4d3-baa5-49d9-823d-7725a0bdf5a0" valueTypeId="57e03fe4-8168-43a3-823c-311af8e1afbb"/>
+    <valueManagerType typeId="550dc9f1-66f3-4d36-b371-69f479c54270" valueTypeId="00740306-6f01-4c93-b07c-79afd4f2513d"/>
+    <valueKeyType typeId="dfaaa048-4f97-5dc5-bc33-838ca832e95d" valueTypeId="05f4197b-0545-5926-8543-03627d28e9f1"/>
+  </producedTypes>
+  <name>НеЗаполнятьКомментарийПриОтрицательномРезультате</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не заполнять комментарий при выполнении этапа с отрицательным результатом</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

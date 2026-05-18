@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="abff2925-8af6-4bac-880a-cae1516a41eb">
+  <producedTypes>
+    <selectionType typeId="57543b8b-71f2-4cdb-ad07-b335e1f9c8b9" valueTypeId="e86ff8b7-0990-47a2-b4d4-68f066bf58a7"/>
+    <listType typeId="150830d5-be4e-40b2-91b0-c5ce6283a814" valueTypeId="0b38c134-8e9c-43cd-b891-900ed1f5b721"/>
+    <managerType typeId="0e79181d-04bf-46bd-af59-f2a580c8bf75" valueTypeId="7d164728-3c7f-48a5-9b30-f46b76bbddb0"/>
+    <recordSetType typeId="f82a4945-df0b-425f-8f1f-2e5bf138abfd" valueTypeId="15fc06f6-dfa0-470c-ab56-93949dfdf2f0"/>
+    <recordKeyType typeId="87ab3520-ff45-4d20-a0bb-ee198f8a6055" valueTypeId="52c215c0-c525-4710-a8d8-bc5a88f28c53"/>
+    <recordType typeId="13274fe4-25c2-496f-bfd9-3102fefa12bb" valueTypeId="0ddb7bae-8fe6-4e7d-bd0e-fc79c0e18f21"/>
+    <recordManagerType typeId="7a2af83d-0045-4f0e-842e-13a395691fcb" valueTypeId="9dba7b00-521e-421c-b6db-0fe0a0d2932f"/>
+  </producedTypes>
+  <name>УдалитьВредныеФакторыИВидыРаботПозицииШтатногоРасписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Вредные факторы и виды работ позиции штатного расписания</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="178491d1-db30-4a5c-8a96-39538fd6712e">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШтатноеРасписание</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="19582b14-e4a6-44e6-b379-9f7f1a79d081">
+    <name>ВредныйФактор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вредный фактор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВредныеОпасныеПроизводственныеФакторыИВыполняемыеРаботы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="162a45cd-c8f9-4d5f-9d22-99cc550191e2">
+  <name>ТекущийПользовательДиаграммыОтпусковЦвет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущий пользователь диаграммы отпусков цвет</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <red>251</red>
+      <green>237</green>
+      <blue>158</blue>
+    </value>
+  </value>
+</mdclass:StyleItem>

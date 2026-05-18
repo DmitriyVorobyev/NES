@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c4ed0b8-7f8e-4f2c-a576-0cb089177649">
+  <name>ПередЗаписьюПрисоединенногоФайлаПОД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перед записью присоединенного файла ПОД</value>
+  </synonym>
+  <source>
+    <types>DefinedType.ПрисоединенныйФайлОбъект</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ПроцессыОбработкиДокументов.ПередЗаписьюПрисоединенногоФайла</handler>
+</mdclass:EventSubscription>

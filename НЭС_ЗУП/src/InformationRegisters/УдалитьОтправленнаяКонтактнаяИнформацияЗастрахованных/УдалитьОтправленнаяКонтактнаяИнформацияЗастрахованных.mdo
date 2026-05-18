@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="902addca-df23-4c05-86a7-37f23b7eaae5">
+  <producedTypes>
+    <selectionType typeId="5d7c91d9-b338-4ca9-b9b9-7c392d29fe24" valueTypeId="ea3b3cfd-4031-4ce2-a40a-26f9d6526719"/>
+    <listType typeId="a1f1ef02-bce9-470a-9600-7876771eff82" valueTypeId="70387b25-51bf-4198-82cb-98b52fb1be78"/>
+    <managerType typeId="79babf7c-9fba-420b-b703-35c6bd0fa19f" valueTypeId="9dff5885-f280-4141-8e9c-60eb8aacf023"/>
+    <recordSetType typeId="0db25e0a-3764-4b08-bc0e-c06f9a3ad62b" valueTypeId="2138c994-ce8f-4cc3-b946-35ad217ce4b1"/>
+    <recordKeyType typeId="aa9e1b5d-fb5c-4dd7-bd19-ab85ba01deb1" valueTypeId="1dfede98-1387-42a7-b438-2b03533977bb"/>
+    <recordType typeId="f2acd3ce-c11a-4fe3-a0bd-192ff12b92a7" valueTypeId="02d7347d-f62a-4aa0-8ace-5542016f5c96"/>
+    <recordManagerType typeId="0e288716-4d68-495d-b627-9b3446fac27f" valueTypeId="bdd808da-c871-4995-a6c4-403dbdf4b505"/>
+  </producedTypes>
+  <name>УдалитьОтправленнаяКонтактнаяИнформацияЗастрахованных</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не использовать) Отправленная контактная информация застрахованных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6a7882d7-067b-4420-8f3a-f2378ca1dc25">
+    <name>Представление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="b92178ae-78fe-4914-aa67-42f577673425">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f9c4b59a-738c-4937-bd42-78ef254e1b86">
+    <name>СтраховаяКомпания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страховая компания</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b38c8fd5-c470-4511-aae7-23b2bc72ec1f">
+    <name>Застрахованный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Застрахованный</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Застрахованный</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="cd7bc474-26e3-4403-ac8a-ca7de22000e2">
+    <name>Вид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыКонтактнойИнформации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="9171146d-45fe-464c-8f91-723357ec921d">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПрикреплениеКПрограммамМедицинскогоСтрахования</types>
+      <types>DocumentRef.ИзменениеУсловийМедицинскогоСтрахования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4d55cc1-82f8-47ca-96d7-d5599ea477eb">
+  <name>УстановитьИспользованиеЭкспертнойОценкиПерсонала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить использование экспертной оценки персонала</value>
+  </synonym>
+  <source>
+    <types>ConstantValueManager.ИспользоватьАнкетирование</types>
+    <types>ConstantValueManager.ИспользоватьШаблоныСообщений</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ЭкспертнаяОценкаПерсоналаСобытия.УстановитьИспользованиеЭкспертнойОценкиПерсоналаПриЗаписи</handler>
+</mdclass:EventSubscription>

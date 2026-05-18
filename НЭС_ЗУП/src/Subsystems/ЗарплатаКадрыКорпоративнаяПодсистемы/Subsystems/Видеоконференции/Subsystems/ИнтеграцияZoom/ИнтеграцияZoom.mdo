@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c92bb2c9-adef-41b3-b080-417b40150803">
+  <name>ИнтеграцияZoom</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция Zoom</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DataProcessor.ИнтеграцияZoom</content>
+  <content>CommonPicture.ЛоготипZoom</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы.Subsystem.Видеоконференции</parentSubsystem>
+</mdclass:Subsystem>

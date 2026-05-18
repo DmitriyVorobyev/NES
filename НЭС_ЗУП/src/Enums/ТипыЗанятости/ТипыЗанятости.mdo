@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a870a490-4c50-4ce5-8c08-009d99487464">
+  <producedTypes>
+    <refType typeId="984badea-254f-4900-bb0a-0b2af62bf890" valueTypeId="a10ce2f2-591d-4aa4-8f3e-08580fed4875"/>
+    <listType typeId="03b9048e-f310-467f-a2b5-3453509c3d0d" valueTypeId="e916e249-0623-492f-89a2-efee5634a7ea"/>
+    <managerType typeId="e61bc64e-381f-4dd9-b3cb-778557370b76" valueTypeId="d7271693-58e3-4e88-930c-d6d547ddf183"/>
+  </producedTypes>
+  <name>ТипыЗанятости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы занятости</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="04c7788a-9768-4a98-ba3d-cd075bbf5cd0">
+    <name>Полная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3a7d51fc-f10b-42d9-aa9d-4f33eecf42ef">
+    <name>Частичная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Частичная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="437eb25e-59c7-4476-a4f5-b747a22d5fcd">
+    <name>ПроектнаяРабота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проектная работа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bb55fe92-4f30-4f13-8721-11acba938819">
+    <name>Стажировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стажировка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="37e7b485-24fc-4bf0-8d06-0fd32514e939">
+    <name>Волонтерство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Волонтерство</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="732f6b25-d9cb-404a-95b8-025761321010">
+    <name>ГПХ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГПХ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

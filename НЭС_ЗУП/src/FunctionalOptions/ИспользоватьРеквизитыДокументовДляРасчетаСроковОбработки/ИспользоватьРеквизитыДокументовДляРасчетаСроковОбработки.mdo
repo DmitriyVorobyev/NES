@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef124d34-9b87-4b8e-911e-d6fd7ef20bcb">
+  <name>ИспользоватьРеквизитыДокументовДляРасчетаСроковОбработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать реквизиты документов для расчета сроков обработки</value>
+  </synonym>
+  <location>Constant.ИспользоватьРеквизитыДокументовДляРасчетаСроковОбработки</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Task.ЗадачаПоОбработкеДокумента.Attribute.СрокОбработки</content>
+  <content>Task.ЗадачаПоОбработкеДокумента.Attribute.СрокНапоминанияОбработки</content>
+  <content>Task.ЗадачаПоОбработкеДокумента.Attribute.ДатаОтсчетаПредельногоСрокаОбработки</content>
+  <content>Catalog.ШаблоныПроцессов.Attribute.ИспользоватьРеквизитДляРасчетаСроковОбработки</content>
+  <content>Catalog.ШаблоныПроцессов.Attribute.РеквизитДляРасчетаСроковОбработки</content>
+  <content>Catalog.ШаблоныПроцессов.TabularSection.Этапы.Attribute.СрокиОбработкиПоРеквизитуДни</content>
+  <content>Catalog.ШаблоныПроцессов.TabularSection.Этапы.Attribute.СрокиОбработкиПоРеквизитуЧасы</content>
+</mdclass:FunctionalOption>

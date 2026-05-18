@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b478bdfe-8fc1-4702-9e6b-e5b248a83c3b">
+  <producedTypes>
+    <selectionType typeId="77928d4f-cde2-4410-86f8-a5e0604f8ee3" valueTypeId="9f71d475-e98c-4604-a584-3301058c286c"/>
+    <listType typeId="48c4b56b-037a-4975-8e43-b34821fbd4a7" valueTypeId="f7f55a8f-6d80-4520-9783-d1514a35c6f4"/>
+    <managerType typeId="e5dda490-ca7c-43a4-ba70-a294017fa236" valueTypeId="05a514c7-6a01-42a0-94f1-0b2424e8e27c"/>
+    <recordSetType typeId="2eef455b-f643-4797-8317-006c04b41bdf" valueTypeId="e80289fc-419c-419c-a255-e2686bf1acfe"/>
+    <recordKeyType typeId="d64da8db-9abc-4dd0-93c6-3e4761cbdab6" valueTypeId="dd20cb6c-1fdc-468f-baf1-df373de962d8"/>
+    <recordType typeId="1c0b4c33-8df8-43ae-9a07-2bf3b3709c8a" valueTypeId="3e691e8c-648d-4561-bb87-e79af4261ff5"/>
+    <recordManagerType typeId="3cc03669-7ff3-497c-b99d-06c731b631d6" valueTypeId="d7445c59-78b2-4710-b13a-3fa83a654953"/>
+  </producedTypes>
+  <name>ТекущиеСтатусыДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущие статусы документов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ТекущиеСтатусыДокументов.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Статус документа</value>
+  </recordPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Текущие статусы документов</value>
+  </extendedListPresentation>
+  <resources uuid="3616c293-703a-4220-b8d1-21cf13e85149">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатусыДокументов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="95001cba-9b3e-4e8c-813c-ba5f62e7432d">
+    <name>Шаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШаблоныПроцессов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="69d4e584-1519-4fd1-be21-c59ef7bf9863">
+    <name>Установил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установил</value>
+    </synonym>
+    <type>
+      <types>TaskRef.ЗадачаПоОбработкеДокумента</types>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d4e53f00-b81c-435c-a956-26717aadf42b">
+    <name>ДатаУстановки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата установки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="e7e857f9-5a58-4be5-a327-44ac13a1ceb8">
+    <name>Предмет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ПредметПроцессаОбработкиДокументов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="c93e2203-3426-469f-9281-cba3665863e4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

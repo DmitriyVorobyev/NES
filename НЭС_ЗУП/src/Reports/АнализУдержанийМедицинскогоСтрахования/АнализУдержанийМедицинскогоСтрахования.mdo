@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d18cf004-52a2-4cfa-90ee-992525ff8fc3">
+  <producedTypes>
+    <objectType typeId="e143905a-2f9f-4761-80e0-4dac185020e0" valueTypeId="012f3944-54c2-4120-873a-d7b4eb9cebf6"/>
+    <managerType typeId="2a544547-3d63-4223-8e05-40550ac61b5d" valueTypeId="ae4e1042-903c-4822-9748-4a52a0ce55ee"/>
+  </producedTypes>
+  <name>АнализУдержанийМедицинскогоСтрахования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ удержаний медицинского страхования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АнализУдержанийМедицинскогоСтрахования.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="ad333198-a429-4664-90fc-fa6955446866">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

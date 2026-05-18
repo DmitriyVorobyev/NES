@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cdf11665-8962-4255-98f1-eb467fc6f8a6">
+  <name>ИспользоватьДокументИзмененияМестаПозицииВСтруктуреПредприятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать документ изменения места позиции в структуре предприятия</value>
+  </synonym>
+  <location>Constant.ИспользоватьДокументИзмененияМестаПозицииВСтруктуреПредприятия</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ИзменениеМестаПозицииШтатногоРасписанияВСтруктуреПредприятия</content>
+  <content>InformationRegister.ИсторияИзмененияМестаПозицииШтатногоРасписанияВСтруктуреПредприятия</content>
+</mdclass:FunctionalOption>

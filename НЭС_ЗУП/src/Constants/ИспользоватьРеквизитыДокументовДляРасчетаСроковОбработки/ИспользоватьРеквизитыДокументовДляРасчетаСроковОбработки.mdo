@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9fea525-1cd3-45b5-b171-8fdff463835d">
+  <producedTypes>
+    <managerType typeId="81a27d7f-4d54-4c9c-92b8-d9aa49f38774" valueTypeId="5e3d3d95-2eb4-4e32-b9db-a48ddf8337b5"/>
+    <valueManagerType typeId="0bdcb94d-ca87-4ced-8cce-af1f3aca6f58" valueTypeId="ffcdd354-32a6-4bab-abaf-ac71bc694e71"/>
+    <valueKeyType typeId="8daa7b3e-b9eb-443f-a326-462c2d6b7151" valueTypeId="d464e245-c5c9-4654-b243-b919f9028406"/>
+  </producedTypes>
+  <name>ИспользоватьРеквизитыДокументовДляРасчетаСроковОбработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать реквизиты документов для расчета сроков обработки</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

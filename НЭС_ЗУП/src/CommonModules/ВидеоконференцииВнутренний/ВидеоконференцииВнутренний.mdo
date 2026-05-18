@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86247ea7-cbf9-4216-8e42-dc4658d1e8ed">
+  <name>ВидеоконференцииВнутренний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Видеоконференции внутренний</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

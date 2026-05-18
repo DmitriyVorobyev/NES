@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ed51c50-a16f-4b95-a4d3-1af987205166">
+  <producedTypes>
+    <refType typeId="b3c23627-62c1-45ce-a564-0c225a3dbf12" valueTypeId="7509b025-b344-4d0f-98f7-5cc117d11196"/>
+    <listType typeId="0dddac23-ad6a-4463-902d-cf0b6f06bf6e" valueTypeId="1fbb6eb2-013d-4d3e-aea4-1e880365a86b"/>
+    <managerType typeId="ba25e863-98f1-43af-aadd-7034a8e68ac5" valueTypeId="2a66b72e-acdb-4ccb-baa5-b680a5a679f2"/>
+  </producedTypes>
+  <name>ДействияВиджетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Действия виджетов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="15652175-4ad3-4795-b343-9a9184797c73">
+    <name>НичегоНеДелать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ничего не делать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3473b4fb-3f3e-46ea-8eaa-ed8d208b3278">
+    <name>ОткрытьФормуСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открыть форму списка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9d713be7-9189-4244-a89d-6949d1b8564c">
+    <name>ПереходПоСсылке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переход по ссылке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8241ffab-daa4-4d77-9f0d-c4f42c07f1b0">
+    <name>ВыполнитьАлгоритм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнить алгоритм</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

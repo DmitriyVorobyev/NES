@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58ee41d0-c1e2-4749-85bc-38081da671ff">
+  <producedTypes>
+    <managerType typeId="3bd8518f-239d-486a-b312-74202b036901" valueTypeId="a5032d44-7422-47f0-a5fd-78de9d6d7821"/>
+    <valueManagerType typeId="321fb3c8-3aab-4fde-acda-086620221dba" valueTypeId="7e09b550-a1a8-407a-ad53-6f6e26ab7e0f"/>
+    <valueKeyType typeId="2b84d9d6-33e4-56d5-8da2-a2273e49d4d3" valueTypeId="6405d70c-41db-5c57-b583-11bb5124d306"/>
+  </producedTypes>
+  <name>УдалитьХранитьИсториюЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Хранить историю задач</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

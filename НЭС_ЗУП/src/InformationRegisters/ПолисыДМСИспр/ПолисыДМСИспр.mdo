@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bec31dde-2ed9-46ad-bff8-83cc2a4c57e6">
+  <producedTypes>
+    <selectionType typeId="9c875a01-e0e7-49d8-be56-de9fd0a4fa0f" valueTypeId="eb91219c-d8c8-4020-a6c8-49b119d9e618"/>
+    <listType typeId="3bdec9be-9c71-4bc3-b66e-7149bdadf4cc" valueTypeId="a9fb1ad8-aa81-4fbf-8983-4877776fcc76"/>
+    <managerType typeId="de1ff8d6-ed99-4361-802d-079d04726dfe" valueTypeId="1437b32d-5e1e-4afb-95e1-94437d4234b4"/>
+    <recordSetType typeId="9425a440-3aa1-44e4-b562-2479c9180e92" valueTypeId="67e1945f-3908-4e7f-9a2f-9093bb54d697"/>
+    <recordKeyType typeId="80d46358-241d-44a1-bdb6-1effab0e058d" valueTypeId="e744b6d8-b930-4651-9b08-537ba2c2e8e7"/>
+    <recordType typeId="aea511b1-edef-4dee-a3da-34f560b6c804" valueTypeId="4de19058-3d0e-4aee-b387-afb830ee3421"/>
+    <recordManagerType typeId="0759c5d1-1807-4378-a2d6-0f66e89c695b" valueTypeId="0867fdfb-3512-409c-af1a-38c6715f1726"/>
+  </producedTypes>
+  <name>ПолисыДМСИспр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Полисы ДМС (испр.)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cf015a2f-e6f6-4082-b061-af11041c5949">
+    <name>УдалитьНомерПолиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить номер полиса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="0ccf914a-329d-4e89-a08c-31a0c255aeef">
+    <name>РегистраторИзмерение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистратор измерение</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПрикреплениеКПрограммамМедицинскогоСтрахования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="475a640e-d58d-4168-ba62-da201c25a7bf">
+    <name>ПериодИзмерение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период измерение</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0cffc6fe-8257-46cb-8768-62885b69cf29">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="773b9500-3a08-43f1-b375-f3c936c6757f">
+    <name>СтраховаяКомпания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страховая компания</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f313228d-a6f4-4bbf-b75e-d79b1a2bea70">
+    <name>Застрахованный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Застрахованный</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Застрахованный</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1782219e-d88b-42cb-9ecc-52e9165367b1">
+    <name>НомерПолиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер полиса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

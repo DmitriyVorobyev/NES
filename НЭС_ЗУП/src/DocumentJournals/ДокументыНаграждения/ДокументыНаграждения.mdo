@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72c1eaae-3345-46ce-9299-a8bbd12ec8ec">
+  <producedTypes>
+    <selectionType typeId="c222a80e-a296-4099-bfed-124001b3202e" valueTypeId="de67f166-af8f-4c2e-b9cb-6c887120f30e"/>
+    <listType typeId="8f37db2c-1fd8-4d1b-95cb-81c76c047cc3" valueTypeId="3b4994ca-18be-4c0a-a3fc-f8f41c5d7f5a"/>
+    <managerType typeId="e9abc118-7213-491f-8c12-11f474057e0b" valueTypeId="1b21a1f5-a8d8-4fdd-9d10-6a4f71c6c2f4"/>
+  </producedTypes>
+  <name>ДокументыНаграждения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы награждения</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ДокументыНаграждения.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.Награждение</registeredDocuments>
+  <registeredDocuments>Document.ПредставлениеКНаграде</registeredDocuments>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <columns uuid="2d1f84fb-edd8-4da8-8858-39aaf69ef693">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <references>Document.Награждение.Attribute.Организация</references>
+    <references>Document.ПредставлениеКНаграде.Attribute.Организация</references>
+  </columns>
+  <columns uuid="e1106205-e928-48b0-a3e7-d9639e2eb4c0">
+    <name>Претендент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудники / Физические лица</value>
+    </synonym>
+    <references>Document.Награждение.Attribute.КраткийСоставДокумента</references>
+    <references>Document.ПредставлениеКНаграде.Attribute.КраткийСоставДокумента</references>
+  </columns>
+  <columns uuid="ab99e2a9-be3a-4613-9ec9-773261dba5a7">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <references>Document.Награждение.Attribute.Ответственный</references>
+    <references>Document.ПредставлениеКНаграде.Attribute.Ответственный</references>
+  </columns>
+  <columns uuid="261f1368-f506-4445-898e-3cac1937dde0">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <references>Document.Награждение.Attribute.Комментарий</references>
+    <references>Document.ПредставлениеКНаграде.Attribute.Комментарий</references>
+  </columns>
+  <forms uuid="5533b48f-e449-4694-a7d6-c945caa1801e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

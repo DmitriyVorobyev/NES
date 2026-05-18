@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae53b4ae-1e02-4ab2-bae7-07a0b001711d">
+  <name>ЧтениеАналитикаФинансовогоУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение аналитика финансового учета</value>
+  </synonym>
+</mdclass:Role>

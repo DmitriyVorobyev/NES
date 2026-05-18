@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7315365-161a-46ab-beb3-6a99a0873895">
+  <name>ИспользоватьОбменСЛичнымКабинетом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать обмен с личным кабинетом пользователя</value>
+  </synonym>
+  <location>Constant.ИспользоватьОбменСЛичнымКабинетомПОД</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

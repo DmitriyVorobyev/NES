@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b85977fc-2eb7-4e55-abf8-b80bd23deba3">
+  <name>ДобавлениеИнформацииПоКандидату</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление информации по кандидату</value>
+  </synonym>
+</mdclass:CommonPicture>

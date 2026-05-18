@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a9dcb60-f115-46dd-8bd0-0e7243d32dd6">
+  <producedTypes>
+    <managerType typeId="c063e9dd-c3b3-41eb-9e2a-ccf67c4d11fb" valueTypeId="96333431-2e95-4c5e-8ac1-3a7b289cb4b4"/>
+    <valueManagerType typeId="bff1e026-5642-4bea-964b-8db4122945b3" valueTypeId="0600a611-ce60-44e1-8831-29566c0027f5"/>
+    <valueKeyType typeId="8ee4aff1-a6d2-4ace-a2a2-716ccf7ef492" valueTypeId="dc62cd1a-4d6a-4929-a209-32619a942bea"/>
+  </producedTypes>
+  <name>ЗапретитьИсполнителямОтменуВыполненныхЭтаповПОД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запретить исполнителям отмену выполненных этапов</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>После выполнения своего этапа исполнитель не сможет отменить выполнение этого этапа.</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

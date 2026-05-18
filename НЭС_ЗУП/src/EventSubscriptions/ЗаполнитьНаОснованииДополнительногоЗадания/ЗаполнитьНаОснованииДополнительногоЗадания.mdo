@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e532ac97-5ede-41cc-bb3a-7ef5f80b6ecd">
+  <name>ЗаполнитьНаОснованииДополнительногоЗадания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнить на основании дополнительного задания</value>
+  </synonym>
+  <source>
+    <types>DefinedType.ПредметПроцессаОбработкиДокументовОбъект</types>
+  </source>
+  <event>Filling</event>
+  <handler>CommonModule.ПроцессыОбработкиДокументов.ЗаполнитьНаОснованииДополнительногоЗадания</handler>
+</mdclass:EventSubscription>

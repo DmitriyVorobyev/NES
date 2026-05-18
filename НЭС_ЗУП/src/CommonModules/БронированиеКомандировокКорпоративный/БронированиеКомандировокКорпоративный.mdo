@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8325d76-46cd-44cd-8db0-47e862e46e3f">
+  <name>БронированиеКомандировокКорпоративный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бронирование командировок корпоративный</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

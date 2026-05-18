@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3256785c-752d-4cb2-8a07-d86f86c97041">
+  <producedTypes>
+    <managerType typeId="59cece98-3068-4f00-8755-43a3d08943f5" valueTypeId="f6896c55-4feb-4e4d-ad17-d43038ab8243"/>
+    <valueManagerType typeId="487b6d50-cf78-4c27-a22d-be57a8c512d7" valueTypeId="ff969c82-9049-4564-8842-7303447af8f0"/>
+    <valueKeyType typeId="5321ed7e-611f-5bbd-9acc-a739ca9718e6" valueTypeId="972a0849-6ba5-5d9e-be47-a0e30406c650"/>
+  </producedTypes>
+  <name>ИспользоватьНесколькоШаблоновДляОдногоТипаДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать несколько шаблонов для одного типа документа</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

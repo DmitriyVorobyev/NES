@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3368d1f8-1349-4adc-8ab9-69a8d9429180">
+  <producedTypes>
+    <managerType typeId="dceb3516-6644-4cb8-bcf2-bafc41e7dd75" valueTypeId="c5abc060-ab40-473f-b10e-1f4932509f1f"/>
+    <valueManagerType typeId="f068b323-58da-408a-9c8c-71c3777bffec" valueTypeId="00bddc31-aa4e-4697-bc26-7ea3458785a3"/>
+    <valueKeyType typeId="411b15eb-fe74-4a77-b0d3-50f1601574c1" valueTypeId="0d424f75-e470-44bf-8f93-9631cc2b05d4"/>
+  </producedTypes>
+  <name>ОтображатьДатуПодписанияВШтампеВизуализацииПЭППОД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать дату подписания в штампе визуализации ПЭП</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

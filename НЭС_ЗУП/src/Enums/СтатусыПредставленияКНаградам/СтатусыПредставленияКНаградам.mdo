@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="037fb759-acaa-483c-8d56-db5a46b58848">
+  <producedTypes>
+    <refType typeId="69efc1a7-15e7-46d2-96ff-245bdc152aba" valueTypeId="7bbf8f4e-3387-47c1-8090-f0970e711f73"/>
+    <listType typeId="002e29ab-f507-4027-a451-f0accba222c6" valueTypeId="c3f41e48-6eec-40cd-b2c3-9ccda04f8020"/>
+    <managerType typeId="5c0e272d-19b2-4ed3-924c-3294e7d9d61d" valueTypeId="686ca74d-5d65-4970-b0d1-10b85d081d40"/>
+  </producedTypes>
+  <name>СтатусыПредставленияКНаградам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы представления к наградам</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="008afa8a-7c29-4a36-a827-ea07944c81f9">
+    <name>Рассматривается</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассматривается</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="781c8cd0-1486-4b0f-9192-7662676c0a19">
+    <name>Согласовано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласовано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3953ca32-e941-4211-9a93-5fb579b95086">
+    <name>Отклонено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f0c916a5-d81b-4bff-acc4-b573ed855216">
+    <name>НаградаВручена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Награжден</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

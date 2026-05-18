@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9261801-c052-40f2-889e-86f770b17023">
+  <producedTypes>
+    <refType typeId="90b71d42-9318-4680-b050-1886ef902dd6" valueTypeId="aef6c175-acd0-4a19-9685-212fc62c7023"/>
+    <listType typeId="402fd90c-2fdc-4f11-8cbe-9cab12e1702f" valueTypeId="6e30c923-4420-447c-8a05-50540219b635"/>
+    <managerType typeId="82f86ed9-4727-441d-a4f4-8379cc735219" valueTypeId="8f08b9a0-c7ea-4e86-93c6-0ac7d7e9cec8"/>
+  </producedTypes>
+  <name>УровниВладенияЯзыком</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уровни владения языком</value>
+  </synonym>
+  <comment>Общеевропейские компетенции владения иностранным языком (CEFR)</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d5f2b9f7-e2db-4c2d-b000-45b5090088c4">
+    <name>A1</name>
+    <synonym>
+      <key>ru</key>
+      <value>A1 Уровень выживания</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ca963445-3bdc-420c-9e9f-2219fcf6db7c">
+    <name>A2</name>
+    <synonym>
+      <key>ru</key>
+      <value>A2 Предпороговый уровень</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0cd368cb-c2ac-411e-aef3-93be2bf07f5f">
+    <name>B1</name>
+    <synonym>
+      <key>ru</key>
+      <value>B1 Пороговый уровень</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c321f4f4-9394-4cff-b624-e9d837adad87">
+    <name>B2</name>
+    <synonym>
+      <key>ru</key>
+      <value>B2 Пороговый продвинутый уровень</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="75ef3df0-cc1b-4c35-841f-a2c0c2947880">
+    <name>C1</name>
+    <synonym>
+      <key>ru</key>
+      <value>C1 Уровень профессионального владения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="198b7ee1-3994-4632-9afe-5e0762ef290f">
+    <name>C2</name>
+    <synonym>
+      <key>ru</key>
+      <value>C2 Уровень владения в совершенстве</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

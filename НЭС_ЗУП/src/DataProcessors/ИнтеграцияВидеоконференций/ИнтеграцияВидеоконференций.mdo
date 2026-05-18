@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="068e8de7-fcad-4cc0-aae0-f4c0267a72f8">
+  <producedTypes>
+    <objectType typeId="3115faaa-4d0d-43ec-b293-95cbd620279d" valueTypeId="52720a12-6d66-40b0-b629-afbf8758be39"/>
+    <managerType typeId="2b0232a1-9342-4de1-8c6e-3df6ea976994" valueTypeId="a64b7b1f-4391-48c6-aaec-eeefec4884f2"/>
+  </producedTypes>
+  <name>ИнтеграцияВидеоконференций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция видеоконференций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИнтеграцияВидеоконференций.Form.Форма</defaultForm>
+  <attributes uuid="d01b183f-4ba8-41e2-8113-4ecee6a4f124">
+    <name>Сервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="137dfdbb-0e0f-49e3-8c88-6048f908b09b">
+    <name>ДанныеСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные сервиса</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6d1a0ad7-f2b9-4131-b3fd-ed62ac0fc173">
+    <name>УчетнаяЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчетныеЗаписиВидеоконференций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="2b65d71b-4f1d-4768-8cad-fdc9aa7413fa">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

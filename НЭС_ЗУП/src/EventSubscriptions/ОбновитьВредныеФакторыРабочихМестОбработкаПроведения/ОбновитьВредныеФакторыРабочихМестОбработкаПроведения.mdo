@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b2bff93-0a34-4ed8-9586-999c8babd0c6">
+  <name>ОбновитьВредныеФакторыРабочихМестОбработкаПроведения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновить вредные факторы рабочих мест обработка проведения</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.РезультатыСпецоценкиУсловийТруда</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule.ОхранаТруда.ОбновитьВредныеФакторыРабочихМестОбработкаПроведения</handler>
+</mdclass:EventSubscription>

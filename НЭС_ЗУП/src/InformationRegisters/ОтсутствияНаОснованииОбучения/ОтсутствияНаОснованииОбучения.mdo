@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f85c172-4927-4d53-9f78-8a433286bfc3">
+  <producedTypes>
+    <selectionType typeId="def78e56-d028-4b09-a051-099792dd652c" valueTypeId="86cc57c7-b7ca-4051-8380-bcf1d9f469e6"/>
+    <listType typeId="bf574713-cee4-49f8-959b-798b7cb58bf4" valueTypeId="e6451d7d-bc6d-4380-93f4-6a30748b6622"/>
+    <managerType typeId="2ac6c7ec-4334-4820-a095-54ac4bfeaef9" valueTypeId="2fb1f9bf-2891-4c68-a461-89ac7796d6f6"/>
+    <recordSetType typeId="bdf44959-7064-4366-8dc9-269cb55e4aa9" valueTypeId="a90eb45b-53a7-45ea-a557-e6ad6314d082"/>
+    <recordKeyType typeId="bbcc20ef-6597-4a2e-abfc-ee011ef6d451" valueTypeId="9866026e-e22b-42d3-8c68-a534d0b55aa7"/>
+    <recordType typeId="1ca4ac6b-e687-418a-a4b9-120e1e8fa6e6" valueTypeId="c12be549-cd5e-41e4-90c9-c4635b337878"/>
+    <recordManagerType typeId="fdf20b17-478b-4f84-96b0-fd4cee7514fd" valueTypeId="991c3730-5142-415f-b22b-a1e6151f1992"/>
+  </producedTypes>
+  <name>ОтсутствияНаОснованииОбучения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отсутствия на основании обучения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6d5a88ef-26c2-419d-816f-231a7d862e6d">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ОбучениеРазвитиеСотрудников</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="0ae93ee0-c2f5-4dbe-920d-eca8e16a1cf4">
+    <name>ДокументОтсутствия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ отсутствия</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДокументыОтсутствияНаОснованииОбучения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5766c056-aae5-4d31-8a69-31a641da02ce">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="33944f82-215a-4238-aa4f-585972e3317f">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

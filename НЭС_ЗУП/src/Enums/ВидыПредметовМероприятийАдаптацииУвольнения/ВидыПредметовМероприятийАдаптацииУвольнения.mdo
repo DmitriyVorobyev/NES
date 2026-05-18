@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="453122c1-d88d-4ec1-9868-d8e683546ff4">
+  <producedTypes>
+    <refType typeId="ab29a785-461f-41f8-a059-b4a0e227147d" valueTypeId="a864058f-84cd-44a3-a380-b71f2b5e2a27"/>
+    <listType typeId="0154f0d1-f788-4b51-bd74-088da960c430" valueTypeId="170b1126-c396-418d-907d-75198f7e438f"/>
+    <managerType typeId="c76e4f7a-a412-4ff2-8642-181f37762ba9" valueTypeId="8fca966d-c4b0-4635-abae-800d5eaa82fd"/>
+  </producedTypes>
+  <name>ВидыПредметовМероприятийАдаптацииУвольнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды предметов мероприятий адаптации увольнения</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ddc492fe-da4c-41b9-adf9-0af643f1b356">
+    <name>ПроведениеОпросаПоШаблону</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проведение опроса по шаблону</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

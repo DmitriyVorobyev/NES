@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ef845c4-e575-432d-ae79-61fd00bc2d21">
+  <name>ПлановыеОтпускаДляПечатиДиаграммыОтпусковЦвет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Плановые отпуска для печати диаграммы отпусков цвет</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorRef">
+      <color>Web.LightGray</color>
+    </value>
+  </value>
+</mdclass:StyleItem>

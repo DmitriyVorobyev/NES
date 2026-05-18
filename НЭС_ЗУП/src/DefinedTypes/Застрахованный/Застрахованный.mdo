@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3046ba5-c119-4426-9f20-66c3d6c8335a">
+  <producedTypes>
+    <containerType typeId="e4516a32-e52f-4d1e-960a-8f88d1c9f5de" valueTypeId="23208b4e-d04b-4dac-a173-ed469b084e54"/>
+  </producedTypes>
+  <name>Застрахованный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Застрахованный</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ФизическиеЛица</types>
+    <types>CatalogRef.РодственникиФизическихЛиц</types>
+  </type>
+</mdclass:DefinedType>

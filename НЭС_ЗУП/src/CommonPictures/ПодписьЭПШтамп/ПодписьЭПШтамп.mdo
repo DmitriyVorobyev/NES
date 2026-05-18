@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ffc8aa2-9573-4601-994e-e972c22df76a">
+  <name>ПодписьЭПШтамп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подпись ЭП штамп</value>
+  </synonym>
+</mdclass:CommonPicture>

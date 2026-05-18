@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1edda8e-7156-4022-bef7-4011ab3f6a07">
+  <name>ТекущийРегламентныйИнтервал</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущий регламентный интервал</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e3fe714-67b1-449d-9781-67896eb2980a">
+  <producedTypes>
+    <refType typeId="353cca99-0218-4ddf-b7f9-922848d294fd" valueTypeId="8f47e488-f02a-4753-b14c-13327bc66f10"/>
+    <listType typeId="18d5aa2d-c151-4a87-a085-91956b289a95" valueTypeId="ad4d000d-2496-4c88-97c0-db9c99c71ee4"/>
+    <managerType typeId="c2140589-5919-45e6-9a90-46d8e38c32e6" valueTypeId="f5621bed-40f7-429d-9d62-d83a56d37f0e"/>
+  </producedTypes>
+  <name>СпособыФормированияСправокСотрудникам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы формирования справок сотрудникам</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ad48a568-229a-44c3-a405-11333ef19d07">
+    <name>ТребуетсяПодтверждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется подтверждение ответственного</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a30ac1eb-5e67-4c11-a842-ce385add950e">
+    <name>Автоматически</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматически (сразу после формирования)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

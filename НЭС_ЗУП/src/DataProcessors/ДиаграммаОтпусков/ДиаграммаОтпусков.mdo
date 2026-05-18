@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41c95f5e-3dda-4439-a21e-1d3b42555d3a">
+  <producedTypes>
+    <objectType typeId="8d51f16b-84fa-4972-8ad8-8a3c9a3cc833" valueTypeId="998a64c6-04c1-4dfe-b45a-ccf1b984528e"/>
+    <managerType typeId="0ea69bd9-9911-4d13-a55a-a0bb97cb2fc4" valueTypeId="f440a793-5d31-4063-af42-21fe8c85984b"/>
+  </producedTypes>
+  <name>ДиаграммаОтпусков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Диаграмма отпусков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ДиаграммаОтпусков.Form.Форма</defaultForm>
+  <forms uuid="3622357b-0a5b-49f3-95b1-e6b40e1b9a78">
+    <name>ФормаОтборов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отборов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="45bd2a24-2ec8-4223-9db5-ead21213197b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="637a6641-a0ac-4b13-b52b-3f85e176fcc9">
+    <name>ИсточникОтборовСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник отборов сотрудников</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="91715548-ef0e-4039-ade0-e96dab442fbe">
+    <name>ПФ_MXL_ДиаграммаОтпусков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диаграмма отпусков</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

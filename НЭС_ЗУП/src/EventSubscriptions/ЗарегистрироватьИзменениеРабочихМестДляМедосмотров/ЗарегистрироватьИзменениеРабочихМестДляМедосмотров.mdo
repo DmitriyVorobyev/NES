@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a2c2b80-391f-4dc0-a513-089081b78192">
+  <name>ЗарегистрироватьИзменениеРабочихМестДляМедосмотров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарегистрировать изменение рабочих мест для медосмотров</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.РабочиеМестаСотрудников</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.МедицинскиеОсмотры.ЗарегистрироватьИзменениеРабочихМестДляМедосмотровПриЗаписи</handler>
+</mdclass:EventSubscription>

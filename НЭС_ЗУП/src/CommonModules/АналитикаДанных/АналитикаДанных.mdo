@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85a1a56f-2c59-4a27-9c1f-6d10578e29bb">
+  <name>АналитикаДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с 1С:Аналитикой</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

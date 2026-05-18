@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1b71d34-3e23-4259-acd1-5e323f205d8c">
+  <producedTypes>
+    <objectType typeId="d29c702a-5e75-4094-a5f5-969ed95de74e" valueTypeId="7bf58468-ca74-428b-b1be-56a7d1dac2f6"/>
+    <managerType typeId="038e4787-6dd7-49a1-8aa9-2b8470c7b4f9" valueTypeId="998721b5-928f-43ce-831b-67e3a63982a7"/>
+  </producedTypes>
+  <name>ОтчетыПоНаставничеству</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты по наставничеству</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетыПоНаставничеству.Template.ПодборНаставников</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="c6080cff-d40a-4f1b-a4de-c3a067d55dd3">
+    <name>ПодборНаставников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подбор наставников</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="0c8a13dd-8e12-46d9-a64d-226a8b85b494">
+    <name>ИсторияНаставничества</name>
+    <synonym>
+      <key>ru</key>
+      <value>История наставничества</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="0a3019d5-0d32-4293-9c09-5e153c54c406">
+    <name>ДействующиеНаставники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действующие наставники</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

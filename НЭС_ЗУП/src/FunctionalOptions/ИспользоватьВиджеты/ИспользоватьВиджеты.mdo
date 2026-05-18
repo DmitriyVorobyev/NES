@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6bb67ee8-5a96-45fb-b9e2-0ef16d7d5eaa">
+  <name>ИспользоватьВиджеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать виджеты</value>
+  </synonym>
+  <location>InformationRegister.НастройкаМатрицыТалантов.Resource.ИспользоватьМатрицуТалантов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Enum.ДействияВиджетов</content>
+</mdclass:FunctionalOption>

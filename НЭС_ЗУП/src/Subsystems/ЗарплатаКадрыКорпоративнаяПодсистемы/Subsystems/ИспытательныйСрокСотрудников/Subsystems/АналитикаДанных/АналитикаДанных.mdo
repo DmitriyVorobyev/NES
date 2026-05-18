@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9bbef10-e09c-44b4-a786-9e70ceeb84dc">
+  <name>АналитикаДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аналитика данных</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>EventSubscription.ЗарегистрироватьИзменениеДанныхИспытательногоСрокаДляАналитикиДанных</content>
+  <content>CommonModule.ИспытательныйСрокСотрудниковАналитикаДанных</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы.Subsystem.ИспытательныйСрокСотрудников</parentSubsystem>
+</mdclass:Subsystem>

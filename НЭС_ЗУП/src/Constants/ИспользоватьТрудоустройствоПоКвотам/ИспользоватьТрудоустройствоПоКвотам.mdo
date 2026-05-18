@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d0ec390-c53c-461c-9fd1-b7068c7a6ac0">
+  <producedTypes>
+    <managerType typeId="3a5cd0a6-1d5c-4213-bcab-3bd9597f116e" valueTypeId="33a7faca-1b9d-4c6a-bb40-56cb9eb3adf4"/>
+    <valueManagerType typeId="51108efe-c8eb-4c9f-a9f2-a9018f213b1f" valueTypeId="f2fcb13f-7160-454f-bcff-b5ac6393e963"/>
+    <valueKeyType typeId="7373b757-8891-41a2-9e87-cbc3cef31379" valueTypeId="3f48f296-d089-4850-88b3-70314128e5d3"/>
+  </producedTypes>
+  <name>ИспользоватьТрудоустройствоПоКвотам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать трудоустройство по квотам</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

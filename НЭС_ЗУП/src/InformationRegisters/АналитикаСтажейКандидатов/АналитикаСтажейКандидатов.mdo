@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a78142f2-da46-4bda-99e6-adb00a70851a">
+  <producedTypes>
+    <selectionType typeId="889ca80f-97f4-4311-ab7c-bda9156863de" valueTypeId="62658c11-13b6-4e94-9623-4e109e48feeb"/>
+    <listType typeId="197faf90-4e48-4e00-b029-81d91de5f0f3" valueTypeId="b8777b76-a7d5-44c9-aa90-00d35e8ac6d4"/>
+    <managerType typeId="03821f21-e27e-4a8b-8150-19aeb0467480" valueTypeId="c75ae89e-2780-468d-a71c-de2c3662993b"/>
+    <recordSetType typeId="d4f5240c-b4e7-4930-aaad-89d49fd52066" valueTypeId="dbf8bfac-2cf7-429c-a4a5-63c6dd4dd6eb"/>
+    <recordKeyType typeId="d1f90eab-a4a8-4954-9d84-f0f1c6c0017b" valueTypeId="e8439f55-73a9-424d-ba0d-4fec1e918abf"/>
+    <recordType typeId="6b6c0234-0429-4634-81ba-f5b513963bfd" valueTypeId="7984b5b1-9b85-43d6-b476-b2db5a5ea877"/>
+    <recordManagerType typeId="3264432c-36b6-47d4-8e1e-7fa67682584f" valueTypeId="d1ca35e0-ac07-48ac-b8b8-039132142e2a"/>
+  </producedTypes>
+  <name>АналитикаСтажейКандидатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аналитика стажей кандидатов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="70c9c6b4-4492-4d8e-8501-aa13d5284041">
+    <name>ДатаПриема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата приема</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b0853560-d19d-4c8b-a9da-ce645f1bf01c">
+    <name>ДатаУвольнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата увольнения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="24036968-cd39-49f3-9e0d-6df46509d5c8">
+    <name>ИспытательныйСрокДатаЗавершения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Испытательный срок дата завершения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="27cfffaf-1617-4771-b109-5ee5b60d0718">
+    <name>НаходитсяНаИспытательномСроке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Находится на испытательном сроке</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="df8369ad-e34d-452f-bd13-9dc9916c7a2f">
+    <name>Кандидат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кандидат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кандидаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

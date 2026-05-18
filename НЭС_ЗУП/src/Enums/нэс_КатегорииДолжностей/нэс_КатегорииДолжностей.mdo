@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b76111d-af7c-435b-96b3-dd7b94c51da7">
+  <producedTypes>
+    <refType typeId="f8c1664e-8d42-476a-a00a-b9a3138af609" valueTypeId="45f3901d-c213-47fb-8cee-0384bfa279a1"/>
+    <listType typeId="f673c69b-337b-4dc8-8392-58f61e1f08c2" valueTypeId="529d4182-7fac-4048-bf22-4baa24c24af4"/>
+    <managerType typeId="1fb46250-8f32-498f-b62e-3455a3b6720e" valueTypeId="5c5e80c5-e000-43a3-9f4b-92a495b48f99"/>
+  </producedTypes>
+  <name>нэс_КатегорииДолжностей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории должностей</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="790c00d3-da93-41a1-90dd-a7c1b73947e0">
+    <name>Руководители</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководители</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8a841e72-6834-42df-a12a-5378d51ad7c8">
+    <name>Служащие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служащие</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

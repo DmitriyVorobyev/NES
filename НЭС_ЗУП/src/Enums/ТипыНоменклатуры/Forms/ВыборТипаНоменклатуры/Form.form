@@ -1,0 +1,1395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>ru</key>
+    <value>Выберите тип номенклатуры</value>
+  </title>
+  <title>
+    <key>en</key>
+    <value>Select product type</value>
+  </title>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаНастройкиТипаНоменклатуры</name>
+    <id>86</id>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаКолонки</name>
+      <id>65</id>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаКолонкиЛево</name>
+        <id>138</id>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаТипНоменклатурыОдеждаСпециальнаяЗащитная</name>
+          <id>26</id>
+          <items xsi:type="form:FormField">
+            <name>ТипНоменклатурыОдеждаСпециальнаяЗащитная</name>
+            <id>1</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ТипНоменклатуры</segments>
+            </dataPath>
+            <titleLocation>None</titleLocation>
+            <toolTip>
+              <key>ru</key>
+              <value>Подсказка задается программно</value>
+            </toolTip>
+            <toolTip>
+              <key>en</key>
+              <value>Tooltip is set from 1C:Enterprise script</value>
+            </toolTip>
+            <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+            <extendedTooltip>
+              <name>ТипНоменклатурыОдеждаСпециальнаяЗащитнаяРасширеннаяПодсказка</name>
+              <id>3</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <textColor xsi:type="core:ColorRef">
+                <color>Style.ПоясняющийТекст</color>
+              </textColor>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ТипНоменклатурыОдеждаСпециальнаяЗащитнаяКонтекстноеМеню</name>
+              <id>2</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>RadioButtonField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+              <choiceList>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ТипыНоменклатуры.EnumValue.ОдеждаСпециальнаяЗащитная</value>
+                </value>
+              </choiceList>
+            </extInfo>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>en</key>
+            <value>Product type goods item</value>
+          </title>
+          <title>
+            <key>ru</key>
+            <value>Тип номенклатуры спецодежда</value>
+          </title>
+          <extendedTooltip>
+            <name>ГруппаТипНоменклатурыОдеждаСпециальнаяЗащитнаяРасширеннаяПодсказка</name>
+            <id>27</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>Vertical</group>
+            <representation>NormalSeparation</representation>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаТипНоменклатурыКостюмыИзолирующие</name>
+          <id>88</id>
+          <items xsi:type="form:FormField">
+            <name>ТипНоменклатурыКостюмыИзолирующие</name>
+            <id>90</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ТипНоменклатуры</segments>
+            </dataPath>
+            <titleLocation>None</titleLocation>
+            <toolTip>
+              <key>ru</key>
+              <value>Подсказка задается программно</value>
+            </toolTip>
+            <toolTip>
+              <key>en</key>
+              <value>Tooltip is set from 1C:Enterprise script</value>
+            </toolTip>
+            <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+            <extendedTooltip>
+              <name>ТипНоменклатурыКостюмыИзолирующиеРасширеннаяПодсказка</name>
+              <id>92</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <textColor xsi:type="core:ColorRef">
+                <color>Style.ПоясняющийТекст</color>
+              </textColor>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ТипНоменклатурыКостюмыИзолирующиеКонтекстноеМеню</name>
+              <id>91</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>RadioButtonField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+              <choiceList>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ТипыНоменклатуры.EnumValue.КостюмыИзолирующие</value>
+                </value>
+              </choiceList>
+            </extInfo>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>en</key>
+            <value>Product type goods item</value>
+          </title>
+          <title>
+            <key>ru</key>
+            <value>Тип номенклатуры костюмы изолирующие</value>
+          </title>
+          <extendedTooltip>
+            <name>ГруппаТипНоменклатурыКостюмыИзолирующиеРасширеннаяПодсказка</name>
+            <id>89</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>Vertical</group>
+            <representation>NormalSeparation</representation>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаТипНоменклатурыСредстваЗащитыГлаз</name>
+          <id>93</id>
+          <items xsi:type="form:FormField">
+            <name>ТипНоменклатурыСредстваЗащитыГлаз</name>
+            <id>95</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ТипНоменклатуры</segments>
+            </dataPath>
+            <titleLocation>None</titleLocation>
+            <toolTip>
+              <key>ru</key>
+              <value>Подсказка задается программно</value>
+            </toolTip>
+            <toolTip>
+              <key>en</key>
+              <value>Tooltip is set from 1C:Enterprise script</value>
+            </toolTip>
+            <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+            <extendedTooltip>
+              <name>ТипНоменклатурыСредстваЗащитыГлазРасширеннаяПодсказка</name>
+              <id>97</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <textColor xsi:type="core:ColorRef">
+                <color>Style.ПоясняющийТекст</color>
+              </textColor>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ТипНоменклатурыСредстваЗащитыГлазКонтекстноеМеню</name>
+              <id>96</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>RadioButtonField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+              <choiceList>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ТипыНоменклатуры.EnumValue.СредстваЗащитыГлаз</value>
+                </value>
+              </choiceList>
+            </extInfo>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>en</key>
+            <value>Product type package</value>
+          </title>
+          <title>
+            <key>ru</key>
+            <value>Тип номенклатуры средства защиты глаз</value>
+          </title>
+          <extendedTooltip>
+            <name>ГруппаТипНоменклатурыСредстваЗащитыГлазРасширеннаяПодсказка</name>
+            <id>94</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>Vertical</group>
+            <representation>NormalSeparation</representation>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаТипНоменклатурыСредстваЗащитыГоловы</name>
+          <id>98</id>
+          <items xsi:type="form:FormField">
+            <name>ТипНоменклатурыСредстваЗащитыГоловы</name>
+            <id>100</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ТипНоменклатуры</segments>
+            </dataPath>
+            <titleLocation>None</titleLocation>
+            <toolTip>
+              <key>ru</key>
+              <value>Подсказка задается программно</value>
+            </toolTip>
+            <toolTip>
+              <key>en</key>
+              <value>Tooltip is set from 1C:Enterprise script</value>
+            </toolTip>
+            <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+            <extendedTooltip>
+              <name>ТипНоменклатурыСредстваЗащитыГоловыРасширеннаяПодсказка</name>
+              <id>102</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <textColor xsi:type="core:ColorRef">
+                <color>Style.ПоясняющийТекст</color>
+              </textColor>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ТипНоменклатурыСредстваЗащитыГоловыКонтекстноеМеню</name>
+              <id>101</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>RadioButtonField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+              <choiceList>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ТипыНоменклатуры.EnumValue.СредстваЗащитыГоловы</value>
+                </value>
+              </choiceList>
+            </extInfo>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>en</key>
+            <value>Product type package</value>
+          </title>
+          <title>
+            <key>ru</key>
+            <value>Тип номенклатуры средства защиты головы</value>
+          </title>
+          <extendedTooltip>
+            <name>ГруппаТипНоменклатурыСредстваЗащитыГоловыРасширеннаяПодсказка</name>
+            <id>99</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>Vertical</group>
+            <representation>NormalSeparation</representation>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаТипНоменклатурыСредстваЗащитыКомплексные</name>
+          <id>103</id>
+          <items xsi:type="form:FormField">
+            <name>ТипНоменклатурыСредстваЗащитыКомплексные</name>
+            <id>105</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ТипНоменклатуры</segments>
+            </dataPath>
+            <titleLocation>None</titleLocation>
+            <toolTip>
+              <key>ru</key>
+              <value>Подсказка задается программно</value>
+            </toolTip>
+            <toolTip>
+              <key>en</key>
+              <value>Tooltip is set from 1C:Enterprise script</value>
+            </toolTip>
+            <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+            <extendedTooltip>
+              <name>ТипНоменклатурыСредстваЗащитыКомплексныеРасширеннаяПодсказка</name>
+              <id>107</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <textColor xsi:type="core:ColorRef">
+                <color>Style.ПоясняющийТекст</color>
+              </textColor>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ТипНоменклатурыСредстваЗащитыКомплексныеКонтекстноеМеню</name>
+              <id>106</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>RadioButtonField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+              <choiceList>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ТипыНоменклатуры.EnumValue.СредстваЗащитыКомплексные</value>
+                </value>
+              </choiceList>
+            </extInfo>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>en</key>
+            <value>Product type package</value>
+          </title>
+          <title>
+            <key>ru</key>
+            <value>Тип номенклатуры средства защиты комплексные</value>
+          </title>
+          <extendedTooltip>
+            <name>ГруппаТипНоменклатурыСредстваЗащитыКомплексныеРасширеннаяПодсказка</name>
+            <id>104</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>Vertical</group>
+            <representation>NormalSeparation</representation>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаТипНоменклатурыСредстваЗащитыЛица</name>
+          <id>108</id>
+          <items xsi:type="form:FormField">
+            <name>ТипНоменклатурыСредстваЗащитыЛица</name>
+            <id>110</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ТипНоменклатуры</segments>
+            </dataPath>
+            <titleLocation>None</titleLocation>
+            <toolTip>
+              <key>ru</key>
+              <value>Подсказка задается программно</value>
+            </toolTip>
+            <toolTip>
+              <key>en</key>
+              <value>Tooltip is set from 1C:Enterprise script</value>
+            </toolTip>
+            <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+            <extendedTooltip>
+              <name>ТипНоменклатурыСредстваЗащитыЛицаРасширеннаяПодсказка</name>
+              <id>112</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <textColor xsi:type="core:ColorRef">
+                <color>Style.ПоясняющийТекст</color>
+              </textColor>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ТипНоменклатурыСредстваЗащитыЛицаКонтекстноеМеню</name>
+              <id>111</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>RadioButtonField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+              <choiceList>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ТипыНоменклатуры.EnumValue.СредстваЗащитыЛица</value>
+                </value>
+              </choiceList>
+            </extInfo>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>en</key>
+            <value>Product type package</value>
+          </title>
+          <title>
+            <key>ru</key>
+            <value>Тип номенклатуры средства защиты лица</value>
+          </title>
+          <extendedTooltip>
+            <name>ГруппаТипНоменклатурыСредстваЗащитыЛицаРасширеннаяПодсказка</name>
+            <id>109</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>Vertical</group>
+            <representation>NormalSeparation</representation>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Колонки лево</value>
+        </title>
+        <extendedTooltip>
+          <name>ГруппаКолонкиЛевоРасширеннаяПодсказка</name>
+          <id>139</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаКолонкиПраво</name>
+        <id>230</id>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаТипНоменклатурыСредстваДерматологическиеЗащитные</name>
+          <id>28</id>
+          <items xsi:type="form:FormField">
+            <name>ТипНоменклатурыСредстваДерматологическиеЗащитные</name>
+            <id>23</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ТипНоменклатуры</segments>
+            </dataPath>
+            <titleLocation>None</titleLocation>
+            <toolTip>
+              <key>ru</key>
+              <value>Подсказка задается программно</value>
+            </toolTip>
+            <toolTip>
+              <key>en</key>
+              <value>Tooltip is set from 1C:Enterprise script</value>
+            </toolTip>
+            <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+            <extendedTooltip>
+              <name>ТипНоменклатурыСредстваДерматологическиеЗащитныеРасширеннаяПодсказка</name>
+              <id>25</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <textColor xsi:type="core:ColorRef">
+                <color>Style.ПоясняющийТекст</color>
+              </textColor>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ТипНоменклатурыСредстваДерматологическиеЗащитныеКонтекстноеМеню</name>
+              <id>24</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>RadioButtonField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+              <choiceList>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ТипыНоменклатуры.EnumValue.СредстваДерматологическиеЗащитные</value>
+                </value>
+              </choiceList>
+            </extInfo>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>en</key>
+            <value>Product type package</value>
+          </title>
+          <title>
+            <key>ru</key>
+            <value>Тип номенклатуры дерматологические и смываемые средства</value>
+          </title>
+          <extendedTooltip>
+            <name>ГруппаТипНоменклатурыСредстваДерматологическиеЗащитныеРасширеннаяПодсказка</name>
+            <id>29</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>Vertical</group>
+            <representation>NormalSeparation</representation>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаТипНоменклатурыСредстваЗащитыНог</name>
+          <id>113</id>
+          <items xsi:type="form:FormField">
+            <name>ТипНоменклатурыСредстваЗащитыНог</name>
+            <id>115</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ТипНоменклатуры</segments>
+            </dataPath>
+            <titleLocation>None</titleLocation>
+            <toolTip>
+              <key>ru</key>
+              <value>Подсказка задается программно</value>
+            </toolTip>
+            <toolTip>
+              <key>en</key>
+              <value>Tooltip is set from 1C:Enterprise script</value>
+            </toolTip>
+            <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+            <extendedTooltip>
+              <name>ТипНоменклатурыСредстваЗащитыНогРасширеннаяПодсказка</name>
+              <id>117</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <textColor xsi:type="core:ColorRef">
+                <color>Style.ПоясняющийТекст</color>
+              </textColor>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ТипНоменклатурыСредстваЗащитыНогКонтекстноеМеню</name>
+              <id>116</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>RadioButtonField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+              <choiceList>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ТипыНоменклатуры.EnumValue.СредстваЗащитыНог</value>
+                </value>
+              </choiceList>
+            </extInfo>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>en</key>
+            <value>Product type package</value>
+          </title>
+          <title>
+            <key>ru</key>
+            <value>Тип номенклатуры средства защиты ног</value>
+          </title>
+          <extendedTooltip>
+            <name>ГруппаТипНоменклатурыСредстваЗащитыНогРасширеннаяПодсказка</name>
+            <id>114</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>Vertical</group>
+            <representation>NormalSeparation</representation>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаТипНоменклатурыСредстваЗащитыОргановДыхания</name>
+          <id>118</id>
+          <items xsi:type="form:FormField">
+            <name>ТипНоменклатурыСредстваЗащитыОргановДыхания</name>
+            <id>120</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ТипНоменклатуры</segments>
+            </dataPath>
+            <titleLocation>None</titleLocation>
+            <toolTip>
+              <key>ru</key>
+              <value>Подсказка задается программно</value>
+            </toolTip>
+            <toolTip>
+              <key>en</key>
+              <value>Tooltip is set from 1C:Enterprise script</value>
+            </toolTip>
+            <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+            <extendedTooltip>
+              <name>ТипНоменклатурыСредстваЗащитыОргановДыханияРасширеннаяПодсказка</name>
+              <id>122</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <textColor xsi:type="core:ColorRef">
+                <color>Style.ПоясняющийТекст</color>
+              </textColor>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ТипНоменклатурыСредстваЗащитыОргановДыханияКонтекстноеМеню</name>
+              <id>121</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>RadioButtonField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+              <choiceList>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ТипыНоменклатуры.EnumValue.СредстваЗащитыОргановДыхания</value>
+                </value>
+              </choiceList>
+            </extInfo>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>en</key>
+            <value>Product type package</value>
+          </title>
+          <title>
+            <key>ru</key>
+            <value>Тип номенклатуры средства защиты органов дыхания</value>
+          </title>
+          <extendedTooltip>
+            <name>ГруппаТипНоменклатурыСредстваЗащитыОргановДыханияРасширеннаяПодсказка</name>
+            <id>119</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>Vertical</group>
+            <representation>NormalSeparation</representation>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаТипНоменклатурыСредстваЗащитыОргановСлуха</name>
+          <id>123</id>
+          <items xsi:type="form:FormField">
+            <name>ТипНоменклатурыСредстваЗащитыОргановСлуха</name>
+            <id>125</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ТипНоменклатуры</segments>
+            </dataPath>
+            <titleLocation>None</titleLocation>
+            <toolTip>
+              <key>ru</key>
+              <value>Подсказка задается программно</value>
+            </toolTip>
+            <toolTip>
+              <key>en</key>
+              <value>Tooltip is set from 1C:Enterprise script</value>
+            </toolTip>
+            <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+            <extendedTooltip>
+              <name>ТипНоменклатурыСредстваЗащитыОргановСлухаРасширеннаяПодсказка</name>
+              <id>127</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <textColor xsi:type="core:ColorRef">
+                <color>Style.ПоясняющийТекст</color>
+              </textColor>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ТипНоменклатурыСредстваЗащитыОргановСлухаКонтекстноеМеню</name>
+              <id>126</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>RadioButtonField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+              <choiceList>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ТипыНоменклатуры.EnumValue.СредстваЗащитыОргановСлуха</value>
+                </value>
+              </choiceList>
+            </extInfo>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>en</key>
+            <value>Product type package</value>
+          </title>
+          <title>
+            <key>ru</key>
+            <value>Тип номенклатуры средства защиты органов слуха</value>
+          </title>
+          <extendedTooltip>
+            <name>ГруппаТипНоменклатурыСредстваЗащитыОргановСлухаРасширеннаяПодсказка</name>
+            <id>124</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>Vertical</group>
+            <representation>NormalSeparation</representation>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаТипНоменклатурыСредстваЗащитыОтПадения</name>
+          <id>128</id>
+          <items xsi:type="form:FormField">
+            <name>ТипНоменклатурыСредстваЗащитыОтПадения</name>
+            <id>130</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ТипНоменклатуры</segments>
+            </dataPath>
+            <titleLocation>None</titleLocation>
+            <toolTip>
+              <key>ru</key>
+              <value>Подсказка задается программно</value>
+            </toolTip>
+            <toolTip>
+              <key>en</key>
+              <value>Tooltip is set from 1C:Enterprise script</value>
+            </toolTip>
+            <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+            <extendedTooltip>
+              <name>ТипНоменклатурыСредстваЗащитыОтПаденияРасширеннаяПодсказка</name>
+              <id>132</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <textColor xsi:type="core:ColorRef">
+                <color>Style.ПоясняющийТекст</color>
+              </textColor>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ТипНоменклатурыСредстваЗащитыОтПаденияКонтекстноеМеню</name>
+              <id>131</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>RadioButtonField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+              <choiceList>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ТипыНоменклатуры.EnumValue.СредстваЗащитыОтПадения</value>
+                </value>
+              </choiceList>
+            </extInfo>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>en</key>
+            <value>Product type package</value>
+          </title>
+          <title>
+            <key>ru</key>
+            <value>Тип номенклатуры средства защиты от падения</value>
+          </title>
+          <extendedTooltip>
+            <name>ГруппаТипНоменклатурыСредстваЗащитыОтПаденияРасширеннаяПодсказка</name>
+            <id>129</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>Vertical</group>
+            <representation>NormalSeparation</representation>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаТипНоменклатурыСредстваЗащитыРук</name>
+          <id>133</id>
+          <items xsi:type="form:FormField">
+            <name>ТипНоменклатурыСредстваЗащитыРук</name>
+            <id>135</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ТипНоменклатуры</segments>
+            </dataPath>
+            <titleLocation>None</titleLocation>
+            <toolTip>
+              <key>ru</key>
+              <value>Подсказка задается программно</value>
+            </toolTip>
+            <toolTip>
+              <key>en</key>
+              <value>Tooltip is set from 1C:Enterprise script</value>
+            </toolTip>
+            <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+            <extendedTooltip>
+              <name>ТипНоменклатурыСредстваЗащитыРукРасширеннаяПодсказка</name>
+              <id>137</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <textColor xsi:type="core:ColorRef">
+                <color>Style.ПоясняющийТекст</color>
+              </textColor>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ТипНоменклатурыСредстваЗащитыРукКонтекстноеМеню</name>
+              <id>136</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>RadioButtonField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+              <choiceList>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ТипыНоменклатуры.EnumValue.СредстваЗащитыРук</value>
+                </value>
+              </choiceList>
+            </extInfo>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>en</key>
+            <value>Product type package</value>
+          </title>
+          <title>
+            <key>ru</key>
+            <value>Тип номенклатуры средства защиты рук</value>
+          </title>
+          <extendedTooltip>
+            <name>ГруппаТипНоменклатурыСредстваЗащитыРукРасширеннаяПодсказка</name>
+            <id>134</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>Vertical</group>
+            <representation>NormalSeparation</representation>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Колонки право</value>
+        </title>
+        <extendedTooltip>
+          <name>ГруппаКолонкиПравоРасширеннаяПодсказка</name>
+          <id>231</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Колонки</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Columns</value>
+      </title>
+      <extendedTooltip>
+        <name>ГруппаКолонкиРасширеннаяПодсказка</name>
+        <id>66</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>AlwaysHorizontal</group>
+        <showLeftMargin>true</showLeftMargin>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Настройки типа номенклатуры</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Product type settings</value>
+    </title>
+    <extendedTooltip>
+      <name>ГруппаНастройкиТипаНоменклатурыРасширеннаяПодсказка</name>
+      <id>87</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Vertical</group>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>КоманднаяПанельФормы</name>
+    <id>8</id>
+    <items xsi:type="form:Button">
+      <name>ОК</name>
+      <id>6</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ОКРасширеннаяПодсказка</name>
+        <id>7</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.ОК</commandName>
+      <representation>Auto</representation>
+      <defaultButton>true</defaultButton>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <items xsi:type="form:Button">
+      <name>Отмена</name>
+      <id>4</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ОтменаРасширеннаяПодсказка</name>
+        <id>5</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.Отмена</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Командная панель формы</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Form command bar</value>
+    </title>
+    <extendedTooltip>
+      <name>КоманднаяПанельФормыРасширеннаяПодсказка</name>
+      <id>9</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>CommandBar</type>
+    <extInfo xsi:type="form:CommandBarExtInfo">
+      <horizontalAlign>Right</horizontalAlign>
+    </extInfo>
+  </items>
+  <commandBarLocation>None</commandBarLocation>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <horizontalAlign>Left</horizontalAlign>
+  </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <width>62</width>
+  <saveWindowSettings>true</saveWindowSettings>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <allowFormCustomize>true</allowFormCustomize>
+  <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <attributes>
+    <name>ТипНоменклатуры</name>
+    <title>
+      <key>ru</key>
+      <value>Тип номенклатуры</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Product type</value>
+    </title>
+    <id>1</id>
+    <valueType>
+      <types>EnumRef.ТипыНоменклатуры</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <formCommands>
+    <name>ОК</name>
+    <title>
+      <key>ru</key>
+      <value>ОК</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>OK</value>
+    </title>
+    <id>1</id>
+    <toolTip>
+      <key>ru</key>
+      <value>ОК</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>OK</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОК</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>Отмена</name>
+    <title>
+      <key>ru</key>
+      <value>Отмена</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Cancel</value>
+    </title>
+    <id>2</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Отмена</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Cancel</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>Отмена</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <parameters>
+    <name>ТипНоменклатуры</name>
+    <valueType>
+      <types>EnumRef.ТипыНоменклатуры</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ОсобенностьУчета</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

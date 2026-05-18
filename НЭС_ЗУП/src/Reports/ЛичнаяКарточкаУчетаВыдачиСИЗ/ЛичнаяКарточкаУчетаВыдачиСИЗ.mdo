@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b5d0b59-b5c3-4b37-95f2-61c49bc26dfa">
+  <producedTypes>
+    <objectType typeId="018f312e-fdd5-4ff0-bf8f-73f4fb2a9ec0" valueTypeId="0f2e4c9d-e27b-4422-b4eb-ca3aff6583b2"/>
+    <managerType typeId="41d79e73-66da-4eab-a6a7-2f1c08d5309f" valueTypeId="07695d31-3ab2-4a5f-82ed-60d7688804a9"/>
+  </producedTypes>
+  <name>ЛичнаяКарточкаУчетаВыдачиСИЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Личная карточка учета выдачи СИЗ</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ЛичнаяКарточкаУчетаВыдачиСИЗ.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="bd4694df-6248-4b4d-bd51-c49cc8f350f4">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="74e37897-7ce0-4327-aa66-113eb75080e8">
+    <name>ПФ_MXL_ЛичнаяКарточкаУчетаВыдачиСИЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Личная карточка учета выдачи СИЗ</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

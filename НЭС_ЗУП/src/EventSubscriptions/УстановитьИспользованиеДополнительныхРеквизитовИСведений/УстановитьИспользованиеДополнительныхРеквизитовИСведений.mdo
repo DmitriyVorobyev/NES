@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="058f2fcf-e43a-4e7a-9363-e8942938314f">
+  <name>УстановитьИспользованиеДополнительныхРеквизитовИСведений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить использование дополнительных реквизитов и сведений</value>
+  </synonym>
+  <source>
+    <types>ConstantValueManager.ИспользоватьДополнительныеРеквизитыИСведения</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.СредстваИндивидуальнойЗащиты.УстановитьИспользованиеДополнительныхРеквизитовИСведенийПриЗаписи</handler>
+</mdclass:EventSubscription>

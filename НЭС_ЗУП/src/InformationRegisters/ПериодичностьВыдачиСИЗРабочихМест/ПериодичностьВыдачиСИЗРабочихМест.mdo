@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6e1d080-9ba4-41bf-8bce-116318635018">
+  <producedTypes>
+    <selectionType typeId="cb878099-1d3c-44d2-b860-244cd6e5d852" valueTypeId="9c92ab62-3ed1-4c86-99f6-2bbf2bebd6f3"/>
+    <listType typeId="63b193fa-be16-46c4-b8ed-ff40363f4fd1" valueTypeId="fdb37ddf-e2c3-4258-904d-a238d24eb2b9"/>
+    <managerType typeId="350c97b8-e6d5-4151-bf42-236fad66338e" valueTypeId="0a54ac9b-2c06-41e1-99f3-7aa326b0632e"/>
+    <recordSetType typeId="f692670c-f1b3-4d78-97d6-0290823dac51" valueTypeId="ad7ff2e7-0310-4268-8ea2-59961dc93c6b"/>
+    <recordKeyType typeId="3a4c854b-8bc7-4773-a059-18378b7b1081" valueTypeId="e729fe5e-f5ee-41a7-bd29-85303b790e3d"/>
+    <recordType typeId="c1a027ed-aede-480c-a340-346120701242" valueTypeId="34da51f0-e022-45db-914b-c22572998172"/>
+    <recordManagerType typeId="7396a576-abdf-4300-89fb-b2ef00bd5f28" valueTypeId="206a3bc2-d223-410e-9ca0-33d082bc622e"/>
+  </producedTypes>
+  <name>ПериодичностьВыдачиСИЗРабочихМест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периодичность выдачи СИЗ рабочих мест</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f4d19246-67fb-411e-9227-d48bd3d5aca0">
+    <name>КратностьВыдачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кратность выдачи</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b5d5926c-e68d-46ca-996c-fa2a46524e8c">
+    <name>ПериодичностьВыдачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодичность выдачи</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d2e91e51-aedf-45ee-84da-cd4c8c34c54a">
+    <name>ЕдиницаПериодичностиВыдачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица периодичности выдачи</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Периодичность</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1fd01aa8-066f-4ab3-9f47-32ce9522f3b2">
+    <name>ПредставлениеПериодичностиВыдачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление периодичности выдачи</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="1fe1eb69-708e-4820-a705-0c915161120e">
+    <name>СИЗПолноеПредставление</name>
+    <synonym>
+      <key>ru</key>
+      <value>СИЗ (полное представление)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Нормы СИЗ, действующих на рабочем месте</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="5f5e44e6-07cf-453e-a36e-425a9c1661a8">
+    <name>СИЗКодыПредставление</name>
+    <synonym>
+      <key>ru</key>
+      <value>СИЗ (коды)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Нормы СИЗ, действующих на рабочем месте (коды)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="228a3ca3-edf1-4a39-bddf-fb15f78940cb">
+    <name>СпособВыдачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ выдачи</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыВыдачиСИЗ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="eb5e9bdc-e689-45d7-99b5-fc6f78fe9734">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+      <types>CatalogRef.РабочиеМестаОхраныТруда</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

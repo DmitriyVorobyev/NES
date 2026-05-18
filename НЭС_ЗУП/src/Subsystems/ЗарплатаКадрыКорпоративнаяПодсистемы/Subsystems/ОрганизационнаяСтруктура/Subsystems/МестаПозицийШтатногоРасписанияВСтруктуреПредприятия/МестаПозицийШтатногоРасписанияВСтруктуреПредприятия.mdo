@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="523d6692-c9d6-470b-94e9-814228842868">
+  <name>МестаПозицийШтатногоРасписанияВСтруктуреПредприятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Места позиций штатного расписания в структуре предприятия</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Document.ИзменениеМестаПозицииШтатногоРасписанияВСтруктуреПредприятия</content>
+  <content>Catalog.ИзменениеМестаПозицииШтатногоРасписанияВСтруктуреПредприятияПрисоединенныеФайлы</content>
+  <content>InformationRegister.ИсторияИзмененияМестаПозицииШтатногоРасписанияВСтруктуреПредприятия</content>
+  <content>CommonModule.МестаПозицийШтатногоРасписанияВСтруктуреПредприятия</content>
+  <content>Constant.ИспользоватьДокументИзмененияМестаПозицииВСтруктуреПредприятия</content>
+  <content>FunctionalOption.ИспользоватьДокументИзмененияМестаПозицииВСтруктуреПредприятия</content>
+  <content>Role.ЧтениеИзмененийМестПозицийШтатногоРасписанияВСтруктуреПредприятия</content>
+  <content>Role.ДобавлениеИзменениеИзмененийМестПозицийШтатногоРасписанияВСтруктуреПредприятия</content>
+  <content>CommonModule.МестаПозицийШтатногоРасписанияВСтруктуреПредприятияФормы</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы.Subsystem.ОрганизационнаяСтруктура</parentSubsystem>
+</mdclass:Subsystem>

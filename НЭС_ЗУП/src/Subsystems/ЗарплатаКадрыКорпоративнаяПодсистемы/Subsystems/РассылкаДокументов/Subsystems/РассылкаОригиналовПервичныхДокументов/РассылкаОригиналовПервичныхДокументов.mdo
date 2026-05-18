@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd28f926-3adc-4f43-b470-ea690ca82a0f">
+  <name>РассылкаОригиналовПервичныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассылка оригиналов первичных документов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.РассылкаОригиналовПервичныхДокументов</content>
+  <content>EventSubscription.УстановитьИспользованиеУчетаОригиналовПервичныхДокументов</content>
+  <content>CommonModule.РассылкаДокументовСобытия</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы.Subsystem.РассылкаДокументов</parentSubsystem>
+</mdclass:Subsystem>

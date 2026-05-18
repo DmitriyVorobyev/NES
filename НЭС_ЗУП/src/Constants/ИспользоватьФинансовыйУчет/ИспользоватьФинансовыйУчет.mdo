@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="103cb4c1-d8a8-4265-8dff-56c5d49b0a7e">
+  <producedTypes>
+    <managerType typeId="4df6d37f-8e5c-4cd2-891c-e301189cc4e6" valueTypeId="dbbd9ed9-f058-4091-8db5-250577049bdb"/>
+    <valueManagerType typeId="7382eaa1-4a91-4b75-b9b6-7855b97ff83d" valueTypeId="02398907-6b06-4d48-afa5-94e3562248fd"/>
+    <valueKeyType typeId="3e9c158d-9e05-446b-b089-e94fed10908b" valueTypeId="b4491eaf-f4fe-4ad8-b7c3-2b112cc83ea6"/>
+  </producedTypes>
+  <name>ИспользоватьФинансовыйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать финансовый учет</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <explanation>
+    <key>ru</key>
+    <value>Признак устанавливается если в информационной базе ведется финансовый учет</value>
+  </explanation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd505e00-6a09-49f8-a2b4-6a8d11bcbf0b">
+  <producedTypes>
+    <managerType typeId="a4fc4d7c-821f-49a3-ac0c-80b72e687f4b" valueTypeId="3cc9967c-1ce8-4a4b-b14b-289a4b310579"/>
+    <valueManagerType typeId="6fa46a7b-c051-4c80-b16f-ae78918bf197" valueTypeId="cf7cd2f9-394a-4697-b2c8-e6dde1416bd1"/>
+    <valueKeyType typeId="05448153-7078-4c02-b3aa-35e0ef59f930" valueTypeId="09b023ea-7c70-4597-a708-3bfe150579bf"/>
+  </producedTypes>
+  <name>ПрименятьУсловияТрудаРабочихМестОхраныТруда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Применять условия труда рабочих мест охраны труда</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

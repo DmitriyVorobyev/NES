@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3697a0fa-4222-497f-bbd0-0e56dafa06c3">
+  <producedTypes>
+    <objectType typeId="b3e5fcb5-257b-4868-a80a-4f01df87ad63" valueTypeId="71afc51a-8914-4fe3-9b86-a14032fef000"/>
+    <managerType typeId="057139d3-7b9a-4a64-95a8-7ca2f4663999" valueTypeId="a81ab3a0-26ba-4b9a-a81c-083476aeb185"/>
+  </producedTypes>
+  <name>ОтчетыПоПроцессамНаграждения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты по процессам награждения</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ОтчетыПоПроцессамНаграждения.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <forms uuid="33dc97d1-f9fb-44da-80f9-ab6faaa5645d">
+    <name>ФормаДляРабочегоСтола</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма для рабочего стола</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="f2be014a-57a8-4f31-92c1-983370095e37">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="c306e2ab-60dd-4279-bf18-722edc063b95">
+    <name>СтатусыНаграждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статусы награждения</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

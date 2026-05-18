@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d5e22ef-a1e4-4825-a8c0-6c25175cf838">
+  <producedTypes>
+    <selectionType typeId="c0444682-91af-420a-934c-81cc5e4f438f" valueTypeId="84ce963a-0d58-46a1-8bd3-8ca50406012b"/>
+    <listType typeId="d0275e43-13bf-45ab-954b-b54df1efa6b5" valueTypeId="470a9403-a462-447b-9f3e-51a76b2f8048"/>
+    <managerType typeId="60e92237-c81f-46bb-8380-21c4d8620811" valueTypeId="f419deda-f41a-449d-8805-f2bb665f17ee"/>
+    <recordSetType typeId="dc2e38a0-e190-4079-8d9c-717bbeff78fa" valueTypeId="01dc7afe-c5ae-49b4-b13f-2467cd91e223"/>
+    <recordKeyType typeId="dec5b12f-4913-461b-a5e7-3ca65550c3c3" valueTypeId="66a9c7b0-6646-4d45-9302-f1f62c5221b0"/>
+    <recordType typeId="31225e62-0a81-4b03-9df2-ab809cbc9730" valueTypeId="c12a027b-841b-4423-a5dc-26a97cb24650"/>
+    <recordManagerType typeId="ac382f77-5d5c-4275-bb7e-03c18fd5cfbe" valueTypeId="cd864ce5-3b63-4bc5-abf7-4ac3b0f2442d"/>
+  </producedTypes>
+  <name>ЭтапыРегламентногоИнтервалаДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Этапы регламентного интервала документа</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ЭтапыРегламентногоИнтервалаДокумента.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1b698a60-5c0f-4146-9cda-c3cbcfdaf854">
+    <name>СрокПоРегламенту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок по регламенту</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4a715ea7-792f-4d22-9494-a8301acc4d1d">
+    <name>СрокНапоминания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок напоминания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Срок, когда надо напомнить о невыполненной задаче</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="67ea53a8-c8e2-42d9-93bb-150a53902516">
+    <name>СрокВыполненияЧасы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Норматив</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="df86e6ab-7154-4138-bad8-8b76b2288acf">
+    <name>Предмет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предмет</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ПредметПроцессаОбработкиДокументов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5e227309-333a-4784-83f3-cd5249edb2aa">
+    <name>РегламентныйИнтервал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регламентный интервал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РегламентныеИнтервалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="780ac08f-0c87-4c69-9f7a-5273b20b3a69">
+    <name>НомерИтерации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер итерации</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2c3b0bd3-4f85-4833-9e60-01088ac11b3d">
+    <name>ИдентификаторЭтапа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор этапа</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="1eeaca66-4a4f-47ca-9b41-d2f3d10148ec">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

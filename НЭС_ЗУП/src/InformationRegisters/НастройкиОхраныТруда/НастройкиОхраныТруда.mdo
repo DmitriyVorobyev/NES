@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aeadf6f9-07b0-4305-a5d1-6cb2cfbfe073">
+  <producedTypes>
+    <selectionType typeId="5b051145-09f6-4e4c-a47b-b1c899c9aba6" valueTypeId="111ddf89-8972-4d43-8ee5-81bc04b0f9a8"/>
+    <listType typeId="0578d897-f0a4-4fb7-901b-562dcf8b2366" valueTypeId="c41a4cba-fe39-4d0c-b0d6-b4cf1ec1e7a8"/>
+    <managerType typeId="475604ac-3494-499d-9f4a-272375533bc0" valueTypeId="68b20c4f-7b62-4e3b-a806-b3388b968cf9"/>
+    <recordSetType typeId="d69f8023-d462-4a96-96aa-33ea0ccb3492" valueTypeId="537ebbf9-4b61-42a8-a3be-ddad4aa7c34a"/>
+    <recordKeyType typeId="51aab968-7a74-4bc7-ae96-b8f9bc3730bc" valueTypeId="58c59d85-0267-4f60-83cd-f5d4334f3040"/>
+    <recordType typeId="6cd706e0-1096-45d7-af8e-37aaf13a7f2c" valueTypeId="df0fcc8c-9d77-4212-b6c2-6d2f4aee7d1b"/>
+    <recordManagerType typeId="f7470833-f41c-4498-97e2-d4879a7f16cb" valueTypeId="13827ca3-7c0f-46b7-a042-9af2c3799356"/>
+  </producedTypes>
+  <name>НастройкиОхраныТруда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки охраны труда</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f79f0b54-4d13-4347-8928-b8b3fe49a89a">
+    <name>ИспользоватьРабочиеМестаОхраныТруда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать рабочие места охраны труда</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0797a214-ff79-49f9-b2ba-33b78260bc24">
+    <name>ИспользоватьИнструктажиПоОхранеТруда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать инструктажи по охране труда</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c7441251-f185-4128-bbbe-71780f5a4881">
+    <name>ИспользоватьОбучениеПоОхранеТруда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать обучение по охране труда</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d53633b1-46f6-4c5d-90b8-f221214f97ee">
+    <name>ИспользоватьНесчастныеСлучаиНаПроизводстве</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать несчастные случаи на производстве</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="af41855f-8f50-465f-ade2-4f5983c496c6">
+    <name>ИспользоватьМедицинскиеОсмотры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать медицинские осмотры</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5f88ae1d-51af-4a6e-84ac-3db1b77bc581">
+    <name>ИспользоватьПсихиатрическиеОсвидетельствования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать психиатрические освидетельствования</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="490d33e6-f45c-4515-b25f-0c6b3354df55">
+    <name>ИспользоватьСпециальнуюОценкуУсловийТруда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать специальную оценку условий труда</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="deeee175-5805-4532-a31e-7b46fcb37f3c">
+    <name>ИспользоватьСредстваИндивидуальнойЗащиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать средства индивидуальной защиты</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ae845e69-6f72-4a8a-95ea-2079ac1ee01e">
+    <name>КонтролироватьУникальностьНомеровРабочихМест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контролировать уникальность номеров рабочих мест</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d11df5c8-d802-47ef-aaca-4602bcb9a646">
+    <name>СпособКонтроляУникальностиНомеровРабочихМест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ контроля уникальности номеров рабочих мест</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыКонтроляУникальностиНомеровРабочихМест</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3fdef7d7-57db-40bf-a395-bcfd515908f4">
+    <name>ПрименятьУсловияТрудаРабочихМестОхраныТруда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Применять условия труда рабочих мест охраны труда</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e63b2564-96e9-47e1-a005-6201d8f60057">
+    <name>ПорогАктуальностиВредныхФакторовВидовРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порог актуальности вредных факторов видов работ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e12afdb9-0011-4af5-8d50-2ac336348f7c">
+    <name>ЕдиницаИзмеренияПорогаАктуальностиВредныхФакторовВидовРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения порога актуальности вредных факторов видов работ</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Периодичность</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="5aa31ba8-617c-4cb3-b376-5604be41c404">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

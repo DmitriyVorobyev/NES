@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67730591-cdd3-494d-86d4-79dd414b686a">
+  <producedTypes>
+    <objectType typeId="56fe0d93-e410-4f95-8a10-03abebdb6661" valueTypeId="ddf3fcba-a94b-48f7-aa3d-2fee60ebc0f2"/>
+    <managerType typeId="fa7fd4c6-0f61-448e-845c-edac04da9b9b" valueTypeId="5f57dce5-621a-4f23-b257-f1937322f103"/>
+  </producedTypes>
+  <name>ПричиныУвольнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины увольнения</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ПричиныУвольнения.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="5c0d5f4e-1d9c-41b5-ba5d-f84e7ce0d8ec">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

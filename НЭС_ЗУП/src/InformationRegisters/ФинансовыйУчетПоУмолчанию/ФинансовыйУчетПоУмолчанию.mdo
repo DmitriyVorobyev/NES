@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1513f5eb-e344-4603-b329-89396b2cc581">
+  <producedTypes>
+    <selectionType typeId="4ee6f418-7e86-4957-ab23-75d25593c910" valueTypeId="de40cbec-c709-4f69-9850-05958f09dee8"/>
+    <listType typeId="8081f3c1-24ad-4fc9-9c07-278d5000c797" valueTypeId="a2a2810e-311a-4bc7-8110-80e069a0f19c"/>
+    <managerType typeId="0653d542-c5f8-4baf-907a-b1f585fbef4f" valueTypeId="ac0080fa-1c65-4c40-beb9-83a67a140ab8"/>
+    <recordSetType typeId="0ec0da1f-ce87-4ba3-a6d7-68885e20e29a" valueTypeId="91a7f652-c215-47eb-b269-8e3ceb1b9f4a"/>
+    <recordKeyType typeId="f455f2b6-279a-4a5d-8fbb-b610421c1888" valueTypeId="28249382-a903-402e-a676-1b7df4a563be"/>
+    <recordType typeId="2d141ca2-048c-4b85-8486-e9b981bd6a80" valueTypeId="cc2c924d-680d-436c-892e-da6c33a60f7d"/>
+    <recordManagerType typeId="2eac8b85-adc2-4bdd-846a-9c109fadea55" valueTypeId="7ff702cf-0f54-4f16-a4b9-0863d80ebe99"/>
+  </producedTypes>
+  <name>ФинансовыйУчетПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Финансовый учет по умолчанию</value>
+  </synonym>
+  <defaultRecordForm>InformationRegister.ФинансовыйУчетПоУмолчанию.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ФинансовыйУчетПоУмолчанию.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Значения финансового учета по умолчанию</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>История значений финансового учета по умолчанию</value>
+  </listPresentation>
+  <resources uuid="26b06ce1-1f79-4a89-9560-fdc5fccbdd4f">
+    <name>СпособОтражения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ отражения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СпособыОтраженияВФинансовомУчете</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="63875fe4-677e-456d-8323-e098b0e0ce7d">
+    <name>НаправлениеДеятельности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направление деятельности</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаправленияДеятельности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7578ce2e-8521-44d1-9654-b37b8e0d9a10">
+    <name>АналитикаРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аналитика расходов</value>
+    </synonym>
+    <type>
+      <types>Characteristic.СтатьиРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="707e6c81-764d-4718-9313-18b566c78fa9">
+    <name>Зарплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарплата</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="300a6536-22ae-42ad-ab24-7cd72ec93a59">
+    <name>СтраховыеВзносы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страховые взносы</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d6962b72-82d3-446c-a5b8-aa5e5324eb62">
+    <name>УдержаннаяЗарплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удержанная зарплата</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3dc9b276-898b-4efa-925f-a9c5664ccea3">
+    <name>Займы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Займы</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9d2f2201-f460-4380-8785-e47f01ae6a2c">
+    <name>Обучение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обучение</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <forms uuid="c7f0b6de-870a-4c2b-ae0c-7212aaac80b8">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3fd4c832-2ce1-4b37-8d08-34030e30a248">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

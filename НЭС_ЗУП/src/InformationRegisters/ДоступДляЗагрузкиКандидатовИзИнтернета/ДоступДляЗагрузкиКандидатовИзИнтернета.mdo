@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96f6256e-8073-441d-9c85-afd0008f8530">
+  <producedTypes>
+    <selectionType typeId="f4482924-00ab-4b8c-92bc-785504d2dfc4" valueTypeId="60373b42-d6e5-45e5-a431-630e3c4eda4c"/>
+    <listType typeId="9cbee500-df43-4260-bf60-58fd52677741" valueTypeId="c7c4f115-ff5b-4054-8985-1c573d3415dc"/>
+    <managerType typeId="6e9cd8b2-06ff-426a-98fc-eae9f49d92dd" valueTypeId="b5d86188-4c7f-43ec-a5a4-6ad30246b8e9"/>
+    <recordSetType typeId="815bec9f-e7f5-4fd1-8e72-8c204ee8e195" valueTypeId="74427a4b-09e4-404f-ad39-1ced3a0e9be5"/>
+    <recordKeyType typeId="39c6bfd6-d91c-4764-bfe8-e7edc671c8bf" valueTypeId="9518f80c-403a-4bb2-9220-f719590440a7"/>
+    <recordType typeId="658d5483-a178-4788-8aa8-d51ddcba9fa5" valueTypeId="5eb4e5a2-5c3d-484f-8b4b-540dcf3d6baa"/>
+    <recordManagerType typeId="ae29f718-f62b-4e48-a832-483ca638925d" valueTypeId="e6cd3717-a90b-4353-bdfd-228bfc49d1ea"/>
+  </producedTypes>
+  <name>ДоступДляЗагрузкиКандидатовИзИнтернета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступ для загрузки кандидатов из Интернета</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="bdb0f5e1-3f4f-41cf-a94c-986d3755f977">
+    <name>ТокенДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен доступа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="07445940-835d-44bf-acb0-15cf32250694">
+    <name>ДатаТокена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата токена</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8ca01d5a-2ed5-4dac-b3c3-7958a74142d5">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="fff2ca3c-5669-4a12-9c9c-d51a2568d865">
+    <name>НастройкаДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка доступа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9532922f-115f-4199-8bd7-93623fda6f3c">
+    <name>ТокенДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен доступа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

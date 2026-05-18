@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48ecf748-c0b1-4227-a89a-ce756478a546">
+  <name>ИспользоватьРешениеОВозвратеИзОтпускаПоУходуЗаРебенком</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать «Решение о возврате из отпуска по уходу за ребенком»</value>
+  </synonym>
+  <location>InformationRegister.НастройкиКадровыхРешений.Resource.ИспользоватьРешениеОВозвратеИзОтпускаПоУходуЗаРебенком</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.РешениеОВозвратеИзОтпускаПоУходуЗаРебенкомПрисоединенныеФайлы</content>
+  <content>Document.РешениеОВозвратеИзОтпускаПоУходуЗаРебенком</content>
+  <content>Catalog.РешенияПоКадровымИзменениямПрисоединенныеФайлы</content>
+  <content>DocumentJournal.РешенияПоКадровымИзменениям</content>
+</mdclass:FunctionalOption>

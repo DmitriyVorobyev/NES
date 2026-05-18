@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="abf57900-2400-422d-b126-93140de2bf32">
+  <producedTypes>
+    <selectionType typeId="9333e9af-937d-4dd3-8132-072bb1ea2092" valueTypeId="03e9c433-5468-432c-8cda-71604f4f9c93"/>
+    <listType typeId="76c7a248-61c0-49ed-9867-b9dde9c3b8e3" valueTypeId="51e99674-5a97-49db-b2f1-b350e10c9ebd"/>
+    <managerType typeId="1e617ae9-d151-4a8d-8f3e-942f5f87835e" valueTypeId="e34fe0bb-8a51-48f9-8af8-2ca5a9ec2372"/>
+    <recordSetType typeId="130e3dcd-f60f-48ec-acc9-2abb7ff9e926" valueTypeId="a43a7e73-6724-46f0-8eff-e3a4631b2b56"/>
+    <recordKeyType typeId="54ff1b77-3820-48a1-b966-76f2fb4c612c" valueTypeId="9acc1df5-8cd3-4053-a566-b0bb52ef0936"/>
+    <recordType typeId="615faa90-82e2-4908-88d3-4bb181e3650e" valueTypeId="80adc30f-a60d-4af0-94dc-f5f6df69ffcc"/>
+    <recordManagerType typeId="0ce93838-33c5-4bd6-9536-af93e0ca68be" valueTypeId="0969ed02-c8d2-45d2-8510-82575658c3ed"/>
+  </producedTypes>
+  <name>РасширенияПрограммМедицинскогоСтрахованияСотрудниковИспр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расширения программ медицинского страхования сотрудников (испр.)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c3d2d687-bdd7-478c-91db-50a000602e2d">
+    <name>Действует</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="02774a03-a0fa-4762-a32d-3d9c168d9667">
+    <name>ДействуетДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует до</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a9c2d243-d3b2-48c3-a4ba-70631bac7be7">
+    <name>СтраховаяПремия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страховая премия</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f2acff10-1abd-45f2-94a1-0386481d2529">
+    <name>РегистраторИзмерение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистратор измерение</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПрикреплениеКПрограммамМедицинскогоСтрахования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="754bbec6-8009-41b0-afd6-0c1be7ff0997">
+    <name>ПериодИзмерение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период измерение</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="dd259435-fcd9-4f0c-8760-2ec09f21d673">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b77d639f-110f-471d-a728-a0e571a1b7d5">
+    <name>ДоговорСтрахования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор страхования</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыСтрахования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b70f2c09-6998-4835-9528-f75adcb413eb">
+    <name>РасширениеПрограммСтрахования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширение программ страхования</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РасширенияПрограммМедицинскогоСтрахования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="557b2c06-7c06-4abc-9b7a-82355f062b62">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4078dfbb-fb57-4df4-ac02-04c15aa8ae3b">
+    <name>Родственник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родственник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РодственникиФизическихЛиц</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

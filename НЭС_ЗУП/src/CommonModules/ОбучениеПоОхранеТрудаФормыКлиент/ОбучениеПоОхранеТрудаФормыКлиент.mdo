@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89580c9e-98b4-4318-b275-32fc9da16e87">
+  <name>ОбучениеПоОхранеТрудаФормыКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обучение по охране труда формы клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

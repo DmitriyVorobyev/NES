@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f34043d0-8e47-46ac-be4f-51b9e43fc85f">
+  <producedTypes>
+    <selectionType typeId="42efc1c2-7770-450a-96a2-2b54f2a7ea76" valueTypeId="e2100e18-9205-46bc-9507-082b53840859"/>
+    <listType typeId="5f856f8f-2bc9-4946-8e0e-488e3b408b16" valueTypeId="3fee73dd-aafc-4442-a186-300b46036fe1"/>
+    <managerType typeId="ca9782fe-fedf-491e-80a0-e82032d80dd3" valueTypeId="775c93e2-d99e-4ecb-97fc-76a6b9bd665a"/>
+    <recordSetType typeId="c8d893a9-98be-4bea-a84c-f66811b4de94" valueTypeId="1718bd2f-187d-4fbb-a189-2db99c81447b"/>
+    <recordKeyType typeId="a37aa152-55e7-4b51-9b3f-a3b1b52a3ff1" valueTypeId="56f820ec-d0da-425c-8d15-cb6bb53af6c5"/>
+    <recordType typeId="2a15143a-6752-4f3a-8e3b-3a5f449a841a" valueTypeId="283e972f-403a-46b9-a2b4-f76550c295bd"/>
+    <recordManagerType typeId="3b390310-bfe2-4207-9cfa-723acb58de74" valueTypeId="9b789341-418f-447a-86de-1806a15828ab"/>
+  </producedTypes>
+  <name>СведенияОбОтправкеПриглашенийВОбсуждения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения об отправке приглашений в обсуждения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d490e52d-7615-4c30-b18f-d07af51c3e33">
+    <name>ДатаОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отправки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a5f7d788-1eb3-4cf2-a611-be32d5f78b43">
+    <name>Получатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатель</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ПолучательУведомлений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="060ec742-56f8-456f-bf5e-8a5bed69c8cf">
+    <name>ИдентификаторОбсуждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор обсуждения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

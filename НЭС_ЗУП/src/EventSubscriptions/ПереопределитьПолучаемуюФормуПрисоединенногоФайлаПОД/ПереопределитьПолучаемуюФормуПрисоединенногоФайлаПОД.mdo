@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a339aa53-f4c0-470c-af1c-0c49c91a8dac">
+  <name>ПереопределитьПолучаемуюФормуПрисоединенногоФайлаПОД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переопределить получаемую форму присоединенного файла ПОД</value>
+  </synonym>
+  <source>
+    <types>CatalogManager.ФормулярПервичногоДокументаПОДПрисоединенныеФайлы</types>
+    <types>CatalogManager.ПредставлениеФормуляраПервичногоДокументаПОДПрисоединенныеФайлы</types>
+    <types>CatalogManager.ПодписанныеДанныеПОДПрисоединенныеФайлы</types>
+    <types>CatalogManager.ДополнительноеЗаданиеПрисоединенныеФайлы</types>
+  </source>
+  <event>FormGetProcessing</event>
+  <handler>CommonModule.РаботаСФайламиКлиентСервер.ОпределитьФормуПрисоединенногоФайла</handler>
+</mdclass:EventSubscription>

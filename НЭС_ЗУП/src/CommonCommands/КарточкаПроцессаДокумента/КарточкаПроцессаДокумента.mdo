@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0c763ea-3bec-4d64-b1f8-09996b1533f3">
+  <name>КарточкаПроцессаДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процесс</value>
+  </synonym>
+  <comment>Процесс</comment>
+  <group>FormNavigationPanelGoTo</group>
+  <commandParameterType>
+    <types>DefinedType.ПредметПроцессаОбработкиДокументов</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Карточка процесса документа</value>
+  </toolTip>
+</mdclass:CommonCommand>

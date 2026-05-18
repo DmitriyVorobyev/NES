@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6fa588a-a920-4410-817c-0ccdabdab2c1">
+  <producedTypes>
+    <managerType typeId="c23c07f7-ac5f-4802-ae0c-74c260719d2a" valueTypeId="19471cfd-7042-40f1-931c-51a5425da935"/>
+    <valueManagerType typeId="dfb28c55-8cc0-4cab-a393-9d136836e052" valueTypeId="f622f8b8-829b-4e5b-b4dd-1477dec689f1"/>
+    <valueKeyType typeId="b5c22423-5d68-4e8a-b6bb-dc6069d261af" valueTypeId="cd5d0cb4-903e-4a43-a73c-ba512c6ab074"/>
+  </producedTypes>
+  <name>ИспользоватьИнтеграциюС1САналитикой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать интеграцию с 1С:Аналитикой</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Использовать интеграцию с сервисом 1С:Аналитика</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

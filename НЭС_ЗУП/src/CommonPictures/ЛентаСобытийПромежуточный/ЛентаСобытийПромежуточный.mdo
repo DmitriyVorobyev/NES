@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad875bea-3a25-4e49-9443-262325645f75">
+  <name>ЛентаСобытийПромежуточный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лента событий промежуточный</value>
+  </synonym>
+</mdclass:CommonPicture>

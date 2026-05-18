@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffd840c7-4472-4543-806c-6da9e82b7d97">
+  <producedTypes>
+    <objectType typeId="0d7dbb92-0ef1-4f9e-8930-37aaa7065ba3" valueTypeId="04171a7d-da10-4248-943b-6ac448c07055"/>
+    <managerType typeId="cadf4be6-44db-4502-b095-4f58cf393efc" valueTypeId="46dc9f32-8027-42d9-99df-77eca98ee796"/>
+  </producedTypes>
+  <name>РеестрКлючейПростыхЭлектронныхПодписейПОД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр ключей простых электронных подписей ПОД</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.РеестрКлючейПростыхЭлектронныхПодписейПОД.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="b2d412c0-2248-4290-856d-bd9d152091e8">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

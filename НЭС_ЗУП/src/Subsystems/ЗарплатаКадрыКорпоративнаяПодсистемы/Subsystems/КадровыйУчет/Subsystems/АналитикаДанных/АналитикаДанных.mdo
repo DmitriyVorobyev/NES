@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="078e4f8f-891d-402f-b5d6-2309723343ae">
+  <name>АналитикаДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аналитика данных</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.АналитикаУкомплектованностиШтата</content>
+  <content>InformationRegister.ОбновлениеАналитикиУкомплектованностиШтата</content>
+  <content>EventSubscription.ЗарегистрироватьИзменениеКадровойИсторииДляКадровыйУчетАналитикаДанных</content>
+  <content>EventSubscription.ЗарегистрироватьИзменениеШтатногоРасписанияДляАналитикиДанных</content>
+  <content>CommonModule.КадровыйУчетАналитикаДанных</content>
+  <content>InformationRegister.НастройкиАналитикиДанныхКадровогоУчета</content>
+  <content>InformationRegister.АналитикаСтажейКандидатов</content>
+  <content>InformationRegister.ОбновлениеАналитикиСтажейКандидатов</content>
+  <content>EventSubscription.ЗарегистрироватьИзменениеКандидатаДляАналитикиДанных</content>
+  <content>EventSubscription.ЗарегистрироватьИзменениеФизическихЛицКандидатовДляАналитикиДанных</content>
+  <content>EventSubscription.ЗапомнитьПрежнееЗначениеФизическогоЛицаСотрудника</content>
+  <content>EventSubscription.ЗарегистрироватьИзменениеФизическогоЛицаСотрудникаДляАналитикиДанных</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы.Subsystem.КадровыйУчет</parentSubsystem>
+</mdclass:Subsystem>

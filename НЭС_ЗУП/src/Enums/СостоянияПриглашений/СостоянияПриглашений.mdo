@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83d49ad2-5c4e-4780-a26a-a8dcca0c6945">
+  <producedTypes>
+    <refType typeId="cd1a4940-9e04-4a6b-a0b4-26889dd91176" valueTypeId="15713a0c-e325-4485-8bcc-b50361b20898"/>
+    <listType typeId="6635e957-3603-4f98-b358-a2550ab0bf58" valueTypeId="6f36fe30-ddfd-4ca6-8446-e3baafbfb787"/>
+    <managerType typeId="9f505392-7a71-430a-bd35-17242fd3842d" valueTypeId="d8a84c29-527b-4406-a55e-a0af89d6963d"/>
+  </producedTypes>
+  <name>СостоянияПриглашений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния приглашений</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="43f1f470-d808-40c0-b25d-bbf9f531df3f">
+    <name>Отправлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1f4e2188-699d-4ef4-8353-e9111978d037">
+    <name>Принято</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принято</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="16265dc4-920a-48cc-bed2-51c46d22bad9">
+    <name>Отклонено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7fbbb26a-e12d-4c73-b747-dd300301b11f">
+    <name>ПодВопросом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Под вопросом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5184b3dd-9c1e-4af9-bd2d-aeb29d227e3d">
+    <name>НеОтправлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не отправлено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

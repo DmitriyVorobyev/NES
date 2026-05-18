@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80fef47d-a7e9-43db-97a3-69f31f5bb352">
+  <producedTypes>
+    <objectType typeId="80fd2264-dd65-44e0-a2ca-edca647dbac7" valueTypeId="5b2a6df9-e176-4987-9b09-94357fcee49c"/>
+    <managerType typeId="be0a7156-853c-4d19-87e8-087d1c9dbc40" valueTypeId="824cd060-bf64-4e3f-ab11-086064c17529"/>
+  </producedTypes>
+  <name>РезультатыОпросовПоКомпетенциям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты опросов по компетенциям</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.РезультатыОпросовПоКомпетенциям.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="eaa19295-ef1b-4758-8f48-eaaed31be785">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="3e4ece88-87f5-4a3f-8f02-78575c46f22a">
+    <name>ИндивидуальнаяОценка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индивидуальная оценка</value>
+    </synonym>
+  </templates>
+  <templates uuid="7f7e4265-c179-4a04-880e-7dc7ea4cd858">
+    <name>ГрупповаяОценка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Групповая оценка</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

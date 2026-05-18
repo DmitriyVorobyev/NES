@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad647f3f-3e25-4571-ba31-493ac86d9577">
+  <producedTypes>
+    <containerType typeId="1b5aeaf4-1637-419f-9c52-2943694c048e" valueTypeId="090d698c-a396-4585-8851-99c508609bb4"/>
+  </producedTypes>
+  <name>УчастникПроцессаНаставничества</name>
+  <synonym>
+    <key>ru</key>
+    <value>Участник процесса наставничества</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ФизическиеЛица</types>
+    <types>CatalogRef.Сотрудники</types>
+    <types>CatalogRef.Кандидаты</types>
+  </type>
+</mdclass:DefinedType>

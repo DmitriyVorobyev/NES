@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34c25fe3-9dd6-419e-a06d-e67bbca012c7">
+  <producedTypes>
+    <refType typeId="1004e1d6-c926-4b23-8779-97564f0d28b6" valueTypeId="ad3f02dd-48b0-4378-8011-0c629044c205"/>
+    <listType typeId="fa52b11e-4430-4886-acf2-3dd75aba12a1" valueTypeId="5413e063-90fd-480a-a793-b047c9dd47c3"/>
+    <managerType typeId="48ed2f71-3e34-4f0e-afb1-a2b444bf86cc" valueTypeId="85fae1f6-6bd3-422b-811c-31a245f409b6"/>
+  </producedTypes>
+  <name>КонтактыРекрутинговыхСайтов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контакты рекрутинговых сайтов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2b236285-f630-4555-895c-7bce6fd0a79c">
+    <name>Telegram</name>
+    <synonym>
+      <key>ru</key>
+      <value>Telegram</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="db744124-83a4-40e5-8aef-eecc0dac42e4">
+    <name>Whatsapp</name>
+    <synonym>
+      <key>ru</key>
+      <value>WhatsApp</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="75dc63c7-d02b-4e4d-ab64-46d9e58847f7">
+    <name>Max</name>
+    <synonym>
+      <key>ru</key>
+      <value>MAX</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3938b158-43b9-4b8e-ae6d-9cd99d694df3">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

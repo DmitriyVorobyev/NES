@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5aca08f8-eecd-4380-83d5-f06d34d3930a">
+  <producedTypes>
+    <selectionType typeId="bb316b85-5ee5-4a83-ac5d-5ad078301882" valueTypeId="be3f09dc-894b-44f9-9c49-341c4930b408"/>
+    <listType typeId="0564005b-3a03-45ca-af51-22011bf56194" valueTypeId="5c9f5b72-a74a-4cd6-8601-4a50b3e71d6a"/>
+    <managerType typeId="7ac9c437-f365-4381-9edf-79af5f1a04f7" valueTypeId="251a6e32-fd00-4282-8dd4-73c2ebe07a7e"/>
+    <recordSetType typeId="6251b53b-ee98-4eb9-9c62-03dd5379d977" valueTypeId="fb3b18c5-876b-4533-b496-32fd0ae444fd"/>
+    <recordKeyType typeId="cd0c2ff5-eb98-486b-8b44-672a1a32b7c4" valueTypeId="9f617165-89ef-4e8a-bd82-56982d5121d8"/>
+    <recordType typeId="2b8aa6eb-9e19-4423-9aab-38789ecf46e6" valueTypeId="149bcee1-6163-499e-9dc4-9a6254ab2ffb"/>
+    <recordManagerType typeId="34f3e62e-28bd-404a-97ed-eb40622613c5" valueTypeId="82d99950-4e22-4c6a-8284-297b3e418cc8"/>
+  </producedTypes>
+  <name>ОбновлениеАналитикиСтажейКандидатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление аналитики стажей кандидатов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="1ae69ec0-9802-4d04-9ce1-a01b5851859c">
+    <name>Кандидат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кандидат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кандидаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

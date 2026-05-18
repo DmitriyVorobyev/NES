@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffda885d-f173-44c3-a99c-d040fe9a4a19">
+  <producedTypes>
+    <selectionType typeId="e98947c1-86e2-4478-9020-802591ee75f5" valueTypeId="c78e9144-33c4-473a-ba1d-c8be16c7500f"/>
+    <listType typeId="78d4a5b5-0e0c-4a7e-ab44-8d7a38c12308" valueTypeId="30a8a068-37c9-46db-96ce-4ba8dda2b8e0"/>
+    <managerType typeId="74796f58-aa26-41a6-bc2c-52a74fd68d5c" valueTypeId="00a95622-0fbe-48bf-89dd-3d5012c96e2f"/>
+    <recordSetType typeId="8f80e0c0-8cf8-4732-9b4f-21d96e6b523e" valueTypeId="45572e64-d049-44ef-acdc-cb4c1133d986"/>
+    <recordKeyType typeId="9f80166a-914a-4f80-b496-c98ef8c6315a" valueTypeId="9fef852f-df68-425b-bd05-5522b3b4d212"/>
+    <recordType typeId="0364f7c4-6fc9-4818-be54-dda07df4e7c8" valueTypeId="31dee2b5-824f-4a27-96e8-00a7018548ea"/>
+    <recordManagerType typeId="c201708d-b976-4d2d-a431-80ffc4142fcc" valueTypeId="752368ed-4a39-4858-8872-dad8087e86f2"/>
+  </producedTypes>
+  <name>ЗначенияДополнительныхКолонокЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения дополнительных колонок задач</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="28c8f81d-a27c-466e-96dd-05e87aec6c68">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+      <types>String</types>
+      <types>Date</types>
+      <types>Number</types>
+      <types>DocumentRef</types>
+      <types>CatalogRef</types>
+      <numberQualifiers>
+        <precision>18</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4bd09ef6-bfeb-4b45-a397-a39e57240827">
+    <name>Колонка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Колонка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДополнительныеКолонкиСписковЗадач</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d59ae8cd-ea05-4e25-b1dc-579c04359b21">
+    <name>Предмет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предмет</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ПредметПроцессаОбработкиДокументов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

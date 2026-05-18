@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd0b6a81-4cfe-49c0-94fb-fbcc7af51e9e">
+  <producedTypes>
+    <refType typeId="635ebfac-bb81-4b9d-869e-894db8c7d6c5" valueTypeId="baecc252-9961-49f4-a47f-26146d5d4d13"/>
+    <listType typeId="ed5defb2-0d54-40b4-bf4a-5a51f13c29b5" valueTypeId="75b78f79-f76a-44bd-a562-041ffe57731d"/>
+    <managerType typeId="5b0d65b1-fbfc-4e90-8480-f2f1c6f60a45" valueTypeId="e6ab443d-2e8c-43f6-a0dc-1aad760628ea"/>
+  </producedTypes>
+  <name>ДанныеЗастрахованных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные застрахованных</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a2919ce7-b723-4ba8-83aa-1a5817585648">
+    <name>ДатаРождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата рождения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b961fb1f-805f-492a-acf3-2dd58199a013">
+    <name>СтраховойНомерПФР</name>
+    <synonym>
+      <key>ru</key>
+      <value>СНИЛС</value>
+    </synonym>
+    <comment>АПК:58 Различия имени и синонима оправданы</comment>
+  </enumValues>
+  <enumValues uuid="2b240e58-fa84-499a-ab8f-e36e4acf5d6b">
+    <name>Пол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пол</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1baa7053-fdfb-4ebf-9e29-34f8083d2f41">
+    <name>Страна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гражданство</value>
+    </synonym>
+    <comment>АПК:58 Различия имени и синонима оправданы</comment>
+  </enumValues>
+  <enumValues uuid="c01e8938-ce77-4330-bb1d-e7837afecc8a">
+    <name>ДокументУдостоверяющийЛичность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ удостоверяющий личность</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

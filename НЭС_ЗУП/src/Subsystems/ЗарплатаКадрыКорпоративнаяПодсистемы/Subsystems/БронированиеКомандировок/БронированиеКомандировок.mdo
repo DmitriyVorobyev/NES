@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5430e0c3-d019-46a8-a44f-f0ffb00869a2">
+  <name>БронированиеКомандировок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бронирование командировок</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DataProcessor.ЗагрузкаКомандировокИзСистемыБронирования</content>
+  <content>InformationRegister.КомандировкиВСистемеБронирования</content>
+  <content>Role.ИспользованиеОбработкиЗагрузкаКомандировокИзСистемыБронирования</content>
+  <content>CommonPicture.ВидыУслугБронированияКомандировок</content>
+  <content>EventSubscription.ПроверитьЗаявкуНаБронированиеКомандировки</content>
+  <content>EventSubscription.ЗарегистрироватьИзменениеЗаявкиНаБронированиеКомандировки</content>
+  <content>StyleItem.ПодсказкаСозданияНовойКомандировкиЦвет</content>
+  <content>StyleItem.ПоездкаОтмененаЦвет</content>
+  <content>CommonModule.БронированиеКомандировокСборСтатистики</content>
+  <content>CommonModule.БронированиеКомандировокКорпоративный</content>
+  <content>FunctionalOption.ИспользоватьБронированиеКомандировокКорпоративная</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

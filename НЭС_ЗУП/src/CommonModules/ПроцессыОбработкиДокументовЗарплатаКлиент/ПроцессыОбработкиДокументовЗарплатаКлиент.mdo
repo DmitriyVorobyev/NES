@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8464f11d-5260-4e1d-b40d-eff4d3ba5ec4">
+  <name>ПроцессыОбработкиДокументовЗарплатаКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процессы обработки документов зарплата клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

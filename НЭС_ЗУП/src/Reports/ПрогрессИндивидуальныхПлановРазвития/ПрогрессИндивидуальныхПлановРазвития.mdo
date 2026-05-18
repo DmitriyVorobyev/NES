@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da6e43fc-0339-4bf9-9c5e-b013952e1893">
+  <producedTypes>
+    <objectType typeId="91e60cfc-9358-4f78-b794-8c8da7acbf79" valueTypeId="8e401bef-f111-4e75-accb-c53b94c37e9d"/>
+    <managerType typeId="15796e16-25ea-4c04-900d-06f158cf5e3f" valueTypeId="276d1f10-56f6-4a36-bbcc-1f542c3799f3"/>
+  </producedTypes>
+  <name>ПрогрессИндивидуальныхПлановРазвития</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прогресс индивидуальных планов развития</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ПрогрессИндивидуальныхПлановРазвития.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <explanation>
+    <key>ru</key>
+    <value>Анализ индивидуальных планов развития</value>
+  </explanation>
+  <templates uuid="603bf8f5-b98b-46a3-a8ae-8595948a1bfd">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

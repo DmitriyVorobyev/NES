@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06baf2ca-462a-48b9-840b-4945762e2392">
+  <producedTypes>
+    <containerType typeId="55511a93-1f78-4edf-9d68-82c5bb665dc4" valueTypeId="cff1d922-5709-449b-9f17-3de835d80cd1"/>
+  </producedTypes>
+  <name>ВладелецЭлектронногоКурса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Владелец электронного курса</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+  </type>
+</mdclass:DefinedType>

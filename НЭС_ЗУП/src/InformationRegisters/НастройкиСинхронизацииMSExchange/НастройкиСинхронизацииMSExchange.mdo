@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="efedcbc8-ef79-4605-988b-56799fad44cd">
+  <producedTypes>
+    <selectionType typeId="e2bb3395-9e0f-4a27-b766-443b6f556418" valueTypeId="8f28931d-7fff-4d47-a816-ca85026988c0"/>
+    <listType typeId="e5b7196e-9cfd-4049-80d1-e688f3c6a0c2" valueTypeId="54cc9afc-56dc-417f-bfa5-df62b3370d0e"/>
+    <managerType typeId="cb024807-6f14-4093-aea1-397421d1627c" valueTypeId="e6cc39d4-f50e-4b55-9a30-0e9c3205e642"/>
+    <recordSetType typeId="be053bfc-7393-4476-8ad7-f7c1fa9fdbf4" valueTypeId="4ab82c5b-0941-4d98-b673-f4e2cfbb6e50"/>
+    <recordKeyType typeId="05062221-6a77-4c2f-a277-b2ae2d95815b" valueTypeId="061ce216-aeca-41a9-85ee-36c44fd08e50"/>
+    <recordType typeId="4e2703b5-c855-49d2-9ca3-c2c20a65dd46" valueTypeId="88e8dcbb-ae91-49d9-a095-b686a0967f10"/>
+    <recordManagerType typeId="21a8c4a2-aa81-4602-b2a6-635702dc4938" valueTypeId="8a32000c-f5f9-4767-9213-34f637f6369d"/>
+  </producedTypes>
+  <name>НастройкиСинхронизацииMSExchange</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки синхронизации Microsoft Exchange</value>
+  </synonym>
+  <comment>АПК:58 полное наименование слишком длинное</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.НастройкиСинхронизацииMSExchange.Form.НастройкаПодключенияMSExchange</defaultRecordForm>
+  <defaultListForm>InformationRegister.НастройкиСинхронизацииMSExchange.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Учетная запись Microsoft Exchange</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Учетные записи Microsoft Exchange</value>
+  </listPresentation>
+  <resources uuid="880c88b0-1518-47d1-8b13-45f4daa4bae3">
+    <name>СерверMSExchange</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер Microsoft Exchange</value>
+    </synonym>
+    <comment>АПК:58 полное наименование слишком длинное</comment>
+    <type>
+      <types>CatalogRef.СерверыMSExchange</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="25bbd127-b173-4581-bc34-d16045a4f652">
+    <name>ИмяПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="0ec1f79a-ee86-4b1e-a191-535df0dc7984">
+    <name>Узел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.СинхронизацияКалендарей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="333e5bfb-8ae5-4e07-857b-1e3eeea63b01">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6563f1f6-d4f6-4e14-9384-b8dd4b16f9c6">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="be88661d-bfd6-44a5-ab94-255946347638">
+    <name>НастройкаПодключенияMSExchange</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка подключения Microsoft Exchange Server</value>
+    </synonym>
+    <comment>АПК:58 полное наименование слишком длинное</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="6ccc0ca4-9541-4931-a53a-6fb348f45e95">
+    <name>ПроверитьСоединение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверить соединение</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>ExchangePlanRef.СинхронизацияКалендарей</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

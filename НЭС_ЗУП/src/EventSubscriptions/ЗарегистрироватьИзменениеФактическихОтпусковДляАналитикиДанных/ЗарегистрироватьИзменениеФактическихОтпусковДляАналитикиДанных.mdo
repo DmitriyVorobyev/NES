@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7d27691-d855-4104-9bf1-2fe9ea6c1b0f">
+  <name>ЗарегистрироватьИзменениеФактическихОтпусковДляАналитикиДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарегистрировать изменение фактических отпусков для аналитики данных</value>
+  </synonym>
+  <source>
+    <types>AccumulationRegisterRecordSet.ФактическиеОтпуска</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ОстаткиОтпусковАналитикаДанных.ЗарегистрироватьИзменениеФактическихОтпусковДляАналитикиДанныхПриЗаписи</handler>
+</mdclass:EventSubscription>

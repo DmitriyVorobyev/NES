@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="103c1886-3721-42f8-be59-bf693de45d10">
+  <name>СинхронизацияMSExchange</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация Microsoft Exchange</value>
+  </synonym>
+  <comment>АПК:58 полное наименование слишком длинное</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.СинхронизацияMSExchange</content>
+  <content>DataProcessor.СинхронизацияMSExchange</content>
+  <content>Enum.ВерсииСерверовMSExchange</content>
+  <content>Catalog.СерверыMSExchange</content>
+  <content>InformationRegister.НастройкиСинхронизацииMSExchange</content>
+  <content>CommonModule.СинхронизацияMSExchangeКлиент</content>
+  <content>FunctionalOption.ИспользоватьСинхронизациюMSExchange</content>
+  <content>Constant.ИспользоватьСинхронизациюMSExchange</content>
+  <content>CommonModule.СинхронизацияMSExchangeВызовСервера</content>
+  <content>CommonCommand.НастройкаСинхронизацииMSExchange</content>
+  <content>Role.ИспользованиеСинхронизацииMSExchange</content>
+  <content>Role.НастройкаСинхронизацииMSExchange</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

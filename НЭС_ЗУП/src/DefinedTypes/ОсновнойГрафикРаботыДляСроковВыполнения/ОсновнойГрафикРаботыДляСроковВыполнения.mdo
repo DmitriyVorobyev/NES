@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49dc333f-4437-42bd-8bb2-c5ae5b8e360c">
+  <producedTypes>
+    <containerType typeId="d8d750f6-0890-4fc0-9671-ebe2a8ac54e0" valueTypeId="3798e666-1ce7-410e-b396-c16036e5930a"/>
+  </producedTypes>
+  <name>ОсновнойГрафикРаботыДляСроковВыполнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основной график работы для сроков выполнения</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

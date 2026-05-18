@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="696c0fb7-ce60-444a-b80e-a46f11750f53">
+  <producedTypes>
+    <refType typeId="71b36669-ecc7-4766-865a-3864ec175c18" valueTypeId="c6720412-7372-41ad-8643-d33004125e20"/>
+    <listType typeId="1dd92e03-e1a1-41af-9296-de1ddfda1ac0" valueTypeId="85d44942-bb5b-4839-966a-368c019520ed"/>
+    <managerType typeId="574a016d-e269-49c9-a195-8206e48b1507" valueTypeId="f9474da6-be0f-4951-97dc-d2369440886f"/>
+  </producedTypes>
+  <name>СостоянияРегламентныхИнтервалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния регламентных интервалов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="104710e6-42ad-45fd-bc62-be20b085249d">
+    <name>Активен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e5abeabc-6832-4d55-9c8f-5a33433f28b0">
+    <name>Выполнен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0726f2b0-077d-45c8-9bfc-317c3924130b">
+    <name>Прерван</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прерван</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

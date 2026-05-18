@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="068d6cda-d15c-4290-a9d2-114964fbf9e4">
+  <producedTypes>
+    <managerType typeId="48e0e4ea-bd13-43d5-9526-19f181afbc0d" valueTypeId="4f5f1826-7771-49bd-af25-f5fa0e3a2780"/>
+    <valueManagerType typeId="94d59c47-7aa3-4834-b239-f67298db1f78" valueTypeId="b655e728-8e2c-4a92-aa84-f8eef27ab56f"/>
+    <valueKeyType typeId="6667d9a1-af9e-5341-a202-c96cfc4e352e" valueTypeId="4d92075f-d6a7-5c21-9a75-4596b56cf7b4"/>
+  </producedTypes>
+  <name>ПроверятьПодписанныеДанныеПриОчередномПодписании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверять подписанные данные при очередном подписании</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

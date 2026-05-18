@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e96942b2-ae1b-4de9-873d-0b7b4d70f792">
+  <producedTypes>
+    <managerType typeId="eda96659-5907-4cf0-accf-563253a313e7" valueTypeId="dd106f75-acb3-4837-bc45-961c716ffc2b"/>
+    <valueManagerType typeId="6dadaed8-cd3e-493b-a130-d609e8ef39e9" valueTypeId="cbbb7fd4-ad93-4a95-9784-0d88323f6ca9"/>
+    <valueKeyType typeId="e4a8212e-8d66-4cc9-a740-8ca720d6a845" valueTypeId="067d9983-91f1-4994-83bf-953c53cb3b55"/>
+  </producedTypes>
+  <name>ГруппаДоступаЭксперта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группа доступа эксперта</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ГруппыДоступа</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

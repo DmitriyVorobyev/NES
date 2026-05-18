@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ea9d2c9-53ad-4e45-adb5-116521c4bc09">
+  <producedTypes>
+    <managerType typeId="ec42389d-3a18-4df7-b2b3-2abe60355c21" valueTypeId="e2c09409-2c76-4b04-bb7b-42e661b303d0"/>
+    <valueManagerType typeId="c554d484-93be-4980-b274-bbba49bfd1c2" valueTypeId="23d7b944-6bb6-45a5-96ac-5ab43d28a381"/>
+    <valueKeyType typeId="5229bdcc-6da3-45db-ba07-ed3dbc474922" valueTypeId="1d1d7c72-1d1e-44c7-a049-ef1c45348539"/>
+  </producedTypes>
+  <name>СпособКонтроляУникальностиНомеровРабочихМест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ контроля уникальности номеров рабочих мест</value>
+  </synonym>
+  <type>
+    <types>EnumRef.СпособыКонтроляУникальностиНомеровРабочихМест</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

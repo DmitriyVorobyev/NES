@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66fe2f18-619d-4e42-b3ff-6638c7a889e4">
+  <name>РедактированиеИндивидуальногоПланаРазвитияСЛюбымСтатусом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактирование индивидуального плана развития с любым статусом</value>
+  </synonym>
+</mdclass:Role>

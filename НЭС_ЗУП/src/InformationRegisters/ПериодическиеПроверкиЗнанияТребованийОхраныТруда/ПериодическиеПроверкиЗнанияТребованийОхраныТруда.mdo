@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ced88287-0574-4e8d-a80f-0bdc8521efea">
+  <producedTypes>
+    <selectionType typeId="be85d06b-cf32-46cd-87a4-6ba3b3299996" valueTypeId="ccde9bf4-908a-43d4-98c5-ca3486efc183"/>
+    <listType typeId="51ddc5bf-9a2f-457e-9bec-f87657bb0ad5" valueTypeId="59c3d364-f6de-4c83-a762-563d8938e3a2"/>
+    <managerType typeId="8f201da1-8b9c-42af-a099-eb8c0076100c" valueTypeId="30fd204c-9d95-4667-a359-77e4ccbf92e5"/>
+    <recordSetType typeId="41dc6e41-e694-4338-8d18-97a73ef40460" valueTypeId="0a0c331c-58b9-4b00-8eb4-2adc53d10969"/>
+    <recordKeyType typeId="e34a30ea-4cf8-4366-92d2-50b26f4bda9b" valueTypeId="906c824f-b533-4359-8087-23111523cc2f"/>
+    <recordType typeId="e8ffc3e0-2233-4d64-8c73-aea5aafe6fa8" valueTypeId="b84f2555-4fbb-41dd-8eb7-19dd1111ac11"/>
+    <recordManagerType typeId="ee02d549-0928-4c27-9835-c8d6d73d3f4b" valueTypeId="8500195e-5a9f-49b2-9853-295337b8d55e"/>
+  </producedTypes>
+  <name>ПериодическиеПроверкиЗнанияТребованийОхраныТруда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периодические проверки знания требований охраны труда</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="10944df0-cd03-4aba-a311-6385c3692c37">
+    <name>РезультатОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат обучения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РезультатыПроверкиЗнанияПоОхранеТруда</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9d52de72-3f07-47c2-9d4d-9cd218b9ed84">
+    <name>ДатаПройденнойПроверкиЗнания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата пройденной проверки знания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="3f5940ac-072a-45a2-80e1-0aa947a68897">
+    <name>Обучение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обучение</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ОбучениеСотрудниковОхранеТруда</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="216cde48-6d1b-4432-bc6d-388823803f8e">
+    <name>Проверка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПроверкаЗнанияТребованийОхраныТруда</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="69f7e992-b91e-4767-8de9-73d78f0607b7">
+    <name>ДатаУвольнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата увольнения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="b4b87b95-5cbf-42e8-ac32-139cf7f3664c">
+    <name>ДатаСледующейПроверкиЗнания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата следующей проверки знания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b8dc333e-5905-4515-ace5-62ba168fa16b">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b02edf18-e4c7-4d4d-94ff-1cc6fc622b0d">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеМестаОхраныТруда</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d64ef6f4-9fff-420c-9d2c-aa525ee89446">
+    <name>ГоловнаяОрганизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Головная организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="eb777a36-9efc-4f14-a7f3-8b750678e1b6">
+    <name>ПрограммаОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Программа обучения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПрограммыОбученияСотрудниковПоОхранеТруда</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

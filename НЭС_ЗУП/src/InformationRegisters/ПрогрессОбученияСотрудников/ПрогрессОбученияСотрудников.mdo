@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef0125b2-42fc-4a7f-b370-fc66a9d63f6c">
+  <producedTypes>
+    <selectionType typeId="4ab4626f-3efa-451d-96f0-2e33b565a85d" valueTypeId="13566266-2efa-469d-830a-c344b4d85fa6"/>
+    <listType typeId="c8646d49-2511-4d31-8651-de339d89b6d1" valueTypeId="89994d9c-b9b9-44da-91bc-fa9246635770"/>
+    <managerType typeId="7f84e4ef-8b54-4ca2-bbb3-4bb46067cb38" valueTypeId="3535d86c-5cc7-4fa9-989f-e0dd0a381daa"/>
+    <recordSetType typeId="f564f225-fe3a-4485-8269-c1b8ce3eecd4" valueTypeId="b923ded4-a124-4331-9180-90587596ceb0"/>
+    <recordKeyType typeId="2870730b-4d2d-4282-8493-e4c4bc75a9fb" valueTypeId="3bbac51b-53e7-4100-ba1a-423b75424c48"/>
+    <recordType typeId="40aa7b70-1402-426b-a1b2-816c90274a19" valueTypeId="ef48bf10-bb66-4dfa-8e6a-3e1331a1c6ab"/>
+    <recordManagerType typeId="3b9ea17c-e7f7-490e-80ed-bdb518fe0c2e" valueTypeId="57331423-122e-4f8c-b3a8-d771b3ecddde"/>
+  </producedTypes>
+  <name>ПрогрессОбученияСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прогресс обучения сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e6c830b7-4397-4366-a195-b4d1b100c6b8">
+    <name>Прогресс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прогресс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЗначенияПрогрессаОбучения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8cb3c239-b446-4084-8c3d-51e0179b6ff8">
+    <name>РегистраторПрогресса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистратор прогресса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИндивидуальныйПланРазвития</types>
+      <types>DocumentRef.ОбучениеРазвитиеСотрудников</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ea5ede96-6f2b-40e5-a6c2-99116b047e27">
+    <name>Мероприятие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мероприятие</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МероприятияОбученияРазвития</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3bad2b1b-732b-4be1-8cc8-9afbc62bd837">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="178a5bfa-c006-4b35-a470-c2d2c474492b">
+    <name>НомерПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер периода</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

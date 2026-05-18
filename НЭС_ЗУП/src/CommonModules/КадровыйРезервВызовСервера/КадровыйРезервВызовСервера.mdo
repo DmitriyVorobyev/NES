@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60a8e70f-8847-4216-808a-8234c7f0ca8c">
+  <name>КадровыйРезервВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровый резерв вызов сервера</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

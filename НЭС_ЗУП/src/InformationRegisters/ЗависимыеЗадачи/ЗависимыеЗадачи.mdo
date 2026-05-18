@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29314a57-9a65-469c-9a6c-2c5812184eea">
+  <producedTypes>
+    <selectionType typeId="0f36ea30-1152-43fc-8ac5-5817bc2942c8" valueTypeId="905eb593-8f3a-4270-aee4-c5436e396ddf"/>
+    <listType typeId="37338ec9-b356-4d83-8781-16d992ce2a94" valueTypeId="1bd69ea8-12cf-4379-9518-61acb6b5a5b3"/>
+    <managerType typeId="e654bf4d-7f11-480f-ba88-a1ac52500177" valueTypeId="2e15f315-e5a8-42f4-8208-c37fd81eea31"/>
+    <recordSetType typeId="ce7b3e6f-1399-4693-90ae-320c21c01654" valueTypeId="954ad56d-ec1e-49fb-a566-898a597b58d7"/>
+    <recordKeyType typeId="3c843c4e-f775-4aa9-8d63-1bc02f600311" valueTypeId="83e10467-08df-486b-8fcf-d43b4cf6be5c"/>
+    <recordType typeId="4e625d1f-e93f-4667-b5a1-929ad07d0eaa" valueTypeId="3ac7d487-56ea-4228-9e62-6920213287c5"/>
+    <recordManagerType typeId="5dee6dd5-cf58-4208-9af6-985ef4f430b9" valueTypeId="d061c970-e057-4efa-9d21-2871182a5c32"/>
+  </producedTypes>
+  <name>ЗависимыеЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зависимые задачи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Регистр хранит связь влияющих и зависимых задач, которые были выполнены согласно настройкам влияния в шаблоне. При отмене выполнения влияющей задачи также следует отменить выполнение выполненных зависимых задач.</value>
+  </explanation>
+  <dimensions uuid="68065026-6b0f-436e-a9bc-22c89923bb8a">
+    <name>ВлияющаяЗадача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Влияющая задача</value>
+    </synonym>
+    <type>
+      <types>TaskRef.ЗадачаПоОбработкеДокумента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6c423010-c03c-4d07-969c-1955e70dd48c">
+    <name>ЗависимаяЗадача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зависимая задача</value>
+    </synonym>
+    <type>
+      <types>TaskRef.ЗадачаПоОбработкеДокумента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

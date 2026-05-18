@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="923a34fe-0c92-4cd6-bece-510cc11ca41c">
+  <producedTypes>
+    <selectionType typeId="396bbb74-04f3-4f39-a317-f7075eb0f2f6" valueTypeId="5c547ba7-7fda-48c9-a280-9d27c502d38d"/>
+    <listType typeId="654b54ea-ffc1-4688-9f5a-b0f8284e05d6" valueTypeId="2b137444-6502-4fc1-82f5-e4ba1ea855b2"/>
+    <managerType typeId="86881123-efc4-404e-a0db-9d3fae412782" valueTypeId="9f20bf8a-ac84-451d-9d43-55ecc4ebed5f"/>
+    <recordSetType typeId="1bf500f8-18ca-46e6-8ed7-fe787d55fa8b" valueTypeId="5ac3bed2-b675-4498-9a79-a63130c6eeb9"/>
+    <recordKeyType typeId="9b946fc7-7490-4c46-b78e-3f5156c22d3b" valueTypeId="7869ce35-df2e-4acc-a38e-2d95d72830c3"/>
+    <recordType typeId="d080f678-4a3b-43b5-bccd-111578221fc0" valueTypeId="6e071a6a-16af-4feb-9d6a-599765b16226"/>
+    <recordManagerType typeId="c56c5bdb-3047-460a-8630-b6d462df7784" valueTypeId="199eacec-851d-45c7-9ffd-eb0c970cdb2f"/>
+  </producedTypes>
+  <name>УдалитьНастройкиУдержанийМедицинскогоСтрахования</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не использовать) Настройки удержаний медицинского страхования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9d2409f3-e414-473e-9213-7b99dc575ab2">
+    <name>Удержание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удержание</value>
+    </synonym>
+    <type>
+      <types>ChartOfCalculationTypesRef.Удержания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3125a92a-c9d5-4bc6-be71-c5b8eba3e344">
+    <name>СпособУдержания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ удержания</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыУдержанияМедицинскогоСтрахованияСотрудников</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b88f7582-d0f2-4f86-9427-003c763bdad4">
+    <name>УдержаниеЗаСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удержание за сотрудника</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8258881f-e636-4773-87d6-9c603b928029">
+    <name>УдержаниеЗаРодственников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удержание за родственников</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="74a76e8b-32d3-4443-91d3-c888e585687e">
+    <name>ПрименяетсяЧастичноеУдержание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Применяется частичное удержание</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7e113b08-e7fa-426b-9e5e-5d20d2b60018">
+    <name>ПроцентЧастичногоУдержания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент частичного удержания</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="cd959954-20cf-4403-b517-6938c9043c5d">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4a22a884-88d8-444b-ae20-3f52f2b4e146">
+    <name>СтраховаяКомпания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страховая компания</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

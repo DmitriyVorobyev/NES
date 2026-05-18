@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f18b74c-c2c0-4578-959f-0e164ec43771">
+  <producedTypes>
+    <objectType typeId="c3d3c395-d55f-4b8a-a053-e40076e7b529" valueTypeId="65bb7ed8-54b5-4041-8d63-41d945eba92e"/>
+    <managerType typeId="9f19a2bb-3b53-4f4c-a1ab-b9a5dde3d616" valueTypeId="60ca8551-9af6-45bb-8c7c-1fd2328d523a"/>
+  </producedTypes>
+  <name>ИмпортЭкспортШаблоновПроцессов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Импорт / экспорт шаблонов процессов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИмпортЭкспортШаблоновПроцессов.Form.Форма</defaultForm>
+  <forms uuid="439db8ce-9301-4721-a79a-f2d4768a8953">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

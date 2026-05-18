@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="337d0c27-e29a-4bdd-81d0-80659cb320d9">
+  <producedTypes>
+    <managerType typeId="4850b2fc-7005-4837-8f92-0f175150cc9e" valueTypeId="90762d04-4fce-42ab-b11b-292a65c89c0f"/>
+    <valueManagerType typeId="abec4bf1-5aa0-42c7-bfaa-4c99b37edd0c" valueTypeId="3087795e-6179-4d98-a881-31597c6ca70f"/>
+    <valueKeyType typeId="230dd125-ade3-5096-86a7-caf1b0622040" valueTypeId="58110046-bed5-5a57-8930-aa55496f3740"/>
+  </producedTypes>
+  <name>ИспользоватьЭППриВыполненииЭтапов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать усиленные ЭП при выполнении этапов</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

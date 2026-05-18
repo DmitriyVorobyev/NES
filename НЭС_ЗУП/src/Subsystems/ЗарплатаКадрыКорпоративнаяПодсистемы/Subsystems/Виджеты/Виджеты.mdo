@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7c140b6-6b89-4d2d-aa0a-beb6396957d2">
+  <name>Виджеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виджеты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.ГруппыВиджетов</content>
+  <content>Catalog.Виджеты</content>
+  <content>CommonModule.РаботаСВиджетами</content>
+  <content>FunctionalOption.ИспользоватьВиджеты</content>
+  <content>Catalog.ПоказателиВиджетов</content>
+  <content>Role.ЧтениеВиджетов</content>
+  <content>Role.ДобавлениеИзменениеВиджетов</content>
+  <content>CommonModule.РаботаСВиджетамиКлиент</content>
+  <content>Enum.ДействияВиджетов</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

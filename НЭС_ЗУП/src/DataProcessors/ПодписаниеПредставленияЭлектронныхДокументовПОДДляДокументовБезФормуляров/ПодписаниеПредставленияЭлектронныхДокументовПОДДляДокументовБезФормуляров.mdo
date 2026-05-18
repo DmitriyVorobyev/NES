@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b7a7e9d-0461-4ff8-b1a1-8fd874c52c49">
+  <producedTypes>
+    <objectType typeId="03f89a83-3bbf-4ef9-97cb-333f654efc65" valueTypeId="182ca5d3-6b75-4a78-8a4e-b5e17cfd9686"/>
+    <managerType typeId="6382031e-c9e1-403b-9a3f-abd6e8a8c6ea" valueTypeId="03fd4769-adc9-4361-9cf5-963ed9954b65"/>
+  </producedTypes>
+  <name>ПодписаниеПредставленияЭлектронныхДокументовПОДДляДокументовБезФормуляров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подписание представления ЭД для документов без формуляров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПодписаниеПредставленияЭлектронныхДокументовПОДДляДокументовБезФормуляров.Form.Форма</defaultForm>
+  <attributes uuid="232d3d72-e5a7-48ab-92ad-0ede49e5dfd5">
+    <name>КоличествоДокументовНаПодпись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество документов на подпись</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="735373a6-07a6-4569-ab9d-3acc85247f26">
+    <producedTypes>
+      <objectType typeId="4f9ae605-253d-42d7-8774-b57d5b956459" valueTypeId="667302c8-95a0-4c7f-ace7-6dad6d8abbcf"/>
+      <rowType typeId="02c3d041-7586-4324-8d6c-357a54af0c0f" valueTypeId="364a3292-b64b-4f67-b72e-e67584bb21c7"/>
+    </producedTypes>
+    <name>ДокументыНаПодпись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документы на подпись</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="3754ab08-223a-44bd-b245-ca052fecd18f">
+      <name>ПредставлениеФормуляра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление формуляра</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ПредставлениеФормуляраПервичногоДокументаПОД</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="175dbcb2-e545-41d1-8d0d-93b180c73406">
+      <name>ОсновнойФайл</name>
+      <synonym>
+        <key>ru</key>
+        <value>Основной файл</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПредставлениеФормуляраПервичногоДокументаПОДПрисоединенныеФайлы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="27289f47-c853-4261-b585-c45af6c534b4">
+      <name>Предмет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Предмет</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ПредметПроцессаОбработкиДокументов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c74be932-6603-4df9-bfd2-82ef91c1438a">
+      <name>ФорматФайла</name>
+      <synonym>
+        <key>ru</key>
+        <value>Формат файла</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>3</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="179bc684-9527-4a2e-a9f7-0a1da7f1200c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

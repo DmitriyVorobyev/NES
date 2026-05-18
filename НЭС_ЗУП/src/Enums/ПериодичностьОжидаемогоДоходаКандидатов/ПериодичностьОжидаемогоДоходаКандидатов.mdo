@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a563c746-7414-4703-ba0f-50e7d6196d88">
+  <producedTypes>
+    <refType typeId="4e6b9a1b-9c98-4848-ba7d-ca879f659f28" valueTypeId="d51a294b-69d0-41d2-8378-70367bf1c1b0"/>
+    <listType typeId="b1179c63-9d54-497e-95a4-7b9f33f9511f" valueTypeId="e6ee3751-134e-43d0-9a7a-0a5469713c79"/>
+    <managerType typeId="8ff4dc3c-3d8b-4c47-af35-bd729f585e4f" valueTypeId="baaf3c64-c7f3-4192-90db-6c13bedcd063"/>
+  </producedTypes>
+  <name>ПериодичностьОжидаемогоДоходаКандидатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периодичность ожидаемого дохода кандидатов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cff2df19-ce91-4800-8239-9ea1bb1c70b6">
+    <name>Час</name>
+    <synonym>
+      <key>ru</key>
+      <value>в час</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="617088c3-1e92-4d12-97c9-d89447aa806a">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>в месяц</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="17dd5520-dbd2-4b70-aef7-973d479cd097">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>в год</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

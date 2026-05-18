@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="688c34dd-0fc5-40ee-914b-3ab9d0b25f2a">
+  <name>ИнтеграцияРаботаРу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция Работа.ру</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DataProcessor.ИнтеграцияРаботаРу</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы.Subsystem.ИнтеграцияРекрутинговыхСайтов</parentSubsystem>
+</mdclass:Subsystem>

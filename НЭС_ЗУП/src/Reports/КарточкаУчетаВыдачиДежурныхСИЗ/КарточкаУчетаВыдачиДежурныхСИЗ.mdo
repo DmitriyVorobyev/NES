@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1dcf030-2eb7-46cc-b858-157f59ea71ff">
+  <producedTypes>
+    <objectType typeId="21968162-1384-495f-b9ea-1dc9e546fd87" valueTypeId="7d88063c-063e-490d-89ac-c14f2d0e3fba"/>
+    <managerType typeId="dad6ba6c-e280-4684-b7d0-74279dc5dfd3" valueTypeId="af0c29d1-7cf9-4614-80f8-578e3dbcec91"/>
+  </producedTypes>
+  <name>КарточкаУчетаВыдачиДежурныхСИЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Карточка учета выдачи дежурных СИЗ</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.КарточкаУчетаВыдачиДежурныхСИЗ.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="0b1f5ebd-c70a-42fe-b368-632e1d5e2cb1">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="164fde4b-8a15-4945-bf2f-7465ebf69578">
+    <name>ПФ_MXL_КарточкаУчетаВыдачиДежурныхСИЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка учета выдачи дежурных СИЗ</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

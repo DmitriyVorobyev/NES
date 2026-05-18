@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5232790e-cd45-4348-a461-577c8f7a8b42">
+  <name>ИспользоватьПрогрессОбучения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать прогресс обучения</value>
+  </synonym>
+  <location>InformationRegister.НастройкиОбученияРазвития.Resource.ИспользоватьПрогрессОбучения</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Report.ПрогрессИндивидуальныхПлановРазвития</content>
+  <content>Catalog.ЗначенияПрогрессаОбучения</content>
+</mdclass:FunctionalOption>

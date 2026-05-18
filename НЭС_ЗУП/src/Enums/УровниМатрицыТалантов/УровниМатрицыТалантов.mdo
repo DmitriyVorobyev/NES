@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="254bb7e2-e1b4-4ef0-b7a9-83b483858bc3">
+  <producedTypes>
+    <refType typeId="d69b5b82-b9b4-4e73-bf43-fbb472f146a4" valueTypeId="3a313325-5dcc-4c12-bf74-c2e72c6ac06e"/>
+    <listType typeId="98d796e6-806a-4f27-a8ca-276a2c8ecf0c" valueTypeId="e5d52443-696c-4ffe-abaa-7b0173d2aaec"/>
+    <managerType typeId="0cc20ad2-fc1c-4cac-9647-e161375cd087" valueTypeId="e92a5a4c-4c79-4746-8ca9-4f52c105c844"/>
+  </producedTypes>
+  <name>УровниМатрицыТалантов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уровни матрицы талантов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6c1944aa-24cf-4684-9280-c0ee5c146691">
+    <name>Уровень1C</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень 1C</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4b4d02c0-4fb9-40da-b23f-23aeea0d32ef">
+    <name>Уровень1B</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень 1B</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c160327a-9f8b-43fe-b4d5-5beebe3ea929">
+    <name>Уровень1A</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень 1A</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e3f38588-91c0-4336-806c-4b27cd4dcb41">
+    <name>Уровень2C</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень 2C</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cb16ab64-b846-4955-b679-f9148181982e">
+    <name>Уровень2B</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень 2B</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cfebbe44-aef2-4d57-a844-1a7794b38083">
+    <name>Уровень2A</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень 2A</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e7fd889a-86bb-42a1-8941-8f3566bd2551">
+    <name>Уровень3C</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень 3C</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a6533963-379d-4523-9643-29490d6adf87">
+    <name>Уровень3B</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень 3B</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="55b84831-1745-4923-8167-20729cd7babc">
+    <name>Уровень3A</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень 3A</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

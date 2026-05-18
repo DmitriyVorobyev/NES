@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4913ba0-86e7-4c11-8e71-c5f53aead02a">
+  <producedTypes>
+    <managerType typeId="305e4a55-94e9-4a4f-affc-c30be6a24528" valueTypeId="2999399b-515b-4c21-b83d-98a5d9245717"/>
+    <valueManagerType typeId="d2042b0f-600e-44fe-bdaf-144e5cfd47d9" valueTypeId="b1e6a990-a349-41c2-8034-26177b22b916"/>
+    <valueKeyType typeId="3f91ef8b-8695-4e4d-a6a4-a95be0b768de" valueTypeId="7a903aa6-9aa9-45a2-abca-c2767c2843b2"/>
+  </producedTypes>
+  <name>ИспользоватьЗагрузкуКандидатовИзИнтернета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать загрузку кандидатов из Интернета</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

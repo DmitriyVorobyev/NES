@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5c2554d-3430-44bc-ad96-90fe39c7400c">
+  <name>Видеоконференции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Видеоконференции</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.Видеоконференции</content>
+  <content>CommonModule.ВидеоконференцииВнутренний</content>
+  <content>CommonModule.ВидеоконференцииВызовСервера</content>
+  <content>CommonModule.ВидеоконференцииКлиент</content>
+  <content>CommonModule.ВидеоконференцииКлиентСервер</content>
+  <content>CommonModule.ВидеоконференцииСлужебный</content>
+  <content>Role.ИспользованиеВидеоконференций</content>
+  <content>Role.НастройкаВидеоконференций</content>
+  <content>FunctionalOption.ИспользоватьВидеоконференции</content>
+  <content>Constant.ИспользоватьВидеоконференции</content>
+  <content>Catalog.УчетныеЗаписиВидеоконференций</content>
+  <content>InformationRegister.НастройкиУчетныхЗаписейВидеоконференций</content>
+  <content>CommonModule.ВидеоконференцииПовтИсп</content>
+  <content>CommonModule.ВидеоконференцииВнутреннийПереопределяемый</content>
+  <subsystems>ИнтеграцияZoom</subsystems>
+  <subsystems>ИнтеграцияВидеоконференций</subsystems>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

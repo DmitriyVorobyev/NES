@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bd867f4-8600-4eea-9b77-b76693f2fc08">
+  <name>Наставничество</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наставничество</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Constant.ИспользоватьНаставничество</content>
+  <content>Document.НазначениеНаставника</content>
+  <content>DefinedType.УчастникПроцессаНаставничества</content>
+  <content>InformationRegister.Наставничество</content>
+  <content>Document.ПрекращениеНаставничества</content>
+  <content>Report.ОтчетыПоНаставничеству</content>
+  <content>Role.ДобавлениеИзменениеДокументовНаставничества</content>
+  <content>CommonModule.Наставничество</content>
+  <content>CommonModule.НаставничествоКлиент</content>
+  <content>CommonModule.НаставничествоПовтИсп</content>
+  <content>Role.ЧтениеДокументовНаставничества</content>
+  <content>CommonForm.Наставничество</content>
+  <content>DefinedType.ДокументОснованиеНаставничество</content>
+  <content>Catalog.НазначениеНаставникаПрисоединенныеФайлы</content>
+  <content>Catalog.ПрекращениеНаставничестваПрисоединенныеФайлы</content>
+  <content>FunctionalOption.ИспользоватьДоплатуЗаНаставничество</content>
+  <content>FunctionalOption.ИспользоватьНаставничество</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

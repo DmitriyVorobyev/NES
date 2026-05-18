@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c25eb752-13bd-4520-b10e-cfa558de902e">
+  <producedTypes>
+    <refType typeId="0d9a6a06-5dde-4d45-931e-493351602e9f" valueTypeId="c62ffebf-4e57-4e4b-a70d-a3c2bd52d6a2"/>
+    <listType typeId="6e79f7cb-35ed-4d18-a71b-9cfafa279989" valueTypeId="60149ae1-bccb-4580-880e-19484a46b4c0"/>
+    <managerType typeId="6b9f45f2-9d98-4038-844d-78e0f1809a49" valueTypeId="67b70b2f-c804-4396-a5b9-b1db6575f066"/>
+  </producedTypes>
+  <name>СобытияИсторииЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>События истории задач</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1de58c47-3440-4ff4-89c0-ad226105b149">
+    <name>ПринятиеКИсполнению</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принятие к исполнению</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="90220636-f1ed-4d78-b874-affc9dd768da">
+    <name>ОтменаПринятияКИсполнению</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отмена принятия к исполнению</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="10329a8f-a2c2-44f2-b431-95583175295e">
+    <name>НазначениеИсполнителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение исполнителя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7aebe92d-b0bc-480a-b625-a05f983e3c4b">
+    <name>ОтменаНазначенияИсполнителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отмена назначения исполнителя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a51bcdf6-d60e-491d-9ab9-1424d73153ab">
+    <name>Выполнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ee9d7120-31d5-4836-af97-0339d59851c7">
+    <name>ОтменаВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отмена выполнения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d391a80b-7ea9-4b1c-9587-570f30abe402">
+    <name>НеуспешнаяПопыткаВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неуспешная попытка выполнения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="da338cf1-bbaf-4d72-b868-6b14c4896de4">
+    <name>Прерывание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прерывание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4931c075-f7a4-4062-871c-00b3b05f4b89">
+    <name>ВозвратНаРольИсполнителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат на роль исполнителя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bdd15eee-2496-4fdb-9371-06b616027407">
+    <name>ВосстановлениеПрерванной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Восстановление прерванной</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

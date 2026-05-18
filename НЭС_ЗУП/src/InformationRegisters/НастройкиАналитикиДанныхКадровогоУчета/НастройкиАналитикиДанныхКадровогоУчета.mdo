@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f78c999c-802a-40ed-a710-2a77e829310a">
+  <producedTypes>
+    <selectionType typeId="d462d0ce-dd98-4056-866e-97fbbb06337a" valueTypeId="dcf6fda6-b432-41e8-9a65-9d84edbcc445"/>
+    <listType typeId="efb51458-d2e9-42ee-83f5-cc14c267f3c2" valueTypeId="471fef9f-e0e8-49fe-9df5-4205544a74c2"/>
+    <managerType typeId="0b2b6d0e-eb5c-46d1-89e9-46ed1d986f2b" valueTypeId="923636d8-66f1-434a-9e7f-d6c38b9a7d1c"/>
+    <recordSetType typeId="ce4a7f8b-396d-4ea4-9cbf-d611ad6563b7" valueTypeId="d6a6ed75-d4ab-4c87-bb36-6dd568bd3bea"/>
+    <recordKeyType typeId="cea31ba4-4423-4ff1-b7cb-76ec909ae8b5" valueTypeId="514cab04-240c-4654-a0a8-bf98653a7e7b"/>
+    <recordType typeId="09db75b3-ddc2-4597-962b-a7ba58b2468f" valueTypeId="1a9ef975-992d-479f-864c-dd53c6b10fa2"/>
+    <recordManagerType typeId="803e672d-2e5f-428a-a874-db9765c881f6" valueTypeId="9a359c81-057c-48d9-aa7c-25bdadeadca8"/>
+  </producedTypes>
+  <name>НастройкиАналитикиДанныхКадровогоУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки аналитики данных кадрового учета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="46b61809-9fb7-4e29-8b1d-d20bf7d8fd12">
+    <name>ДатаАктуальности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата актуальности</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

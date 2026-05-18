@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="edd8927d-517d-4ef2-ab04-4b2a36fa5b86">
+  <name>ПроцессыОбработкиДокументовКлиентОбработчикиПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процессы обработки документов клиент обработчики переопределяемый</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

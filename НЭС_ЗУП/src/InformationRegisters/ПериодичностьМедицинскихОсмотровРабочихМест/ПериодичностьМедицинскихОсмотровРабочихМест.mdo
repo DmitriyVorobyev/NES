@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b1f1dcc-5e24-464f-a802-2d576f946ae6">
+  <producedTypes>
+    <selectionType typeId="422907c0-98a3-40bf-96e7-5315a064b94c" valueTypeId="2e5e67ea-adcd-43c3-bb37-523a7c6ab871"/>
+    <listType typeId="13421d40-58a7-4dbe-b0b6-4318ea28ddd7" valueTypeId="4ed15b98-809a-4998-9e9a-04774e3ee17d"/>
+    <managerType typeId="03a405da-ebc6-4c66-981a-1ed6ff6c8de3" valueTypeId="96a5274f-0276-4b9a-a8c1-9756ad4e0e23"/>
+    <recordSetType typeId="52434415-7c0c-4dd4-bcd4-03513ab9eed3" valueTypeId="63623d09-6bbf-42e3-93a4-8d065c88932f"/>
+    <recordKeyType typeId="ebc38687-8774-4903-a147-26e66386e087" valueTypeId="d77e4fe7-da19-4389-8ae7-3ec5535e7ef0"/>
+    <recordType typeId="5963efb1-9272-43b1-a764-5487f26e502c" valueTypeId="3f621d0b-522e-49a3-b81d-9bbe92a9cb41"/>
+    <recordManagerType typeId="c7464040-11e1-4e7a-8d18-b729f8e641b6" valueTypeId="1287c194-e85f-4c47-a491-1142bfe8cc61"/>
+  </producedTypes>
+  <name>ПериодичностьМедицинскихОсмотровРабочихМест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периодичность медицинских осмотров рабочих мест</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b8b8927b-4678-43f8-b063-1f8b737e1d83">
+    <name>КратностьОсмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кратность осмотра</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9398d21f-fc96-4142-9681-130682a83fb6">
+    <name>ПериодичностьОсмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодичность осмотра</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a213fbd0-342e-498e-bcad-7cfa84e513a8">
+    <name>ЕдиницаПериодичностиОсмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица периодичности осмотра</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Периодичность</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="559a7070-ff73-47d8-b1dd-de045e5b3724">
+    <name>ПредставлениеПериодичностиОсмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление периодичности осмотра</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="6047021c-4660-486c-ba79-1374faffc053">
+    <name>ВредныеФакторыПолноеПредставление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вредные факторы (полное представление)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Полный перечень вредных (опасных) производственных факторов, действующих на позиции</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="297b38fb-6f41-48c5-8729-3a304cd7a98d">
+    <name>ВидыРаботПолноеПредставление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виды работ (полное представление)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Полный перечень видов работ на позиции, выполнение которых требует прохождение осмотров</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="9ed71f8e-b500-4ab0-ba85-9daa573a4c4d">
+    <name>ВредныеФакторыКодыПредставление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вредные факторы (коды)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Перечень вредных (опасных) производственных факторов, действующих на позиции (коды)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="5ac2dc51-e9a3-4316-8f4e-12d68095b576">
+    <name>ВидыРаботКодыПредставление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виды работ (коды)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Перечень видов работ на позиции, выполнение которых требует прохождение осмотров (коды)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <attributes uuid="32030171-7a11-46e8-9dce-25870df43594">
+    <name>Однократно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Однократно</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d0f686c7-bdd4-4609-9f9b-8adcc81fcfe5">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="9283d06f-b1b7-4237-93a8-1d54d5648134">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеМестаОхраныТруда</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2ded40ce-ac97-4b9e-a7d2-d32fc04fcb17">
+    <name>ВидОсмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид осмотра</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыОбследований</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

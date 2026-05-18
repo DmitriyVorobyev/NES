@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="292372b0-9f72-4b0c-a743-eac3bf8b1f6f">
+  <producedTypes>
+    <selectionType typeId="edf7ec71-5acb-4fe4-96d1-2ff981178942" valueTypeId="1daab449-fdfc-453e-8dfd-84d7e70e2b34"/>
+    <listType typeId="7cb20005-79f5-4863-8100-a16fa1a6dac2" valueTypeId="529427e9-9d2a-4781-ad4f-d36b0d3d1e80"/>
+    <managerType typeId="0d1b4e84-9f12-46b4-b462-e682a0ba8387" valueTypeId="07dbc845-fc2a-4f82-abbc-afce03f8ce97"/>
+    <recordSetType typeId="cd745b32-71fc-4d94-8065-e7ad95b22d3f" valueTypeId="794eddad-5b0b-4276-832f-80d1cd68ef89"/>
+    <recordKeyType typeId="d5b7f9ca-035e-4f7e-bdb6-9bf32d30f380" valueTypeId="1df81fc3-d5ff-432f-8107-521915bef9dd"/>
+    <recordType typeId="9780a4e8-3142-4386-a926-392c28145bde" valueTypeId="88f82632-aa8d-40d4-b26c-b15990cfc0bf"/>
+    <recordManagerType typeId="f6d76cd1-cdb6-4453-9bdf-a8f266225ed0" valueTypeId="540b885d-ea38-4689-977b-dfbc8630a5dc"/>
+  </producedTypes>
+  <name>ОтображаемыеДополнительныеКолонкиЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображаемые дополнительные колонки задач</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="4a7c61d4-b8f9-47ed-8573-5817c87008ae">
+    <name>Колонка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Колонка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДополнительныеКолонкиСписковЗадач</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="609b3e5d-8512-4648-a563-bf9f886c593d">
+  <producedTypes>
+    <selectionType typeId="2a83a525-0164-469c-8e5f-7a6ec1fa7318" valueTypeId="682b31e0-3112-4aeb-9bfe-de690d4500a7"/>
+    <listType typeId="98ec21ad-2a7d-4933-8217-18e674214c69" valueTypeId="c1552784-aa2b-44ae-8eb1-c79bd6cbbbec"/>
+    <managerType typeId="68b6d0f4-70b2-43b6-992d-2bae2ba5c879" valueTypeId="45cf289a-e6b8-47ae-abf4-4400e8eecd92"/>
+    <recordSetType typeId="b5c4c37e-2bf2-4183-93e8-ef1cfeb510a7" valueTypeId="e978f9a8-d7bf-43ef-9c8c-b657f02565d3"/>
+    <recordKeyType typeId="afdfe2a7-54c5-40d9-8e1e-3849b966218e" valueTypeId="13f6067c-9f69-4bc0-a795-79266c23c42f"/>
+    <recordType typeId="c3de2df1-cf04-4c76-806a-a09cadb73c7b" valueTypeId="19595dcb-d398-42a2-b8f0-8b33d2d60d5d"/>
+    <recordManagerType typeId="350b9dc9-dbe7-4075-96d8-80671c6866e9" valueTypeId="6030c0e4-1207-4f88-baaa-1b9da93e96b5"/>
+  </producedTypes>
+  <name>ОтложенноеМедицинскоеСтрахованиеСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отложенное медицинское страхование сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cb16a04c-f632-4b1f-b7fa-92932af7b036">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <attributes uuid="ee087db8-3e3b-4617-983b-d80a042663e0">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="95bfeca1-d151-41c1-811d-f36f5fb50dfd">
+    <name>ДоговорСтрахования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор страхования</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыСтрахования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b984516a-0775-44ea-ab4d-e945be27d82e">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f9d6eaf7-8c99-4256-95b3-db1f00163310">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

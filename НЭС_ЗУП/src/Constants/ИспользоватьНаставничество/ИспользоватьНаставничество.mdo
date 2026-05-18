@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4b7e688-4d64-48e5-9997-7ed81fb35693">
+  <producedTypes>
+    <managerType typeId="43f1babf-b910-438e-b5fd-4ed2fea54c80" valueTypeId="8b88c083-34c6-4f5e-9339-1cd6d5a00255"/>
+    <valueManagerType typeId="01dc009b-e037-48ac-973b-992b771104f9" valueTypeId="4aaaeb0b-7b04-4faf-8d50-7c672b38e02f"/>
+    <valueKeyType typeId="255211d2-816b-463c-9e93-563216f34172" valueTypeId="9638e7f9-6be4-40bd-9e82-8850250d637f"/>
+  </producedTypes>
+  <name>ИспользоватьНаставничество</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать наставничество</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

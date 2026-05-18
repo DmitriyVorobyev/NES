@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb3c5ab8-4ad7-45a2-88a5-892f53a9afb7">
+  <name>ИспользоватьЭкспертнуюОценкуПерсонала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать экспертную оценку персонала</value>
+  </synonym>
+  <location>Constant.ИспользоватьЭкспертнуюОценкуПерсонала</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ПрофилиДолжностей.TabularSection.ХарактеристикиПерсонала</content>
+  <content>Catalog.ПрофилиДолжностей.TabularSection.ДействияСотрудников</content>
+  <content>Catalog.ОпросыПоКомпетенциям</content>
+  <content>InformationRegister.ОценкиОтветовОпросаПоКомпетенциям</content>
+  <content>InformationRegister.РезультатыЭкспертнойОценкиПерсонала</content>
+  <content>Enum.СпособыВыбораОтветовВОпросахПоКомпетенциям</content>
+  <content>Report.РезультатыОпросовПоКомпетенциям</content>
+  <content>InformationRegister.ПротоколыОтправкиСообщенийОпросовПоКомпетенциям</content>
+  <content>InformationRegister.ВопросыЭкспертнойОценкиПерсонала</content>
+  <content>Catalog.РолиРеспондентаОценкиПерсонала</content>
+  <content>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы.Subsystem.ЭкспертнаяОценкаПерсонала</content>
+</mdclass:FunctionalOption>

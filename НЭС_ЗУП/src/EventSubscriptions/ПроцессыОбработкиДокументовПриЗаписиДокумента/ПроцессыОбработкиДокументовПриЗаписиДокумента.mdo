@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5665fc5-0099-4a15-849f-2259ad884e88">
+  <name>ПроцессыОбработкиДокументовПриЗаписиДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процессы обработки документов при записи документа</value>
+  </synonym>
+  <source>
+    <types>DefinedType.ПредметПроцессаОбработкиДокументовОбъект</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ПроцессыОбработкиДокументов.ПриЗаписиДокумента</handler>
+</mdclass:EventSubscription>

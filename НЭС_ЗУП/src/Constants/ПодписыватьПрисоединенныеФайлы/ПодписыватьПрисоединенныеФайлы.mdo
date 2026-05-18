@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0419c8d-98d3-40c1-b88d-93edbd69f7db">
+  <producedTypes>
+    <managerType typeId="38bc4677-09c7-42cf-9c9f-194d5d7233d9" valueTypeId="895ea44f-c46a-4bc4-9948-e3e7b17ed336"/>
+    <valueManagerType typeId="53cdd243-1a91-4eca-a960-f075a3dbff0b" valueTypeId="e829f0cb-00df-451e-8c76-3f2d620daa5e"/>
+    <valueKeyType typeId="2a0c4eca-9c48-5f03-8c9c-5d7a7d27bfa9" valueTypeId="6f9407bb-f6bc-5c70-aaed-834bc564ff4f"/>
+  </producedTypes>
+  <name>ПодписыватьПрисоединенныеФайлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подписывать присоединенные файлы</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

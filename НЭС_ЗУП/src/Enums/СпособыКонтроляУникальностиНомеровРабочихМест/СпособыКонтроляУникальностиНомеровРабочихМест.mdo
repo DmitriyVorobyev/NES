@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18cf8d39-af22-42f1-966b-fa279263c15f">
+  <producedTypes>
+    <refType typeId="64e60a92-bf26-49db-84dd-6c6c77799a21" valueTypeId="8415c35e-62b8-4def-96ad-5794a17e837a"/>
+    <listType typeId="5f774f61-f2f9-4b93-aaae-05f7b182108d" valueTypeId="ec229895-7966-4b19-9b81-1245ed4903ae"/>
+    <managerType typeId="4807af48-1912-4840-b8e7-c3f6f0a8fd44" valueTypeId="c87e8a0c-28ab-476f-a692-d468f9390e08"/>
+  </producedTypes>
+  <name>СпособыКонтроляУникальностиНомеровРабочихМест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы контроля уникальности номеров рабочих мест</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cd794bed-d9b9-4ed7-a035-355ac86a3244">
+    <name>ВОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>В организации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7c47e972-2f99-450d-850b-65a35f4e02e3">
+    <name>ВПодразделении</name>
+    <synonym>
+      <key>ru</key>
+      <value>В подразделении</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14f945fb-5bbe-4c40-a9d8-66871e38261c">
+  <name>СостояниеЗагрузкиКандидатаИзИнтернетаОшибка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние загрузки кандидата из Интернета &quot;Ошибка&quot;</value>
+  </synonym>
+</mdclass:CommonPicture>

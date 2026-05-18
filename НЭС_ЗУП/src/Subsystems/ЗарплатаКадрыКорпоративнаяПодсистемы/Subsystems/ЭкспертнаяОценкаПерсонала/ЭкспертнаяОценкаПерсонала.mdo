@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b1d771a-1e26-4ae1-a5d4-f9a9626aaf38">
+  <name>ЭкспертнаяОценкаПерсонала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Экспертная оценка персонала</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>FunctionalOption.ИспользоватьЭкспертнуюОценкуПерсонала</content>
+  <content>Catalog.ОпросыПоКомпетенциям</content>
+  <content>InformationRegister.ОценкиОтветовОпросаПоКомпетенциям</content>
+  <content>EventSubscription.РассчитатьРезультатОпросаПоКомпетенциям</content>
+  <content>InformationRegister.РезультатыЭкспертнойОценкиПерсонала</content>
+  <content>Enum.СпособыВыбораОтветовВОпросахПоКомпетенциям</content>
+  <content>Report.РезультатыОпросовПоКомпетенциям</content>
+  <content>InformationRegister.ПротоколыОтправкиСообщенийОпросовПоКомпетенциям</content>
+  <content>Role.ПодсистемаЭкспертнаяОценка</content>
+  <content>Report.ПрофильнаяОценкаКомпетенцийСотрудников</content>
+  <content>Report.СтатусыЗаполненияОпросовПоКомпетенциям</content>
+  <content>Constant.ГруппаДоступаЭксперта</content>
+  <content>CommonModule.ЭкспертнаяОценкаПерсонала</content>
+  <content>CommonModule.ЭкспертнаяОценкаПерсоналаСобытия</content>
+  <content>CommonModule.ЭкспертнаяОценкаПерсоналаКлиент</content>
+  <content>CommonModule.ЭкспертнаяОценкаПерсоналаВызовСервера</content>
+  <content>InformationRegister.ВопросыЭкспертнойОценкиПерсонала</content>
+  <content>Role.ЧтениеОпросовПоКомпетенциям</content>
+  <content>Role.ДобавлениеИзменениеОпросовПоКомпетенциям</content>
+  <content>Constant.ИспользоватьЭкспертнуюОценкуПерсонала</content>
+  <content>DefinedType.ОценивающийЭксперт</content>
+  <content>EventSubscription.УстановитьИспользованиеЭкспертнойОценкиПерсонала</content>
+  <content>Report.СравнительныйАнализКомпетенцийСотрудников</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

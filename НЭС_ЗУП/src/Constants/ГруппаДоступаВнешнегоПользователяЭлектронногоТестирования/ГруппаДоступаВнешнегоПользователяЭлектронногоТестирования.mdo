@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75bd4550-6c67-445e-bef5-f4db6520050a">
+  <producedTypes>
+    <managerType typeId="7128c162-9992-4bcf-8161-82abe07cb94b" valueTypeId="41ec0e38-47c2-4cd7-84b2-1be466de406d"/>
+    <valueManagerType typeId="b78a7b71-ba6b-48cb-b6a4-1a49850cc91d" valueTypeId="51381a07-9770-4579-bfe5-e233123b976a"/>
+    <valueKeyType typeId="e9b34448-a5ac-4860-b2cc-949b8ab17fba" valueTypeId="56231f78-59bd-4a69-afe8-592f207be733"/>
+  </producedTypes>
+  <name>ГруппаДоступаВнешнегоПользователяЭлектронногоТестирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группа доступа внешнего пользователя электронного тестирования</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ГруппыДоступа</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
