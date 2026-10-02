@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65b70a93-d55f-449f-93cc-6cb757a3fb61">
+  <producedTypes>
+    <objectType typeId="cc60e5cf-f13e-4e6a-aad4-6124e8dfc248" valueTypeId="cbdef8fd-0934-41c1-b5a0-83ba72d87384"/>
+    <managerType typeId="c18374ae-32e6-44a7-b178-d07cbd0f4fc6" valueTypeId="3e082d78-6268-47d1-9da6-e7ce57d04c3c"/>
+  </producedTypes>
+  <name>ОбработчикиЗагрузкиИзБП3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработчики загрузки из БП3</value>
+  </synonym>
+  <defaultForm>DataProcessor.ОбработчикиЗагрузкиИзБП3.Form.Форма</defaultForm>
+  <attributes uuid="15ffc698-072f-4ed1-8ec1-b377d106c053">
+    <name>Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="247e3db6-497f-4cff-853c-594ca0029b6d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

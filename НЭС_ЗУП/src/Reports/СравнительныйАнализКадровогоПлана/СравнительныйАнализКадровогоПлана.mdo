@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52336d85-4d7a-4c78-b17e-00aa42ba8124">
+  <producedTypes>
+    <objectType typeId="13ff3dd5-0f56-4be5-96c3-67d7316114b3" valueTypeId="74239bb1-3a16-422d-bb26-42a18c59e052"/>
+    <managerType typeId="42d7da0f-d88c-4725-a8c2-09b56ef10a4a" valueTypeId="ccc6c59b-0b81-48e3-9a8b-cd0068b19aef"/>
+  </producedTypes>
+  <name>СравнительныйАнализКадровогоПлана</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сравнительный анализ кадрового плана</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.СравнительныйАнализКадровогоПлана.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="d14dd508-10b4-4f64-9dcc-82944935eb0b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

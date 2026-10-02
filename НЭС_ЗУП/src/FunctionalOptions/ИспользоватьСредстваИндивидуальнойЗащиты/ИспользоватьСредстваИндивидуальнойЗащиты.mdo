@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="096c866e-3922-495e-af0b-86a5ec7e37b4">
+  <name>ИспользоватьСредстваИндивидуальнойЗащиты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать средства индивидуальной защиты</value>
+  </synonym>
+  <location>InformationRegister.НастройкиОхраныТруда.Resource.ИспользоватьСредстваИндивидуальнойЗащиты</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.ОхранаТруда</content>
+  <content>InformationRegister.ПериодичностьВыдачиСИЗРабочихМест</content>
+  <content>InformationRegister.ПериодичностьВыдачиСИЗРабочихМест.Resource.ПредставлениеПериодичностиВыдачи</content>
+  <content>InformationRegister.ПериодичностьВыдачиСИЗРабочихМест.Resource.СИЗПолноеПредставление</content>
+  <content>InformationRegister.ПериодичностьВыдачиСИЗРабочихМест.Resource.СИЗКодыПредставление</content>
+  <content>DataProcessor.СредстваИндивидуальнойЗащиты</content>
+  <content>Document.ВыдачаСИЗ</content>
+  <content>Document.ЗаказНаВыдачуСИЗ</content>
+  <content>Catalog.ВидыНоменклатуры</content>
+  <content>Catalog.Размеры</content>
+  <content>Catalog.СредстваИндивидуальнойЗащиты</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.ХарактеристикиНоменклатуры</content>
+  <content>Document.СписаниеСИЗИзЭксплуатации</content>
+  <content>Subsystem.ОхранаТруда.Subsystem.СредстваИндивидуальнойЗащиты</content>
+  <content>Document.ПродлениеСроковНоскиСИЗ</content>
+  <content>Report.СредстваИндивидуальнойЗащиты</content>
+  <content>Report.ПланированиеВыдачиСИЗ</content>
+  <content>Catalog.КлассификаторЕдиницИзмерения</content>
+  <content>Report.НормыВыдачиСИЗРабочихМест</content>
+  <content>Document.ВводНачальныхОстатковВыданныхСИЗ</content>
+</mdclass:FunctionalOption>

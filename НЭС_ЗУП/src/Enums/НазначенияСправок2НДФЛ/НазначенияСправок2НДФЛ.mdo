@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f1d5ac1-0a9e-4213-9241-91be1a3f9c3e">
+  <producedTypes>
+    <refType typeId="35444d8a-5aab-40fb-b10a-1ce92743b1e0" valueTypeId="148fa9c2-622d-4b9f-88eb-c5a52a4a9f89"/>
+    <listType typeId="925389ae-3198-4636-991a-65a0200571e7" valueTypeId="d3104ba9-6de3-46c9-a886-88a6fa7cea15"/>
+    <managerType typeId="6f8cb10d-3c10-435f-82a7-08169e9316f7" valueTypeId="f3373cbf-7a4a-4c4b-9dda-6bb85b99c6be"/>
+  </producedTypes>
+  <name>НазначенияСправок2НДФЛ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Назначения справок 2-НДФЛ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3019b10a-7598-42ca-a647-9f38dd7c740a">
+    <name>ПодтверждениеДоходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтверждение доходов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ab132417-62ef-4f8c-89ba-4f50a158f684">
+    <name>ДляДекларации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для декларации</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

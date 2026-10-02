@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5666448-af10-4ac8-be45-539d7e7b33b3">
+  <producedTypes>
+    <selectionType typeId="36aa19b0-1b31-43e4-b93c-a75cb94aec7b" valueTypeId="522fe437-63f5-4ff4-8b1e-38b48eaad67a"/>
+    <listType typeId="fc10f7ee-7666-4428-878d-e9ec7b926a44" valueTypeId="e97ad80a-70ee-441d-a4a1-fd9ac3d759cb"/>
+    <managerType typeId="47cdf285-023c-41d8-97ca-63c3acbbaa8c" valueTypeId="5f041ba0-838d-43b8-bb5c-7df4214910fe"/>
+    <recordSetType typeId="8b9eab44-7099-402f-b237-7704c552f9fd" valueTypeId="eecd67de-a9a2-4dae-894f-ed4fc1adc19d"/>
+    <recordKeyType typeId="4f423073-a2c9-4253-94a9-50bd44b4fe53" valueTypeId="a3a7adee-d2e2-490c-9366-9790b673e98c"/>
+    <recordType typeId="ddaffea5-401f-4d22-bfba-0220bae246bd" valueTypeId="d6c02758-58be-4efe-b024-3279c46c2b4b"/>
+    <recordManagerType typeId="bd392ae1-6566-4dba-8485-5e7fb45300fa" valueTypeId="626c82c2-51e4-4c81-9438-cdf36b036643"/>
+  </producedTypes>
+  <name>ОбновлениеАналитикиВакансий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление аналитики вакансий</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="736ddca3-f78e-4554-8a13-1243eb598fda">
+    <name>Вакансия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вакансия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Вакансии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <templates uuid="fd12f553-5446-4805-9266-043c4be4aacc">
+    <name>ПоставляемаяПанельАналитики_ПодборПерсонала_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подбор персонала</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:InformationRegister>

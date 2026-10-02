@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOptionsParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7a9a338-b363-486d-8c10-452c600aaca7">
+  <name>ТипПредметаПроцессаОбработкиДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип предмета процесса обработки документов</value>
+  </synonym>
+  <use>InformationRegister.НастройкаИспользованияШаблонов.Dimension.ИдентификаторДокумента</use>
+</mdclass:FunctionalOptionsParameter>

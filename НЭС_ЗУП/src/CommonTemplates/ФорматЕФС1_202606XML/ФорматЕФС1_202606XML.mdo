@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ecc69fad-29ec-4401-abf2-dee694319841">
+  <name>ФорматЕФС1_202606XML</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формат ЕФС-1 202606 XML</value>
+  </synonym>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

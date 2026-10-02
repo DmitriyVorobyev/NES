@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2cf6ff6-dd5c-426c-8717-c01b7e2e64e2">
+  <producedTypes>
+    <refType typeId="395de580-c84f-4e39-9761-9941dd32b5d2" valueTypeId="35b80c46-fb83-4990-82df-1cde68369716"/>
+    <listType typeId="932653f7-68dd-41b6-b520-0ad7854a1806" valueTypeId="5cf91687-55d2-44e9-af56-a26a934aa065"/>
+    <managerType typeId="77ed5dbb-7ca3-4a1d-93b0-16dc08fb7918" valueTypeId="c3a1f76c-4b5f-4235-a9b2-db15222e0137"/>
+  </producedTypes>
+  <name>СпособыОценкиХарактеристик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы оценки характеристик</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <enumValues uuid="7adef965-3c57-4fd5-9d43-a9dd343a44d0">
+    <name>АнкетаЭлектронногоИнтервью</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анкета электронного интервью</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c37fd5b6-bc62-4a13-b57e-72874fb395a2">
+    <name>ЭлектронныйТест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронный тест</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

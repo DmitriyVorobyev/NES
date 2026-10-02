@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c9258cb-131b-479a-8ca3-7925d76baf39">
+  <producedTypes>
+    <objectType typeId="79206eaa-e8c9-4feb-ac6e-a56ac548cffa" valueTypeId="2879245d-48a0-4c19-9d6b-5bfcca397a99"/>
+    <managerType typeId="0bca0499-70b9-4b5c-bcff-16c6e829f780" valueTypeId="12067b51-0b48-4dae-931c-9f6f968a19b4"/>
+  </producedTypes>
+  <name>ЗадачиПоОбработкеДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи по обработке документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ЗадачиПоОбработкеДокументов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="395512ba-260d-4a9a-9ce7-7455fa236be3">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7dd07028-2ea4-4410-b4ed-7f95dfa8947b">
+  <name>ЗагрузкаДанныхПообъектногоОбменаБезОбрабатывающихЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка данных пообъектного обмена без обрабатывающих заданий</value>
+  </synonym>
+  <methodName>CommonModule.РаботаСРезультатамиОбмена.ЗагрузитьДанныеДанныеБезОбрабатывающихЗаданий</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

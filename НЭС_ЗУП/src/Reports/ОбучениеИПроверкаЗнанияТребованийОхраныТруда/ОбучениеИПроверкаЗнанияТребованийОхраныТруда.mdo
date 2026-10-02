@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1736d030-1b03-4729-999c-ef692145c1cf">
+  <producedTypes>
+    <objectType typeId="88b1066f-cbbd-4dce-9ffb-0e42fbca5aac" valueTypeId="94862d09-c96c-4a39-b49b-92620057c4a1"/>
+    <managerType typeId="7c7ed107-bb89-49e5-9ddf-9ef8328e1db7" valueTypeId="50278535-bc19-48ad-95c3-0e601ae960fc"/>
+  </producedTypes>
+  <name>ОбучениеИПроверкаЗнанияТребованийОхраныТруда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обучение и проверка знания требований охраны труда</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ОбучениеИПроверкаЗнанияТребованийОхраныТруда.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="8575103b-db7d-4276-a03f-5c0943c736c2">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

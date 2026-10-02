@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2e5e43d-619b-4b82-aee9-bf59f770548a">
+  <name>ПолосаЭтаповПропущен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Полоса этапов пропущен</value>
+  </synonym>
+</mdclass:CommonPicture>

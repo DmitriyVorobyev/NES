@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcc09b0f-5a69-4399-bb5e-5248452bd2a4">
+  <producedTypes>
+    <managerType typeId="11824395-879e-4b75-94d5-448e8bef5efc" valueTypeId="4981d018-300d-474c-b08b-5ebf9e88d3a8"/>
+    <valueManagerType typeId="e0d9dc26-cfb0-4ee2-88c7-bdff2ab272f9" valueTypeId="19a2dd60-9f89-468b-9952-4b5134e0b22e"/>
+    <valueKeyType typeId="51949b43-cbc3-4ecf-9dc3-fdc99d539461" valueTypeId="73626996-9418-4988-9934-54653ec41124"/>
+  </producedTypes>
+  <name>СрокНапоминанияМинуты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Время до срока выполнения задачи, за которое необходимо напомнить о необходимости ее выполнения</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>4</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06e92bef-ecb0-490f-a801-a21033273915">
+  <name>ИспользоватьРегламентныеИнтервалы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать регламентные интервалы</value>
+  </synonym>
+  <location>Constant.ИспользоватьРегламентныеИнтервалы</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.РегламентныеИнтервалы</content>
+  <content>InformationRegister.ДействующиеРегламентныеИнтервалы</content>
+  <content>InformationRegister.РегламентныеИнтервалыДокументов</content>
+  <content>InformationRegister.ЭтапыРегламентногоИнтервалаДокумента</content>
+  <content>Report.АнализВыполненияРегламентныхИнтервалов</content>
+  <content>CommonCommand.ТекущиеРегламентыеИнтервалы</content>
+</mdclass:FunctionalOption>

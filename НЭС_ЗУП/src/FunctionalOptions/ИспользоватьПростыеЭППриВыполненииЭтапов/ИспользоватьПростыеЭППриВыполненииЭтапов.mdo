@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6611206-ea22-45f3-bef1-19286d94cba1">
+  <name>ИспользоватьПростыеЭППриВыполненииЭтапов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать простые ЭП при выполнении этапов</value>
+  </synonym>
+  <location>Constant.ИспользоватьПростыеЭППриВыполненииЭтапов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ШаблоныПроцессов.TabularSection.Этапы.Attribute.ВключатьВШтампВизуализацииЭП</content>
+  <content>InformationRegister.ПодписанныеДанные</content>
+  <content>Catalog.ЭтапыПроцессов.TabularSection.РезультатыВыполнения.Attribute.ТребуетсяПростаяЭП</content>
+</mdclass:FunctionalOption>

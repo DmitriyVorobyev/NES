@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05b855c2-2398-4d4c-8f70-ac878cc1fedf">
+  <name>ОхранаТруда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Охрана труда</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Role.ПодсистемаОхранаТруда</content>
+  <content>Role.ПросмотрОхраныТрудаСотрудников</content>
+  <content>CommonCommand.ПанельОтчетовОхранаТруда</content>
+  <content>CommonPicture.ОхранаТруда</content>
+  <content>Enum.РолиЧленовКомиссииОхраныТруда</content>
+  <content>InformationRegister.УдалитьПлановыеДатыСпециальнойОценкиУсловийТруда</content>
+  <content>CommonForm.СотрудникиОхранаТруда</content>
+  <content>CommonCommand.ДополнительныеОбработкиОхранаТруда</content>
+  <content>CommonCommand.ДополнительныеОтчетыОхранаТруда</content>
+  <content>FunctionalOption.ИспользоватьРабочиеМестаОхраныТрудаКорпоративная</content>
+  <content>InformationRegister.НастройкиОхраныТруда</content>
+  <content>EventSubscription.ЗаполнитьНастройкиОхраныТрудаНовойОрганизации</content>
+  <content>Constant.ИспользоватьНастройкиОхраныТрудаВРазрезеОрганизаций</content>
+  <content>CommonModule.ОхранаТрудаФормыКлиент</content>
+  <content>CommonModule.ОхранаТрудаКлиентСервер</content>
+  <content>CommonModule.ОхранаТрудаПовтИсп</content>
+  <content>CommonModule.ОхранаТрудаВызовСервера</content>
+  <content>CommonModule.ОхранаТрудаФормы</content>
+  <content>CommonModule.ОхранаТруда</content>
+  <content>CommonModule.ОхранаТрудаСборСтатистики</content>
+  <content>DataProcessor.РабочиеМестаОхраныТруда</content>
+  <content>Constant.ПрименятьУсловияТрудаРабочихМестОхраныТруда</content>
+  <content>FunctionalOption.ПрименятьУсловияТрудаРабочихМестОхраныТруда</content>
+  <content>CommonModule.ОхранаТрудаКлиент</content>
+  <content>StyleItem.ЦветТекстаНеАктивнойСтрокиОхраныТруда</content>
+  <content>StyleItem.ЦветТекстаКритичногоСостоянияОхраныТруда</content>
+  <content>StyleItem.ЦветТекстаБлагоприятногоСостоянияОхраныТруда</content>
+  <subsystems>МедицинскиеОсмотры</subsystems>
+  <subsystems>НесчастныеСлучаи</subsystems>
+  <subsystems>СпециальнаяОценкаУсловийТруда</subsystems>
+  <subsystems>СредстваИндивидуальнойЗащиты</subsystems>
+  <subsystems>ОбучениеПоОхранеТруда</subsystems>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70cb3cc0-4fa3-431a-afa8-ec0e7eb482a5">
+  <name>ОбязательноНаличиеФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обязательно наличие файлов</value>
+  </synonym>
+</mdclass:CommonPicture>

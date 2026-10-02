@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6af83b53-6000-496a-bfc7-2e196ee9de0f">
+  <name>ЦветФонаШапкиТаблицыБежевый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвет фона шапки таблицы бежевый</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorRef">
+      <color>Web.Beige</color>
+    </value>
+  </value>
+</mdclass:StyleItem>

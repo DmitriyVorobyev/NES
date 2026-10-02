@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43cdb3a9-1fc6-405c-b0ec-816b6ab4460d">
+  <name>ПрекращатьДополнительныеОтпускаПриПриостановкеТрудовогоДоговора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прекращать дополнительные отпуска при приостановке трудового договора</value>
+  </synonym>
+  <location>Constant.ПрекращатьДополнительныеОтпускаПриПриостановкеТрудовогоДоговора</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

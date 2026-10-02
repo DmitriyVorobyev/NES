@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3536d641-e207-410a-806a-4c016f73f336">
+  <name>ИспользоватьПроцессыНаграждения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать документы  награждения</value>
+  </synonym>
+  <location>Constant.ИспользоватьПроцессыНаграждения</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DocumentJournal.ДокументыНаграждения</content>
+  <content>Report.ОтчетыПоПроцессамНаграждения</content>
+  <content>Subsystem.Кадры.Subsystem.ПроцессыНаграждения</content>
+  <content>Catalog.Награды.Attribute.ПовторноеНаграждениеНеПредусмотрено</content>
+  <content>Catalog.Награды.Attribute.ОтсутствиеДисциплинарныхВзысканий</content>
+  <content>Catalog.Награды.Attribute.МинимальныйВозраст</content>
+  <content>Catalog.Награды.Attribute.МаксимальныйВозраст</content>
+  <content>Catalog.Награды.TabularSection.МинимальныеСтажиРаботы</content>
+  <content>Catalog.Награды.TabularSection.ОграничениеДолжностей</content>
+  <content>Catalog.Награды.TabularSection.ИнтервалыНаграждения</content>
+  <content>Catalog.Награды.Attribute.СоблюдатьПоследовательностьНаграждения</content>
+</mdclass:FunctionalOption>

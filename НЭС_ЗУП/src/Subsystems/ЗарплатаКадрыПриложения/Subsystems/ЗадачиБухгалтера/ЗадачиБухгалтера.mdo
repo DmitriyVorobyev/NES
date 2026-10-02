@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89e57787-7152-4d97-968c-f48004a51a0b">
+  <name>ЗадачиБухгалтера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи бухгалтера</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonCommand.КалендарьОтчетностиБЗК</content>
+  <content>CommonForm.НалогиИОтчетыБЗК</content>
+  <content>CommonTemplate.ТребованияНормативныхДокументовДополнительные</content>
+  <content>Constant.ВерсияПравилПредставленияОтчетовУплатыНалоговБЗК</content>
+  <content>CommonModule.ЗадачиБухгалтераБЗК</content>
+  <content>CommonModule.ЗадачиБухгалтераБЗККлиент</content>
+  <content>CommonModule.ЗадачиБухгалтераБЗККлиентСервер</content>
+  <content>EventSubscription.ПриЗаписиДокументаСЭДОДляИзмененияЗадачиБухгалтера</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПриложения</parentSubsystem>
+</mdclass:Subsystem>

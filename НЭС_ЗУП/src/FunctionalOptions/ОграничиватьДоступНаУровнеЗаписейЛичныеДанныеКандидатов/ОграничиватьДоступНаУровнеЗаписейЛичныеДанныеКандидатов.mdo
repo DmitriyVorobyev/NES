@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb10520e-cdd7-4cb1-801e-0a9ecf0b8f3f">
+  <name>ОграничиватьДоступНаУровнеЗаписейЛичныеДанныеКандидатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ограничивать доступ на уровне записей личные данные кандидатов</value>
+  </synonym>
+  <location>Constant.ОграничиватьДоступНаУровнеЗаписейЛичныеДанныеКандидатов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ГруппыДоступаКандидатов</content>
+  <content>Catalog.ЛичныеДанныеКандидатов.Attribute.ГруппаДоступа</content>
+</mdclass:FunctionalOption>

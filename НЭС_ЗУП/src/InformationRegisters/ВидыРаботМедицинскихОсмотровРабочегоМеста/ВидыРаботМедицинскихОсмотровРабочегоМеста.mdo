@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5341c20c-6b99-433c-bf73-add1eb78e90b">
+  <producedTypes>
+    <selectionType typeId="e0324485-7abb-4850-9495-094b93f4a251" valueTypeId="6a05fa81-8a83-41b7-80b1-0e39f9d453c2"/>
+    <listType typeId="b1354784-5c5f-4237-a942-ecd45a021636" valueTypeId="08c434d5-cd2b-4b9e-98f1-f1eed69976c4"/>
+    <managerType typeId="5e719e98-d23d-4d1f-ae6a-4c704383e46f" valueTypeId="f741649d-3eec-4340-8b7f-b8a09833eed3"/>
+    <recordSetType typeId="55e66e8f-85c3-4c5c-a181-443406e6ca92" valueTypeId="afc00e80-a0b7-43ba-8d75-2f6ad9e51401"/>
+    <recordKeyType typeId="bfded9af-edf7-41e7-95e6-9b6367507fb6" valueTypeId="f9707192-88fc-4780-9201-bb4f1cb3a1ae"/>
+    <recordType typeId="378f24b9-031c-4a64-9f13-ab1e7932bbc2" valueTypeId="30fc0119-3789-4b2f-9156-e3da2d1034c2"/>
+    <recordManagerType typeId="8794a601-9d99-444e-a6f3-3534b148f6f1" valueTypeId="feec4cc0-2b18-4ead-9a74-b41bd8de2c22"/>
+  </producedTypes>
+  <name>ВидыРаботМедицинскихОсмотровРабочегоМеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды работ медицинских осмотров рабочего места</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды работ, при выполнении которых требуется прохождение медицинских осмотров, выполняемые сотрудниками на рабочем месте</value>
+  </listPresentation>
+  <attributes uuid="415c28e7-8dee-41ab-89d5-b6dc65818053">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="d625d7db-51c3-42fc-93c4-0b5bf312a984">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеМестаОхраныТруда</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f9602026-9a55-49d5-a246-fc7fe5f48a8b">
+    <name>ВидРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид работ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыРаботМедицинскихОсмотров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="f93fd19c-44f3-44d5-aec1-4cecc6d61b84">
+    <name>ВидОсмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид осмотра</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыОбследований</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

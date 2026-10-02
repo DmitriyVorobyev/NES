@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ec79aa6-ac1b-4efe-a70a-08167d350f4e">
+  <name>ОбменДаннымиКлиентПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными клиент переопределяемый</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

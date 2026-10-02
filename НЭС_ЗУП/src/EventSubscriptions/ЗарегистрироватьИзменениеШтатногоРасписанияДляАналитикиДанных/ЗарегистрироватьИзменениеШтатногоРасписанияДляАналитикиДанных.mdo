@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e214cbca-c275-421f-851e-c04bd4fe9182">
+  <name>ЗарегистрироватьИзменениеШтатногоРасписанияДляАналитикиДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарегистрировать изменение штатного расписания для аналитики данных</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.ИсторияИспользованияШтатногоРасписания</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.КадровыйУчетАналитикаДанных.ЗарегистрироватьИзменениеШтатногоРасписанияДляАналитикиДанныхПриЗаписи</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ed4f73c-0372-4c78-a3bd-cbbadda14f99">
+  <producedTypes>
+    <objectType typeId="cd5456e5-2f4c-4efb-9ddb-b0c8076d07e4" valueTypeId="aa7d62ae-d5fa-4d2b-bf7f-6227468f75fa"/>
+    <managerType typeId="5ea21a5d-15bc-42d0-b894-a9167f74a728" valueTypeId="88ac058b-610a-4e35-9c60-1f73eda65ca7"/>
+  </producedTypes>
+  <name>ИспытательныйСрокКандидатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Испытательный срок кандидатов</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ИспытательныйСрокКандидатов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="65c989c1-fae2-4f34-9627-3abc0402e803">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

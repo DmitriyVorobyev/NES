@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2cccb30-19d7-4426-8aa6-c5168aaf6de4">
+  <producedTypes>
+    <selectionType typeId="f7ae1a7c-66bb-4411-a526-2d790661e8fe" valueTypeId="d766d939-b1d5-4ba3-90f2-80c4682e9395"/>
+    <listType typeId="b2732c7d-1a83-4024-97a6-fa5f40e8dc3c" valueTypeId="d83f98b8-cd39-46ac-8631-8167b07f461f"/>
+    <managerType typeId="8eff0715-b403-425b-b49f-9d4922281100" valueTypeId="621ef3bc-c1ba-47d0-8b4f-30ad3e9da0a1"/>
+    <recordSetType typeId="3ded778f-77ab-4233-9a20-7b4417db096f" valueTypeId="5cefd0aa-29e8-4158-b583-4d3957d59b2c"/>
+    <recordKeyType typeId="7400e7af-6ff9-46c3-8fe2-7d9b8c72f776" valueTypeId="e2dc4c17-461a-476d-9010-b4fb966b2489"/>
+    <recordType typeId="c34f542f-b8ad-4e30-a919-8cd10a66dd72" valueTypeId="c90d12ad-9276-49e6-8fec-8f1abc001fa5"/>
+    <recordManagerType typeId="53d6c5bb-3dce-4936-9313-833d89a6145e" valueTypeId="022126f5-56a2-4583-be13-735591665560"/>
+  </producedTypes>
+  <name>ОбновлениеВыдачСИЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление выдач СИЗ</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="ba03b5fe-bc5c-486f-b2b3-8a56b382f78e">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="72d0ad3c-b90e-4916-8e9f-9875af825b65">
+    <name>ГоловнаяОрганизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Головная организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

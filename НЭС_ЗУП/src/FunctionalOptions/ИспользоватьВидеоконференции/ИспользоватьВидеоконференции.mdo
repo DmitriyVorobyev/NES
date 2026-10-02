@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1bf347dd-54b6-49ae-8cad-95895284b239">
+  <name>ИспользоватьВидеоконференции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать видеоконференции</value>
+  </synonym>
+  <location>Constant.ИспользоватьВидеоконференции</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.УчетныеЗаписиВидеоконференций</content>
+  <content>InformationRegister.РаботаСКандидатами.Resource.УчетнаяЗаписьВидеоконференции</content>
+  <content>InformationRegister.РаботаСКандидатами.Resource.ИдентификаторВидеоконференции</content>
+  <content>InformationRegister.НастройкиУчетныхЗаписейВидеоконференций</content>
+</mdclass:FunctionalOption>

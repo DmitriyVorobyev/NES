@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="290a46c2-847a-41d9-9ede-01e5ed1b03f8">
+  <name>ХодВыполненияГрупповогоЭтапа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ход выполнения группового этапа</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

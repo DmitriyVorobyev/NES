@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f2cfb74-0ac7-4d80-98a6-efd2e0736dd6">
+  <producedTypes>
+    <selectionType typeId="ef21cc80-5536-4239-8007-cf5f29f0ebe6" valueTypeId="106298f0-9e6f-4816-986b-8e3baf67e145"/>
+    <listType typeId="415e3c63-41af-4e0b-bb36-4b422d248d0a" valueTypeId="d2f82df9-9f4b-469f-a6dc-2875821fdfc2"/>
+    <managerType typeId="ad6119d0-26e2-4a5d-a880-04a0aeed02e8" valueTypeId="85cca26d-cfbb-4f29-9ed7-6a9fa9975f44"/>
+    <recordSetType typeId="b4e3023f-2c3c-4787-9da5-969394f9bd08" valueTypeId="6d6f036b-9186-42d2-875f-5b085726d699"/>
+    <recordKeyType typeId="46683a73-9d34-4a3c-9250-3d6147ce7d79" valueTypeId="493bc957-156b-4b9b-a718-176e3f19d9f8"/>
+    <recordType typeId="798747c0-8225-4055-ba24-3a5d5bf0d196" valueTypeId="beada0ab-fe7b-41aa-9e6c-295c2967430b"/>
+    <recordManagerType typeId="007cb6d4-f65c-445a-9011-7fb3abedacd3" valueTypeId="eb54d7c6-4250-42a5-8201-243bd92cf520"/>
+  </producedTypes>
+  <name>ИсторияКадровогоРезерва</name>
+  <synonym>
+    <key>ru</key>
+    <value>История кадрового резерва</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="32f2c2e5-89f6-4e7b-9390-9c68fdfdaef4">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СостоянияСогласования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e4c84ac3-b244-4030-b485-0f445cbaac9f">
+    <name>ВидРезерва</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид резерва</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыКадровогоРезерва</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2b3ae5c9-f72d-4fc0-a79c-074b3e5d6b9c">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="fce158f2-d5d0-48e0-815b-d007324d5376">
+    <name>Наставник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наставник</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УчастникПроцессаНаставничества</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7af41fbf-e4e0-4ec5-bf7b-d0800cc28e01">
+    <name>Куратор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Куратор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8f7ae93d-465c-4745-8ae4-0f19bb511d72">
+    <name>Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОснованияКадровогоРезерва</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="9d26a4bc-805b-405c-81c8-7803156fbcc2">
+    <name>ПозицияРезерва</name>
+    <synonym>
+      <key>ru</key>
+      <value>Позиция резерва</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КадровыйРезерв</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f6d81233-0ce9-4068-9ce7-16a44e24a409">
+    <name>УчастникКадровогоРезерва</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резервист</value>
+    </synonym>
+    <comment>АПК:58 - в синониме  используется общепринятый термин</comment>
+    <type>
+      <types>DefinedType.УчастникКадровогоРезерва</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d5593f9-4265-4544-8221-796b07cd7a9f">
+  <producedTypes>
+    <managerType typeId="1cacddb6-13ad-4671-9c82-d0fc497173a0" valueTypeId="dd1505b4-9a85-4501-a097-d589a43a57a8"/>
+    <valueManagerType typeId="bc165ce8-6ad3-4f81-b802-3f910e9678aa" valueTypeId="cb7b0ad6-ca05-47ef-81dd-1c10a3bf9d85"/>
+    <valueKeyType typeId="ce1ba12d-2f8d-451d-83cf-cf757f544555" valueTypeId="c5b96e86-1003-42c0-98d9-668c03ca1a89"/>
+  </producedTypes>
+  <name>ИспользоватьГрафикиРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать графики работы</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

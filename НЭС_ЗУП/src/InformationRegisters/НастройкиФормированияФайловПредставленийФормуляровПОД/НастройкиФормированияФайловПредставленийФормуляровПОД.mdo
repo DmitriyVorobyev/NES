@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1dda8744-da57-4c56-a20e-e1235bdd028f">
+  <producedTypes>
+    <selectionType typeId="400d2585-380a-4cb8-8542-b1abb8bcb4f1" valueTypeId="bfd3ca28-b0c1-4a0a-a5f0-abd8f9c675ce"/>
+    <listType typeId="7b820764-3481-41e2-afb7-4df4a0158db4" valueTypeId="bfa876f0-7981-488c-a3a2-fe9bd39105b9"/>
+    <managerType typeId="d39201dd-e509-4a76-8d13-9fe73c6cd713" valueTypeId="aeb98786-88aa-4f43-aa8c-914ddc86d632"/>
+    <recordSetType typeId="dd73c281-3f34-4686-ae03-1b9eba9d1526" valueTypeId="2cee536c-5f24-482f-b488-a4e3f2534298"/>
+    <recordKeyType typeId="fdd73e5f-5096-43ab-bae8-c1eb51062fd6" valueTypeId="23e5b29c-e592-4236-9301-35b9cf8a9bfb"/>
+    <recordType typeId="0fb33301-a472-4e44-89b5-98efa2a728fc" valueTypeId="27c0ae1f-9769-404f-a75b-7492ad941624"/>
+    <recordManagerType typeId="a4943bff-c762-4019-adf4-f86fc7de0923" valueTypeId="4c0e59a5-25ad-4dad-87e6-5aa38ef1651e"/>
+  </producedTypes>
+  <name>НастройкиФормированияФайловПредставленийФормуляровПОД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки формирования файлов представлений формуляров ПОД</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d013b064-a8d7-47d6-8e10-c8a4cff9443f">
+    <name>ИдентификаторыПечатныхФорм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификаторы печатных форм</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="322b844b-b6a2-4dfd-8e3e-4cdeb01b54a9">
+    <name>Шаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШаблоныПроцессов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

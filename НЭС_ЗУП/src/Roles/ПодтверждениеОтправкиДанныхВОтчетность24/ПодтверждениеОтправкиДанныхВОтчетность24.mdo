@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3af9594b-6630-497c-bd3e-3dbc5bf9b2aa">
+  <name>ПодтверждениеОтправкиДанныхВОтчетность24</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подтверждение отправки данных в конфигурацию &quot;1С:Отчетность 24&quot;</value>
+  </synonym>
+</mdclass:Role>

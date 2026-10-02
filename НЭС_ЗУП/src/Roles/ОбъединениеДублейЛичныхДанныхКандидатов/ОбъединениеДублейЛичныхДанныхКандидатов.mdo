@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61214b68-477c-4151-9257-8ccb70112e5f">
+  <name>ОбъединениеДублейЛичныхДанныхКандидатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объединение дублей личных данных кандидатов</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3570366e-ecc4-40ee-848c-d0d1a7876cd6">
+  <name>ДобавлениеИзменениеСтатусовРезервистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение статусов резервистов</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52726e0b-3e40-4a64-917c-b2e7430d4b5e">
+  <producedTypes>
+    <objectType typeId="e5dc13cf-8027-4433-805a-a69c9c986a07" valueTypeId="78045370-66da-440b-aefd-612c66a21f38"/>
+    <managerType typeId="84b76f9c-09ec-4af7-adf1-802daf27a4c7" valueTypeId="bc046db5-5e1b-4e11-a2bb-981adf8c3462"/>
+  </producedTypes>
+  <name>РабочиеМестаОхраныТруда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочие места охраны труда</value>
+  </synonym>
+  <forms uuid="59d43fd4-5702-4cf3-9b0a-05bd0135cc4c">
+    <name>ФормаРабочегоМеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма рабочего места</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0ce18154-865a-4ce3-aec0-1bf73daee9c9">
+    <name>ФормаСпискаРабочихМест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка рабочих мест</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="344a8190-9109-4064-97d0-e4042389cb46">
+    <name>ВыборРабочегоМеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор рабочего места</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

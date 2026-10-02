@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81fac020-ee72-4b72-b702-11e62977e346">
+  <producedTypes>
+    <containerType typeId="ad9b16d9-c8ed-4a64-b03f-c8bd66c09ab9" valueTypeId="8ac07d48-f2bc-47f5-9d60-011e37e7ffc7"/>
+  </producedTypes>
+  <name>ПредметМероприятияАдаптацииУвольнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предмет мероприятия адаптации увольнения</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ШаблоныАнкет</types>
+  </type>
+</mdclass:DefinedType>

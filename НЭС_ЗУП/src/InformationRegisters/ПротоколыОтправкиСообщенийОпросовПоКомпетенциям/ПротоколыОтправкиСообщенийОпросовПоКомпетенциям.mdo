@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f253327-fa00-41fa-8b8f-355b88b024bf">
+  <producedTypes>
+    <selectionType typeId="382ec5ec-de26-4701-82d6-f6028ed6093c" valueTypeId="c9ccf520-c6d6-427f-a32f-da2d4e5d0410"/>
+    <listType typeId="38e8a5d7-65f7-440e-b14c-09d739b91312" valueTypeId="aae32608-b45a-4ef0-a08c-eab1073d3f53"/>
+    <managerType typeId="2e197f1d-cb4f-4c32-ba5c-c3cfb3dedc22" valueTypeId="b35c07b9-4c6b-45c0-a98b-c4023c5f9bac"/>
+    <recordSetType typeId="4b806670-fec5-40ff-83b2-c719ae3543ab" valueTypeId="e253c862-bcc2-4d5b-b4a3-575a838a5783"/>
+    <recordKeyType typeId="17a8ae9b-66b9-4a00-9fbb-a2789b9a4d87" valueTypeId="e06e65ed-8afc-4362-848c-bd27066f151a"/>
+    <recordType typeId="54714fce-3d10-43d1-ac07-5c7542082cb1" valueTypeId="da0b23ee-048b-4359-8f38-b133a43ff05f"/>
+    <recordManagerType typeId="6ff40d28-90b4-452b-83e6-07c1fe005b56" valueTypeId="086a6eed-68be-482f-bb49-ccc361230a74"/>
+  </producedTypes>
+  <name>ПротоколыОтправкиСообщенийОпросовПоКомпетенциям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Протоколы отправки сообщений опросов по компетенциям</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="72aafaab-f9a7-4269-b134-48d665c0145e">
+    <name>ДатаОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отправки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="62530299-6cb0-4ac0-bfae-77b282a02f74">
+    <name>АдресЭлектроннойПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес электронной почты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="fb8443cd-dc55-4e2a-b041-dbca946d7751">
+    <name>Опрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опрос</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОпросыПоКомпетенциям</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="38f299c5-2519-436d-a3b6-d6f3ed0f219f">
+    <name>Адресат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адресат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

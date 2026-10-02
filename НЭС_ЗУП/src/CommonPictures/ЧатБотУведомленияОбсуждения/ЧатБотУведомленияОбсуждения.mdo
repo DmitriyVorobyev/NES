@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd750533-98e8-468b-9718-4fe7dbc9bafd">
+  <name>ЧатБотУведомленияОбсуждения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чат бот уведомления обсуждения</value>
+  </synonym>
+</mdclass:CommonPicture>

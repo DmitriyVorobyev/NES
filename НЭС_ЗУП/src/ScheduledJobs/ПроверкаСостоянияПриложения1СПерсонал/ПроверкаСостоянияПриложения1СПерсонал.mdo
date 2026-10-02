@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f54c0909-e898-4406-9aa2-ebac7a5e697e">
+  <name>ПроверкаСостоянияПриложения1СПерсонал</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка состояния приложения 1С:Персонал</value>
+  </synonym>
+  <methodName>CommonModule.Интеграция1СПерсонал.ПроверкаСостоянияПриложения</methodName>
+  <key>ПроверкаСостоянияПриложения1СПерсонал</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

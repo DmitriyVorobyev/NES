@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e94199fc-4827-4279-bb62-cd05a6bcefea">
+  <producedTypes>
+    <containerType typeId="d772d602-8297-4bd1-8276-3d82b05bccc6" valueTypeId="2d5e2ca6-9ae7-4b56-9822-6220583b181a"/>
+  </producedTypes>
+  <name>УчастникКадровогоРезерва</name>
+  <synonym>
+    <key>ru</key>
+    <value>Участник кадрового резерва</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ФизическиеЛица</types>
+    <types>CatalogRef.ЛичныеДанныеКандидатов</types>
+  </type>
+</mdclass:DefinedType>

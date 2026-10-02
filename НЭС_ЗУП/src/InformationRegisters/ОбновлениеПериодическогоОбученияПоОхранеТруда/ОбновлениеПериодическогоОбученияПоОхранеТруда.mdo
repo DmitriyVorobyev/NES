@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79db56b2-b382-40e7-b012-881a3d6efc56">
+  <producedTypes>
+    <selectionType typeId="90627cdd-0bb6-427e-b875-00444ffbb5fe" valueTypeId="de4a46d7-9c44-4438-a53a-5a9e5e90798d"/>
+    <listType typeId="eece32e8-d9b7-4200-b07a-ff4b3e805948" valueTypeId="7a96507a-c05b-436d-8d96-78f5f87b896e"/>
+    <managerType typeId="a78004f9-eb8d-403f-8f68-86b3578f7c14" valueTypeId="cb9fa97f-fe7e-44fa-875c-e6293d037610"/>
+    <recordSetType typeId="264f8a04-d589-499b-b8a3-4e08885742e5" valueTypeId="269df410-0c3d-40aa-8ae8-e2e75a8e9f85"/>
+    <recordKeyType typeId="f0cdceea-022e-4b4b-8491-418a208def08" valueTypeId="940f13da-260e-4b3c-b75d-63fcf85e2503"/>
+    <recordType typeId="38552c07-52e7-49e0-9b82-364d0033aaf2" valueTypeId="ea23f11a-d8bf-48d3-9306-cb3249841edf"/>
+    <recordManagerType typeId="325cf8c1-9a32-45aa-bfd0-36fb7221d13b" valueTypeId="44393d66-7628-4a25-aa86-1318d2f21a0a"/>
+  </producedTypes>
+  <name>ОбновлениеПериодическогоОбученияПоОхранеТруда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление периодического обучения по охране труда</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="4c853562-bb83-4b23-9253-099809bd14cc">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8ba4c149-b6c6-4a4b-bbce-9b174e3bdfef">
+    <name>ГоловнаяОрганизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Головная организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

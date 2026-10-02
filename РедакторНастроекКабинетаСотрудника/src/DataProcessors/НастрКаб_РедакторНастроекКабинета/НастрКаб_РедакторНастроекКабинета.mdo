@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45aab9ff-4c13-4364-9a71-4a007aeefd79">
+  <producedTypes>
+    <objectType typeId="b63e4026-24cf-46e0-b9db-66d404bf4a1e" valueTypeId="c5ebb0e5-2e89-498e-9a84-cd8d39e59cb1"/>
+    <managerType typeId="6b3e934c-c46b-410d-8ca8-5525cde27eb7" valueTypeId="cb97f0e9-81b1-43d0-9b46-541a31fc029c"/>
+  </producedTypes>
+  <name>НастрКаб_РедакторНастроекКабинета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактор настроек сервиса 1С:Кабинет сотрудника</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.НастрКаб_РедакторНастроекКабинета.Form.Форма</defaultForm>
+  <forms uuid="97fa8c40-6074-4960-aacf-a9a368bc04a1">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор настроек 1С:Кабинет сотрудника</value>
+    </synonym>
+  </forms>
+</mdclass:DataProcessor>

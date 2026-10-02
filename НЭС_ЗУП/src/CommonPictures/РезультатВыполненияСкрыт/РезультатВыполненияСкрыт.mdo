@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="265749ef-d89d-49f7-80c5-ef757754b432">
+  <name>РезультатВыполненияСкрыт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результат выполнения скрыт</value>
+  </synonym>
+</mdclass:CommonPicture>

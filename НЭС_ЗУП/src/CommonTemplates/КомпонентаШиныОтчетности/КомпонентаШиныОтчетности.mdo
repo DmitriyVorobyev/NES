@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c86b4542-0fb5-45cf-aa40-4156beedb55a">
+  <name>КомпонентаШиныОтчетности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Компонента шины отчетности</value>
+  </synonym>
+  <templateType>AddIn</templateType>
+</mdclass:CommonTemplate>

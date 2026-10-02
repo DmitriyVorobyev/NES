@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36a8564d-a8bd-42e6-8ab5-77a811b7ff2b">
+  <producedTypes>
+    <selectionType typeId="62b1b249-4620-485f-ab62-64caef3d2acd" valueTypeId="551cafe6-eada-41c7-bd1f-c0584a64e06a"/>
+    <listType typeId="1d40aba0-dd31-4459-9e91-ee9435bcb58e" valueTypeId="132f079a-4079-4c65-8b1e-6c7a32f2f5d9"/>
+    <managerType typeId="685c5edc-1f63-4004-90b3-fdb724cc7cc8" valueTypeId="99711952-abb5-4e6c-917c-20bd920854de"/>
+    <recordSetType typeId="cd530ce6-b56b-4e11-8574-654988e80e54" valueTypeId="51342ae1-59bb-4095-9376-faa6cd46f794"/>
+    <recordKeyType typeId="79f99177-2f4b-40f8-9626-411fab4ea52b" valueTypeId="6270773d-8ed9-4723-aecc-327b2ab03d66"/>
+    <recordType typeId="956d4c90-cbe4-4f5c-bb33-4adcf7fe99b8" valueTypeId="ada7590d-872b-4aae-b6cc-1fd0ac32dd52"/>
+    <recordManagerType typeId="d5a85c61-e634-4e90-9eaa-5750e1a3864a" valueTypeId="c13673e2-2455-43d7-a4cd-578d56826fdf"/>
+  </producedTypes>
+  <name>ПрерванныеЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прерванные задачи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Регистр хранит задачи, которые были прерваны по условиям прерывания этапов в шаблоне, и задачу-инициатора прерывания</value>
+  </explanation>
+  <dimensions uuid="43411334-58fa-4dc5-a462-a622b637c670">
+    <name>ИнициаторПрерывания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инициатор прерывания</value>
+    </synonym>
+    <type>
+      <types>TaskRef.ЗадачаПоОбработкеДокумента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b244536f-d866-4e98-9e03-fa779ffa4b4b">
+    <name>ПрерваннаяЗадача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прерванная задача</value>
+    </synonym>
+    <type>
+      <types>TaskRef.ЗадачаПоОбработкеДокумента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

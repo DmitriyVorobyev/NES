@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d9c634e-ae05-4ec6-a057-5d1d47c42c9e">
+  <name>ЗагрузкаКандидатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка кандидатов</value>
+  </synonym>
+  <rootURL>applicants</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="c5e85ba2-df4e-42db-9e59-94d6c5f6d97f">
+    <name>Кандидаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кандидаты</value>
+    </synonym>
+    <template>/*</template>
+    <methods uuid="28e0e256-a7d9-4e21-a484-69f10dea0a2c">
+      <name>ПолучениеДанныхКандидата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получение данных кандидата</value>
+      </synonym>
+      <handler>КандидатыПолучениеДанныхКандидата</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="55cedac3-1e74-4605-a1dc-a38b19f0dc20">
+    <name>ОткрытыеВакансии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открытые вакансии</value>
+    </synonym>
+    <template>/vacancies/*</template>
+    <methods uuid="9423943c-9fcc-486a-b7f1-ddb67c355354">
+      <name>ПолучениеОткрытыхВакансий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получение открытых вакансий</value>
+      </synonym>
+      <handler>ОткрытыеВакансииПолучениеОткрытыхВакансий</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="1812dc23-ed69-40d6-9192-8d121f4b873e">
+    <name>ИспользуемыеСайты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используемые сайты</value>
+    </synonym>
+    <template>/sites/*</template>
+    <methods uuid="b547e6fe-63d3-4fd1-a79b-3c4151873db6">
+      <name>ПолучениеСпискаСайтов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получение списка сайтов</value>
+      </synonym>
+      <handler>ИспользуемыеСайтыПолучениеСпискаСайтов</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="2d6a621f-04a4-4a47-8cd9-bdbdcc7e7c74">
+    <name>ГруппыДоступаКандидатов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группы доступа кандидатов</value>
+    </synonym>
+    <template>/access-groups/*</template>
+    <methods uuid="83f44d73-4fb4-45db-a92d-dadbfef3196f">
+      <name>ПолучениеГруппДоступаКандидатов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получение групп доступа кандидатов</value>
+      </synonym>
+      <handler>ГруппыДоступаКандидатовПолучениеГруппДоступаКандидатов</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="9372079a-1847-4afa-8373-6e2831844004">
+    <name>Настройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки</value>
+    </synonym>
+    <template>/options/*</template>
+    <methods uuid="b0985b53-0b68-49cc-8e18-f66f6ffd8bcf">
+      <name>ПолучениеНастроек</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получение настроек</value>
+      </synonym>
+      <handler>НастройкиПолучениеНастроек</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="0ca3d7f4-f265-44b5-a3f1-a88be105b913">
+    <name>ОперацииЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операции загрузки</value>
+    </synonym>
+    <template>/import-operations/*</template>
+    <methods uuid="ac41ab2b-ba41-4ee5-a35b-4742f3be6d55">
+      <name>ПолучитьОперацииЗагрузки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить операции загрузки</value>
+      </synonym>
+      <handler>ОперацииЗагрузкиПолучитьОперацииЗагрузки</handler>
+    </methods>
+    <methods uuid="5bc97ef1-ecaf-4cac-af78-d6c61710befe">
+      <name>СоздатьОперациюЗагрузки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Создать операцию загрузки</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ОперацииЗагрузкиСоздатьОперациюЗагрузки</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="f834f452-0fb2-43fc-8174-ed7d69f6a656">
+    <name>ОперацияЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операция загрузки</value>
+    </synonym>
+    <template>/import-operations/{ID}</template>
+    <methods uuid="96209dfd-d8ec-4132-a726-65e372de0e1f">
+      <name>ПолучитьОперациюЗагрузки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить операцию загрузки</value>
+      </synonym>
+      <handler>ОперацияЗагрузкиПолучитьОперациюЗагрузки</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

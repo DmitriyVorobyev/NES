@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92a34511-460e-46cd-8d60-f5c7d55b74f5">
+  <producedTypes>
+    <managerType typeId="3425df4e-debb-4ea2-b635-dae8dbe4edd7" valueTypeId="efcd2120-6e41-4c34-a709-2a638b0b279a"/>
+    <valueManagerType typeId="ce2e0a47-f04d-49d7-8d38-be20ece50843" valueTypeId="3a04bcc2-0f08-4fc3-ab89-7d1360caca29"/>
+    <valueKeyType typeId="4fd53433-8c40-454d-bebe-d007c8c2c9cc" valueTypeId="b8d2be1f-911d-4f86-a889-450a2972780d"/>
+  </producedTypes>
+  <name>ИспользоватьКадровоеПланирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать кадровое планирование</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

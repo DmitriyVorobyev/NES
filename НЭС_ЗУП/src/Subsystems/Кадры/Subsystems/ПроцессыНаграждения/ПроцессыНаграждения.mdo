@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a7fd23d-f54a-4104-b748-fb68eff1cb18">
+  <name>ПроцессыНаграждения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процессы награждения</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ПредставлениеКНаграде</content>
+  <content>Document.Награждение</content>
+  <content>Catalog.КатегорииНаград</content>
+  <content>Catalog.Награды</content>
+  <content>DocumentJournal.ДокументыНаграждения</content>
+  <content>Report.ОтчетыПоПроцессамНаграждения</content>
+  <parentSubsystem>Subsystem.Кадры</parentSubsystem>
+</mdclass:Subsystem>

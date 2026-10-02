@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab686c44-a20c-43e1-a669-42f666d5b4f6">
+  <name>ИспользованиеОбработкиМатрицаТалантов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование обработки матрица талантов</value>
+  </synonym>
+</mdclass:Role>

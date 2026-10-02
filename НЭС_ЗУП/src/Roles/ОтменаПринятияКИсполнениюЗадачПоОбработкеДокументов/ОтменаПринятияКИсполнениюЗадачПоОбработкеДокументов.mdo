@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="277d5cba-b0d2-420e-b96e-e42c4e4da9b3">
+  <name>ОтменаПринятияКИсполнениюЗадачПоОбработкеДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отмена принятия к исполнению задач по обработке документов</value>
+  </synonym>
+</mdclass:Role>

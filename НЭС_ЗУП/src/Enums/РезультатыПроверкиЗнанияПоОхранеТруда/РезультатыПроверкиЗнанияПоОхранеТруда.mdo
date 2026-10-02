@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="692f520a-36e4-4e23-b3fc-84560a79ddc9">
+  <producedTypes>
+    <refType typeId="2671c7bf-0991-4cd7-a4e6-ef627937b2bc" valueTypeId="8be4a559-e575-4706-9a91-8761838bc94f"/>
+    <listType typeId="8c0c035e-fe62-4ae3-94e2-0e0bafda2963" valueTypeId="8f6991cb-5655-4c00-9d49-7e3f0b47485c"/>
+    <managerType typeId="258b373f-cbe4-49d1-a9ba-c2219f88e4e5" valueTypeId="d337dae8-d197-4d9f-835e-08b09ef00cb7"/>
+  </producedTypes>
+  <name>РезультатыПроверкиЗнанияПоОхранеТруда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты проверки знания по охране труда</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="481903f3-7782-4f5b-8405-dcb283edf2ab">
+    <name>Удовлетворительно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удовлетворительно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="759d9420-c986-4690-a7ca-9d5c0c471d3e">
+    <name>Неудовлетворительно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неудовлетворительно</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

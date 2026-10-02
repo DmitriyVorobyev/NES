@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="611e8dce-8e6d-4018-9abd-4ff22ae4365b">
+  <name>ПодтвердитьЗагрузкуОбъектаИОткрыть</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подтвердить загрузку объекта и открыть</value>
+  </synonym>
+</mdclass:CommonPicture>

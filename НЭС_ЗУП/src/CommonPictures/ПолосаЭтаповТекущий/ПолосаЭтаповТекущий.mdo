@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03a3f761-935d-47a0-99ec-f8543c28528f">
+  <name>ПолосаЭтаповТекущий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Полоса этапов текущий</value>
+  </synonym>
+</mdclass:CommonPicture>

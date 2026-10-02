@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3277175-c9d6-4589-9080-54173fccc67f">
+  <producedTypes>
+    <objectType typeId="1a7bdb7d-ec52-4c07-9e4d-d45ceca4fc9e" valueTypeId="c38dd846-7428-4605-af00-a8784ac0e5f1"/>
+    <managerType typeId="6e2ac853-8d71-4f27-b21a-0338209720d9" valueTypeId="0ba6c55a-b98a-4420-a386-89a9a58e1161"/>
+  </producedTypes>
+  <name>ПодготовкаДокументовПОД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подготовка документов (процессы обработки документов)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="47d52daa-beff-430d-a77b-57e5970d3e24">
+    <name>ФормированиеУведомленияОбИспользованииПЭП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формирование уведомления об использовании ПЭП</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0d9c597a-0139-45bf-878f-2082ac8460fc">
+    <name>ФормированиеПоложенияОбИспользованииПЭП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формирование положения об использовании ПЭП</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="7f6bbe45-02d8-45b2-96f3-16f1f0db6c49">
+    <name>ПФ_MXL_ШаблонПоложенияОбИспользованииПЭП_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон положения об использовании ПЭП</value>
+    </synonym>
+  </templates>
+  <templates uuid="0253d12e-fec7-4714-9399-554867a5937d">
+    <name>ПФ_MXL_ШаблонУведомленияОбИспользованииПЭП_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон уведомления об использовании ПЭП</value>
+    </synonym>
+  </templates>
+  <templates uuid="84b02049-e1de-4db0-91b1-401d3e12948e">
+    <name>ПФ_MXL_ШтампПЭП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штамп ПЭП</value>
+    </synonym>
+  </templates>
+  <templates uuid="183d7e17-c6b4-4b0b-8f61-e170a128afcf">
+    <name>ПФ_MXL_ШтампПЭПсДатой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штамп ПЭП с датой</value>
+    </synonym>
+  </templates>
+  <templates uuid="a18797bd-74b7-4141-a8c6-7cc72a3aac26">
+    <name>ПФ_MXL_ШтампЭЦПКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штамп УКЭП контрагента</value>
+    </synonym>
+    <comment>Штамп УКЭП контрагента</comment>
+  </templates>
+</mdclass:DataProcessor>

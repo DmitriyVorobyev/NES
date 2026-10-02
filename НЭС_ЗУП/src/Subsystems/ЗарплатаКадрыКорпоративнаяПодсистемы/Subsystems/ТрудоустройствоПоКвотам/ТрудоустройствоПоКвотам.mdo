@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51a0b596-060f-42db-9271-471e3aab66a1">
+  <name>ТрудоустройствоПоКвотам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Трудоустройство по квотам</value>
+  </synonym>
+  <content>Catalog.ВидыКвотДляТрудоустройства</content>
+  <content>FunctionalOption.ИспользоватьТрудоустройствоПоКвотам</content>
+  <content>CommonModule.ТрудоустройствоПоКвотам</content>
+  <content>Document.ВыделениеКвотДляТрудоустройства</content>
+  <content>InformationRegister.КвотыДляТрудоустройстваПоДолжностям</content>
+  <content>CommonModule.ТрудоустройствоПоКвотамФормы</content>
+  <content>InformationRegister.ТрудоустройствоСотрудниковПоКвотам</content>
+  <content>Catalog.КатегорииСотрудниковТрудоустроенныхПоКвотам</content>
+  <content>Document.ИзменениеКвотыПоТрудоустройству</content>
+  <content>Report.ТрудоустройствоПоКвотам</content>
+  <content>Constant.ИспользоватьТрудоустройствоПоКвотам</content>
+  <content>Constant.ИспользоватьПланированиеКвотДляТрудоустройства</content>
+  <content>FunctionalOption.ИспользоватьПланированиеКвотДляТрудоустройства</content>
+  <content>Role.ДобавлениеИзменениеКвотДляТрудоустройства</content>
+  <content>Role.ЧтениеКвотДляТрудоустройства</content>
+  <content>Catalog.ВыделениеКвотДляТрудоустройстваПрисоединенныеФайлы</content>
+  <content>Catalog.ИзменениеКвотыПоТрудоустройствуПрисоединенныеФайлы</content>
+  <content>InformationRegister.ТрудоустройствоСотрудниковПоКвотамИспр</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b29a86e-9328-4c01-a77f-e5a2df7b2d3d">
+  <producedTypes>
+    <selectionType typeId="57d60892-1cb0-49fc-9e63-d28a794d0522" valueTypeId="7fc9014f-b738-46eb-bb59-868febdb15d6"/>
+    <listType typeId="640e9d4b-a4f7-4677-a15e-9439454819a0" valueTypeId="465bc169-8965-4848-bc7d-0d0c26cb99ff"/>
+    <managerType typeId="b843e41d-2158-433f-a250-79d0b2570d0a" valueTypeId="1869326b-5b18-4066-989e-689f304ca734"/>
+    <recordSetType typeId="712231c9-be0a-41f2-ac83-7a170911d3aa" valueTypeId="bfda12ac-cfa0-4c9c-93eb-9ecfc147646b"/>
+    <recordKeyType typeId="481f9527-3fb9-48bc-91de-1353cb8abf21" valueTypeId="92d7f917-f2e3-4d01-b4ce-8d123805fb41"/>
+    <recordType typeId="7a61d5c1-6dc4-4d4a-adb0-6fbca03afe8e" valueTypeId="5fed295d-146e-4257-8329-961f938e306b"/>
+    <recordManagerType typeId="08c3ef1f-d75b-487a-908e-e4877ca0f7d2" valueTypeId="276261b3-b99a-4924-aea0-ba007f7b3479"/>
+  </producedTypes>
+  <name>ВидыКонтактнойИнформацииКонтактовРекрутинговыхСайтов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды контактной информации контактов рекрутинговых сайтов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a32ba0d1-fe9a-431d-8b32-96e1d9d508d9">
+    <name>ВидКонтактнойИнформации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид контактной информации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыКонтактнойИнформации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="12247b64-38d9-4963-91e5-90cd4cbda631">
+    <name>Контакт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контакт</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КонтактыРекрутинговыхСайтов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="7923ef07-613e-4a79-be6d-92ea58983f3c">
+    <name>ФормаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

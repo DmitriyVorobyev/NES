@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9332864e-1602-4cf0-b188-805da53da3d1">
+  <name>ФактическиеОтпускаДляПечатиДиаграммыОтпусковЦвет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фактические отпуска для печати диаграммы отпусков цвет</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorRef">
+      <color>Web.DimGray</color>
+    </value>
+  </value>
+</mdclass:StyleItem>

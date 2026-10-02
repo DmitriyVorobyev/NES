@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1787fb98-4847-4ffa-a0b0-dd44b3476c7e">
+  <name>ЭкспертнаяОценкаПерсонала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Экспертная оценка персонала</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.ПрофильнаяОценкаКомпетенцийСотрудников</content>
+  <content>Report.РезультатыОпросовПоКомпетенциям</content>
+  <content>Report.СтатусыЗаполненияОпросовПоКомпетенциям</content>
+  <content>Report.СравнительныйАнализКомпетенцийСотрудников</content>
+  <parentSubsystem>Subsystem.ОбучениеИРазвитие</parentSubsystem>
+</mdclass:Subsystem>

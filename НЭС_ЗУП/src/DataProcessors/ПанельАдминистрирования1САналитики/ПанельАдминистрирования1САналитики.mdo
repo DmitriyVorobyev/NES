@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c833bd9-6cac-42f4-a06c-665fe42a7275">
+  <producedTypes>
+    <objectType typeId="2b922309-c435-40c7-9e70-5d37831e9b9b" valueTypeId="6c889db9-570e-46fe-ac5f-22d7b99f975e"/>
+    <managerType typeId="a5d08c07-881e-42d6-b4c6-c4ef75ef2b6a" valueTypeId="4b4665e5-a547-4e73-a671-cf67aea27e8b"/>
+  </producedTypes>
+  <name>ПанельАдминистрирования1САналитики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель администрирования 1С:Аналитики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПанельАдминистрирования1САналитики.Form.Форма</defaultForm>
+  <forms uuid="3f76be6b-080a-46f3-a37c-d8f111832e50">
+    <name>НастройкаИнтеграцииC1САналитикой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка интеграции с 1С:Аналитикой</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="843c098e-90ea-49f7-b9b0-fa1832e61dfe">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="8bca8e6c-631a-49a4-ba16-7e489ca59992">
+    <name>ИнтеграцияС1САналитикой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интеграция с 1С:Аналитикой</value>
+    </synonym>
+    <comment>Позволяет установить набор поставляемых панелей, настроить периодичность обновления данных</comment>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

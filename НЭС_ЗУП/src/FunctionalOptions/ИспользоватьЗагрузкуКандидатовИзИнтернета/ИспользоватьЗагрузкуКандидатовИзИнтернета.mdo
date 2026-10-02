@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7bdf746-bfcf-4c47-89d6-e472e234aa55">
+  <name>ИспользоватьЗагрузкуКандидатовИзИнтернета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать загрузку кандидатов из Интернета</value>
+  </synonym>
+  <location>Constant.ИспользоватьЗагрузкуКандидатовИзИнтернета</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

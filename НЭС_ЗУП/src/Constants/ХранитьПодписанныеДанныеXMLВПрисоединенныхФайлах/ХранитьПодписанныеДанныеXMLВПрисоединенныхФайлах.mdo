@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="609fcfea-d7d5-4b60-9b06-915bcbad74dc">
+  <producedTypes>
+    <managerType typeId="1820dd3d-8357-468c-b6a2-d534e29e66ae" valueTypeId="abb28c66-448f-4510-bab9-36de0e11c754"/>
+    <valueManagerType typeId="9d2b9be3-2b7e-4b6f-8046-abde3af799b2" valueTypeId="b490716e-7d3d-4354-b586-0e8767e1925b"/>
+    <valueKeyType typeId="9e3289b9-1727-424b-b48c-a7e49fd681a6" valueTypeId="3c9239c9-115c-4038-a979-3408611321f4"/>
+  </producedTypes>
+  <name>ХранитьПодписанныеДанныеXMLВПрисоединенныхФайлах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хранить подписанные данные XML в присоединенных файлах</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

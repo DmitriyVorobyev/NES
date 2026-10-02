@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b879aae-e69b-4018-a067-123a3c90b0fd">
+  <producedTypes>
+    <objectType typeId="b81ccaa5-6c2a-4cbe-ada2-1909f2910ef0" valueTypeId="1a5cae38-0b89-4b20-9950-4f62af665336"/>
+    <managerType typeId="0726c3ba-43d8-4293-895f-2d5dbe2d665b" valueTypeId="e3d0b4d9-5442-4c2f-9042-4f2495dfaeca"/>
+  </producedTypes>
+  <name>СредстваИндивидуальнойЗащиты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Средства индивидуальной защиты</value>
+  </synonym>
+  <defaultForm>DataProcessor.СредстваИндивидуальнойЗащиты.Form.Форма</defaultForm>
+  <forms uuid="e86eb9d5-93ec-4bf5-9220-e3e8990003ea">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="882ed7d7-1fbd-4303-bb82-214b45b25229">
+    <name>РезультатыВыдачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результаты выдачи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e6bd85c8-777b-4cf6-ae5c-f3af356c91c8">
+    <name>ИзменениеНормВыдачиРабочихМест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение норм выдачи рабочих мест</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6fc279b2-b854-4c99-907d-199691b81faa">
+    <name>РезультатыВыдачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результаты выдачи</value>
+    </synonym>
+  </templates>
+  <commands uuid="85cd07b3-b6f8-4462-aefe-05ac54f55845">
+    <name>СредстваИндивидуальнойЗащиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средства индивидуальной защиты</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

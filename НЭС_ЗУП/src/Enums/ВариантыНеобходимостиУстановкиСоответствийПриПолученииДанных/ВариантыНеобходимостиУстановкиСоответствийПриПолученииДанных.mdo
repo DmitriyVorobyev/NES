@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a79813a2-d0f3-4287-bbe6-0764a7577ea1">
+  <producedTypes>
+    <refType typeId="e02bc738-01d9-4730-9b95-257009c09382" valueTypeId="d4fe5cfc-afe8-4c50-adc3-3dfe858e9724"/>
+    <listType typeId="77a2ab09-a434-4d28-98f4-fc65bbee79f5" valueTypeId="645fcc1c-d5eb-4a4a-8704-75b83c971549"/>
+    <managerType typeId="8b6c5eb3-8d93-4c9f-9b41-ed6ebade06c8" valueTypeId="19e8802b-abb5-4199-87f9-3162eb649cbd"/>
+  </producedTypes>
+  <name>ВариантыНеобходимостиУстановкиСоответствийПриПолученииДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты необходимости установки соответствий при получении данных</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8bea0d5c-17c8-4934-9f5b-9f1c5d8b6a2c">
+    <name>Помощником</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помощником (по любым полям)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2e1d6536-9abc-4880-b637-e6d80157058f">
+    <name>Автоматически</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматически (по ключевым полям)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b489af91-c066-4e89-80b5-52e40bc12e2c">
+    <name>НеУстанавливать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не устанавливать (создавать новые)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

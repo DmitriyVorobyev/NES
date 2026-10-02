@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b412db57-5b46-4dfe-8934-71613a50a105">
+  <name>ПроцессыОбработкиДокументовКомандныйИнтерфейс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процессы обработки документов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПроцессыОбработкиДокументовЗарплата</picture>
+  </picture>
+  <content>CommonCommand.НастройкиПроцессовОбработкиДокументов</content>
+  <content>DataProcessor.ЗапускЭтапаПроцесса</content>
+  <content>CommonForm.ПрерываниеПроцессовВыполненияЗадач</content>
+  <content>Catalog.СтатусыДокументов</content>
+  <content>Catalog.ЭтапыПроцессов</content>
+  <content>Catalog.ШаблоныПроцессов</content>
+  <content>CommonCommand.МоиЗадачиПоОбработкеДокументов</content>
+  <content>CommonCommand.ЗадачиДляНазначенияИсполнителей</content>
+  <content>CommonCommand.ТекущиеРегламентыеИнтервалы</content>
+  <content>Report.ЗадачиПоОбработкеДокументов</content>
+  <content>Report.АнализВыполненияРегламентныхИнтервалов</content>
+  <content>Document.ДополнительноеЗадание</content>
+</mdclass:Subsystem>

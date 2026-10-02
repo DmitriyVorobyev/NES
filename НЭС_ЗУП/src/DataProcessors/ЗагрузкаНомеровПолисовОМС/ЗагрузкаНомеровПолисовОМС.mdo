@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e3faca6-ba1f-4874-a3ed-237d5141be69">
+  <producedTypes>
+    <objectType typeId="cb5e1c22-c5c4-4704-b058-72549f714983" valueTypeId="ef87eee5-918e-4a0d-8eab-9ce5e1178776"/>
+    <managerType typeId="04eca501-c18b-4778-9036-72fbbf06b918" valueTypeId="a1872b79-c05e-429f-a8bc-0f0d9947a397"/>
+  </producedTypes>
+  <name>ЗагрузкаНомеровПолисовОМС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка номеров полисов ОМС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаНомеровПолисовОМС.Form.Форма</defaultForm>
+  <attributes uuid="ca5d700e-bc43-4dfe-b43e-1e3902269f81">
+    <name>ДатаПрисвоения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата присвоения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="1846ef4d-68c9-475f-bdba-e10367389e57">
+    <producedTypes>
+      <objectType typeId="4ce92550-c901-4e06-bda3-4c27723e25ae" valueTypeId="f23ccddc-3916-451a-a3fd-f70641827a24"/>
+      <rowType typeId="412636ff-254a-43fa-9a99-3e199d6f1f50" valueTypeId="f906915a-380e-4bc0-bc1c-0ff73b4b0585"/>
+    </producedTypes>
+    <name>Сотрудники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудники</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="a6c5513f-ee7f-4f2d-8355-5618760f0a8a">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3d784346-22e8-49cd-a99d-9b79130ac612">
+      <name>НомерПолиса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер полиса</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>16</length>
+        </stringQualifiers>
+      </type>
+      <mask>9999999999999999</mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="904b2130-17f1-46ba-b7b1-7f18f5cb8b17">
+      <name>ДатаОкончания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата окончания</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="f7aaf368-96fc-487f-b38c-de41fc13bfa5">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d2226108-eb6d-4e87-892a-937525c99bb2">
+    <name>ЗагрузкаИзФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка из файла</value>
+    </synonym>
+  </templates>
+  <commands uuid="de263ed8-b9ff-43b9-95f9-9d57662f5621">
+    <name>ЗагрузкаНомеровПолисовОМС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка номеров полисов ОМС</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

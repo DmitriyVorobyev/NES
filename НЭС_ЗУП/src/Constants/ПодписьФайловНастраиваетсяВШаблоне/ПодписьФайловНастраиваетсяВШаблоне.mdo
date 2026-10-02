@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e64347e-c314-46dd-97b4-eceb55a72d61">
+  <producedTypes>
+    <managerType typeId="b84956be-f6d9-4d82-9ede-8e42d9070af8" valueTypeId="00a49c84-bbb0-4e9e-89c9-827eba85688c"/>
+    <valueManagerType typeId="1d2e6232-b3ee-420e-8ddf-63d09e7c7c31" valueTypeId="714901fe-f14c-4d1d-908a-85b65e6101eb"/>
+    <valueKeyType typeId="88065773-3f20-439b-b7a4-fda33265b6e0" valueTypeId="f5aa915a-2719-4514-b940-84dfd7277acf"/>
+  </producedTypes>
+  <name>ПодписьФайловНастраиваетсяВШаблоне</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подпись файлов настраивается в шаблоне</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

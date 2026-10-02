@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebee7dc6-ce0f-4aa5-9dc4-aa55b0cc2148">
+  <name>УстановитьИспользованиеЭлектронногоТестированияКандидатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить использование электронного тестирования кандидатов</value>
+  </synonym>
+  <source>
+    <types>ConstantValueManager.ИспользоватьВнешнихПользователей</types>
+    <types>ConstantValueManager.ИспользоватьШаблоныСообщений</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ЭлектронноеТестированиеКандидатовСобытия.УстановитьИспользованиеЭлектронногоТестированияКандидатовПриЗаписи</handler>
+</mdclass:EventSubscription>

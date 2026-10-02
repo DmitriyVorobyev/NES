@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e17dee4-c27f-4b75-98f7-3474f20d617f">
+  <name>ЭлектронноеТестированиеКандидатовВнешнийПользовательБазовыеПрава</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронное тестирование кандидатов внешний пользователь: базовые права</value>
+  </synonym>
+</mdclass:Role>

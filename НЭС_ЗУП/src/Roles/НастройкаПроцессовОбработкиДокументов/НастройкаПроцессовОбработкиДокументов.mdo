@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad084d33-eeed-42b4-8c4e-788e5a37661a">
+  <name>НастройкаПроцессовОбработкиДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка процессов обработки документов</value>
+  </synonym>
+</mdclass:Role>

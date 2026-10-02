@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fef56fcc-dba1-447b-90e4-00418df9114f">
+  <name>ЗапретПроведенияОтменыПроведенияПерепроведния</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запрет проведения отмены проведения перепроведния</value>
+  </synonym>
+</mdclass:CommonPicture>

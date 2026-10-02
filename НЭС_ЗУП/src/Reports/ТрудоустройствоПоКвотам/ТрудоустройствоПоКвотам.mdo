@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5d69f3b-c7ac-4dfa-b1fd-ba43997fae61">
+  <producedTypes>
+    <objectType typeId="4875ebd2-0736-49f4-81c5-d96718b1fb2e" valueTypeId="72ec8e4b-b83a-4f92-bae8-fab4858586d1"/>
+    <managerType typeId="97b09a21-8d95-4614-a785-d9891fcf325d" valueTypeId="5756e078-f70b-4b8f-b267-a9fa5f50fb55"/>
+  </producedTypes>
+  <name>ТрудоустройствоПоКвотам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Трудоустройство по квотам</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ТрудоустройствоПоКвотам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="3c7930a7-f160-4650-99fa-f2b7ec467417">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="8c55d07e-48c2-4ab7-8d8c-988a83bccabb">
+    <name>ОтчетПоТрудоустройствуИнвалидов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет по трудоустройству инвалидов</value>
+    </synonym>
+  </templates>
+  <templates uuid="001cb75c-97a7-4768-9ea2-a21947ff2742">
+    <name>АнализУчетаТрудоустройстваПоКвотам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ учета трудоустройства по квотам</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ecfc1089-b531-4e90-afb1-24c2daae989f">
+  <producedTypes>
+    <refType typeId="b4fd4e64-7162-40e2-86f8-eba9c3b93540" valueTypeId="ca00023e-a902-48a9-bb97-edbe12a14323"/>
+    <listType typeId="8c6b9158-2d54-4604-b6cc-c1e61aeaac36" valueTypeId="6756cd9e-6b88-4aed-a7cf-bc28e3fb293e"/>
+    <managerType typeId="0544e915-fa84-48b3-b433-9791f4deeef3" valueTypeId="378789f1-b3db-42ee-bf69-fa2021ba90e3"/>
+  </producedTypes>
+  <name>РазовыеЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разовые задачи</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="85553832-8fbf-4a7a-b921-fab2115283db">
+    <name>ПродлитьСертификатЭлектроннойПодписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продлить сертификат электронной подписи</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

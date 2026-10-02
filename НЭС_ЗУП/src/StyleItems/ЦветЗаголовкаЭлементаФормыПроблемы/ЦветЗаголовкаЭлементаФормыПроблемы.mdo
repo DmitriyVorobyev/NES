@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="081c0b72-40b4-4489-b921-b84b3a59d354">
+  <name>ЦветЗаголовкаЭлементаФормыПроблемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвет заголовка элемента формы проблемы</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <red>130</red>
+      <green>110</green>
+      <blue>80</blue>
+    </value>
+  </value>
+</mdclass:StyleItem>

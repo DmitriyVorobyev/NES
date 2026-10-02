@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="955336e3-55c0-408b-8c39-aedc070e0cf6">
+  <name>ЭкспертнаяОценкаПерсоналаКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Экспертная оценка персонала клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

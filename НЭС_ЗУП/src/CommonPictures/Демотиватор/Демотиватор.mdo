@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="695f773d-ca61-47ee-90a6-b0ec9b6687b1">
+  <name>Демотиватор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демотиватор</value>
+  </synonym>
+  <comment>АПК:1343 Дублирование картинки оправдано</comment>
+</mdclass:CommonPicture>

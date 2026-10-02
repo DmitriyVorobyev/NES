@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98821bef-58de-4cae-a4d1-3dce9fed2d8d">
+  <name>ЭлектронноеТестированиеКандидатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронное тестирование кандидатов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DataProcessor.ЭлектронноеТестированиеКандидатов</content>
+  <content>CommonModule.ЭлектронноеТестированиеКандидатов</content>
+  <content>EventSubscription.УстановитьИспользованиеЭлектронногоТестированияКандидатов</content>
+  <content>Constant.ГруппаДоступаВнешнегоПользователяЭлектронногоТестирования</content>
+  <content>Constant.ИспользоватьЭлектронноеТестированиеКандидатов</content>
+  <content>InformationRegister.УдалитьНастройкаВопросовДляЭлектронногоТестирования</content>
+  <content>CommonModule.ЭлектронноеТестированиеКандидатовКлиент</content>
+  <content>CommonModule.ЭлектронноеТестированиеКандидатовВызовСервера</content>
+  <content>CommonModule.ЭлектронноеТестированиеКандидатовСобытия</content>
+  <content>CommonForm.ВыборЭлектронногоТеста</content>
+  <content>CommonForm.СкопироватьНастройкиЭлектронногоТеста</content>
+  <content>FunctionalOption.ИспользоватьЭлектронноеТестированиеКандидатов</content>
+  <content>Role.ЭлектронноеТестированиеКандидатовВнешнийПользовательБазовыеПрава</content>
+  <content>Role.ДобавлениеИзменениеДанныхЭлектронногоТестированияКандидатов</content>
+  <content>Role.ЧтениеДанныхЭлектронногоТестированияКандидатов</content>
+  <content>InformationRegister.НастройкаВопросовДляЭлектронногоТестирования</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

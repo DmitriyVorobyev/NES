@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="766e7c2e-490e-4449-8b92-188469ff4617">
+  <name>ДиректБанкОбменЧерезБанкПосредник</name>
+  <synonym>
+    <key>ru</key>
+    <value>Директ банк обмен через банк посредник</value>
+  </synonym>
+</mdclass:CommonPicture>

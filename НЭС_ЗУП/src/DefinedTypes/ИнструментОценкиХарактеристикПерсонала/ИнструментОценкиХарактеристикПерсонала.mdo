@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83fe5c7b-6fba-4914-8b3e-d2c068157821">
+  <producedTypes>
+    <containerType typeId="458352d6-a0a2-4a94-8bc1-8e3e5112bd2f" valueTypeId="0596d6dd-1032-4a3a-a880-2edc05204c89"/>
+  </producedTypes>
+  <name>ИнструментОценкиХарактеристикПерсонала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инструмент оценки характеристик персонала</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ШаблоныАнкет</types>
+    <types>CatalogRef.ЭлектронныеКурсы</types>
+  </type>
+</mdclass:DefinedType>

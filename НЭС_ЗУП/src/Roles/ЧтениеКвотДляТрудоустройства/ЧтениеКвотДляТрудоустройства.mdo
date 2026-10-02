@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fed78b50-30b4-48d8-9b5a-05ecfaf08539">
+  <name>ЧтениеКвотДляТрудоустройства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение квот для трудоустройства</value>
+  </synonym>
+</mdclass:Role>

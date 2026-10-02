@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcb3bbfe-919d-4ff6-9073-b272f2bca720">
+  <name>СинхронизацияMSExchange</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация Microsoft Exchange</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

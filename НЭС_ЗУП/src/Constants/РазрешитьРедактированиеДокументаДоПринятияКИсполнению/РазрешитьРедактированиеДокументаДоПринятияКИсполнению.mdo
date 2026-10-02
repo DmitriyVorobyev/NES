@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e72d2e8-3e0c-4b5a-9d9e-be03e37fd77f">
+  <producedTypes>
+    <managerType typeId="c9cbd3d0-3c8d-4d9c-ad0b-2c5bd67bdea5" valueTypeId="d14707eb-48cf-4111-ab79-dd3fb5761ba4"/>
+    <valueManagerType typeId="13a22657-ef09-42b3-b373-9b77e28e8d46" valueTypeId="7882e6be-d8ae-46bc-9205-2db352ab589f"/>
+    <valueKeyType typeId="22f811b7-d8b8-52f2-93ad-248ae24cb73a" valueTypeId="825ef7e1-f78f-5d62-a4bf-e219abf1fc2f"/>
+  </producedTypes>
+  <name>РазрешитьРедактированиеДокументаДоПринятияКИсполнению</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разрешить редактирование документа до принятия задачи к исполнению</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

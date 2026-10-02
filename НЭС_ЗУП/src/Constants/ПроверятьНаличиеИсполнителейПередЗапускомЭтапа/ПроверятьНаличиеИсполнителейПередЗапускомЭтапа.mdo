@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb6b734b-454a-41dd-ac27-d454c2f6214d">
+  <producedTypes>
+    <managerType typeId="6a27466d-6b93-4c0e-837f-22782a7946d1" valueTypeId="c617c2fb-c2c2-4832-a9ed-44170438d2c6"/>
+    <valueManagerType typeId="8bc056a3-d5a0-41f4-a2df-f4bf9933ea8e" valueTypeId="b1570da5-1fc2-4aa0-9dcb-9158106cf895"/>
+    <valueKeyType typeId="98198388-cde7-4bf2-9efa-59b4266cfad6" valueTypeId="fded4475-99cc-4e4d-8f3d-35be88eca9e2"/>
+  </producedTypes>
+  <name>ПроверятьНаличиеИсполнителейПередЗапускомЭтапа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверять наличие исполнителей перед запуском этапа</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

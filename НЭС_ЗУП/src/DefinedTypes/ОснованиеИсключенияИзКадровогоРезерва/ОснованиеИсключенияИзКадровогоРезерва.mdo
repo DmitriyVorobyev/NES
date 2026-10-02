@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5e0b32c-1908-493e-b101-fc4466fb14b3">
+  <producedTypes>
+    <containerType typeId="def494eb-b114-48fa-ae66-641edaab270b" valueTypeId="45088278-b9d6-4986-bfbe-b4c573a1e5a7"/>
+  </producedTypes>
+  <name>ОснованиеИсключенияИзКадровогоРезерва</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основание исключения из кадрового резерва</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.РезультатыАттестацииСотрудников</types>
+    <types>DocumentRef.ДисциплинарноеВзыскание</types>
+  </type>
+</mdclass:DefinedType>

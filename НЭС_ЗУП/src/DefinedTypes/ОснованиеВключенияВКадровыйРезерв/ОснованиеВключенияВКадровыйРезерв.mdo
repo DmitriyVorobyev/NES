@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c7093c0-a818-4b2f-be44-36a390ed50f4">
+  <producedTypes>
+    <containerType typeId="52e3b88d-b992-4964-a87a-2ae2fe41b9b3" valueTypeId="652d2042-3fca-4852-8dcf-48c3f362e633"/>
+  </producedTypes>
+  <name>ОснованиеВключенияВКадровыйРезерв</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основание включения в кадровый резерв</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ЗаявкаНаВключениеВКадровыйРезерв</types>
+  </type>
+</mdclass:DefinedType>

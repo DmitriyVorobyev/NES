@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f932318c-ffda-4e86-a037-cd0a14ef6121">
+  <producedTypes>
+    <selectionType typeId="5e673d3b-1a01-4749-a648-b957625e23ec" valueTypeId="bbba0e7a-44cf-40c1-8c31-28f2cb630777"/>
+    <listType typeId="4ea29630-1306-4b25-b309-e76f3b510b02" valueTypeId="8fd0bc16-dfa8-41f2-8abe-7432732384f0"/>
+    <managerType typeId="1494b76f-9b8a-487b-ab0d-9735ce57f02e" valueTypeId="49ca42b7-ab93-482e-8920-7d7dd93db03d"/>
+    <recordSetType typeId="dae3c71b-97ea-4f79-8b69-ea63a9f1e36b" valueTypeId="a58d64da-050a-42f3-8a1a-589ac5068782"/>
+    <recordKeyType typeId="01b1c9ce-c53b-4568-b6fe-14536ea9ec48" valueTypeId="d3ec043b-eadb-41d3-8df5-eb0066df6af3"/>
+    <recordType typeId="8ca4ddeb-5e59-4717-a688-8311837908ed" valueTypeId="731593b3-8c0f-4f33-ab2c-17ec03f45a47"/>
+    <recordManagerType typeId="01428b23-fe73-4246-913f-083b40fabdfa" valueTypeId="1c29ef25-c9cf-4216-9a5c-48090aeee100"/>
+  </producedTypes>
+  <name>ПереходыМеждуЭтапамиПроцесса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переходы между этапами процесса</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ПереходыМеждуЭтапамиПроцесса.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8a5a17db-30f8-4edb-874c-29c6fd123bfd">
+    <name>УсловныйПереходБылВыполнен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условный переход был выполнен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="dc76ff3d-655b-4f0f-8be0-b5156bd2926c">
+    <name>Предмет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ПредметПроцессаОбработкиДокументов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="09eddce6-4888-49d7-8016-74257ed3f694">
+    <name>ИдентификаторПредшественника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор предшественника</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fdfa0a47-012d-4be6-bdef-4f7c6c73460c">
+    <name>ИдентификаторПоследователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор последователя</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="dec4c399-e1ed-45d7-bc86-be6e9f588a81">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

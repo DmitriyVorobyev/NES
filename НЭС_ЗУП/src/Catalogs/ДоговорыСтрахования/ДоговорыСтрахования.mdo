@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2911561-b11e-4f30-9398-90c38347341b">
+  <producedTypes>
+    <objectType typeId="3b207df9-432b-462e-97c0-a3f54f303c53" valueTypeId="2e29bd26-c4f3-4e84-abb3-8b1fdb99b398"/>
+    <refType typeId="ff5a89ad-b575-4496-9e1c-0c8ded2522f3" valueTypeId="6b98ca8f-7cd2-42e9-8277-51ec027f2052"/>
+    <selectionType typeId="09a2f161-7bbe-4fdb-8cc2-424236cc4cd9" valueTypeId="4056f131-7511-4e10-9970-1452d11e910b"/>
+    <listType typeId="0c76facd-5cfe-469d-85f0-1236f3c65765" valueTypeId="488cf28f-e8ea-4fc1-923c-f37927bc83a4"/>
+    <managerType typeId="77b67aac-e29f-4d38-8d3f-1b51a173199f" valueTypeId="f5622000-b7ac-4210-a8f0-c9a2cc0f012e"/>
+  </producedTypes>
+  <name>ДоговорыСтрахования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договоры страхования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДоговорыСтрахования.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страховая компания</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Контрагенты.EmptyRef</value>
+    </fillValue>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входит в группу</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ДоговорыСтрахования.EmptyRef</value>
+    </fillValue>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Catalog.ДоговорыСтрахования.StandardAttribute.Owner</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <characteristics>
+    <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеРеквизиты</characteristicTypes>
+    <keyField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</keyField>
+    <typesFilterField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеРеквизиты.Attribute.ИмяПредопределенногоНабора</typesFilterField>
+    <typesFilterValue xsi:type="core:StringValue">
+      <value>Справочник_ДоговорыСтрахования</value>
+    </typesFilterValue>
+    <characteristicValues>Catalog.ДоговорыСтрахования.TabularSection.ДополнительныеРеквизиты</characteristicValues>
+    <objectField>Catalog.ДоговорыСтрахования.TabularSection.ДополнительныеРеквизиты.StandardAttribute.Ref</objectField>
+    <typeField>Catalog.ДоговорыСтрахования.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</typeField>
+    <valueField>Catalog.ДоговорыСтрахования.TabularSection.ДополнительныеРеквизиты.Attribute.Значение</valueField>
+  </characteristics>
+  <characteristics>
+    <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения</characteristicTypes>
+    <keyField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.Attribute.Свойство</keyField>
+    <typesFilterField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.Attribute.ИмяПредопределенногоНабора</typesFilterField>
+    <typesFilterValue xsi:type="core:StringValue">
+      <value>Справочник_ДоговорыСтрахования</value>
+    </typesFilterValue>
+    <characteristicValues>InformationRegister.ДополнительныеСведения</characteristicValues>
+    <objectField>InformationRegister.ДополнительныеСведения.Dimension.Объект</objectField>
+    <typeField>InformationRegister.ДополнительныеСведения.Dimension.Свойство</typeField>
+    <valueField>InformationRegister.ДополнительныеСведения.Resource.Значение</valueField>
+  </characteristics>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Договор страхования</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Контрагенты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ДоговорыСтрахования.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ДоговорыСтрахования.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ДоговорыСтрахования.Form.ФормаСписка</defaultChoiceForm>
+  <attributes uuid="501f913d-0060-4de6-8a38-1ecc477c2950">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер договора</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер договора</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3feb770c-bdd5-4c8c-b20e-43840bd0d966">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6d8544a8-daed-44d0-9161-c329d74d8953">
+    <name>ДатаНачалаСтрахования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала страхования</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fddfb4fc-222f-42b3-a0cb-75b39b828dd2">
+    <name>ДатаОкончанияСтрахования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания страхования</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="252ba73b-1298-485f-b338-cde52e757efb">
+    <name>ОткреплятьСотрудниковВОтпускеПоУходуЗаРебенком</name>
+    <synonym>
+      <key>ru</key>
+      <value>Откреплять сотрудников в отпуске по уходу за ребенком</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f08e5bc1-cad1-467f-8411-0c1d00d61f2e">
+    <name>ИспользуютсяРасширенияПрограмм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используются расширения программ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="df12a40c-f29f-4245-be0b-5f2f83a96e0b">
+    <name>СдвигДатыПрикрепления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сдвиг даты прикрепления</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7dd64fc2-9bbf-4246-982b-51e029a10da6">
+    <name>ТребуетсяУдержание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется удержание</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5097901e-7eb4-42eb-a5e1-fbfa1a4e2536">
+    <name>СпособУдержания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ удержания</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыУдержанияМедицинскогоСтрахованияСотрудников</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f9ae573f-c280-4cdd-a3b1-6bce328fdffd">
+    <name>Удержание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удержание</value>
+    </synonym>
+    <type>
+      <types>ChartOfCalculationTypesRef.Удержания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.КатегорияУдержания</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.КатегорииУдержаний.EnumValue.ДМС</value>
+      </value>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ВАрхиве</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.СпособВыполненияУдержания</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.СпособыВыполненияУдержаний.EnumValue.ЕжемесячноПриОкончательномРасчете</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8c55fcfd-91da-4064-a503-e2b50beb6324">
+    <name>УдерживатьЗаСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удерживать за сотрудника</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="34e9fd65-cef0-4f79-b205-63f9aa705da6">
+    <name>УдерживатьЗаРодственников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удерживать за родственников</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b50ad650-330d-44b6-8ceb-cf04aef1f726">
+    <name>ПрименяетсяЧастичноеУдержание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Применяется частичное удержание</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ca613079-bcae-4096-a605-87a6db3dac89">
+    <name>ПроцентЧастичногоУдержания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент частичного удержания</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="64be078a-25a3-4724-a03b-bdcb151301cc">
+    <name>ДоговорЗакрыт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор закрыт</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5b914cfc-d968-4de9-821c-2a2eaeea89bf">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Любая дополнительная информация</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="d7224da6-ddc1-44bd-8849-4ed842cd3d81">
+    <producedTypes>
+      <objectType typeId="f5f20a8a-efd2-45de-a20e-3695e90cc903" valueTypeId="40ff0898-5086-45cc-bbae-390e8eb7c658"/>
+      <rowType typeId="8df49a49-6539-4241-ac8e-cad9e435f936" valueTypeId="13b9c98b-ccc1-4a17-9105-72333f55dc20"/>
+    </producedTypes>
+    <name>ПрограммыМедицинскогоСтрахования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Программы медицинского страхования</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="b88850b5-04c0-4aca-8798-e1aa363d2ee7">
+      <name>Программа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Программа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПрограммыМедицинскогоСтрахования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.СтраховаяКомпания</name>
+        <field>Catalog.ДоговорыСтрахования.StandardAttribute.Owner</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="34d93add-11d3-4fa2-bb10-23041e04edd3">
+    <producedTypes>
+      <objectType typeId="e7741d63-f2f1-473d-9181-4ea058c3ff2d" valueTypeId="b2856e29-f4f8-4f2a-8fdf-33ad3f5bb055"/>
+      <rowType typeId="d0db317b-2761-4829-95a9-ce4607e6bee5" valueTypeId="ac6b5ce6-9f2d-4882-84f8-d41e314dcc87"/>
+    </producedTypes>
+    <name>ШкалаВозрастаДляСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шкала возраста для сотрудников</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="e9e9d2ec-b6d6-40f8-9e7e-c714fdb12f3c">
+      <name>ЗначениеДо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение до</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="da7e9181-5058-4108-bfaf-a9be05949310">
+      <name>ЗначениеОт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение от</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c9b85885-2f18-412a-bf1a-53f0ade3f541">
+      <name>ЗначениеПоказателя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение показателя</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e8445ba7-2925-414c-8db9-ad5fed441768">
+      <name>ПредставлениеДо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление до</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="97a9a1b0-2b4b-4820-8145-c936ddc3e18f">
+      <name>ПредставлениеОт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление от</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="c8a1f690-8b2a-4654-876b-a746bb92f5e5">
+    <producedTypes>
+      <objectType typeId="3058d769-487d-419b-8ae4-ce5ac6fd447a" valueTypeId="4c5b20f1-bb84-491a-b017-6970c0751942"/>
+      <rowType typeId="90c7c00c-3daf-42a7-a2bd-05fd65851a36" valueTypeId="d449ca2d-e15e-4a38-996e-9255699df635"/>
+    </producedTypes>
+    <name>ШкалаВозрастаДляРодственников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шкала возраста для родственников</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="59fa18df-d96f-4b34-8a30-fa3858587767">
+      <name>ЗначениеДо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение до</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6cc976d3-7509-4102-98c0-bc7d13a687c1">
+      <name>ЗначениеОт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение от</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ee8b5095-a10a-4953-875e-41d6cb572642">
+      <name>ЗначениеПоказателя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение показателя</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b4d7fb35-c0df-4bc7-9595-f5e52ac02251">
+      <name>ПредставлениеДо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление до</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d348e259-c53c-4f50-ae23-849d71aef349">
+      <name>ПредставлениеОт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление от</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="418685bc-f963-4890-8024-ebdc0bb441d9">
+    <producedTypes>
+      <objectType typeId="e3146f46-3167-46c3-b50a-becc3a93c8f1" valueTypeId="229c1b4c-966a-4a73-b1f3-3484e00a00d8"/>
+      <rowType typeId="99bc6c0f-db90-47aa-8e03-53c43fefbd75" valueTypeId="cfb58f63-deef-4c12-9093-e74954fb60d2"/>
+    </producedTypes>
+    <name>ГрафикУдержаний</name>
+    <synonym>
+      <key>ru</key>
+      <value>График удержаний</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="c672f23f-2815-4f67-99d3-d24b2dfbfa11">
+      <name>МесяцУдержания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Месяц удержания</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="454e84b9-c9a6-4287-98ef-4d60e11742f8">
+      <name>МесяцУдержанияСтрокой</name>
+      <synonym>
+        <key>ru</key>
+        <value>Месяц удержания строкой</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="c9af04fe-bfed-4960-a436-fb46c8413a08">
+    <producedTypes>
+      <objectType typeId="3dbd9a21-bdbd-40ae-bbac-0962a67f16eb" valueTypeId="2c27948b-4e6b-4548-b808-af24e7d11ede"/>
+      <rowType typeId="25b9fb91-ad7c-40ae-9052-de7c0baf2107" valueTypeId="01fd4667-13d1-4a8d-b90c-a6e0b73c8d10"/>
+    </producedTypes>
+    <name>ОтправляемыеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправляемые данные</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="22e31625-cc7f-492c-802f-f6dc339a6860">
+      <name>Отправлять</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отправлять</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0ebec41a-74bc-4afb-b397-c52e2273e328">
+      <name>Сведение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сведение</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ДанныеЗастрахованных</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7bb905d4-bb88-4b24-a7fa-0e004975dac3">
+      <name>СпособПроверкиЗаполнения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Способ проверки заполнения</value>
+      </synonym>
+      <type>
+        <types>EnumRef.СпособыПроверкиЗаполненияПерсональныхДанныхМедицинскогоСтрахования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="1d29703c-e8ae-4bfc-b86d-09c1cf5e751f">
+    <producedTypes>
+      <objectType typeId="161a5974-7813-46bb-b81c-6976527b6838" valueTypeId="ceeed556-812e-454b-89f1-11e5c8a557e9"/>
+      <rowType typeId="9d46dc16-e0fa-4e02-ac48-63c978bd0d2a" valueTypeId="00968983-15ed-40ed-aaf2-e1ef6815c872"/>
+    </producedTypes>
+    <name>ОтправляемаяКонтактнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправляемая контактная информация</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="3b626583-ec17-48f6-a7e2-178ec9eb269f">
+      <name>ВидКонтактнойИнформации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид контактной информации</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыКонтактнойИнформации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fa8de8f2-c445-4c7c-930b-3045cbdf222c">
+      <name>Отправлять</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отправлять</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e5c4c247-9227-4481-a560-2ecb42ed7c47">
+      <name>СпособПроверкиЗаполнения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Способ проверки заполнения</value>
+      </synonym>
+      <type>
+        <types>EnumRef.СпособыПроверкиЗаполненияПерсональныхДанныхМедицинскогоСтрахования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="e9d89a79-cfbf-4ce6-bd34-22cc9de0e670">
+    <producedTypes>
+      <objectType typeId="6aa228d0-fc35-4082-9c36-e065f18ae4cd" valueTypeId="3da9b02e-42d5-4554-8e88-6b5bbd8e9d2c"/>
+      <rowType typeId="ae256f3c-b58e-4f3a-a978-ba8eec432c31" valueTypeId="fc45276e-7810-4968-9d30-febd12c5cd72"/>
+    </producedTypes>
+    <name>ОтправляемыеДополнительныеРеквизитыИСведения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправляемые дополнительные реквизиты и сведения</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="427c5d3b-d10b-4527-8182-3a7adf2bfcf9">
+      <name>Отправлять</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отправлять</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ec31480a-bb0f-408a-b91c-93be85626da9">
+      <name>Сведение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сведение</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5941c703-3bbe-4c79-9999-205a06aecb25">
+      <name>СпособПроверкиЗаполнения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Способ проверки заполнения</value>
+      </synonym>
+      <type>
+        <types>EnumRef.СпособыПроверкиЗаполненияПерсональныхДанныхМедицинскогоСтрахования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="91432e65-d3d0-4b0c-a28b-81e56f62890e">
+    <producedTypes>
+      <objectType typeId="f1724f7a-6397-4245-9ea3-c2d3e45be489" valueTypeId="5c7ef44f-4010-4324-9226-f7fd46024ba4"/>
+      <rowType typeId="951754b6-a455-47ec-85a8-7793a388333e" valueTypeId="6abc1806-7738-478e-887e-b63ba098dcae"/>
+    </producedTypes>
+    <name>АдресаРассылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адреса рассылки</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="ef6ac43a-82ed-4008-a1b9-2cff656c151e">
+      <name>Email</name>
+      <synonym>
+        <key>ru</key>
+        <value>Email</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="ca50b761-d6d1-4205-a750-114f5667b50a">
+    <producedTypes>
+      <objectType typeId="b0c1c85d-27ad-4257-83d2-0f46a9265c7c" valueTypeId="8ce435e1-ca7e-46ab-9d7c-297f20fbfbca"/>
+      <rowType typeId="79deb933-4491-4bd1-8a0a-c094e6216916" valueTypeId="1c67905b-df55-4611-8c83-287fb9f313e4"/>
+    </producedTypes>
+    <name>ДополнительныеРеквизиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные реквизиты</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="68810d16-d5cc-4a75-942e-9aabf0868682">
+      <name>Свойство</name>
+      <synonym>
+        <key>ru</key>
+        <value>Свойство</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f6970258-dd37-4e1c-9d85-705ab8658b16">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>Characteristic.ДополнительныеРеквизитыИСведения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Catalog.ДоговорыСтрахования.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="42e62f6c-74d2-46db-b92d-bfde2916c077">
+      <name>ТекстоваяСтрока</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текстовая строка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="6e681a47-22ac-4f46-8a00-204a5663f389">
+    <producedTypes>
+      <objectType typeId="61faf991-b0d6-4586-a7b3-38598f1495ca" valueTypeId="fcf8c679-555f-4d7f-ad38-469970da66e1"/>
+      <rowType typeId="92d4824c-6515-4d31-9940-24ee3a7bcfa7" valueTypeId="ce2b8366-07ac-4c24-affe-5ec1e22cd0dd"/>
+    </producedTypes>
+    <name>РасширенияПрограммМедицинскогоСтрахования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширения программ медицинского страхования</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="802d93fa-6975-4a48-89f5-5681c635548f">
+      <name>РасширениеСтрахования</name>
+      <synonym>
+        <key>ru</key>
+        <value>Расширение страхования</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.РасширенияПрограммМедицинскогоСтрахования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.СтраховаяКомпания</name>
+        <field>Catalog.ДоговорыСтрахования.StandardAttribute.Owner</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="f14ed9bf-a511-417d-9fcc-c4984efafccf">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3b2f1ffe-c419-4b9b-aeae-8dcc8a36846b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

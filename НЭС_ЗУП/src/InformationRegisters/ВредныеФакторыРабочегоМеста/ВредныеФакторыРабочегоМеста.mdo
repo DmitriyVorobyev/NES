@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4472f6b-1cf0-41c3-865d-ba87660dbc9d">
+  <producedTypes>
+    <selectionType typeId="bb458bd0-31af-4929-b0af-88e7b1b78598" valueTypeId="23dd4ccd-1003-4329-b9e5-ce30678d7a1c"/>
+    <listType typeId="fb55f9fd-26fc-4fe0-ab21-dd0ec3d66b63" valueTypeId="f4ef744a-7334-4835-be84-42c8ba5b5bca"/>
+    <managerType typeId="57929468-3411-4e65-ac11-772d26e901a1" valueTypeId="a93da1a0-5807-449e-94ba-f40cb7d58ce3"/>
+    <recordSetType typeId="f037047f-d2d7-49c7-9dd7-bcbc7c741cb2" valueTypeId="2e216441-ab07-4d70-b500-4fcaeb933c3f"/>
+    <recordKeyType typeId="10fa1584-0fbc-41b7-9454-dd8c5996f5af" valueTypeId="48da7665-2f84-40f0-b979-5dd56e374235"/>
+    <recordType typeId="e3f4e6cc-878a-4a64-b5ca-89c71ae27773" valueTypeId="a4932993-edb8-4b59-903f-832d3e6945d3"/>
+    <recordManagerType typeId="4ee9649c-c4c4-4b82-bd37-85ce51fceb0d" valueTypeId="165306ef-01e4-4293-b3e6-8ad888d741e8"/>
+  </producedTypes>
+  <name>ВредныеФакторыРабочегоМеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вредные факторы рабочего места</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="7d227485-79f7-4fd9-943f-d90b98b132eb">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="20bd4b98-aafb-4aac-840c-1713118b9d2f">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеМестаОхраныТруда</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="cac33b05-7053-422e-8f08-b67fad5f0657">
+    <name>ВредныйФактор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вредный фактор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВредныеОпасныеПроизводственныеФакторы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="30261ca3-c25d-41ca-90f7-a9b20b3b3658">
+    <name>ВидОсмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид осмотра</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыОбследований</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

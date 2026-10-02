@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6340cc8-b541-41ee-bc75-0d040bf3d926">
+  <name>ИспользоватьСинхронизациюMSExchange</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать синхронизацию Microsoft Exchange</value>
+  </synonym>
+  <location>Constant.ИспользоватьСинхронизациюMSExchange</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

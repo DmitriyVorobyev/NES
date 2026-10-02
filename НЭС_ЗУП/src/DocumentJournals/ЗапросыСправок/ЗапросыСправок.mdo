@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="565fc27a-71fa-4e24-a5e1-a3f331a8714a">
+  <producedTypes>
+    <selectionType typeId="1c8b1fdc-cac1-41bf-93fa-94b7c53db5a4" valueTypeId="5371144a-6e5d-4420-a9b4-c8642ceb8633"/>
+    <listType typeId="ed5d2690-f0b1-4961-90de-eb9b315803aa" valueTypeId="7023701a-ce2a-47d2-a94f-94eba724130e"/>
+    <managerType typeId="a12f6d5f-66a3-44ee-9f2b-232ac3e3cac3" valueTypeId="d16da29a-5d63-46ea-a6c8-c1429d51bb51"/>
+  </producedTypes>
+  <name>ЗапросыСправок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запросы справок</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ЗапросыСправок.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ЗапросСправки2НДФЛСотрудником</registeredDocuments>
+  <registeredDocuments>Document.ЗапросСправкиСотрудником</registeredDocuments>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <columns uuid="4c243024-7967-4a17-a064-885241789231">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <references>Document.ЗапросСправки2НДФЛСотрудником.Attribute.ФизическоеЛицо</references>
+    <references>Document.ЗапросСправкиСотрудником.Attribute.ФизическоеЛицо</references>
+  </columns>
+  <columns uuid="a76b1aef-60c8-4b03-966b-be155aeb1a67">
+    <name>ВидСправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид справки</value>
+    </synonym>
+    <references>Document.ЗапросСправкиСотрудником.Attribute.ВидСправки</references>
+    <references>Document.ЗапросСправки2НДФЛСотрудником.Attribute.НазначениеСправки</references>
+  </columns>
+  <columns uuid="21a299b4-4344-42e9-b1e6-335e831693c2">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <references>Document.ЗапросСправки2НДФЛСотрудником.Attribute.Ответственный</references>
+    <references>Document.ЗапросСправкиСотрудником.Attribute.Ответственный</references>
+  </columns>
+  <columns uuid="bddde93b-fc43-4548-b2af-5aa19aca7b9b">
+    <name>ЗапросОбработан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос обработан</value>
+    </synonym>
+    <references>Document.ЗапросСправки2НДФЛСотрудником.Attribute.ЗапросОбработан</references>
+    <references>Document.ЗапросСправкиСотрудником.Attribute.ЗапросОбработан</references>
+  </columns>
+  <columns uuid="88997121-68d4-4eb6-bd72-50ab44518068">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <references>Document.ЗапросСправки2НДФЛСотрудником.Attribute.Комментарий</references>
+    <references>Document.ЗапросСправкиСотрудником.Attribute.Комментарий</references>
+  </columns>
+  <forms uuid="954ab302-6820-467e-af1c-f178c0852986">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

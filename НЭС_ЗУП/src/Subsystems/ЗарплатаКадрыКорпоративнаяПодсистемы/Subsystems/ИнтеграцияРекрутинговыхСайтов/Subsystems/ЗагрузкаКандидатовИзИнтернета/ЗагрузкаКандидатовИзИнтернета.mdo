@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e277f4d1-b638-4d58-bf96-e6ea530d6018">
+  <name>ЗагрузкаКандидатовИзИнтернета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка кандидатов из Интернета</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>HTTPService.ЗагрузкаКандидатов</content>
+  <content>InformationRegister.ДоступДляЗагрузкиКандидатовИзИнтернета</content>
+  <content>CommonPicture.GoogleChromeWebStore</content>
+  <content>CommonModule.ЗагрузкаКандидатовИзИнтернетаКлиент</content>
+  <content>CommonModule.ЗагрузкаКандидатовИзИнтернета</content>
+  <content>CommonModule.ЗагрузкаКандидатовИзИнтернетаПовтИсп</content>
+  <content>CommonModule.ЗагрузкаКандидатовИзИнтернетаСлужебный</content>
+  <content>InformationRegister.ЗагрузкаКандидатовИзИнтернета</content>
+  <content>Enum.СостоянияЗагрузкиКандидатовИзИнтернета</content>
+  <content>InformationRegister.СостояниеЗагрузкиКандидатовИзИнтернета</content>
+  <content>CommonModule.ЗагрузкаКандидатовИзИнтернетаСобытия</content>
+  <content>EventSubscription.УстановитьСостояниеЗагрузкиКандидатаИзИнтернета</content>
+  <content>CommonModule.ЗагрузкаКандидатовИзИнтернетаФормы</content>
+  <content>CommonModule.ЗагрузкаКандидатовИзИнтернетаВызовСервера</content>
+  <content>Role.ИспользованиеЗагрузкиКандидатовИзИнтернета</content>
+  <content>ScheduledJob.ЗагрузкаКандидатовИзИнтернета</content>
+  <content>Constant.ИспользоватьЗагрузкуКандидатовИзИнтернета</content>
+  <content>FunctionalOption.ИспользоватьЗагрузкуКандидатовИзИнтернета</content>
+  <content>CommonPicture.СостоянияЗагрузкиКандидатаИзИнтернета</content>
+  <content>CommonPicture.СостояниеЗагрузкиКандидатаИзИнтернетаЕстьОднофамильцы</content>
+  <content>CommonPicture.СостояниеЗагрузкиКандидатаИзИнтернетаОшибка</content>
+  <content>CommonPicture.СостояниеЗагрузкиКандидатаИзИнтернетаКонтактыЗакрыты</content>
+  <content>InformationRegister.НастройкиДоступаДляЗагрузкиКандидатовИзИнтернета</content>
+  <content>CommonPicture.Этап1ЗагрузкаКандидатовИзИнтернета</content>
+  <content>CommonPicture.Этап2ЗагрузкаКандидатовИзИнтернета</content>
+  <content>CommonPicture.РасширениеБраузера1CHR</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы.Subsystem.ИнтеграцияРекрутинговыхСайтов</parentSubsystem>
+</mdclass:Subsystem>

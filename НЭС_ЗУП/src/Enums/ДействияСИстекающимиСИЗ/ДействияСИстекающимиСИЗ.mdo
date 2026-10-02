@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5b72311-4695-4717-8eb0-a57d13e1a851">
+  <producedTypes>
+    <refType typeId="fe6dcc4e-59fa-42fe-8991-91f65b44cc50" valueTypeId="bf9005cc-723d-4b0d-9c29-4674e8d7377e"/>
+    <listType typeId="e2217db4-4a2a-4095-b14c-ec185d10c400" valueTypeId="cf8e6015-a59c-472f-b90f-98aa20d16933"/>
+    <managerType typeId="1dc77382-09cb-4d02-921c-c69dce219fc2" valueTypeId="312962fa-5649-4e89-9067-0d079f2ce407"/>
+  </producedTypes>
+  <name>ДействияСИстекающимиСИЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Действия с истекающими СИЗ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c7828628-f96b-4850-84ac-cebd247eb53d">
+    <name>ПродлитьСрокНоски</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продлить срок носки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5dca1a88-d64a-4380-aa31-0ed7a2086bbd">
+    <name>Списать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списать</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

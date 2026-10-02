@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65cd56c9-3de9-4642-b58d-17407fb39025">
+  <name>ПолучениеСообщенийИзОтчетность24</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение сообщений из &quot;1С:Отчетность 24&quot;</value>
+  </synonym>
+  <methodName>CommonModule.ИнтеграцияСОтчетность24.РегламентноеЗаданиеПолучениеСообщенийИзОтчетность24</methodName>
+  <key>ПолучениеСообщенийОблачнойОтчетностиПолучениеСообщенийОблачнойОтчетности</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f5506f5-70df-44cf-a3de-561a34495155">
+  <producedTypes>
+    <managerType typeId="d468b297-5eeb-41da-a97e-049cb3955255" valueTypeId="92e741b2-98a8-4714-882f-0117299dd322"/>
+    <valueManagerType typeId="f0ff90d5-a6bd-4aba-8a33-4eb7474c16f8" valueTypeId="4551d20d-b836-44d9-8942-fb9e08226bf0"/>
+    <valueKeyType typeId="ffcc6156-656a-4eef-8791-0c531e3db78b" valueTypeId="59f5b21a-df73-4bda-8faf-4e04ff2d2739"/>
+  </producedTypes>
+  <name>ИспользоватьПроверкуПодписываемыхДанныхЧерезХэш</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать проверку подписываемых данных через хэш</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

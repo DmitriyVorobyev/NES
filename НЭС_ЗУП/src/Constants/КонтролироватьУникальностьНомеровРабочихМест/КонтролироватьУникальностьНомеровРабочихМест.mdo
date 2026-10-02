@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82194d73-d784-4854-abe3-ffd1a0667670">
+  <producedTypes>
+    <managerType typeId="dbb27cde-c0a8-4f50-af97-e5211c386a40" valueTypeId="f639ee79-5a4b-44cc-b53c-0affb0ba71d7"/>
+    <valueManagerType typeId="80c5f6fc-6858-44c0-9ced-6ec1e08441b2" valueTypeId="88627a6e-d648-4bec-8a9b-69eeb4f47ca4"/>
+    <valueKeyType typeId="650465ba-9311-4c4c-86c3-bf2c082b7bc7" valueTypeId="99f46ab2-836c-40c6-8405-ea8c73f744bd"/>
+  </producedTypes>
+  <name>КонтролироватьУникальностьНомеровРабочихМест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контролировать уникальность номеров рабочих мест</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

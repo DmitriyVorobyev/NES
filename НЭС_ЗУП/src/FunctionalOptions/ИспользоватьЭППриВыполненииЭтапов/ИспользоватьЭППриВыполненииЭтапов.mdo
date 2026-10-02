@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e630c031-b298-4e4d-94f4-b3d3220a40f4">
+  <name>ИспользоватьЭППриВыполненииЭтапов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать усиленную ЭП при выполнении этапов</value>
+  </synonym>
+  <location>Constant.ИспользоватьЭППриВыполненииЭтапов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ЭтапыПроцессов.TabularSection.РезультатыВыполнения.Attribute.ТребуетсяЭП</content>
+  <content>InformationRegister.ПодписанныеДанные</content>
+  <content>Catalog.ШаблоныПроцессов.TabularSection.Этапы.Attribute.ВключатьВШтампВизуализацииЭП</content>
+  <content>Catalog.ШаблоныПроцессов.TabularSection.Этапы.Attribute.ПодписыватьФайлыЭП</content>
+</mdclass:FunctionalOption>

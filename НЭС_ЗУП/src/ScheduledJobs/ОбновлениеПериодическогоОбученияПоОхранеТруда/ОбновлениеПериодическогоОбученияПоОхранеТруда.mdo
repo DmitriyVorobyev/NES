@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc54e59c-2985-4acb-bfba-997cde63bde4">
+  <name>ОбновлениеПериодическогоОбученияПоОхранеТруда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление периодического обучения по охране труда</value>
+  </synonym>
+  <methodName>CommonModule.ОбучениеПоОхранеТруда.ОбновлениеПериодическогоОбученияПоОхранеТруда</methodName>
+  <key>ОбновлениеПериодическогоОбученияПоОхранеТруда</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

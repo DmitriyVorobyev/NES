@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8641b4f0-053d-488f-9f9f-d3a7b9f04179">
+  <name>ЗагрузкаКандидатовИзИнтернета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка кандидатов из Интернета</value>
+  </synonym>
+  <methodName>CommonModule.ЗагрузкаКандидатовИзИнтернетаСлужебный.ОбработатьОчередьЗагрузкиКандидатов</methodName>
+  <key>ЗагрузкаКандидатовИзИнтернета</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

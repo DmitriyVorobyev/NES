@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="873edea2-42cd-4413-954d-e293fb602a7b">
+  <producedTypes>
+    <refType typeId="3072cc6c-52a7-4a50-9d7b-571c33811345" valueTypeId="95e615f7-4540-48ab-bd28-9f8cd0afaa89"/>
+    <listType typeId="09c5f992-f37f-4280-9192-cfb23ce12066" valueTypeId="93e844a2-527f-4c55-aa7d-522fcb038a82"/>
+    <managerType typeId="2be01cb4-df85-423a-8b6b-95d01716ada1" valueTypeId="d553a825-b2fb-4b00-b501-397ce1a28a75"/>
+  </producedTypes>
+  <name>ВерсииСерверовMSExchange</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версии серверов Microsoft Exchange</value>
+  </synonym>
+  <comment>АПК:58 полное наименование слишком длинное</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d6ffc330-528c-4db9-adbd-93e74725ab51">
+    <name>Exchange2010</name>
+    <synonym>
+      <key>ru</key>
+      <value>Exchange2010</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="849a0678-3588-4bdf-8c4d-c3b30f0c9240">
+    <name>Exchange2013</name>
+    <synonym>
+      <key>ru</key>
+      <value>Exchange2013</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fd136d48-35b1-430e-b572-02db73bd7453">
+    <name>Exchange2016</name>
+    <synonym>
+      <key>ru</key>
+      <value>Exchange2016</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5e0207e9-ac16-46db-8cb6-1cf0b567d21b">
+    <name>Exchange2019</name>
+    <synonym>
+      <key>ru</key>
+      <value>Exchange2019</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

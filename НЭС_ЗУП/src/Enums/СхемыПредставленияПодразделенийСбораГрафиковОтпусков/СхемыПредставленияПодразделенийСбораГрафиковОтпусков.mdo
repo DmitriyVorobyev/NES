@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d33a8937-b6dd-49f9-91ac-470ca18e7058">
+  <producedTypes>
+    <refType typeId="b64bc47b-ea2c-4fff-a5db-416d85d7fe4b" valueTypeId="ccb8c5b2-f09b-418d-839b-1be76738ea39"/>
+    <listType typeId="976c24b1-786e-4acc-83ae-172a29c93baa" valueTypeId="de8535fe-7af2-49b9-9487-caa9c60b5e2a"/>
+    <managerType typeId="8d897fd2-398c-4702-849d-45ffa4e946bb" valueTypeId="a7c7ebc5-aba9-419b-8641-5e997062f33f"/>
+  </producedTypes>
+  <name>СхемыПредставленияПодразделенийСбораГрафиковОтпусков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Схемы представления подразделений сбора графиков отпусков</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="14270467-afd3-4b20-873b-a5ac7db6e437">
+    <name>НепосредственныеПодчиненные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Непосредственные подчиненные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b6b8c590-acd5-44cb-8acd-fa79ac9f6283">
+    <name>ВключаяНижестоящиеПодразделения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включая нижестоящие подразделения</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

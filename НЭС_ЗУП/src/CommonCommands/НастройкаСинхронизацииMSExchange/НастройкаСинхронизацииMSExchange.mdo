@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fc53f3a-5009-418d-99fe-a8a6932060a0">
+  <name>НастройкаСинхронизацииMSExchange</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настроить синхронизацию с MS Exchange</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4700ad1b-d2e3-41f4-ab5e-91ed62ee2a81">
+  <producedTypes>
+    <managerType typeId="3b4bf339-68ae-4a5a-b46e-faa0f14ca189" valueTypeId="59f86c97-78a9-4921-8cef-491a4de4fccb"/>
+    <valueManagerType typeId="388e175a-1fdd-4da0-a3a1-58c191824c95" valueTypeId="e2553549-2cb7-4686-8fd1-edd220016df9"/>
+    <valueKeyType typeId="15d9f451-78ba-461d-8052-9f6116c5f712" valueTypeId="e736a9c1-2d6f-453b-9d7b-53ab703ea56c"/>
+  </producedTypes>
+  <name>ИспользоватьПроцессыНаграждения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать документы награждения </value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

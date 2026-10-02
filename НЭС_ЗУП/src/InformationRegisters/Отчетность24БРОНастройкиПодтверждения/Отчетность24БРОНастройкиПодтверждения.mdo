@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="836a6de2-7ccc-4a23-b679-4ba378f5adfd">
+  <producedTypes>
+    <selectionType typeId="f86720ed-f05d-43c7-967b-c744fb4fadba" valueTypeId="87a15f8d-1484-4c36-af11-8bc43170a69a"/>
+    <listType typeId="e2ce4832-0086-4fc7-a69d-d462f9eda7cb" valueTypeId="2dbe2ba5-6285-4914-bb8a-d2633d67a17c"/>
+    <managerType typeId="707ace50-47a7-49ae-88d3-c02cf8839c1f" valueTypeId="601c25ea-4fad-4780-9b97-7a4a99258d1b"/>
+    <recordSetType typeId="b6c3bc50-1665-4c04-b8b3-5ab868e43e9b" valueTypeId="7c8df569-8370-48fc-87ed-ec1bd4cfad5a"/>
+    <recordKeyType typeId="5a945c24-bae8-41dd-a331-28a8370db7df" valueTypeId="12fde95c-3f41-4cd7-b79d-0569539e3c60"/>
+    <recordType typeId="2f1490a8-f554-42ce-a41a-7e573dba7b95" valueTypeId="3580adc8-da96-4626-91e9-fd759df397b3"/>
+    <recordManagerType typeId="0d2bf2aa-116b-4177-8fd3-149b1e8a0083" valueTypeId="48f9e8b9-3428-4a1c-a112-64bc8d6ac87d"/>
+  </producedTypes>
+  <name>Отчетность24БРОНастройкиПодтверждения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки подтверждения запросов из Отчетность 24</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Настройка подтверждения</value>
+  </recordPresentation>
+  <resources uuid="830e7ee6-473c-4e19-bc4a-d04ce4b54a3c">
+    <name>РазрешеноПодтверждениеОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешено подтверждение отправки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1976554e-8810-4df0-96cf-038d1be95167">
+    <name>Получатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатель</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="257506cb-fa79-4126-8c4b-dbd1092545ae">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Пользователь</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

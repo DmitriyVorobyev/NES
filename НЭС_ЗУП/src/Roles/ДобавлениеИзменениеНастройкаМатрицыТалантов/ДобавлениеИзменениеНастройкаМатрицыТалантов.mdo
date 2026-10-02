@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5e69ee5-ad9c-4665-9000-c6de338454d4">
+  <name>ДобавлениеИзменениеНастройкаМатрицыТалантов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение настройка матрицы талантов</value>
+  </synonym>
+</mdclass:Role>

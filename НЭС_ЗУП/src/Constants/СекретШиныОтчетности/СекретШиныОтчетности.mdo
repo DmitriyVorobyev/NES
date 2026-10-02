@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f634e7d-2fc0-435a-b150-4b88b2e74c37">
+  <producedTypes>
+    <managerType typeId="2437e2ff-08bd-4113-b596-2da504d0a8c7" valueTypeId="ff6ee838-6d57-4a91-bc73-a44a2c2ee235"/>
+    <valueManagerType typeId="3abeecd3-c014-46f3-831a-cdbabce94a39" valueTypeId="b3fe5e2f-4815-4a28-b165-bc999ec18fdc"/>
+    <valueKeyType typeId="9162ea01-f61d-45ce-bba1-67d2b77d92aa" valueTypeId="db31c3bb-a3aa-48cb-aa42-3431c61bd2f3"/>
+  </producedTypes>
+  <name>СекретШиныОтчетности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Секрет шины отчетности</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

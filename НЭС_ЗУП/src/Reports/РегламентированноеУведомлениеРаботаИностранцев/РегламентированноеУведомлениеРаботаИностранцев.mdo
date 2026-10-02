@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30750bea-efee-4a7f-b9c4-699573909124">
+  <producedTypes>
+    <objectType typeId="cef07990-8972-4792-91ee-b41b3b9eca74" valueTypeId="f0f9926c-fd0a-46d2-90b8-0d102ab4cc59"/>
+    <managerType typeId="79caa857-f615-457f-acca-7f98f5ee1cbc" valueTypeId="97456a83-b0b0-442a-ba2f-fca595225197"/>
+  </producedTypes>
+  <name>РегламентированноеУведомлениеРаботаИностранцев</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления по трудовым договорам иностранцев</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ИнформацияОНевозможностиОткрытияУведомления</defaultForm>
+  <forms uuid="c5ed73f5-2915-4635-913c-8e9ba111068a">
+    <name>Форма2023_Заключение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление о заключении трудового договора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="39b61647-3984-4a40-8505-49626743081d">
+    <name>Форма2023_Расторжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление о расторжении трудового договора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8fa53093-0f88-4c81-bf22-c3f837a30382">
+    <name>Форма2023_Обязательства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление об исполнении обязательств по выплате заработной платы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2e4f7658-717a-40f9-8c2b-04deecb79178">
+    <name>Форма2023_Ходатайство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ходатайство иностранного гражданина о привлечении его в качестве высококвалифицированного специалиста</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f439a04b-f86d-4a68-b495-99823adadb97">
+    <name>Форма2023_ХодатайствоПатент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ходатайство о переоформлении патента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="260e6596-8caa-436f-be79-bb744c06b5f8">
+    <name>Форма2023_РаботаПоПатенту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление об осуществлении трудовой деятельности иностранным гражданином, получившим патент</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="40a961dc-b2e6-411d-a1ea-e6446cd07d4b">
+    <name>Форма2023_КвалифицированныйСпециалист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ходатайство работодателя о привлечении высококвалифицированного специалиста</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6e125719-36c0-4545-afdf-87aacd75f558">
+    <name>Форма2026_Заключение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление о заключении трудового договора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9281bb6b-fc6e-4b58-a4ee-8e8e0354907f">
+    <name>Форма2026_Расторжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление о расторжении трудового договора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="477face8-1e36-4329-b481-daa9d2cdd465">
+    <name>Форма2026_Обязательства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление об исполнении обязательств по выплате заработной платы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0c43c3d8-ec73-4204-997b-444f20580dbf">
+    <name>Форма2026_Ходатайство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ходатайство иностранного гражданина о привлечении его в качестве высококвалифицированного специалиста</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="4e0039bb-85ab-47a2-87b2-e6c96e0a90c1">
+    <name>Титульная_2023_Заключение</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="edb04064-7180-4ff2-9792-9474f883cf45">
+    <name>Титульная_2023_Расторжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="5838b7b1-2e8e-4642-927d-0c3af5b9b464">
+    <name>Титульная_2023_Обязательства</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="e276762b-db36-4eef-9c15-6561f7766f09">
+    <name>Титульная_2023_Ходатайство</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="77ce72bd-8c44-4745-a4df-1597bbfe993f">
+    <name>ОпытРаботы_2023_Ходатайство</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="6049ce23-6956-4c51-8fca-d7ed4118ec72">
+    <name>Титульная_2023_ХодатайствоПатент</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="6a9c54fd-8aa4-43fd-8d21-19ab12bc3649">
+    <name>ОпытРаботы_2023_ХодатайствоПатент</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="a275b37c-83e7-460e-bad8-f88f92c6dccf">
+    <name>Титульная_2023_РаботаПоПатенту</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="7b26beec-7281-49d4-a02c-3687865cada3">
+    <name>Титульная_2023_КвалифицированныйСпециалист</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="e8972bbe-c536-4ff2-9db0-1f09b4a59830">
+    <name>Титульная_2026_Заключение</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="3cd406e6-900e-4bdb-bac6-45b86b71fe84">
+    <name>Титульная_2026_Расторжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="ac2cd6db-93a8-433e-bdeb-06d58add9e78">
+    <name>Титульная_2026_Обязательства</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="5d5bc0a8-1adc-4dd0-a1b7-58ef804b1636">
+    <name>Титульная_2026_Ходатайство</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="4e37361c-17d6-49d8-b2b0-b427e959160c">
+    <name>ОпытРаботы_2026_Ходатайство</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="f052828f-6a6e-40d4-8e5e-7df0ffcd7ab2">
+    <name>БланкиПечати</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бланки печати</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:Report>

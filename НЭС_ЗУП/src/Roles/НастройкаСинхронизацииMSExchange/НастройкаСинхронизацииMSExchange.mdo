@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3d876ce-d6a6-47d7-904a-2dffcc5fe9cb">
+  <name>НастройкаСинхронизацииMSExchange</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка синхронизации с MS Exchange</value>
+  </synonym>
+</mdclass:Role>

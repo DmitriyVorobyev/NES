@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5b1e3e6-4d13-4b0d-9c7d-40138a3c2fb6">
+  <producedTypes>
+    <selectionType typeId="e170807a-60ca-45fd-a8d7-b57a2daa3a83" valueTypeId="e3879297-c81b-487a-bb6a-3299e8ca2a94"/>
+    <listType typeId="4d3c90f3-1562-4705-bf9c-0147b8c3db7a" valueTypeId="99c5601f-38a1-4f74-ba2c-f18fe7cbc4a2"/>
+    <managerType typeId="5bb2301a-a781-4c62-a8fa-2ca5042d5245" valueTypeId="14cb31d8-0018-4aaf-adb8-3bacd14606ce"/>
+    <recordSetType typeId="b8ae10e2-dca8-4c98-84ff-8950e3c664ae" valueTypeId="b88160df-cc8e-4d69-91e8-b8ad627b0751"/>
+    <recordKeyType typeId="b1dce817-4fa0-48da-bd23-1fb244cf4a37" valueTypeId="3ac78f6d-5052-4eee-9890-a3fc544f02ee"/>
+    <recordType typeId="0e6304ea-b3a4-41ce-b02e-0a272a5ec86a" valueTypeId="e49395f3-e92f-4833-93e4-72c9e56fd094"/>
+    <recordManagerType typeId="3e21e66f-1e0d-4f70-b255-3c54a8263267" valueTypeId="89a9a7cc-6110-4a1b-a793-5f7cb57cf548"/>
+  </producedTypes>
+  <name>ИсключенияУведомленийПоРолямИсполнителей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исключения уведомлений по ролям исполнителей</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ИсключенияУведомленийПоРолямИсполнителей.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ИсключенияУведомленийПоРолямИсполнителей.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="21b4e9c1-583c-442b-a805-86d7bd01b617">
+    <name>РольИсполнителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль исполнителя</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РолиИсполнителей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="da3c483a-0176-49b9-bb06-ebf24b81e033">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="031be52c-2a27-4abb-a4df-0d173d0300dc">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="709e5311-c40f-47b3-a80e-85ed9dfc9d15">
+    <name>ФормаЗаписиКонтекстная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи контекстная</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="88167e89-728f-4e83-a7e2-ce64000e8961">
+    <name>ИсключенияУведомлений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключения уведомлений</value>
+    </synonym>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType>
+      <types>CatalogRef.РолиИсполнителей</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

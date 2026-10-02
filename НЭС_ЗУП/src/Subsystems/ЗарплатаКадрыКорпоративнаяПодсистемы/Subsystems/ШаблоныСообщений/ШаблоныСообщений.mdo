@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8784823-eb41-4b6c-afb0-31edbb236902">
+  <name>ШаблоныСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны сообщений</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ШаблоныСообщенийБЗК</content>
+  <content>CommonModule.ШаблоныСообщенийБЗККлиентСервер</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

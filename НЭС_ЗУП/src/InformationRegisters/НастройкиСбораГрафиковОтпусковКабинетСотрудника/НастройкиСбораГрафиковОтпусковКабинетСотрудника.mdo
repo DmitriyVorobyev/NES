@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd073d47-550a-412b-937c-905922bddc71">
+  <producedTypes>
+    <selectionType typeId="a86411e0-7beb-4683-81d0-f7c7edec0b9c" valueTypeId="1f6da9b1-de33-4287-a8c7-c71cdbeba5f7"/>
+    <listType typeId="c67abc4e-2852-4309-a0a0-e5e918354109" valueTypeId="e2b91a08-49c7-4e58-9d10-d51dc25bd3ea"/>
+    <managerType typeId="464b9385-207d-465a-beb9-a248d4c4048e" valueTypeId="d3acc899-2bd0-4076-adef-50c93c34ba84"/>
+    <recordSetType typeId="0495a8f5-0af3-4adb-a40d-8dab5dcd3f51" valueTypeId="94d284b8-dd03-449c-8796-9b833e94a703"/>
+    <recordKeyType typeId="65e5e24d-5822-4283-b4f5-8ddc56042716" valueTypeId="ed3de86a-6ede-4f5b-93c7-8162283e8085"/>
+    <recordType typeId="1c081311-9934-427d-b2b8-645107007a1d" valueTypeId="47945fa3-9c4f-4bd7-afd6-fc4ca34c6707"/>
+    <recordManagerType typeId="a18dbec1-744f-46ab-9c0d-3f5bb2611337" valueTypeId="971fa4be-1c98-4ee9-acb7-6714e246a89e"/>
+  </producedTypes>
+  <name>НастройкиСбораГрафиковОтпусковКабинетСотрудника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки сбора графиков отпусков кабинет сотрудника</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0bee3232-21ef-4598-85d9-3282a22489fb">
+    <name>РазрешитьОтпускНеПланирую</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешить отпуск не планирую</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="36e831b6-b286-4ca2-a9ce-052d025e5540">
+    <name>СхемаПредставленияПодразделений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема представления подразделений</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СхемыПредставленияПодразделенийСбораГрафиковОтпусков</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

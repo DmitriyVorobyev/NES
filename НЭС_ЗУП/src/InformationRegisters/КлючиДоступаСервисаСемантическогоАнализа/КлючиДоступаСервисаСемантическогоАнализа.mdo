@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7539e6cc-a430-466d-ae96-10999463d55d">
+  <producedTypes>
+    <selectionType typeId="bda2c35f-e344-4ad7-9373-9cdda7b1046a" valueTypeId="748d909f-a663-4d36-8ea7-fb9d8b701878"/>
+    <listType typeId="35c1b880-4c3e-44ab-8132-69a42dabd670" valueTypeId="64f08a12-58e2-4dac-9e5a-905b2c1957e1"/>
+    <managerType typeId="92991c85-64d4-4484-a39a-03ce44ebb550" valueTypeId="cfb2ea60-fbf2-4c62-b102-5102c7a7fa32"/>
+    <recordSetType typeId="e71cf96b-f7a8-40a8-a8d1-7b168818db15" valueTypeId="3d0469b1-f234-4cc0-9cd5-e994025096b8"/>
+    <recordKeyType typeId="ebeb4a09-5490-43cc-b158-f0faea10c3b9" valueTypeId="32078f41-a224-47b8-9cdd-c6a5516bf4ce"/>
+    <recordType typeId="256f882d-6174-4dfd-bac7-ef7f6112487a" valueTypeId="6487aa85-cb4f-492d-9450-1f1aa3ac0641"/>
+    <recordManagerType typeId="151e98c1-6fea-4ada-8c80-b91080816c17" valueTypeId="9b2f9cc7-f002-4d8b-8024-7e47261b823f"/>
+  </producedTypes>
+  <name>КлючиДоступаСервисаСемантическогоАнализа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключи доступа сервиса семантического анализа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="807c674e-3ecf-46d5-9f6f-4f9828444972">
+    <name>ИдентификаторПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор приложения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="34a987a2-af62-4f5d-989d-912564fbf1ec">
+    <name>КлючДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ доступа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="494a79f6-5c59-480c-a918-4c5f99fe2f96">
+    <name>КлючИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ изменения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+</mdclass:InformationRegister>

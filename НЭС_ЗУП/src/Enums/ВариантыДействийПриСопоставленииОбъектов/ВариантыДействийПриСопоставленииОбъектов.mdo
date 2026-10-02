@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da3051c6-e089-47c5-a841-0610c707be2e">
+  <producedTypes>
+    <refType typeId="35bea0ec-8658-422f-a07e-eb9d638eebcc" valueTypeId="0757470a-8450-41f1-bee4-0cd917bfc632"/>
+    <listType typeId="765e99f8-5eef-495e-afb9-e52dd0a0dc19" valueTypeId="accd6c43-8c75-4a5a-9885-8686d1ffe691"/>
+    <managerType typeId="d0e47c34-07a6-4600-ba84-9ba12ed6caea" valueTypeId="2c594dce-6855-4bf5-9199-dc191cd3ffd5"/>
+  </producedTypes>
+  <name>ВариантыДействийПриСопоставленииОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты действий при сопоставлении объектов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d0b10c9c-cbdd-4594-ad10-60fdb6558a8f">
+    <name>СопоставитьИЗагрузить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопоставить и загрузить</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="93b42b3f-8791-4138-8e60-b74fca169531">
+    <name>СоздатьНовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать новый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="001de7bd-5bff-48d3-a040-221b096bd987">
+    <name>НеЗагружать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не загружать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4c5a844d-a295-42fe-943b-b83f7adc42ca">
+    <name>НеПриниматьРешение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не принимать решение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f5141bb-5573-49ee-a68b-ec09c3f185a1">
+  <producedTypes>
+    <containerType typeId="7d3cc8f2-d75d-44fe-83aa-c8177006309a" valueTypeId="0094d813-84c2-467a-8c25-ccdfceaf5ef4"/>
+  </producedTypes>
+  <name>ПретендентКНаграждению</name>
+  <synonym>
+    <key>ru</key>
+    <value>Претендент к награждению</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ФизическиеЛица</types>
+    <types>CatalogRef.Сотрудники</types>
+  </type>
+</mdclass:DefinedType>

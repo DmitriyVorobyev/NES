@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8dfff70b-4d27-4041-aa6b-01975056f20f">
+  <name>ЧтениеСтатусовИндивидуальныхПлановРазвития</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение статусов индивидуальных планов развития</value>
+  </synonym>
+  <comment>Чтение справочника &quot;Статусы индивидуальных планов развития&quot;</comment>
+</mdclass:Role>

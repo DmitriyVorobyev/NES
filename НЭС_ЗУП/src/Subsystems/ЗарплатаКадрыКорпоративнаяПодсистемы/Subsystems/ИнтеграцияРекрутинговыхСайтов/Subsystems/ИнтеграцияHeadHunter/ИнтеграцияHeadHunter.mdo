@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d70b6d62-54e2-4246-9c02-a4623cfd063d">
+  <name>ИнтеграцияHeadHunter</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция hh.ru</value>
+  </synonym>
+  <comment>АПК:58 Устоявшееся имя сайта</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DataProcessor.ИнтеграцияHeadHunter</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы.Subsystem.ИнтеграцияРекрутинговыхСайтов</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3df50c6-f2ab-4030-a66f-bba639ba88fd">
+  <producedTypes>
+    <managerType typeId="9204da0a-6902-46a7-a1f5-499223222028" valueTypeId="40a5fb8b-a2c6-4469-999d-977b2e2c6e29"/>
+    <valueManagerType typeId="e327de85-5b3e-440f-8a67-07665fc1a45d" valueTypeId="951f9655-bd10-4063-b5d1-14cb1a03e9aa"/>
+    <valueKeyType typeId="d421ec57-990c-48c6-9f11-0958b2749aa8" valueTypeId="2b93f762-92e8-4ce9-8182-4b13f874846d"/>
+  </producedTypes>
+  <name>ИспользоватьЭкспертнуюОценкуПерсонала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать экспертную оценку персонала</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

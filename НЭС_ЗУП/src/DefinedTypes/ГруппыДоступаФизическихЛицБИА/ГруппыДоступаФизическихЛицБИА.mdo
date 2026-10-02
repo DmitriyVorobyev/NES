@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7956c72-9433-4b10-8405-f65ee86a0d0d">
+  <producedTypes>
+    <containerType typeId="a5d1c669-afba-4f0e-95f0-2dd39be70648" valueTypeId="3e02fc85-652c-443f-8eb3-25ea06b796bd"/>
+  </producedTypes>
+  <name>ГруппыДоступаФизическихЛицБИА</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы доступа физических лиц БИА</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+  </type>
+</mdclass:DefinedType>

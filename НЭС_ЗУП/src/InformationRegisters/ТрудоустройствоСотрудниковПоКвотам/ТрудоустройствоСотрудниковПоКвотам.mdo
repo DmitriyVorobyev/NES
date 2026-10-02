@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5904a1ab-16e2-4e96-97bb-74bc54baefc0">
+  <producedTypes>
+    <selectionType typeId="191fb558-05a7-4d6c-a9c0-dded1cf0017e" valueTypeId="8ab7b541-8eb3-4910-be72-2919ade0f3b4"/>
+    <listType typeId="bb580d7e-e031-4949-ab86-81d35cef35fb" valueTypeId="98e7adbf-621c-4e35-ae72-e19c3821549f"/>
+    <managerType typeId="024345a9-d4f0-438c-bcce-89714b88f963" valueTypeId="6181cd3d-825d-41d6-b10c-e5e2ed6fc9b2"/>
+    <recordSetType typeId="f12bc383-db6f-43f2-b91b-eb358027e824" valueTypeId="c7804548-898b-47c7-ac09-7e52be83fd0f"/>
+    <recordKeyType typeId="a1426c15-9f26-458c-ba88-33b1f0e1a56b" valueTypeId="d7b73773-d50f-493f-b703-5e69fa43c1d8"/>
+    <recordType typeId="9343505b-f0ae-433f-aeae-3d8db55d1228" valueTypeId="ac8a2f57-84dc-44f8-afda-6eba48c63f68"/>
+    <recordManagerType typeId="4b5f564e-5ccc-4aca-a281-756d602d4e59" valueTypeId="f9d7a652-c8ea-40b9-9205-eda0bd6d4548"/>
+  </producedTypes>
+  <name>ТрудоустройствоСотрудниковПоКвотам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Трудоустройство сотрудников по квотам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="51ebaf64-4c8d-42c1-a9a9-6c54f0d72aaa">
+    <name>ТрудоустроенПоКвоте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Трудоустроен по квоте</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="c7ae5820-7ea1-4d25-9110-386ed4c31c33">
+    <name>ВидКвоты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид квоты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыКвотДляТрудоустройства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="afc6cbb2-7174-468e-b946-fac715b8d342">
+    <name>КатегорияКвоты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория квоты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КатегорииСотрудниковТрудоустроенныхПоКвотам</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="aca6614f-e452-4efa-8d88-892e031e3be8">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5851f748-a037-4753-96b1-dd34063ce300">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

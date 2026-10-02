@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c33f62ee-563f-4313-93d1-ed652a7a6498">
+  <name>ИспользоватьФинансовыйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать финансовый учет</value>
+  </synonym>
+  <location>Constant.ИспользоватьФинансовыйУчет</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.ФинансовыйУчетПодразделений</content>
+  <content>CommonForm.ОрганизацияФинансовыйУчет</content>
+  <content>InformationRegister.ФинансовыйУчетСотрудников</content>
+  <content>CommonForm.СотрудникиФинансовыйУчет</content>
+  <content>Catalog.СпособыОтраженияВФинансовомУчете</content>
+  <content>Subsystem.ФинансовыйУчет</content>
+  <content>InformationRegister.ФинансовыйУчетПоУмолчанию</content>
+  <content>Report.АнализРасходовНаПерсонал</content>
+  <content>Report.РасходыНаПерсонал</content>
+  <content>Document.ОбучениеРазвитиеСотрудников.TabularSection.Сотрудники.Attribute.СпособОтражения</content>
+  <content>InformationRegister.ФинансовыйУчетПозицийКадровогоПлана</content>
+  <content>InformationRegister.ФинансовыйУчетПервичныхДокументов</content>
+  <content>InformationRegister.ФинансовыйУчетРаспределениеРасходовНаПерсонал</content>
+  <content>InformationRegister.ФинансовыйУчетРаспределениеРасходовНаПерсоналИнтервальный</content>
+  <content>Document.ПланРасходовНаПерсонал</content>
+  <content>Document.ОтражениеРасходовНаПерсонал</content>
+  <content>Document.РаспределениеРасходовНаПерсонал</content>
+  <content>Catalog.НаправленияДеятельности</content>
+  <content>Catalog.Проекты</content>
+</mdclass:FunctionalOption>

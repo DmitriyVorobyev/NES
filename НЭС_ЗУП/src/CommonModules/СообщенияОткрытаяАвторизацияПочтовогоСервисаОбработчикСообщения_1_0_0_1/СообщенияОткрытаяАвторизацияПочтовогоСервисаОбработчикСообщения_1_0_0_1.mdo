@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="780a63dd-293b-4858-b6ca-2f96d1f89e04">
+  <name>СообщенияОткрытаяАвторизацияПочтовогоСервисаОбработчикСообщения_1_0_0_1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сообщения открытая авторизация почтового сервиса (обработчик сообщения, 1.0.0.1)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

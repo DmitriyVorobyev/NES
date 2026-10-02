@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b91a8dd4-1841-4746-ae06-a707dbdc65af">
+  <name>СостояниеСтруктурыПредприятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние структуры предприятия</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

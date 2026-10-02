@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c14ec55-6f93-4794-b8fa-c3b46dec8284">
+  <producedTypes>
+    <selectionType typeId="c4e6d634-b3c0-4a60-acac-8c031a897fd2" valueTypeId="43cde37e-3a5e-43e9-a2c8-06104a5c7a50"/>
+    <listType typeId="06186d41-b8f9-4290-a073-bed32dec9354" valueTypeId="63d802ef-2304-4581-a993-7cc6efaa5a3e"/>
+    <managerType typeId="bf3055bd-560a-4748-a06e-4602d39b7f6c" valueTypeId="c0620e22-d2b5-4d7f-b54d-ac4ddc86f8f7"/>
+    <recordSetType typeId="1e0b2092-0d8e-40c4-b437-20e642f48c20" valueTypeId="82de752e-c7dc-4ec0-9b41-71f98a368ddd"/>
+    <recordKeyType typeId="9fddb043-01a8-4233-8ad6-ab76e97ea7ff" valueTypeId="7c3e6768-d741-4a2a-a499-f99c8f26906a"/>
+    <recordType typeId="ab069962-447e-46d1-91a7-3726c487b35c" valueTypeId="07344643-ba3b-473a-86bb-8ae71ad36641"/>
+    <recordManagerType typeId="550578e3-e22e-458f-818d-e5606b84e193" valueTypeId="5dc70b18-8f5a-4151-9b9f-49749158cff6"/>
+  </producedTypes>
+  <name>НастройкаМатрицыТалантов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка матрицы талантов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9e8fd679-dbb8-49ec-b4cc-487b0c9085fd">
+    <name>ИспользоватьМатрицуТалантов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать матрицу талантов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="00ce375e-f165-49f7-b9f5-0ef3121b1944">
+    <name>ВысокаяОценкаЭффективности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высокая оценка эффективности</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f869d5ac-0a2f-4efb-96ed-fa80ee471d9a">
+    <name>СредняяОценкаЭффективности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средняя оценка эффективности</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b52de125-f024-4359-8891-c273e3a55452">
+    <name>ВысокаяОценкаПотенциала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высокая оценка потенциала</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f17c380b-6f80-4fb1-9b76-49535a9f19c1">
+    <name>СредняяОценкаПотенциала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средняя оценка потенциала</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

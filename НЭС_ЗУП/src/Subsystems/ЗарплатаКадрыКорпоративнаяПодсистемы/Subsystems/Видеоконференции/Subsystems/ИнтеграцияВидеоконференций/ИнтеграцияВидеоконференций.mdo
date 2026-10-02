@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db3323b3-0ac6-453b-a341-11c2e4431c97">
+  <name>ИнтеграцияВидеоконференций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция видеоконференций</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DataProcessor.ИнтеграцияВидеоконференций</content>
+  <content>CommonPicture.ЛоготипСистемаВзаимодействия</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы.Subsystem.Видеоконференции</parentSubsystem>
+</mdclass:Subsystem>

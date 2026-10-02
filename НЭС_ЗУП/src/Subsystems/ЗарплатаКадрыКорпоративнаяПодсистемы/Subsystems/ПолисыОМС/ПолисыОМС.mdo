@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34f5b047-0f8d-4023-bc58-44a26e61c344">
+  <name>ПолисыОМС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Полисы ОМС</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.ПолисыОМСФизическихЛиц</content>
+  <content>Role.ЧтениеПолисовОМС</content>
+  <content>Role.ДобавлениеИзменениеПолисовОМС</content>
+  <content>CommonModule.ПолисыОМС</content>
+  <content>CommonModule.ПолисыОМСКлиент</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

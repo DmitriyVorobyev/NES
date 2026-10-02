@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a1e302b-89ae-4bda-b734-c0b3b11c6616">
+  <name>ДисциплинарныеВзыскания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дисциплинарные взыскания</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Document.ДисциплинарноеВзыскание</content>
+  <content>Document.СнятиеДисциплинарногоВзыскания</content>
+  <content>Report.ДисциплинарныеВзыскания</content>
+  <content>CommonModule.ДисциплинарныеВзыскания</content>
+  <content>Enum.ВидВзыскания</content>
+  <content>InformationRegister.СведенияОДисциплинарныхВзысканиях</content>
+  <content>Catalog.Взыскания</content>
+  <content>Catalog.ДисциплинарноеВзысканиеПрисоединенныеФайлы</content>
+  <content>Catalog.СнятиеДисциплинарногоВзысканияПрисоединенныеФайлы</content>
+  <content>Role.ЧтениеДисциплинарныхВзысканий</content>
+  <content>Role.ДобавлениеИзменениеДисциплинарныхВзысканий</content>
+  <content>CommonModule.ДисциплинарныеВзысканияКлиент</content>
+  <content>DocumentJournal.ДисциплинарныеВзысканияСотрудников</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

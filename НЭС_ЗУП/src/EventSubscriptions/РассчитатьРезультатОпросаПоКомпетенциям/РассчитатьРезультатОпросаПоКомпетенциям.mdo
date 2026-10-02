@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f151a2fc-e058-418d-9fb2-718870a1cd3c">
+  <name>РассчитатьРезультатОпросаПоКомпетенциям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассчитать результат опроса по компетенциям</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.ОтветыНаВопросыАнкет</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ЭкспертнаяОценкаПерсоналаСобытия.ПересчитатьОценкиПоОпросу</handler>
+</mdclass:EventSubscription>

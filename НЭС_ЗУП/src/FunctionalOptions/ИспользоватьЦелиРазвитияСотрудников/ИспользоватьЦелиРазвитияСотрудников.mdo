@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee06f72e-00bc-4dfe-a6d3-f7531262762c">
+  <name>ИспользоватьЦелиРазвитияСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать цели развития сотрудников</value>
+  </synonym>
+  <location>InformationRegister.НастройкиОбученияРазвития.Resource.ИспользоватьЦелиРазвитияСотрудников</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ЦелиРазвития</content>
+  <content>Report.ПрогрессИндивидуальныхПлановРазвития</content>
+</mdclass:FunctionalOption>

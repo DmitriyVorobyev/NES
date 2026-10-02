@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f17fe6d-39d8-44b0-84c2-c490fcc55de9">
+  <name>СостояниеСтруктурыПредприятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние структуры предприятия</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.СостояниеСтруктурыПредприятия</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПриложения</parentSubsystem>
+</mdclass:Subsystem>

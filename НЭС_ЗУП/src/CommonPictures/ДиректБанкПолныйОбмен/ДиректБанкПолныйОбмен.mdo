@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f276fe6f-a05c-415b-b3d8-ea5d79bc23df">
+  <name>ДиректБанкПолныйОбмен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Директ банк полный обмен</value>
+  </synonym>
+</mdclass:CommonPicture>

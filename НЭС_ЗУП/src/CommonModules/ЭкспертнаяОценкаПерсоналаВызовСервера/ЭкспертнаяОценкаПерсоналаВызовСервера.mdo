@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d3b3575-b709-47e4-8e92-8211548353cf">
+  <name>ЭкспертнаяОценкаПерсоналаВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Экспертная оценка персонала вызов сервера</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

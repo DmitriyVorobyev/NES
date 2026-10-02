@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b75b21a-c2f2-4c92-8c1a-d5e66359a197">
+  <name>КадровыеРешения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровые решения</value>
+  </synonym>
+  <content>Catalog.РешениеОбОтпускеПоУходуЗаРебенкомПрисоединенныеФайлы</content>
+  <content>Catalog.РешениеОбУвольненииПрисоединенныеФайлы</content>
+  <content>Catalog.РешениеОВосстановленииВДолжностиПрисоединенныеФайлы</content>
+  <content>Catalog.РешениеОКадровомПереводеПрисоединенныеФайлы</content>
+  <content>Catalog.РешениеОВозвратеИзОтпускаПоУходуЗаРебенкомПрисоединенныеФайлы</content>
+  <content>Role.ДобавлениеИзменениеРешенийОбОтпускеПоУходуЗаРебенком</content>
+  <content>Role.ДобавлениеИзменениеРешенийОВосстановленииВДолжности</content>
+  <content>Role.ДобавлениеИзменениеРешенийОВозвратеИзОтпускаПоУходуЗаРебенком</content>
+  <content>Role.ДобавлениеИзменениеРешенийОКадровомПереводе</content>
+  <content>Role.ЧтениеРешенийОВосстановленииВДолжности</content>
+  <content>Role.ЧтениеРешенийОКадровомПереводе</content>
+  <content>Role.ЧтениеРешенийОбУвольнении</content>
+  <content>Role.ЧтениеРешенийОбОтпускеПоУходуЗаРебенком</content>
+  <content>Role.ДобавлениеИзменениеРешенийОбУвольнении</content>
+  <content>Role.ЧтениеРешенийОВозвратеИзОтпускаПоУходуЗаРебенком</content>
+  <content>Document.РешениеОбУвольнении</content>
+  <content>Document.РешениеОКадровомПереводе</content>
+  <content>Document.РешениеОВозвратеИзОтпускаПоУходуЗаРебенком</content>
+  <content>Document.РешениеОбОтпускеПоУходуЗаРебенком</content>
+  <content>Document.РешениеОВосстановленииВДолжности</content>
+  <content>Catalog.РешенияПоКадровымИзменениямПрисоединенныеФайлы</content>
+  <content>DocumentJournal.РешенияПоКадровымИзменениям</content>
+  <content>Role.ДобавлениеИзменениеРешенийПоКадровымИзменениям</content>
+  <content>Role.ЧтениеРешенийПоКадровымИзменениям</content>
+  <content>Role.ЧтениеКадровыхДокументовПоРешениям</content>
+  <content>FunctionalOption.ИспользоватьРешениеОПриемеНаРаботу</content>
+  <content>InformationRegister.НастройкиКадровыхРешений</content>
+  <content>FunctionalOption.ИспользоватьРешениеОбУвольнении</content>
+  <content>FunctionalOption.ИспользоватьРешениеОбОтпускеПоУходуЗаРебенком</content>
+  <content>FunctionalOption.ИспользоватьРешениеОВосстановленииВДолжности</content>
+  <content>FunctionalOption.ИспользоватьРешениеОВозвратеИзОтпускаПоУходуЗаРебенком</content>
+  <content>FunctionalOption.ИспользоватьРешениеОКадровомПереводе</content>
+  <content>Role.НастройкаКадровыхРешений</content>
+  <content>CommonModule.КадровыеРешенияФормыРасширенный</content>
+  <content>CommonModule.КадровыеРешенияРасширенный</content>
+  <content>CommonModule.КадровыеРешенияКлиентРасширенный</content>
+  <content>Role.ДобавлениеИзменениеРешенийОПриемеНаРаботу</content>
+  <content>Role.ЧтениеРешенийОПриемеНаРаботу</content>
+  <content>EventSubscription.ЗарегистрироватьКадровыйДокументПоРешениюПередЗаписьюРасширенная</content>
+  <content>EventSubscription.ЗарегистрироватьКадровыйДокументПоРешениюПриЗаписиРасширенная</content>
+  <content>DefinedType.КадровыйДокументПоРешениюОбъект</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

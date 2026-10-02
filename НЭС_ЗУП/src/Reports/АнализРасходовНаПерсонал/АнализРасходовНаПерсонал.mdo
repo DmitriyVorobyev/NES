@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b27f3aa0-45b2-48a7-a48b-c48ecd4bd2c2">
+  <producedTypes>
+    <objectType typeId="f17ef49d-d97d-437f-880c-a6f275037cf8" valueTypeId="66290592-b9bf-4d44-81f0-4df825606494"/>
+    <managerType typeId="6ba2ae2d-a5ea-4374-99ef-0ec3aaa0c32c" valueTypeId="c35df1bf-7717-46bd-b09a-666e891bd7db"/>
+  </producedTypes>
+  <name>АнализРасходовНаПерсонал</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ расходов на персонал</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АнализРасходовНаПерсонал.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="f75928b6-aec2-4512-99e4-61d9290309b1">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

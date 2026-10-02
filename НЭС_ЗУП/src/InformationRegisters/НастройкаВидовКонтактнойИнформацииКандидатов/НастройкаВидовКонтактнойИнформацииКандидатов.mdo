@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f771a61-c04a-4359-b242-183e6283003c">
+  <producedTypes>
+    <selectionType typeId="7977dedc-fb4c-4396-8864-a43d51354610" valueTypeId="2dca1446-49ed-4f14-a18c-3dba15e258ca"/>
+    <listType typeId="3f37bcba-1365-43be-ae5d-f24d846b5694" valueTypeId="81ed419f-6a2d-449e-8bb3-a6bb3c5ef76e"/>
+    <managerType typeId="bc79c820-9ee1-41aa-b0cc-9e806762a785" valueTypeId="9d1ba472-1d83-433f-ba07-f4b617b25f75"/>
+    <recordSetType typeId="a0e765c0-5b02-4921-bcd5-8f6de367d982" valueTypeId="b2611c41-6d13-4b77-b285-72f7146440d8"/>
+    <recordKeyType typeId="c7892bab-c393-42a4-a1e1-cbe38d3308c4" valueTypeId="923d8be2-21b3-404a-8888-9bd42b00d2e1"/>
+    <recordType typeId="fbbcbb91-7917-412e-8c6a-d968dbba0a2a" valueTypeId="f63a5bef-8408-401a-a15a-b90076e48440"/>
+    <recordManagerType typeId="6f617b0f-327b-46d4-922e-ba974c32b061" valueTypeId="65830156-c807-4b99-b491-da757ef5190f"/>
+  </producedTypes>
+  <name>НастройкаВидовКонтактнойИнформацииКандидатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка видов контактной информации кандидатов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ab37ca24-797d-4484-841a-61d786175787">
+    <name>ВидКонтактнойИнформацииФизическогоЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид контактной информации физического лица</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыКонтактнойИнформации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="fafef068-1c69-45ca-b20f-859c2dc80db0">
+    <name>ВидКонтактнойИнформацииКандидата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид контактной информации кандидата</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыКонтактнойИнформации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="d5ae3f22-b56e-4770-be5b-5db126be230a">
+    <name>ФормаНастройкиСоответствия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки соответствия</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

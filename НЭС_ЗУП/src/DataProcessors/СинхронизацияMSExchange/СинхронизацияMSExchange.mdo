@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82602b6f-8a92-4e05-933f-cb73b21f8529">
+  <producedTypes>
+    <objectType typeId="560e21bd-4da8-4736-9cc1-abedaa89ff58" valueTypeId="796bb92f-2f1d-4f82-9749-c6dee227cb1d"/>
+    <managerType typeId="7ee2c5f7-9c4f-4a09-a00b-eba9efd4d800" valueTypeId="6c515765-78d5-4fd4-8cb0-5cd775c8c2d4"/>
+  </producedTypes>
+  <name>СинхронизацияMSExchange</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация Microsoft Exchange</value>
+  </synonym>
+  <comment>АПК:58 полное наименование слишком длинное</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="2b7fb68e-a302-4bda-8ef0-58ec014237ca">
+    <name>Узел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.СинхронизацияКалендарей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="746c23f8-d6c0-4ff7-b16c-3166a96544ce">
+    <name>СерверMSExchange</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер Microsotf Exchange</value>
+    </synonym>
+    <comment>АПК:58 полное наименование слишком длинное</comment>
+    <type>
+      <types>CatalogRef.СерверыMSExchange</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b73da711-7093-495a-a03c-434d481004d4">
+    <name>ВерсияСервера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия сервера</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВерсииСерверовMSExchange</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9c98501d-46d1-4da5-8af8-04a59bcbb6be">
+    <name>ИспользоватьЗащищенноеСоединение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать защищенное соединение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="09d5223b-d759-4dcc-b5a2-a3e451335647">
+    <name>ИспользоватьАутентификациюОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать аутентификацию ОС</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6c02175c-9ab0-4b57-8909-c993319a4fa1">
+    <name>Сервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="12ee52d8-b6c8-46a8-9b4b-aad2b11ca11e">
+    <name>Порт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e6f6794b-0e1f-4b63-b82f-c00a318e9f46">
+    <name>Таймаут</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таймаут</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="257c0a6e-c474-4ced-aeeb-d397c59670b8">
+    <name>АдресРесурса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес ресурса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="35c6f519-a945-451e-a011-deaae3d8e46a">
+    <name>ИспользоватьОлицетворение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать олицетворение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f7b0d8c4-8f25-489f-a05b-b123c662f13c">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4903da2b-d347-4579-b064-853561dd19d5">
+    <name>ИмяПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a335f6eb-a354-40be-b5cb-dc9325e14019">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <passwordMode>true</passwordMode>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="a9879467-cdf2-44a0-84e5-9599f6120a25">
+    <name>СхемаMessagesExchange2010SP2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема Messages Exchange2010 SP2</value>
+    </synonym>
+    <comment>АПК:497 не требуется локализация</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="015dc4be-5566-4d39-ba95-51227c2541c1">
+    <name>СхемаTypesExchange2010SP2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема Types Exchange 2010 SP2</value>
+    </synonym>
+    <comment>АПК:497 не требуется локализация</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63fa25f5-6e0a-4b8b-90a2-7fa323f92963">
+  <producedTypes>
+    <refType typeId="796070a1-7302-4aba-ad99-ed69b6d0f150" valueTypeId="11231a5d-7d71-4466-a5b4-6ce3321e2b25"/>
+    <listType typeId="e9cbeabd-fb26-493c-9758-0e9fe162b002" valueTypeId="339b390f-45df-483a-bcf7-f81923687a45"/>
+    <managerType typeId="1f6f020f-414a-4b1c-8940-73157bc41afb" valueTypeId="e16b5790-1930-404d-b137-5b39329c83c3"/>
+  </producedTypes>
+  <name>ГрафикиРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Графики работы</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a2faee06-c8ad-497e-a581-86f16e212e41">
+    <name>Полный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="74679320-23d2-40f3-b1b4-65809fac9992">
+    <name>Сменный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сменный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8a080449-2102-46d0-b2a0-e5dd7d85477c">
+    <name>Гибкий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гибкий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e09d9b51-d2c8-43a5-b71b-b3ac39974cfe">
+    <name>Удаленка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удаленка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="678c4734-8fbb-49f9-b28a-e446bac59be8">
+    <name>Вахта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вахта</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

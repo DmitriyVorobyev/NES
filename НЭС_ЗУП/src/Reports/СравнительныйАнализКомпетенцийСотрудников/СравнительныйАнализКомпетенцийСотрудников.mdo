@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="779aa2a3-dc41-4e7e-9d87-a0a9c64cad77">
+  <producedTypes>
+    <objectType typeId="ecc84254-c9de-453c-9be0-4f1f02ed3c70" valueTypeId="2aecc740-cfc8-40ed-a641-29becf00fac6"/>
+    <managerType typeId="97de8892-670a-45c7-82cc-3ddbba0aa333" valueTypeId="3d5cdf63-38bf-4d0b-a4d2-7d1fb66fc2af"/>
+  </producedTypes>
+  <name>СравнительныйАнализКомпетенцийСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сравнительный анализ компетенций сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СравнительныйАнализКомпетенцийСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="10e02e84-16e5-4e71-a78b-d472f14f00fb">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

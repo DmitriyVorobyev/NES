@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe892846-4def-4a0b-a3fb-26ac6949df2d">
+  <name>ПодсистемаЭкспертнаяОценка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема экспертная оценка</value>
+  </synonym>
+</mdclass:Role>

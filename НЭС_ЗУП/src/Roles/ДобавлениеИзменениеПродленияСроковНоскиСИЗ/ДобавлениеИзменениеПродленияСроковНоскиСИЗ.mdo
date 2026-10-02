@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f9a5399-1b1d-4ad1-9f8a-d6738e930372">
+  <name>ДобавлениеИзменениеПродленияСроковНоскиСИЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение продления сроков носки СИЗ</value>
+  </synonym>
+</mdclass:Role>

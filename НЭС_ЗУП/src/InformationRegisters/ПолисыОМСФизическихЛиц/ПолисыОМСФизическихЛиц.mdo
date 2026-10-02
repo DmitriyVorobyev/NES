@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="400accc8-ec6f-48c6-a17c-9b20746e75fb">
+  <producedTypes>
+    <selectionType typeId="4f87b9f5-fc8f-462a-9b8c-1dc59f5eee9e" valueTypeId="c79f7e24-8cd9-4fe2-bece-57f23b21ed58"/>
+    <listType typeId="ca89fac9-8e9f-42d9-888c-7886cb370fbf" valueTypeId="8482d1eb-1da8-49be-8e16-f04f1fe5fcdd"/>
+    <managerType typeId="dc8033e2-3c53-4be4-a59e-7e2ca600fc62" valueTypeId="40402739-4fd5-4962-a07a-96ea853ca3cb"/>
+    <recordSetType typeId="2c49d5a0-65d5-447e-8b87-b7ca53f5dffd" valueTypeId="d6f727bb-4a03-4aae-9573-3b3844c4fcb6"/>
+    <recordKeyType typeId="73336283-e56d-47e9-9580-4c5728bf4904" valueTypeId="75f9b98c-8e95-4c49-ae2e-961ca7974a52"/>
+    <recordType typeId="d7f8b55e-9e84-419c-b823-d98bf96fdd85" valueTypeId="c60b4ff0-579d-4c2b-a3ee-fd5b3eed5831"/>
+    <recordManagerType typeId="a315e561-b616-45d2-b633-c7adad72f1bf" valueTypeId="24355225-3f59-413f-9fb8-ff8405e12c00"/>
+  </producedTypes>
+  <name>ПолисыОМСФизическихЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Полисы ОМС Физических лиц</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <resources uuid="c13603d2-8ba1-43f0-9c23-75056afd1482">
+    <name>НомерПолиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер полиса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>16</length>
+      </stringQualifiers>
+    </type>
+    <mask>9999999999999999</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6e913c7d-7712-4f34-a11e-bf12310a22f2">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8034e42e-c63b-4261-9f49-cf4a6bfedb1f">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="49e45b1e-39a4-4c12-8f62-63050049e97b">
+    <name>РедактированиеИстории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование истории</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8a3c0969-42d9-4ffe-b59f-32afd080accb">
+    <name>ИсторияИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>История изменения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

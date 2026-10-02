@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2150d01-cff9-4f6d-9593-cd5593ab4631">
+  <producedTypes>
+    <selectionType typeId="5879c32e-9f6e-4aea-9c94-d4df47064ef9" valueTypeId="059bec1b-a918-4237-becf-799cf70a58b9"/>
+    <listType typeId="f761daf8-52cc-41e2-9178-97bdc2f70840" valueTypeId="48a1303b-5829-4a1e-8386-a513f68d9e04"/>
+    <managerType typeId="915f95e4-5ddf-409d-a96b-a67e32fa55a8" valueTypeId="5f2c4910-629b-4678-9e46-3e99cf9d0297"/>
+    <recordSetType typeId="c0a02d8a-b534-4e60-a0cd-20c0f2da0e2c" valueTypeId="f7779eb1-0562-460d-9917-2b3b6d4cf375"/>
+    <recordKeyType typeId="1e5c7e6f-2f1e-47a8-95df-07d26443b679" valueTypeId="f2348d26-97be-451b-b387-b728003ee1a0"/>
+    <recordType typeId="d3162d83-3466-4b8c-ab43-d04b3e0af156" valueTypeId="65b1c030-b191-421a-ae91-f18d8912cacb"/>
+    <recordManagerType typeId="d150c992-5bc1-45f6-9e24-e10f86525b0e" valueTypeId="6b6627c0-9746-4392-a823-1afb5485d886"/>
+  </producedTypes>
+  <name>ЦветаЭтаповРаботыСКандидатами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвета этапов работы с кандидатами</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d6e382e8-cb67-44f8-96a0-8e367ddd2ce3">
+    <name>ЦветТекста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет текста</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0dfe9d9c-291f-4353-8b47-74ee777f71cd">
+    <name>ЦветФона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет фона</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="45466584-8d1d-4138-be60-802925849164">
+    <name>ЭтапРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этап работы</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ЭтапРаботыСКандидатами</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a3160ed8-c8bf-4b6e-a44e-6241c5ec54cf">
+    <name>ЦветЭтапа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет этапа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

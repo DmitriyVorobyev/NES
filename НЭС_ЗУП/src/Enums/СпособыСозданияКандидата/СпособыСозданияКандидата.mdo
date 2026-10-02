@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e660a364-0141-4606-ab76-de015117082e">
+  <producedTypes>
+    <refType typeId="50aee5e6-a81e-472a-8ec2-5750213219b3" valueTypeId="d51149a5-cdbb-45fb-a9c7-0487ab12a0a8"/>
+    <listType typeId="aac9dba6-5d49-4983-a69e-6c4a5494950e" valueTypeId="054c67e3-ffe6-4d87-b8dd-1d5dcfc6f9ed"/>
+    <managerType typeId="c4d6489c-79e6-4422-bba5-421e7a540b06" valueTypeId="80fdcdf1-8c2e-4d25-bc6b-b27d2221f185"/>
+  </producedTypes>
+  <name>СпособыСозданияКандидата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы создания кандидата</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0183227a-5c95-47ad-8ff0-6e7be9aec5eb">
+    <name>РучнойВвод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ручной ввод</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6a88b787-6745-4a3c-ba27-f98f818f4311">
+    <name>ФайлРезюме</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл резюме</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b2c74de6-520f-4944-9aa6-4ee3cd56c5d6">
+    <name>РекрутинговыйСайт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекрутинговый сайт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ba905235-a6b5-4c9d-b0b8-07a1cfb14f98">
+    <name>Отклик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклик</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

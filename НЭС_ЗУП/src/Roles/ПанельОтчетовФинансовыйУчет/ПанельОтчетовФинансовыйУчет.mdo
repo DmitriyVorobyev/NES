@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25c29b4c-4c72-4606-8c7b-1afc0ac8639b">
+  <name>ПанельОтчетовФинансовыйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель отчетов финансовый учет</value>
+  </synonym>
+</mdclass:Role>

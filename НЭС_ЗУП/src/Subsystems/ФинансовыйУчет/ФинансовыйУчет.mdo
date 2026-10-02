@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5dd6f6b-b57b-4812-9ded-932101912fce">
+  <name>ФинансовыйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Финансовый учет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделБюджетированиеИПланирование16</picture>
+  </picture>
+  <content>Catalog.СпособыОтраженияВФинансовомУчете</content>
+  <content>Document.ОтражениеРасходовНаПерсонал</content>
+  <content>CommonCommand.ПанельОтчетовФинансовыйУчет</content>
+  <content>Catalog.ПодразделенияОрганизаций</content>
+  <content>Catalog.Организации</content>
+  <content>Catalog.СтруктураПредприятия</content>
+  <content>Catalog.Сотрудники</content>
+  <content>Document.ПланРасходовНаПерсонал</content>
+  <content>Document.РаспределениеРасходовНаПерсонал</content>
+  <content>Catalog.Сценарии</content>
+  <content>Catalog.НаправленияДеятельности</content>
+  <content>Catalog.Проекты</content>
+  <content>ChartOfCharacteristicTypes.СтатьиРасходов</content>
+  <content>Document.КадровыйПлан</content>
+  <content>Catalog.ПозицииКадровогоПлана</content>
+  <content>Report.АнализРасходовНаПерсонал</content>
+  <content>Report.РасходыНаПерсонал</content>
+</mdclass:Subsystem>

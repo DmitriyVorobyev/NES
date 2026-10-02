@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1821eef1-36f4-4ffc-8ee1-b4027080b81d">
+  <producedTypes>
+    <refType typeId="6fb3c97b-2580-42a4-b221-fa92fe980f1b" valueTypeId="b620d4d2-8869-4c64-b499-18fbea7e5a77"/>
+    <listType typeId="9bb816b9-b836-48c2-8997-545f3c75e099" valueTypeId="caae0833-6280-4099-b34d-5a94a80ecc08"/>
+    <managerType typeId="2669d891-fb73-442d-b0e0-47130f3d31af" valueTypeId="a8744705-8bc9-49d4-a5c1-ec96c359bcf8"/>
+  </producedTypes>
+  <name>ДействияПриУстановкеСоответствийОбъектам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Действия при установке соответствий объектам</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2654599f-448e-4ca9-b409-a71cf732bda4">
+    <name>УстановитьСоответствиеИЗагрузить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установить соответствие и загрузить</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="94b68b82-a29c-4cf1-9ea8-e77a14e3f7db">
+    <name>СоздатьНовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать новый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="247c7785-980d-42b2-a4c7-600f055d3e4f">
+    <name>НеЗагружать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не загружать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7c99142a-1d14-4314-b6e8-36bde4f99853">
+    <name>ДействиеНеОпределено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действие не определено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a816fd13-e76e-4d4d-8d57-9c5fa4ee3e9b">
+    <name>УстановитьСоответствиеНоНеЗагружать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установить соответствие, но не загружать</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

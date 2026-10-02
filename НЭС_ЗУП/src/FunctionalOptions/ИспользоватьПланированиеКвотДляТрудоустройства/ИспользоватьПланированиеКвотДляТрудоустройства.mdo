@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5d87318-2fb9-41b8-84a2-31b2ea09e9a6">
+  <name>ИспользоватьПланированиеКвотДляТрудоустройства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать планирование квот для трудоустройства</value>
+  </synonym>
+  <location>Constant.ИспользоватьПланированиеКвотДляТрудоустройства</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ВыделениеКвотДляТрудоустройства</content>
+  <content>InformationRegister.КвотыДляТрудоустройстваПоДолжностям</content>
+</mdclass:FunctionalOption>

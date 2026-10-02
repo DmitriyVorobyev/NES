@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d46414e0-f3f9-4c57-ad8b-7db9cf6e2c21">
+  <producedTypes>
+    <objectType typeId="fedffba2-8e96-48fa-94b5-10d690f3f86e" valueTypeId="0af4d6d5-2d79-45bc-ac9a-87fecacded48"/>
+    <refType typeId="721305a9-796c-4fa7-b9f2-ea3686c90490" valueTypeId="d0c303ed-c9b4-4492-8b7d-8f8898c6e275"/>
+    <selectionType typeId="d38acbcd-30d5-43f5-96e3-64baa0f5c4c1" valueTypeId="97f4d9b4-9733-476a-86d4-1de5504cf70f"/>
+    <listType typeId="066c97bd-ea78-49ef-9db3-b564ea244b6e" valueTypeId="eeca728c-5823-4ebb-afe2-f84965a5daba"/>
+    <managerType typeId="ffb9eccf-a52e-467f-bddd-cdf1b625dfae" valueTypeId="aa4ffce0-56e6-4ce4-9a6b-d85fa8261ec0"/>
+  </producedTypes>
+  <name>КатегорииСотрудниковТрудоустроенныхПоКвотам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории сотрудников трудоустроенных по квотам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КатегорииСотрудниковТрудоустроенныхПоКвотам.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КатегорииСотрудниковТрудоустроенныхПоКвотам.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <characteristics>
+    <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения</characteristicTypes>
+    <keyField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.Attribute.Свойство</keyField>
+    <typesFilterField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.Attribute.ИмяПредопределенногоНабора</typesFilterField>
+    <typesFilterValue xsi:type="core:StringValue">
+      <value>Справочник_КатегорииСотрудниковТрудоустроенныхПоКвотам</value>
+    </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
+    <characteristicValues>InformationRegister.ДополнительныеСведения</characteristicValues>
+    <objectField>InformationRegister.ДополнительныеСведения.Dimension.Объект</objectField>
+    <typeField>InformationRegister.ДополнительныеСведения.Dimension.Свойство</typeField>
+    <valueField>InformationRegister.ДополнительныеСведения.Resource.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
+  </characteristics>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="70f4fe8d-d9a6-41c7-8334-273af090391b">
+      <name>МолодежьВыпусникиВысшееОбразование</name>
+      <description>Выпускники учреждений высшего профессионального образования, ищущих работу впервые (21-26 лет)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="4ce313fb-9e95-4547-b318-ad51dde5d56f">
+      <name>МолодежьВыпусникиНачальноеСреднееОбразование</name>
+      <description>Выпускники учреждений начального и среднего профессионального образования, ищущих работу впервые (18-24 лет)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="442ba309-2a07-4d0d-a7f3-701ecef2b559">
+      <name>ИнвалидыДети</name>
+      <description>Дети-инвалиды (14-15 лет)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="4d1439d7-9445-44bc-b0f9-50e6af61704c">
+      <name>ИнвалидыТрудоспособныеНесовершеннолетние</name>
+      <description>Дети-инвалиды (16-17 лет)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="0acb7051-a8a6-4697-928c-3bbb2db43cc1">
+      <name>ИнвалидыТрудоспособные</name>
+      <description>Инвалиды в трудоспособном возрасте</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="ff17f9b9-afd7-4fff-9e90-80ba9050624d">
+      <name>ИнвалидыСтаршеТрудоспособногоВозраста</name>
+      <description>Инвалиды старше трудоспособного возраста</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="2ba111a5-455b-43de-b646-2cb65639b01e">
+      <name>МолодежьНесовершеннолетние</name>
+      <description>Несовершеннолетние (14-18 лет)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="7f41fb20-78f7-401e-8270-497a5e9e997a">
+      <name>МолодежьСироты</name>
+      <description>Сироты или оставшиеся без попечения родителей (до 23 лет)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КатегорииСотрудниковТрудоустроенныхПоКвотам.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.КатегорииСотрудниковТрудоустроенныхПоКвотам.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="413adbcb-9a9d-4323-be0f-2ab1279d637f">
+    <name>ВидКвоты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид квоты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыКвотДляТрудоустройства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d7c6a1a6-f444-453c-8988-710885a8a2de">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bef89d54-f027-4b88-bdc7-5eda28b527f3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ecf59018-272c-4f47-b20a-c11924dce18a">
+  <producedTypes>
+    <objectType typeId="4f5fd7de-7e26-4029-906c-e7f17c6a7bbe" valueTypeId="bd0124be-6fad-4502-8d61-d7cc8020f564"/>
+    <managerType typeId="54589fd5-44e6-48ff-b198-d593fbd3d757" valueTypeId="6ddcea33-9767-4500-abbb-6ef2a3ee469a"/>
+  </producedTypes>
+  <name>ПереносСправочниковБРО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перенос справочников БРО</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПереносСправочниковБРО.Form.ФормаЗагрузки</defaultForm>
+  <forms uuid="b81999c7-fa46-42c3-be4f-5db32b0fb182">
+    <name>ФормаВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выгрузки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="999ba65b-53ed-4184-9579-cd426c209044">
+    <name>ФормаЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма загрузки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5c867982-e30a-40c8-9118-eb857d2f5cdd">
+    <name>ВыборОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор организации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="defb3c4b-77d6-4e83-b1d7-eba41e732050">
+    <name>КакиеДанныеМожноПеренести</name>
+    <synonym>
+      <key>ru</key>
+      <value>Какие данные можно перенести</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="f824a2a2-e222-45df-b09e-b80493bcd14d">
+    <name>БСП3_1_10_357__БРО1_2_01_258</name>
+    <synonym>
+      <key>ru</key>
+      <value>БСП (3.1.10.357), БРО (1.2.1.258)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

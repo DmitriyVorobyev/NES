@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93f12779-c760-48b8-8ae3-8fd8067aac57">
+  <name>КолоколЕстьСообщения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Колокол есть сообщения</value>
+  </synonym>
+</mdclass:CommonPicture>

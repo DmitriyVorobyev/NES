@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cef40448-7891-4d23-828a-b79e96b9bff7">
+  <producedTypes>
+    <selectionType typeId="add8badf-419e-4a75-951d-bab8940cf980" valueTypeId="4d7db20a-9a1c-4066-8cc9-8a588274a583"/>
+    <listType typeId="2a1c8be9-2634-4fb6-ad54-2e88f3e81b7d" valueTypeId="e7d2378d-1d2c-4f72-9993-064a903c0268"/>
+    <managerType typeId="fc23c088-997b-40cb-bcc9-1a6d5cbf2ba8" valueTypeId="482bd885-9b6c-4f0a-8da5-79e1f0aca061"/>
+    <recordSetType typeId="8a3372ea-e80f-4dc0-99dd-0a7115a36eba" valueTypeId="78d89d4d-53c8-42f8-a76e-3eedfd685084"/>
+    <recordKeyType typeId="d59d4cbe-cb07-4900-9528-7e7da6a792a0" valueTypeId="2e362e89-4a09-44b3-b3ce-27d5e6856d83"/>
+    <recordType typeId="dab25b88-0a24-4f99-92b5-3e2627c987b9" valueTypeId="d0360404-3b8a-4acb-8323-7dc7e6b1dd23"/>
+    <recordManagerType typeId="ad9550d6-077b-407f-b1a7-acc521cfabbe" valueTypeId="cf03cf89-698b-4ed9-b370-6c39be4d5b77"/>
+  </producedTypes>
+  <name>СостоянияСформированныхПредставленийФормуляровПОД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния сформированных представлений формуляров ПОД</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="678a7019-7fef-49d5-b67e-4f7915ceaf69">
+    <name>Подписано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписано</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c0b32c65-22db-4cbf-970e-4d9dd2a34120">
+    <name>ПредставлениеФормуляра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление формуляра</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПредставлениеФормуляраПервичногоДокументаПОД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

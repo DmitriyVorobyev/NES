@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ad31eea-3154-434e-86b1-edcf955e12e9">
+  <producedTypes>
+    <managerType typeId="2f5e0496-713a-4afe-8ced-d4d8c45d1e50" valueTypeId="7a5c98c8-1714-4e7d-b01f-78229e4274ce"/>
+    <valueManagerType typeId="0dd4e815-dc83-4e79-95c9-b96d2ffe3dba" valueTypeId="e1099897-f7db-4e2b-91db-8597f5d9d1bd"/>
+    <valueKeyType typeId="8ed91820-6023-4522-8ec8-b718c985ab60" valueTypeId="d88b4fae-473a-484d-aeec-d68316408a34"/>
+  </producedTypes>
+  <name>ИспользоватьПланированиеКвотДляТрудоустройства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать планирование квот для трудоустройства</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

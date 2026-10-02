@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bae85c45-15b3-473a-839d-ef137bd8ada0">
+  <producedTypes>
+    <managerType typeId="1c86ece5-9f11-455f-b83e-8f2a1508f59a" valueTypeId="5e9f4828-bf32-4ce7-b414-0bab90700c27"/>
+    <valueManagerType typeId="c10e6463-5b4c-4697-980a-746bae2ac3d6" valueTypeId="88472aa1-2d10-4bd3-bdb9-9ec25039299d"/>
+    <valueKeyType typeId="f2292419-ca25-515e-b98d-a8c6da4b4147" valueTypeId="1a5c9589-bd9c-5d60-8701-ab02738be1c6"/>
+  </producedTypes>
+  <name>ПроверятьИмеющиесяЭППриОчередномПодписании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверять имеющиеся ЭП при очередном подписании</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

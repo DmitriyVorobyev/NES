@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48d46bb4-57e3-4475-ae33-1631b1697d9b">
+  <producedTypes>
+    <managerType typeId="c2ac05b6-7d3e-473b-b03f-6972ba1ca3a8" valueTypeId="dfe6e8d6-8eac-44bb-822a-59369cf1d899"/>
+    <valueManagerType typeId="93bc087a-d02c-4515-b7b0-7a1c6fa47906" valueTypeId="fbd4055c-c5a0-4f8c-98bb-e1944c7a4151"/>
+    <valueKeyType typeId="23d3a99f-90d9-47f3-8cfd-30e25af9be62" valueTypeId="90d1e554-d2c8-4b3d-bf0b-0f6b638107ba"/>
+  </producedTypes>
+  <name>ИспользоватьДокументИзмененияМестаПозицииВСтруктуреПредприятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать документ изменения места позиции в структуре предприятия</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

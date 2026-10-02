@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd7e328c-ba1d-406e-95a3-6c202f4540c1">
+  <name>ЭмблемаСервиса1СЭДОПОД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Эмблема сервиса 1С-ЭДО в ПОД</value>
+  </synonym>
+</mdclass:CommonPicture>

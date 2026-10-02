@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cce1487e-2147-4b29-887d-6abd6d1d3d70">
+  <name>КолоколБезСообшений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Колокол без сообшений</value>
+  </synonym>
+</mdclass:CommonPicture>

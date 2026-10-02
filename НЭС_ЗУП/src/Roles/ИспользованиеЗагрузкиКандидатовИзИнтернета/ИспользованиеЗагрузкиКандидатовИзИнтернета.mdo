@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7eda0998-816b-476e-a68c-4c49d9decf86">
+  <name>ИспользованиеЗагрузкиКандидатовИзИнтернета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование загрузки кандидатов из Интернета</value>
+  </synonym>
+</mdclass:Role>

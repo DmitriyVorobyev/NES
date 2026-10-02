@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e2e9c17-622b-4267-bd69-3d681edcc3ae">
+  <producedTypes>
+    <selectionType typeId="3b14a1f8-2fcf-4dde-bda5-a6684b8bf01e" valueTypeId="51b125d4-74b9-4181-9fed-2d51dde80f69"/>
+    <listType typeId="a0af9453-79f8-4d5b-8659-b7161e289c24" valueTypeId="7184d40e-2512-436f-a034-004975df3fb0"/>
+    <managerType typeId="ad8458d7-62b5-4cb3-a4d0-5f50a0347232" valueTypeId="a223c092-7acf-4fdb-8801-454cbe5ca01c"/>
+    <recordSetType typeId="ebfb206b-1368-408d-a03d-b3fd9db79106" valueTypeId="6e662541-c037-42e9-8538-3b2a0cb2211c"/>
+    <recordKeyType typeId="8726f1be-1691-4233-a6e3-6d47638521cd" valueTypeId="761c4742-4f0e-441d-bb0c-ed8bdfdbcdd7"/>
+    <recordType typeId="c774bf9c-9c7d-4d45-9cef-7a0f8969c8b5" valueTypeId="bfb552ac-57d7-469b-a7d3-bc696b2ce555"/>
+    <recordManagerType typeId="a464b807-4cfc-41c8-955a-155c52583e38" valueTypeId="606f472a-dfc3-4242-aedb-5ecbc64275ab"/>
+  </producedTypes>
+  <name>ИзменениеОтправленныхДополнительныхРеквизитовИСведенийЗастрахованных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение отправленных дополнительных реквизитов и сведений застрахованных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d772ebe9-584e-4d0f-9bce-322038bc6022">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ДополнительныеРеквизитыИСведения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.ВАрхиве</name>
+      <field>InformationRegister.ИзменениеОтправленныхДополнительныхРеквизитовИСведенийЗастрахованных.Dimension.Свойство</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="41d74f48-23cf-4b28-ae85-755fbe7c2d45">
+    <name>ДоговорСтрахования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор страхования</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыСтрахования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="751074be-f962-471f-a200-13a41c3df855">
+    <name>Застрахованный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Застрахованный</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Застрахованный</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="4d8b2918-44c4-4e5c-b534-fdb8581d19ec">
+    <name>Свойство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойство</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

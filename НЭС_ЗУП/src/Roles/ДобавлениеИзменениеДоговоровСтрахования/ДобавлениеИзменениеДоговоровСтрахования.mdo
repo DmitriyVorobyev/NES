@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6b8f16f-54cf-48e7-b2ea-b78d19cfede6">
+  <name>ДобавлениеИзменениеДоговоровСтрахования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение договоров страхования</value>
+  </synonym>
+</mdclass:Role>

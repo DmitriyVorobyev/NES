@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a07bae3-bf57-4cde-be69-239318fec8e2">
+  <producedTypes>
+    <managerType typeId="1cbf0263-914b-4535-a649-c8bfa66621e4" valueTypeId="ad61589b-b1e9-44c7-ba7c-8c869e9ad1bc"/>
+    <valueManagerType typeId="a1b58b4a-cfc7-449a-b001-4163c9972aba" valueTypeId="7f7344c3-438c-4202-980d-4ade7cebc8c6"/>
+    <valueKeyType typeId="2d6c7ac1-54f0-4f6e-ae4e-ab27120403b7" valueTypeId="4ce90d78-8271-4741-a9b5-bd6a8cde79ab"/>
+  </producedTypes>
+  <name>ИспользоватьРегламентныеИнтервалы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламентные интервалы</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

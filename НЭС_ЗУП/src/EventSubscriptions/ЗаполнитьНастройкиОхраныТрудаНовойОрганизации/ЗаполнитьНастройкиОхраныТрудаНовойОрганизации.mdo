@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f0a1ca3-46b3-4f0a-bb6b-878adc12d257">
+  <name>ЗаполнитьНастройкиОхраныТрудаНовойОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнить настройки охраны труда новой организации</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.Организации</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ОхранаТруда.ЗаполнитьНастройкиОхраныТрудаНовойОрганизацииПриЗаписи</handler>
+</mdclass:EventSubscription>

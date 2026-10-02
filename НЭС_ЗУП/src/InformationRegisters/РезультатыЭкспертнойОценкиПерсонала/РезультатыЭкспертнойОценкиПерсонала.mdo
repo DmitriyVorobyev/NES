@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f94f52d5-8dd1-472f-9b39-0a461224713c">
+  <producedTypes>
+    <selectionType typeId="f842f7eb-a4de-4771-bc33-ceb1608102d9" valueTypeId="7770012e-45b9-4ef5-9ab5-c9ba6d18cf52"/>
+    <listType typeId="6affa96b-3c43-4db6-a47a-169eba76f76e" valueTypeId="03babfbe-9eff-464c-b87a-d350daa296d4"/>
+    <managerType typeId="3ecb9ec6-411d-4aef-8752-a327563e05fb" valueTypeId="c895e431-88de-4e58-8879-3600ec464831"/>
+    <recordSetType typeId="95a12a17-dce2-45bf-8e2d-38005ceb2480" valueTypeId="60cb5349-7970-429f-a383-b3d09500aeb8"/>
+    <recordKeyType typeId="055667f7-eaae-458b-a4a6-775062460c0b" valueTypeId="fd831a9e-3c62-4356-8b05-37b15234c38b"/>
+    <recordType typeId="c75e6794-f601-4feb-a8aa-637bc0f33c38" valueTypeId="a0689115-b453-43e2-a202-9cd5b26543ba"/>
+    <recordManagerType typeId="6b741802-aa54-4c6a-8bdc-20e01deb26ee" valueTypeId="5f9a3c21-7106-42a5-bc30-b6bcff5f8c8d"/>
+  </producedTypes>
+  <name>РезультатыЭкспертнойОценкиПерсонала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты экспертной оценки персонала</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c9a98f94-b325-471f-81ce-77ad9acccc66">
+    <name>Оценка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оценка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ffe066fc-a508-4327-a605-9a84160bf866">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1f3959f3-16bc-4461-8bfb-98cd197f15a7">
+    <name>Эксперт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эксперт</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ОценивающийЭксперт</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="86932e38-9986-4970-adf5-8d7221978e2a">
+    <name>ХарактеристикаПерсонала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика персонала</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ХарактеристикиПерсонала</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

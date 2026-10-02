@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4bbb3cb7-23b2-4d52-ab5a-c06639a2ce9d">
+  <producedTypes>
+    <objectType typeId="b923df1d-c71f-4cbd-9266-8dafec10a812" valueTypeId="1d750854-b39f-4f15-a3d6-2abf84dbcf9f"/>
+    <managerType typeId="71e9dade-17d6-4f52-a151-d913c378268a" valueTypeId="bd02e745-e2fd-450c-baec-5e69adc82add"/>
+  </producedTypes>
+  <name>РаботаСРезультатамиОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с результатами обмена</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РаботаСРезультатамиОбмена.Form.РазборРезультатовПообъектногоОбмена</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="3a8a6019-3fd9-499f-8370-506d73f0a53c">
+    <name>УстановкаСоответствий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка соответствий</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ae63ba53-b077-4513-9709-4e734c31a1c7">
+    <name>ВыборОтображаемыхПолейЗагружаемогоОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор отображаемых полей загружаемого объекта</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6e2dc870-da0e-4ffb-afd1-415872601b7f">
+    <name>НастройкаОтбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка отбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d2b25f38-308e-43c8-83c3-ac27aa85888d">
+    <name>АвтоматическаяУстановкаСоответствий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматическая установка соответствий</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c0730d82-95c3-40a7-9e6f-dd8ac2b6403b">
+    <name>ЗагрузитьОставшиесяКакНовые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузить оставшиеся как новые</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8952260e-e9ee-41c9-923d-235cff6eaa3e">
+    <name>НастройкиРаботыФормаУстановкиСоответствий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки работы форма установки соответствий</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ba756724-e94d-4d44-9474-41bfcfff4120">
+    <name>ИнформацияПриПримененииИзменений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация при применении изменений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="23c8650d-dd13-4c96-94bb-066d68a4b10c">
+    <name>РазборРезультатовПообъектногоОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разбор результатов пообъектного обмена</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2be5361b-8851-41ac-a97f-b2a26da163df">
+    <name>МножественныйОтборСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Множественный отбор списка</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9d8fe39a-9a23-4da3-b39e-01abe7cdd4bf">
+    <name>ОшибкиКонвертации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибки конвертации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3b9379a9-584b-4152-9a27-a5486160719a">
+    <name>ТребуетсяПодтверждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется подтверждение</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5ff50c4c-ca12-4d6b-9be0-6220b5c8bb13">
+    <name>ОбъектыКПоискуИУстановкеСоответствий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объекты к поиску и установке соответствий</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0b11467d-b956-481f-adaf-63acfa6d0c46">
+    <name>ЗагруженныеОбъектыСПроблемамиПриЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загруженные объекты с проблемами при записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ac018dac-c784-4f25-907f-01c8d13f7d4e">
+    <name>ОтборСтатусовПроблемыПриЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор статусов проблемы при записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f11059c4-5e33-456c-b0df-2cc200f5780b">
+    <name>НеЗагруженныеОбъектыСПроблемамиПриЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не загруженные объекты с проблемами при записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0076c91e-203c-4518-bc00-cc6fa432859f">
+    <name>ОжидаютЗагрузкуДругихОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидают загрузку других объектов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b9f6ada0-a7cc-446e-9b0b-8fcfb25de523">
+    <name>ОбъектыТребующиеПолучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объекты требующие получения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3261a45b-9632-4cc8-8088-80eac415a86c">
+    <name>ФормаПроблемыОшибкаКонвертации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма проблемы ошибка конвертации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="26bb6ce7-8e7d-4c93-ac96-368c8792d660">
+    <name>РедактированиеКомментария</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование комментария</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="48565b09-ff7b-4dc6-825f-0d41cbc211c9">
+    <name>БлокируемыеОбъекты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блокируемые объекты</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="531b2144-04ca-4209-ba66-7dd87d389e38">
+    <name>ФормаПроблемыПодтверждениеЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма проблемы подтверждение загрузки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5f345e0d-bfa6-4eaf-b1de-12599d3702bb">
+    <name>ФормаПроблемыКУстановкеСоответствия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма проблемы к установке соответствия</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b97ababa-f51e-4d73-a1d3-b1af68c03c50">
+    <name>ФормаПроблемыОжидаетЗагрузкуДругих</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма проблемы ожидает загрузку других</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3d6d141f-163e-4f25-a99d-5ac37d00d072">
+    <name>ФормаПроблемыОжидаетсяПолучениеЭтогоОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма проблемы ожидается получение этого объекта</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f2b5fd39-f876-43c8-b293-aefdcb3af62e">
+    <name>ФормаПроблемыНезагруженныеСПроблемамиПриЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма проблемы незагруженные с проблемами при записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="111cbcaf-a6a3-4943-9d3f-531f715ec52a">
+    <name>ФормаПроблемыЗагруженныеСПроблемамиПриЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма проблемы загруженные с проблемами при записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="daf68219-d4f0-4d6c-a594-e7b9acc0a860">
+    <name>ПолученныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полученные данные</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5eff8774-088b-4535-a31e-65b59aa0d729">
+    <name>ПредупреждениеПослеПовторногоОткрытияФормыПроблемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предупреждение после повторного открытия формы проблемы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8524a618-4e17-4a31-b8b9-b1f4378f507a">
+    <name>ВыборПроблемыПослеЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор проблемы после загрузки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b313f4cc-cbd1-424e-ae5a-69c92687c7c8">
+    <name>ПредупреждениеСоответствиеУжеУстановлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предупреждение соответствие уже установлено</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0188b4d6-7dc3-4491-926a-43d59ed25cb6">
+    <name>ЗагрузкаДокументовСОтменойПроведения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка документов с отменой проведения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e4c43c43-8a61-487a-b44e-fd5c7a77f2dc">
+    <name>РекомендацииПоРаботеПоискСоответствий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекомендации по работе поиск соответствий</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="852e5692-ddbe-453e-b993-5edda9ee9b25">
+    <name>РекомендацииРешениеПроблемаКонвертации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекомендации решение проблема конвертации</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="6e490e7d-212e-41ff-a241-6e2cefc295f8">
+    <name>БлокируемыеОбъекты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блокируемые объекты</value>
+    </synonym>
+  </templates>
+  <templates uuid="f863e394-6d2f-4d8e-ad3e-7b53d51ce8ae">
+    <name>ДанныеПолученногоОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные полученного объекта</value>
+    </synonym>
+  </templates>
+  <templates uuid="d6e5ae7a-8eef-4db2-a3a1-2ca905baedc3">
+    <name>СравнениеОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сравнение объектов</value>
+    </synonym>
+  </templates>
+  <templates uuid="0c61c1bb-dba8-433c-8a60-e2c67f94b8da">
+    <name>РекомендацииПроблемаПодтвердитьЗагрузку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекомендации проблема подтвердить загрузку</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="b78ab7ae-a2b3-4bad-916c-154b35a8236d">
+    <name>РекомендацииПроблемаУстановитьСоответствие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекомендации проблема установить соответствие</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="14df87e3-dadd-47b7-a3ac-762024e143b4">
+    <name>РекомендацииПроблемаОжидаютЗагрузку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекомендации проблема ожидают загрузку</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="75cbb1f7-4f1b-49a2-a107-9f723224c73b">
+    <name>ОбъектыКПолучению</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объекты к получению</value>
+    </synonym>
+  </templates>
+  <templates uuid="46a380f6-6de4-4b25-a5e8-073b59002bb4">
+    <name>РекомендацииПроблемаТребуетсяПолучениеОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекомендации проблема требуется получение объекта</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="5773284c-8bab-4602-9533-bca784e56bb0">
+    <name>РекомендацииПроблемОшибкаЗаписиНеЗагруженНеСоздан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекомендации проблем ошибка записи не загружен не создан</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="63bbc556-b040-45b4-9bc9-b9f8514e1ef2">
+    <name>РекомендацииПроблемаОшибкаПроведенияОбновлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекомендации проблема ошибка проведения обновлен</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="b9253e53-a17d-40ec-b2a5-cfd244532b55">
+    <name>РекомендацииОшибкаПриЗаписиНеЗагруженНеОбновлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекомендации ошибка при записи не загружен не обновлен</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="0a6c6d85-3f5e-4b6a-b5aa-b2513dd3888e">
+    <name>РекомендацииПроблемаОшибкаЗаписиСоздан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекомендации проблема ошибка записи создан</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="4686caca-8d85-46fd-bbc0-93f98b0f707f">
+    <name>РекомендацииПроблемаОшибкаПроведенияСоздан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекомендации проблема ошибка проведения создан</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="2163b96f-6383-4482-ba9b-fb002eef770e">
+    <name>РекомендацииОшибкаПроведенияНеОбновлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекомендации ошибка проведения не обновлен</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

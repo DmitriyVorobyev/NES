@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fd14b09-24b3-44f1-b283-517959a2044c">
+  <producedTypes>
+    <objectType typeId="e65a5ca8-1335-4f64-ba86-376eff4a4b23" valueTypeId="6071e1fe-ee1b-447a-b080-707bdefa70db"/>
+    <managerType typeId="b8e0c73d-d454-4df1-9363-ceea18f7b74a" valueTypeId="97a4606f-1608-4bac-bfaa-e579b2c7b7f9"/>
+  </producedTypes>
+  <name>ИсторияРассылкиПолисовДМС</name>
+  <synonym>
+    <key>ru</key>
+    <value>История рассылки полисов ДМС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ИсторияРассылкиПолисовДМС.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="e1dd30af-3c3b-4bd2-a49d-3a5ce9546c3f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

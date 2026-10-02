@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16799c77-c5a0-49df-9123-3389ed4389a0">
+  <producedTypes>
+    <selectionType typeId="1b776059-2865-42ca-ab32-92729e44d8ae" valueTypeId="f6d98a2e-771b-49b7-bf5c-93edfa55c26b"/>
+    <listType typeId="3e40b3cb-9860-4b03-b61a-98f5c90e2eb2" valueTypeId="1a95bc86-f609-4243-b0a0-02e0ee2d2c5b"/>
+    <managerType typeId="fda0e0f9-109f-4c0b-a1bd-cf1b484dea62" valueTypeId="fb369e94-7356-40ac-a345-026bb58dcb05"/>
+    <recordSetType typeId="e419956b-6ce8-4e24-b127-b37100fac78e" valueTypeId="acf786d8-4d25-4a49-8b00-341672e62351"/>
+    <recordKeyType typeId="ab7737b3-debf-4cf4-9cb5-d345728b3c8c" valueTypeId="132fab20-887f-45bd-aebd-5c4c3dfcc94a"/>
+    <recordType typeId="76812639-4486-4d1b-8fca-4052cac510b5" valueTypeId="1d690737-31b2-450e-900a-c246fb896f8d"/>
+    <recordManagerType typeId="ff314710-3e88-431d-98f3-f5efe37646ea" valueTypeId="719bf8c3-985a-428f-91b8-de77e0078c06"/>
+  </producedTypes>
+  <name>СоставПачекВыполняемыхЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состав пачек выполняемых задач</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="873ea669-ec60-44e6-bba7-50e944d6b3a0">
+    <name>ИдентификаторПачки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор пачки</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="f532c55b-ecac-4c14-acaf-cd7d5414c63d">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>TaskRef.ЗадачаПоОбработкеДокумента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

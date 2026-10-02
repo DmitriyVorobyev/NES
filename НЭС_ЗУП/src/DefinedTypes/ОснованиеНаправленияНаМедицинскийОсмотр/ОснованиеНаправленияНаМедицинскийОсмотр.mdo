@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="755e8f28-6a2b-4d69-866b-0db2711d04ad">
+  <producedTypes>
+    <containerType typeId="6699ee1f-2ecb-470b-ac70-9e1b4fa0ce5f" valueTypeId="8f4309b3-9980-482c-9a3a-4e5bb8b42f50"/>
+  </producedTypes>
+  <name>ОснованиеНаправленияНаМедицинскийОсмотр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основание направления на медицинский осмотр</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.РешениеОПриемеНаРаботу</types>
+    <types>CatalogRef.Кандидаты</types>
+    <types>DocumentRef.РешениеОКадровомПереводе</types>
+  </type>
+</mdclass:DefinedType>

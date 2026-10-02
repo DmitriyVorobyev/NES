@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="418cd2b9-747f-4c63-9b24-f6d662dc319e">
+  <producedTypes>
+    <refType typeId="69cd113a-4118-41f9-839f-beb4ed8c026e" valueTypeId="d7b5edac-23a6-42c3-942a-5765f3ed5138"/>
+    <listType typeId="55654469-5ae4-4611-988c-2959e8b1e193" valueTypeId="768daa2e-c5aa-4b90-b4a6-4f83b5381247"/>
+    <managerType typeId="69870415-8c12-49f4-a581-a99d4f0f3c77" valueTypeId="1a270f03-c9e8-43e8-9be6-9d2fcf956605"/>
+  </producedTypes>
+  <name>ВидыШаблоновСправокСотрудникам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды шаблонов справок сотрудникам</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="23488c80-e2d4-421d-998b-5cd6aa84b31d">
+    <name>ПрисоединенныйОфисныйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Присоединенный офисный документ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fb1411e7-f075-4096-9aba-4300e025fae7">
+    <name>МакетПечатнойФормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет печатной формы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="010c1cfb-297a-4eb2-a46e-51792d0b5144">
+    <name>ПроизвольныйМакет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольный макет</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

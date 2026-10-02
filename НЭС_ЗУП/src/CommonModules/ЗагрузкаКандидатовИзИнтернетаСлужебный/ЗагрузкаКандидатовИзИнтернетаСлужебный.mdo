@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10ed71d2-fbd2-47a9-a414-fc08427a8021">
+  <name>ЗагрузкаКандидатовИзИнтернетаСлужебный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка кандидатов из Интернета служебный</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

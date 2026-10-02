@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6e2d6ad-09c1-47d7-93c7-d3b16d7344b1">
+  <producedTypes>
+    <managerType typeId="47aa4f65-442b-483f-931f-f04b57cd45d3" valueTypeId="d2a44c10-8f3b-40e1-9c45-39a7f4d1598c"/>
+    <valueManagerType typeId="f9450065-c5c8-4055-96f0-d56b803535ee" valueTypeId="5218fcff-aa83-406f-81bb-5e64abb5851a"/>
+    <valueKeyType typeId="775ef092-ce72-48b7-a1e0-1194033d0627" valueTypeId="14165b80-cd8a-497f-87b0-c8494abae3a3"/>
+  </producedTypes>
+  <name>ПроверятьНаличиеКлючаПЭПВРеестре</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перед подписанием проверять наличие ключа ПЭП в реестре</value>
+  </synonym>
+  <dataHistory>Use</dataHistory>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

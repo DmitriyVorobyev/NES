@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef542bbf-d988-417a-a906-b0d99d96200d">
+  <producedTypes>
+    <refType typeId="efcd2cd3-a1b2-4126-a1aa-9be4273155da" valueTypeId="d6ea5617-ae80-4d77-847b-9adadbb6b92a"/>
+    <listType typeId="0a44bb6e-a3a0-4797-9054-99c0b9779195" valueTypeId="5f0284cf-e965-4cd7-9c58-3678eaf44380"/>
+    <managerType typeId="61dece3e-558d-41d5-99b3-b0c83cec050e" valueTypeId="cd37b3f1-8b22-4ffd-8361-5d0995f8636c"/>
+  </producedTypes>
+  <name>СтатусыОбновленияОбъектаПриПроблемахЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы обновления объекта при проблемах записи</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2d1db68b-4591-4599-ba41-fa8f0efabd88">
+    <name>ЗагруженСозданНовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загружен, создан новый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f9ef0322-f2c1-4c8e-8a92-8bfd2fcaa51b">
+    <name>НеЗагруженНеСоздан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не загружен, не создан новый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2fab14e0-802e-41fa-8cea-d7cf6e6a1e99">
+    <name>ЗагруженОбновлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загружен, обновлен существующий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="46705dd9-19e3-485e-8445-a331e4dc81cf">
+    <name>НеЗагруженНеОбновлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не загружен, не обновлен существующий</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

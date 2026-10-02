@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="795aad11-3b25-44b7-a234-abefccaecfe6">
+  <name>ИспользоватьИнтеграциюРекрутинговыхСайтов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать интеграцию рекрутинговых сайтов</value>
+  </synonym>
+  <location>Constant.ИспользоватьИнтеграциюРекрутинговыхСайтов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Кандидаты.Command.СоздатьССайта</content>
+  <content>DataProcessor.ПубликацияВакансийНаРекрутинговыхСайтах</content>
+  <content>InformationRegister.ДанныеПубликацииРезюме</content>
+  <content>Catalog.Кандидаты.Command.СоздатьССайтаПоВакансии</content>
+  <content>InformationRegister.КлассификаторыРекрутинговыхСайтов</content>
+  <content>InformationRegister.УдалитьОткликиКандидатов</content>
+</mdclass:FunctionalOption>

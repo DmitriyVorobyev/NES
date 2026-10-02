@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="672642aa-2c10-4a02-99a9-cbbea1320feb">
+  <producedTypes>
+    <selectionType typeId="f8c2371f-38f5-41c1-a69b-d038df597b96" valueTypeId="67f972fc-0739-4375-9300-724bd9c892ad"/>
+    <listType typeId="5eabf111-8177-4923-92dd-5e0756a5052b" valueTypeId="d05b9f8a-84d4-409a-8718-8893f650ba9b"/>
+    <managerType typeId="d7940d2b-bbee-45e2-a3f3-c8aa9143d064" valueTypeId="59c71173-62df-4a1c-a56f-c2c477f6b7a0"/>
+    <recordSetType typeId="73e25abf-5daf-453e-8e37-3c1dfbef6e93" valueTypeId="671245aa-9ea9-41f7-9bc5-a231570e0bbb"/>
+    <recordKeyType typeId="a581282a-74ce-430f-9d31-948828abd506" valueTypeId="313ec26f-264b-4a1a-9ffd-d3210b73e8a5"/>
+    <recordType typeId="a8e3f587-d759-408e-8a34-c15385012fce" valueTypeId="da2a49c4-794a-4590-89e4-35411dbf11fe"/>
+    <recordManagerType typeId="1c478769-5e91-435a-8013-fad3ef35bd22" valueTypeId="4f81c497-cf52-4f95-9bc1-22097a487937"/>
+  </producedTypes>
+  <name>ВопросыЭкспертнойОценкиПерсонала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вопросы экспертной оценки персонала</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c48aa9b3-91f6-47aa-b248-3a6dd9e7264e">
+    <name>Вопрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вопрос</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ВопросыДляАнкетирования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4fe8478b-b4e5-4ea7-852a-55f37436be41">
+    <name>ШкалаЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шкала значений</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШкалыЗначенийХарактеристикПерсонала</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="790bc37b-4d76-4735-a6ee-b2817d5bc849">
+    <name>СпособВыбораОтвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ выбора ответа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыВыбораОтветовВОпросахПоКомпетенциям</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ea3bf13-1313-4df1-9833-bb9900a9cd78">
+  <name>СозданиеНастроекПодключенияКОтчетность24</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактирование настроек подключений к &quot;1С:Отчетность 24&quot;</value>
+  </synonym>
+</mdclass:Role>

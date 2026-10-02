@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5404ce9a-4fb5-4194-9fe4-f4be00f8450f">
+  <producedTypes>
+    <selectionType typeId="695e2516-bfd2-4777-a840-43717cd21efa" valueTypeId="90996857-526f-46d3-bf2e-992ee8624500"/>
+    <listType typeId="81c84fc0-33ca-445f-8a19-aaf98595a4b7" valueTypeId="8d082423-8c26-4ebc-a017-1e0f9ad86af8"/>
+    <managerType typeId="fb32cb81-56e3-445e-a7ad-17789ce9a29f" valueTypeId="3f85b9dd-b8fc-4f57-b246-30085abec3c4"/>
+    <recordSetType typeId="156b07d8-493b-4357-acca-382dc933a328" valueTypeId="f89cd85d-ec6d-4fee-aee6-bad078fe32a4"/>
+    <recordKeyType typeId="14125b65-e634-4e3d-875e-9d19a7d676ab" valueTypeId="470ad2c6-976d-49c9-8215-f91eae41757a"/>
+    <recordType typeId="46eca461-3d7a-4964-ad3d-b8f8f92383cd" valueTypeId="81a45801-1218-4731-9911-ab483b9d1216"/>
+    <recordManagerType typeId="642a6219-05f1-4a74-b658-6195ac394d4f" valueTypeId="4f715f5f-2b29-48a4-96b9-3c52083c2ed7"/>
+  </producedTypes>
+  <name>СведенияПодписанныхДанныхБольшогоОбъема</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения подписанных данных большого объема</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="58f7d103-1417-4ed9-81ee-5961f43d4a59">
+    <name>СоставПодписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав подписи</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="560aa907-18ce-4fc3-b8d8-d0ae3ef1e08c">
+    <name>НастройкаПодписиСсылочныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка подписи ссылочных данных</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="b9ad8ee4-734b-41e2-9367-50bb09020256">
+    <name>РазмерФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер файла</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="34b843c1-81c3-4d99-9405-d51c0fe3bc1b">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>TaskRef.ЗадачаПоОбработкеДокумента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

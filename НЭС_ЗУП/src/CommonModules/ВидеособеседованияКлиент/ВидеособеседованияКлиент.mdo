@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5cfe08a9-fcb9-4347-8538-509f47348c57">
+  <name>ВидеособеседованияКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Видеособеседования клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ba8c250-b543-4d24-8d49-ee3c1850f99b">
+  <name>КадровоеПланирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровое планирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.ПозицииКадровогоПлана</content>
+  <content>Document.КадровыйПлан</content>
+  <content>Constant.ИспользоватьКадровоеПланирование</content>
+  <content>FunctionalOption.ИспользоватьКадровоеПланирование</content>
+  <content>CommonModule.КадровоеПланирование</content>
+  <content>InformationRegister.ПозицииШтатногоРасписанияПоКадровомуПлану</content>
+  <content>Catalog.ПоказателиКадровогоПланирования</content>
+  <content>Catalog.Сценарии</content>
+  <content>Catalog.КадровыйПланПрисоединенныеФайлы</content>
+  <content>AccumulationRegister.ПоказателиКадровогоПлана</content>
+  <content>Report.СостояниеКадровогоПлана</content>
+  <content>Report.СравнительныйАнализКадровогоПлана</content>
+  <content>Role.ДобавлениеИзменениеКадровогоПлана</content>
+  <content>Role.ЧтениеКадровогоПлана</content>
+  <content>Role.ПодсистемаКадровоеПланирование</content>
+  <content>CommonModule.КадровоеПланированиеКлиент</content>
+  <content>CommonModule.КадровоеПланированиеФормы</content>
+  <content>CommonModule.КадровоеПланированиеВызовСервера</content>
+  <content>InformationRegister.ЗначенияПоказателейКадровыхПланов</content>
+  <content>Role.ДобавлениеИзменениеСценариевПланирования</content>
+  <content>CommonModule.КадровоеПланированиеКлиентСервер</content>
+  <content>Role.НастройкаСвязейПозицийШтатногоРасписанияПоКадровомуПлану</content>
+  <content>Role.ДобавлениеИзменениеПоказателейКадровогоПланирования</content>
+  <content>Role.ИзменениеФинансовогоУчетаПозицийКадровогоПлана</content>
+  <content>Role.ЧтениеСценариевПланирования</content>
+  <content>Enum.КатегорииРасходовНаПерсонал</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

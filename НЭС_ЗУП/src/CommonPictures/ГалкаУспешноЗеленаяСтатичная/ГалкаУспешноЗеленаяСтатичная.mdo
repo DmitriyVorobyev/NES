@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5835b51b-ba4f-49d2-8cac-6aded505cdac">
+  <name>ГалкаУспешноЗеленаяСтатичная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Галка успешно зеленая статичная</value>
+  </synonym>
+</mdclass:CommonPicture>

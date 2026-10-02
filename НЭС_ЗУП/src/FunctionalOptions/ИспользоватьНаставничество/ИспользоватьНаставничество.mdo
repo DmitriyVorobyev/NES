@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a108646-cdb4-4f5d-8950-3b9dd1efd8f7">
+  <name>ИспользоватьНаставничество</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать наставничество</value>
+  </synonym>
+  <location>Constant.ИспользоватьНаставничество</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.ОбучениеИРазвитие.Subsystem.Наставничество</content>
+  <content>Document.НазначениеНаставника</content>
+  <content>InformationRegister.Наставничество</content>
+  <content>Document.ПрекращениеНаставничества</content>
+  <content>Document.ДисциплинарноеВзыскание.TabularSection.Наставники</content>
+  <content>Document.ДисциплинарноеВзыскание.Attribute.ЗавершитьНаставничество</content>
+  <content>Document.ИсключениеИзКадровогоРезерва.TabularSection.Резерв.Attribute.ЗавершитьНаставничество</content>
+  <content>Report.ОтчетыПоНаставничеству</content>
+  <content>Document.Увольнение.TabularSection.Наставники</content>
+  <content>Document.Увольнение.TabularSection.Наставники.Attribute.Наставник</content>
+  <content>Document.Увольнение.TabularSection.Наставники.Attribute.Наставляемый</content>
+  <content>Document.Увольнение.TabularSection.Наставники.Attribute.ДатаОкончания</content>
+  <content>Document.Увольнение.TabularSection.Наставники.Attribute.ДокументОснование</content>
+  <content>Document.Увольнение.TabularSection.Наставники.Attribute.Начисление</content>
+  <content>Document.Увольнение.TabularSection.Наставники.Attribute.ОтменитьДоплату</content>
+  <content>Document.Увольнение.TabularSection.Наставники.Attribute.СовокупнаяТарифнаяСтавка</content>
+  <content>Document.Увольнение.TabularSection.Наставники.Attribute.ВидТарифнойСтавки</content>
+  <content>Document.Увольнение.Attribute.ЗавершитьНаставничество</content>
+  <content>Document.УвольнениеСписком.TabularSection.Сотрудники.Attribute.ЗавершитьНаставничество</content>
+  <content>Document.УвольнениеСписком.TabularSection.Наставники</content>
+  <content>Document.УвольнениеСписком.TabularSection.Наставники.Attribute.Наставник</content>
+  <content>Document.УвольнениеСписком.TabularSection.Наставники.Attribute.Наставляемый</content>
+  <content>Document.УвольнениеСписком.TabularSection.Наставники.Attribute.ДатаОкончания</content>
+  <content>Document.УвольнениеСписком.TabularSection.Наставники.Attribute.ДокументОснование</content>
+  <content>Document.УвольнениеСписком.TabularSection.Наставники.Attribute.Начисление</content>
+  <content>Document.УвольнениеСписком.TabularSection.Наставники.Attribute.ОтменитьДоплату</content>
+  <content>Document.УвольнениеСписком.TabularSection.Наставники.Attribute.СовокупнаяТарифнаяСтавка</content>
+  <content>Document.УвольнениеСписком.TabularSection.Наставники.Attribute.ВидТарифнойСтавки</content>
+  <content>Document.УвольнениеСписком.TabularSection.Наставники.Attribute.ИдентификаторСтрокиСотрудника</content>
+</mdclass:FunctionalOption>

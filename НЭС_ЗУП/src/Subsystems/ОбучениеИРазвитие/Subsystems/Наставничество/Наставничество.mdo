@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9c6bcac-32a2-4d52-b38f-80bbd391f1ce">
+  <name>Наставничество</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наставничество</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.НазначениеНаставника</content>
+  <content>DefinedType.УчастникПроцессаНаставничества</content>
+  <content>InformationRegister.Наставничество</content>
+  <content>Document.ПрекращениеНаставничества</content>
+  <content>Report.ОтчетыПоНаставничеству</content>
+  <content>Role.ДобавлениеИзменениеДокументовНаставничества</content>
+  <content>CommonModule.Наставничество</content>
+  <content>CommonModule.НаставничествоКлиент</content>
+  <content>CommonModule.НаставничествоПовтИсп</content>
+  <content>Role.ЧтениеДокументовНаставничества</content>
+  <parentSubsystem>Subsystem.ОбучениеИРазвитие</parentSubsystem>
+</mdclass:Subsystem>

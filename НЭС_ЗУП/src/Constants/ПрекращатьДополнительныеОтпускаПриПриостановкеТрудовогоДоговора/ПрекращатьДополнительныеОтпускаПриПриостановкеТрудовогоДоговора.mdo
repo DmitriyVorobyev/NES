@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e11f2f2-cd3c-40b4-b308-7d9e3d5668a1">
+  <producedTypes>
+    <managerType typeId="03d962d2-057a-4edb-97c7-83dfa0b97cd2" valueTypeId="b32da835-9d20-4a75-82c1-0f75f257f4d3"/>
+    <valueManagerType typeId="2366a5c1-ce2d-4d9d-9465-c7f6b02fa4ce" valueTypeId="9baea6f0-ae96-4304-b426-895081b04bc0"/>
+    <valueKeyType typeId="3cf278ec-7c3e-43a4-9a66-cc1f4d27333a" valueTypeId="3765a9c1-cf14-4621-b5f9-d509b44610d3"/>
+  </producedTypes>
+  <name>ПрекращатьДополнительныеОтпускаПриПриостановкеТрудовогоДоговора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прекращать дополнительные отпуска при приостановке трудового договора</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

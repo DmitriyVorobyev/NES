@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92273fdd-b355-4a39-b0ba-0ea66ac5bc9d">
+  <name>ОбновлениеАналитикиДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление аналитики данных</value>
+  </synonym>
+  <comment>Выполняет обновление данных в регистрах сведений, предназначенных для формирования отчетности и для сервиса 1С:Аналитика</comment>
+  <methodName>CommonModule.АналитикаДанных.ОбновлениеАналитикиДанных</methodName>
+  <key>ОбновлениеАналитикиДанных</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

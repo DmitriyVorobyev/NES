@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60c8e77a-1d33-4dc8-802a-6b513c7c36b6">
+  <producedTypes>
+    <managerType typeId="9030c3a9-2d7a-45c2-9b86-bccd09ddd706" valueTypeId="a66b1512-4132-4c36-85f2-75ab8598ef01"/>
+    <valueManagerType typeId="fcc6bccc-4fd0-4880-be84-37ed8274bbce" valueTypeId="0b8e9d04-ea8d-425b-88a6-6e39a22c4a1c"/>
+    <valueKeyType typeId="cf262a74-6fe7-4185-9faf-6be6b089687d" valueTypeId="81be6c7e-e279-42c1-a9a4-fb92903ba5ae"/>
+  </producedTypes>
+  <name>ПроверятьСведенияОДолжностиПодписантаПЭППОД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверить заполнение должности подписанта при использовании простой электронной подписи</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

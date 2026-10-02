@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d19f8427-4d38-4979-be71-3a7846bdb086">
+  <producedTypes>
+    <refType typeId="b1e5b2ba-8c7c-4231-b22e-c0b33d6742c0" valueTypeId="1b8e1342-f1cb-4693-aba7-58964fec3926"/>
+    <listType typeId="96a81e45-a0c1-4bc0-a261-a0d3081923ae" valueTypeId="03ddf631-07fb-461f-8f01-660b00f17ac4"/>
+    <managerType typeId="b7963927-251b-4fb6-a578-26dbddf34fe5" valueTypeId="3d73691e-0e41-4c8d-b182-e77839c0dbda"/>
+  </producedTypes>
+  <name>ИспользованиеШаблоновСообщенийДМС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование шаблонов сообщений ДМС</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f2ab8665-a953-46bc-bf20-96d13003898a">
+    <name>РассылкаПолисовДМС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассылка полисов ДМС</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

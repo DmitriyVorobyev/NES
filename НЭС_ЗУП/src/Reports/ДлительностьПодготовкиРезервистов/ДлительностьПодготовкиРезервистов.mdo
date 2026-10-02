@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2838cbd2-4554-4353-8c6d-2a1e07da057b">
+  <producedTypes>
+    <objectType typeId="b282b879-63af-4265-913f-12b3771017a4" valueTypeId="922e718f-b097-4413-b45a-aa0cafa6103c"/>
+    <managerType typeId="85856229-f1e2-432f-b2e4-68d06cfdd7cc" valueTypeId="4c526d72-2183-4b13-b7b8-f8dc393f932f"/>
+  </producedTypes>
+  <name>ДлительностьПодготовкиРезервистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Длительность подготовки резервистов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ДлительностьПодготовкиРезервистов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="090e118b-8627-4d6e-9738-e68972a6fd17">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="024950b0-71be-4f2f-9369-734005637c0f">
+  <name>ОбучениеПоОхранеТруда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обучение по охране труда</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Enum.РезультатыПроверкиЗнанияПоОхранеТруда</content>
+  <content>Catalog.КлассификаторПрограммОбученияПоОхранеТруда</content>
+  <content>InformationRegister.ПроверкиЗнанияТребованийОхраныТрудаСотрудников</content>
+  <content>FunctionalOption.ИспользоватьОбучениеПоОхранеТруда</content>
+  <content>DataProcessor.ОбучениеПоОхранеТруда</content>
+  <content>InformationRegister.ПериодическиеПроверкиЗнанияТребованийОхраныТруда</content>
+  <content>InformationRegister.БудущиеСобытияОбучениеПоОхранеТруда</content>
+  <content>CommonModule.ОбучениеПоОхранеТруда</content>
+  <content>ScheduledJob.ОбновлениеПериодическогоОбученияПоОхранеТруда</content>
+  <content>InformationRegister.ОбновлениеПериодическогоОбученияПоОхранеТруда</content>
+  <content>Catalog.ПрограммыОбученияСотрудниковПоОхранеТруда</content>
+  <content>Enum.ФормыОбученияПоОхранеТруда</content>
+  <content>CommonModule.ОбучениеПоОхранеТрудаФормы</content>
+  <content>CommonModule.ОбучениеПоОхранеТрудаФормыКлиент</content>
+  <content>CommonModule.ОбучениеПоОхранеТрудаФормыКлиентСервер</content>
+  <content>Document.ОбучениеСотрудниковОхранеТруда</content>
+  <content>Document.ПроверкаЗнанияТребованийОхраныТруда</content>
+  <content>InformationRegister.ОбученияСотрудниковОхранеТрудаОжидающиеПроверки</content>
+  <content>Catalog.ПрограммыОбученияСотрудниковПоОхранеТрудаПрисоединенныеФайлы</content>
+  <content>Catalog.ОбучениеСотрудниковОхранеТрудаПрисоединенныеФайлы</content>
+  <content>Catalog.ПроверкаЗнанияТребованийОхраныТрудаПрисоединенныеФайлы</content>
+  <content>Role.НастройкаКлассификаторовПрограммОбученияПоОхранеТруда</content>
+  <content>Role.ИспользованиеОбработкиОбучениеПоОхранеТруда</content>
+  <content>InformationRegister.ОтстранениеОтРаботыПоРезультатамОбученияОхранеТруда</content>
+  <content>InformationRegister.ОтсутствияССохранениемОплатыПриОбученииОхранеТруда</content>
+  <content>Role.ЧтениеРезультатовОбученияПоОхранеТруда</content>
+  <content>Role.ДобавлениеИзменениеОбученияСотрудниковОхранеТруда</content>
+  <content>Role.ДобавлениеИзменениеПроверокЗнанияТребованийОхраныТруда</content>
+  <content>EventSubscription.ЗарегистрироватьИзменениеРабочихМестДляОбученияПоОхранеТруда</content>
+  <content>EventSubscription.ЗарегистрироватьИзменениеКадровойИсторииДляОбученияПоОхранеТруда</content>
+  <content>Report.ОбучениеИПроверкаЗнанияТребованийОхраныТруда</content>
+  <subsystems>Инструктажи</subsystems>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы.Subsystem.ОхранаТруда</parentSubsystem>
+</mdclass:Subsystem>

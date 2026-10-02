@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9747777-9292-434f-bd79-81c40be1c72a">
+  <name>ИспользоватьПсихиатрическиеОсвидетельствования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать психиатрические освидетельствования</value>
+  </synonym>
+  <location>InformationRegister.НастройкиОхраныТруда.Resource.ИспользоватьПсихиатрическиеОсвидетельствования</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DataProcessor.МедицинскиеОсмотры.Command.ПсихиатрическиеОсвидетельствования</content>
+</mdclass:FunctionalOption>

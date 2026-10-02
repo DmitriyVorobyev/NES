@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3467d73-2dbc-49ed-9958-c2152e47d69d">
+  <name>РедактированиеИсторииСРаспределениемФинансовыйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактирование истории с распределением финансовый учет</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

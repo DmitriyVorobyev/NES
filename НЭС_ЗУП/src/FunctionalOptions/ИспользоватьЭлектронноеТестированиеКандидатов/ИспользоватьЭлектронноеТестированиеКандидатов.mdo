@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15803d32-f45a-47d3-913f-052aa72d945d">
+  <name>ИспользоватьЭлектронноеТестированиеКандидатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать электронное тестирование кандидатов</value>
+  </synonym>
+  <location>Constant.ИспользоватьЭлектронноеТестированиеКандидатов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DataProcessor.ЭлектронноеТестированиеКандидатов</content>
+  <content>InformationRegister.УдалитьНастройкаВопросовДляЭлектронногоТестирования</content>
+  <content>Catalog.ПрофилиДолжностей.TabularSection.ЭтапыРаботыСКандидатами.Attribute.ШаблонАнкеты</content>
+  <content>Catalog.Вакансии.TabularSection.ХарактеристикиПерсонала</content>
+  <content>Catalog.Вакансии.TabularSection.ДействияСотрудников</content>
+  <content>Catalog.ПрофилиДолжностей.TabularSection.ХарактеристикиПерсонала</content>
+  <content>Catalog.Вакансии.TabularSection.ЭтапыРаботыСКандидатами.Attribute.ШаблонАнкеты</content>
+  <content>Catalog.ЭлектронныеКурсы</content>
+  <content>Catalog.ТестовыеВопросы</content>
+  <content>Enum.ТипыТестовыхВопросов</content>
+  <content>Catalog.ВариантыОтветовНаТестовыеВопросы</content>
+  <content>Catalog.ПрофилиДолжностей.TabularSection.ДействияСотрудников</content>
+  <content>InformationRegister.НастройкаВопросовДляЭлектронногоТестирования</content>
+</mdclass:FunctionalOption>

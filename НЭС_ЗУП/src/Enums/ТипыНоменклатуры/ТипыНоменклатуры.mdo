@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af90266a-20e7-466b-9191-811a45db40f2">
+  <producedTypes>
+    <refType typeId="d0af8fe9-7b9c-464e-b35c-ba7485c651d9" valueTypeId="86403a5a-9365-4b28-9f0a-27a4cfc07cd2"/>
+    <listType typeId="6aaf111c-f737-46c9-a5f8-941553c3cd52" valueTypeId="6420ab95-ad96-4c64-80ed-3a1f3026deed"/>
+    <managerType typeId="1281a7db-777a-4568-9891-eb3c727331fd" valueTypeId="22fe2efd-2f87-4cd3-b76c-c7feb2c9f637"/>
+  </producedTypes>
+  <name>ТипыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы номенклатуры</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Product types</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="518c58c4-c88e-472c-be07-65a0ccdf9f50">
+    <name>КостюмыИзолирующие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Костюмы изолирующие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="16289c3a-6029-45d5-a244-304e1d328dc9">
+    <name>ОдеждаСпециальнаяЗащитная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Одежда специальная защитная</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Product</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b70edbd4-d505-4765-9e23-467e319b6f0b">
+    <name>СредстваДерматологическиеЗащитные</name>
+    <synonym>
+      <key>en</key>
+      <value>Package</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Средства дерматологические защитные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1e4e0e67-cdbc-4d2e-a422-67bdf8b4ddb0">
+    <name>СредстваЗащитыГлаз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средства защиты глаз</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b10cfd5e-e4b0-4bfa-83d9-b5cb04919f4f">
+    <name>СредстваЗащитыГоловы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средства защиты головы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3b95a898-419e-4211-86aa-77b13368bf46">
+    <name>СредстваЗащитыКомплексные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средства защиты комплексные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="43008ae0-2f73-4bc5-924b-d53305a203e2">
+    <name>СредстваЗащитыЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средства защиты лица</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="89ed3c91-b828-46d0-a878-d250c095e7b5">
+    <name>СредстваЗащитыНог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средства защиты ног</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c75498a7-c74d-4b39-a180-89a4b82ffe7b">
+    <name>СредстваЗащитыОргановДыхания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средства защиты органов дыхания</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="68c385d7-3608-4fd8-bd57-6c8e991e8e70">
+    <name>СредстваЗащитыОргановСлуха</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средства защиты органов слуха</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d4f7246b-1703-4056-b59d-11c69a02efe0">
+    <name>СредстваЗащитыОтПадения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средства защиты от падения с высоты и другие предохранительные средства</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="82e4d883-5436-4b03-aa1a-03d81a4371d2">
+    <name>СредстваЗащитыРук</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средства защиты рук</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="fa62b49b-efd2-4f8f-8e02-cbd81637621a">
+    <name>ВыборТипаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор типа номенклатуры</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Select a product type</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0af50f7-37b8-4268-98c3-0d58647aeead">
+  <producedTypes>
+    <selectionType typeId="aa211e1f-78df-493d-b527-2902a022b31d" valueTypeId="b974cc54-07ec-45fb-b1cb-cf235ee51a3d"/>
+    <listType typeId="4eb48e0a-0f7b-4a6d-a88b-002ed9117a43" valueTypeId="ee2101b9-08f9-450f-afac-9be37fe14a3d"/>
+    <managerType typeId="a0f24848-3639-4cc1-a7be-6a37cce825fe" valueTypeId="cddcfe5e-4683-48a7-b46b-04cc39b3dd1c"/>
+    <recordSetType typeId="030a240c-87a6-4cb8-af63-c7a0fc17d7a5" valueTypeId="3e747e9d-31a4-4efd-aac8-1dd4c219a38f"/>
+    <recordKeyType typeId="ec369f40-8423-4c0c-a209-ed1bde29806b" valueTypeId="74e50f73-0737-46f5-a92f-a3521a58a620"/>
+    <recordType typeId="56d88220-13a0-4fcb-bb38-ba48c33df9ae" valueTypeId="014acdc8-a284-4965-b935-6e5914154715"/>
+    <recordManagerType typeId="6ae159f1-223f-456c-ae18-50aa6a7ee73f" valueTypeId="edc9f64c-2d01-4322-b651-657a754e81f2"/>
+  </producedTypes>
+  <name>Отчетность24БРООграниченияПоОрганизациям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ограничения передачи данных по организациям в Отчетность 24</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Ограничение передачи данных</value>
+  </recordPresentation>
+  <dimensions uuid="69538738-7e37-40ae-852b-efa0f8cda1f0">
+    <name>Получатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатель</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="751aa9de-2b41-487a-850e-cb5495a9b32f">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Организация</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

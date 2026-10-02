@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ddc1e86-e17f-443d-a023-d4198f1d11be">
+  <producedTypes>
+    <objectType typeId="63dff4ea-360a-40b1-a69d-a3af958bf356" valueTypeId="5f8731fe-3bfe-4ea4-8936-2623fa10b230"/>
+    <refType typeId="291993de-3bd7-4456-8204-35e9a52295ec" valueTypeId="d893efb2-b224-4126-a3fd-37a911d0c99f"/>
+    <selectionType typeId="e37a7386-7c83-40af-a63e-e0ed5def0938" valueTypeId="faf407ed-3844-4332-9abb-e9e03a28e1ac"/>
+    <listType typeId="504256b0-28aa-464f-a900-b432942f11eb" valueTypeId="7d17ffea-208a-442a-bc09-dfb775bf6b69"/>
+    <managerType typeId="5fa01661-a340-4a2f-a914-b0ea20b93eda" valueTypeId="6fcf9adf-cc61-409e-bf3a-c7f8755055c0"/>
+  </producedTypes>
+  <name>ВредныеОпасныеПроизводственныеФакторыИВыполняемыеРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вредные и (или) опасные производственные факторы и выполняемые работы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВредныеОпасныеПроизводственныеФакторыИВыполняемыеРаботы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВредныеОпасныеПроизводственныеФакторыИВыполняемыеРаботы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа факторов</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ВредныеОпасныеПроизводственныеФакторы.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вредный или опасный производственный фактор/работа</value>
+  </objectPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Вредные и (или) опасные производственные факторы и выполняемые работы, при наличии которых проводятся обязательные предварительные и периодические медицинские осмотры</value>
+  </extendedListPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВредныеОпасныеПроизводственныеФакторыИВыполняемыеРаботы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.ВредныеОпасныеПроизводственныеФакторыИВыполняемыеРаботы.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.ВредныеОпасныеПроизводственныеФакторыИВыполняемыеРаботы.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ВредныеОпасныеПроизводственныеФакторыИВыполняемыеРаботы.Form.ФормаСписка</defaultChoiceForm>
+  <attributes uuid="40c7f957-3980-43ca-8f35-2ff2b7711457">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="96580fec-0b80-497e-8ad8-a0ef3877f54c">
+    <name>КратностьОсмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кратность осмотра</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4d2b2a92-8902-4bf0-92e6-9576bde44fb4">
+    <name>ПериодичностьОсмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодичность осмотра</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8e51ca96-79ab-40f0-9b31-1a8ecf91a409">
+    <name>ЕдиницаПериодичностиОсмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица периодичности осмотра</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Периодичность</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="74660e0d-0c00-44c3-be6c-10c471e4a18c">
+    <name>ПредставлениеПериодичностиОсмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление периодичности осмотра</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7fb38114-8a06-4ba7-82ae-be7925236f3f">
+    <name>ВидОсмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид осмотра</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыОбследований</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8120bd89-e28c-4f49-844e-f4dcafb4dee6">
+    <name>Однократно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Однократно</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d4fe7387-b758-4cb2-8907-104958b45daf">
+    <name>ВАрхиве</name>
+    <synonym>
+      <key>ru</key>
+      <value>В архиве</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7e0d7ab2-f7c7-4808-8d00-c5a943f15826">
+    <name>СоответствиеПодтверждено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствие подтверждено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Соответствие вредных факторов из приказа № 29н с данным вредным фактором подтверждено</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="26087f4a-3ef0-4abd-a7be-46754db9afa1">
+    <producedTypes>
+      <objectType typeId="637f75d5-7f79-4e77-a26b-c251f2682306" valueTypeId="3ab19b3c-f622-4fe7-a469-51a3a9447124"/>
+      <rowType typeId="daa3d1ab-d6cc-4224-abd9-60d908362134" valueTypeId="680c22e5-4bdf-4cc9-bd5d-4c02d2a3cb4f"/>
+    </producedTypes>
+    <name>СоответствующиеВредныеФакторы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствующие вредные факторы</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="3fd65d1a-e085-40a8-ac1f-48e51ce95e3c">
+      <name>ВредныйФактор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вредный фактор</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВредныеОпасныеПроизводственныеФакторыИВыполняемыеРаботы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.ВидОсмотра</name>
+        <field>Catalog.ВредныеОпасныеПроизводственныеФакторыИВыполняемыеРаботы.Attribute.ВидОсмотра</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Отбор.ВАрхиве</name>
+        <value xsi:type="core:BooleanValue"/>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="093bed48-c23e-4044-a3f0-dea182c51ea4">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fa992ef9-a831-43ab-ba99-0e8424ae5a3c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2e156e0b-921c-4254-ad94-e9d3c9b6d7d4">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="80090b09-1a74-483c-9ef9-393d061c28d7">
+    <name>Перечень29Н</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перечень 29н</value>
+    </synonym>
+    <comment>АПК:1035 специализированные термины</comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="46a41192-d04c-4f0c-8fe4-e026e282defc">
+    <name>ПереченьПсихиатрический</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перечень психиатрический</value>
+    </synonym>
+    <comment>АПК:1035 специализированные термины</comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="31cb2ddd-6310-45ce-864d-64c51919fc8b">
+    <name>СоответствиеПеречня302НПеречню29Н</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствие перечня 302н перечню 29н</value>
+    </synonym>
+    <comment>АПК:1035 специализированные термины</comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:Catalog>

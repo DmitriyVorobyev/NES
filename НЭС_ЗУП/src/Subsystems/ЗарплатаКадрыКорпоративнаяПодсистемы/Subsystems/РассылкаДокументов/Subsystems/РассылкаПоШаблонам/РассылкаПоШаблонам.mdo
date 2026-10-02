@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f466a94-89a6-43fc-9122-7205cef63e35">
+  <name>РассылкаПоШаблонам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассылка по шаблонам</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.РассылкаПоШаблонамКлиент</content>
+  <content>CommonModule.РассылкаПоШаблонамФормы</content>
+  <content>CommonModule.РассылкаПоШаблонамФормыКлиент</content>
+  <content>CommonModule.РассылкаПоШаблонам</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы.Subsystem.РассылкаДокументов</parentSubsystem>
+</mdclass:Subsystem>

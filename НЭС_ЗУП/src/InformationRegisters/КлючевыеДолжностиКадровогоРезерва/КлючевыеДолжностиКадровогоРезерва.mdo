@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d74ccc6-8b1a-4bfe-a64b-9decc8c36bce">
+  <producedTypes>
+    <selectionType typeId="d4d2b1e1-9028-4f6a-b0f6-ef6e1022501b" valueTypeId="d4aaa7bf-abc2-4872-9d10-19d0f95ad675"/>
+    <listType typeId="4d6546a1-ea77-4a2a-bfa4-249532cd0f5a" valueTypeId="2eb6f862-b1dd-4e6f-90e4-8bab2a7a00e8"/>
+    <managerType typeId="73dcbf9f-1e7b-48b6-b353-9924e2b909bc" valueTypeId="2e13ba1f-3e18-4269-b853-e4a47e87dd94"/>
+    <recordSetType typeId="99ad4336-61b0-4963-aa04-551f720dc699" valueTypeId="c31a20fe-c706-420e-a68c-27617bf83cba"/>
+    <recordKeyType typeId="5160dc02-2f75-4623-955f-d8c4b735b494" valueTypeId="0a387d02-d909-4c08-a3f0-cb1626a14226"/>
+    <recordType typeId="68076cf4-1f64-4f8e-ad43-659dbff3b0a7" valueTypeId="f0e915db-0ff6-4f4c-9077-acce3e91d441"/>
+    <recordManagerType typeId="cdedd3fe-cb43-4ba4-85d0-b34ecf78ddd1" valueTypeId="524b0d35-2d28-482d-bef3-7e6a0f7e06a5"/>
+  </producedTypes>
+  <name>КлючевыеДолжностиКадровогоРезерва</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключевые должности кадрового резерва</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="f50e8ee8-ae22-4ba0-bbea-501c0f9eaa53">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ccd5946c-02c4-421c-9a97-015500fa0951">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="33a9be5f-cb9a-468c-96c8-6fb6453a80b5">
+    <name>КлючевыеДолжности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключевые должности</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="069dc314-ed96-45f2-8a59-00f42f41d464">
+    <name>ЗаполнениеПодразделений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение подразделений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="ac989226-ceea-4bde-893f-9ea340aee6a4">
+    <name>КлючевыеДолжности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключевые должности</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

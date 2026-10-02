@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="425022f0-5a39-4cd6-be5a-3d6a1467b58b">
+  <producedTypes>
+    <selectionType typeId="4a99766d-83aa-4a51-b988-e7b76c1dbd16" valueTypeId="b626e7b7-36ce-4c07-958c-bf3f9fd323aa"/>
+    <listType typeId="ff3a9066-ea10-4cdb-901a-3bc8f1a4a4c3" valueTypeId="144a247e-fabf-48c8-9a68-b1770bdd9732"/>
+    <managerType typeId="746b4c94-f0ae-4085-9fa1-a60e9a107dff" valueTypeId="535d4052-a65c-4fe9-b155-a26e2eef874f"/>
+    <recordSetType typeId="41f2a712-1fbc-46a4-99fa-61669f85a6dc" valueTypeId="7bc02272-ec53-4212-9ef5-c42d2971915d"/>
+    <recordKeyType typeId="52342f3a-35fd-4a01-96a9-91af527a041c" valueTypeId="850f4649-aeca-4839-b574-59e529cd784f"/>
+    <recordType typeId="d70748ec-b904-4837-b928-2bcc61ec1816" valueTypeId="c9402da5-8d53-45ff-9203-3219bdf405a4"/>
+    <recordManagerType typeId="fd70ab05-67bc-4b11-b5d2-650b942244f3" valueTypeId="c96c9971-3a29-4428-9c72-f168beafe460"/>
+  </producedTypes>
+  <name>ДанныеВоинскогоУчетаОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные воинского учета организаций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cc46eac1-115a-4811-8495-9c459a9a210f">
+    <name>РегистрационныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрационный номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="eb5e74fe-b26f-4ab7-a06a-de34089335a1">
+    <name>ВышестоящаяОрганизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вышестоящая организация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="b916e01d-e473-4786-bd1f-c67d295b00d5">
+    <name>НеосновныеКодыОКВЭД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неосновные коды ОКВЭД</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="c8aaf26a-6f14-46ca-be7e-b27ea43bf105">
+    <name>ВедетсяТолькоВоинскийУчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ведется только воинский учет</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация ведет только воинский учет, бронирование не используется</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="351bb7d0-f22f-4aaf-8201-83cb3a1a8339">
+    <name>ОрганГосударственнойВласти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Орган государственной власти</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Орган государственной власти, в сфере ведения которого находится организация</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="723d376b-29d6-467e-a11a-18a436e54c5a">
+    <name>ВходитВОрганГосударственнойВласти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входит в орган государственной власти</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация входит в орган управления государственной власти или орган местного самоуправления</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8dc6a887-8425-4ee7-9119-f712589ccea5">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

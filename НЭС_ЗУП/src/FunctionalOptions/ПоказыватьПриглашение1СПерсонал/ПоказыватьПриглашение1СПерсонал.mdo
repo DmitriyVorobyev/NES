@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e30bf6fe-7b60-4e22-86c4-d9c4b5f981fa">
+  <name>ПоказыватьПриглашение1СПерсонал</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показывать приглашение 1С:Персонал</value>
+  </synonym>
+  <location>Constant.ПоказыватьПриглашение1СПерсонал</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonForm.Приглашение1СПерсонал</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73a0f7bd-f95f-474f-866c-e48aa0924739">
+  <name>ЗонаОтветственности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зона ответственности</value>
+  </synonym>
+</mdclass:CommonPicture>

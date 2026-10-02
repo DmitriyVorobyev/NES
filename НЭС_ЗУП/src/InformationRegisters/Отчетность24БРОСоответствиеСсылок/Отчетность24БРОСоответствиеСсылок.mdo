@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bf5aa77-6608-4590-8474-fa65cf2ecc2e">
+  <producedTypes>
+    <selectionType typeId="f46d9b85-b549-43a2-aaef-1a5d81019b6b" valueTypeId="c9692f9d-7910-4a27-a688-e5118af032fd"/>
+    <listType typeId="a85389af-71b1-4b3a-9d46-7fbfdd8197ec" valueTypeId="769f0b19-d51a-46e6-bdf1-960f1354d3e1"/>
+    <managerType typeId="6bc0314b-e488-4f16-90e9-28bb4f828215" valueTypeId="756ffafb-e936-49c1-b77b-fb46187d0a5d"/>
+    <recordSetType typeId="1ee228aa-b79c-454c-91aa-b5162d2b3133" valueTypeId="8715b8af-bed5-4bab-9459-169cd53d29db"/>
+    <recordKeyType typeId="613c70c0-4bab-473b-b683-74be290a3b29" valueTypeId="fad59357-5795-4a1c-9ffc-bf4c6b50ba2a"/>
+    <recordType typeId="7a54929d-0e7c-47f9-9b23-fa5d4e3abd64" valueTypeId="86ae9f6c-6d11-475e-8468-a887a379cad6"/>
+    <recordManagerType typeId="276ccb43-e796-4706-a2fb-5bc490ac44b8" valueTypeId="6553b816-2bbb-4142-9ebb-86901c170432"/>
+  </producedTypes>
+  <name>Отчетность24БРОСоответствиеСсылок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификаторы соответствия ссылок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Соответствие ссылки</value>
+  </recordPresentation>
+  <attributes uuid="745b8764-06bb-43aa-acdd-50af2d8d8a42">
+    <name>Ссылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка</value>
+    </synonym>
+    <comment>Ссылка в локальной базе</comment>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="4e5a4566-2189-4704-b59f-12463c8cd94a">
+    <name>КодОтправителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код подключенной базы</value>
+    </synonym>
+    <comment>Отчетность24Подключения - Получатель без префикса</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="aa93da68-31b6-4f15-987f-4d790279d443">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор ссылки</value>
+    </synonym>
+    <comment>Идентификатор ссылки в базе отправителя</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

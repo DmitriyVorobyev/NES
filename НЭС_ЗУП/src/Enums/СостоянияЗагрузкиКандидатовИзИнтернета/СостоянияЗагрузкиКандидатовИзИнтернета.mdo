@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0aeafa4-3b10-48cf-ba03-dfe2975482ea">
+  <producedTypes>
+    <refType typeId="d6ebd9e9-1070-4d41-abc4-45626c97488d" valueTypeId="a11fef50-9645-42df-9b47-ef2ad1691501"/>
+    <listType typeId="abde262f-a1bc-416a-8463-a7de2e191552" valueTypeId="9097a535-ec62-4196-9937-2741a685f985"/>
+    <managerType typeId="b06c0850-dfe4-48a9-994a-42aa366d33f9" valueTypeId="26591253-a622-4eef-87a0-bbbc4541c8f5"/>
+  </producedTypes>
+  <name>СостоянияЗагрузкиКандидатовИзИнтернета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния загрузки кандидатов из Интернета</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3236c4ff-cc56-4e08-8780-7bda9e23916d">
+    <name>Зарегистрирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарегистрирован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a60bed9f-fcc1-4981-a008-66571749f670">
+    <name>Загружен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загружен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8328e406-86a7-497c-9498-d5273bc2e241">
+    <name>ОшибкаЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка загрузки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0bd21dd9-9b67-4335-80c1-cdb45a94c418">
+    <name>КонтактыЗакрыты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контакты закрыты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="04345d17-a266-4eb8-8774-a419505382fe">
+    <name>ЕстьОднофамильцы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть однофамильцы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

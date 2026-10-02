@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f20af844-724e-40d5-a6bb-d16546ae5bb9">
+  <producedTypes>
+    <objectType typeId="c58e25d9-b142-4ee7-aaa9-6357efd92d1a" valueTypeId="07c03108-ed8d-4384-92a0-3b92782c24f6"/>
+    <managerType typeId="edf7b55e-0e5f-4961-85f4-92525fc27f8a" valueTypeId="7aa3c112-e9b8-4d4a-add9-873c81e4b675"/>
+  </producedTypes>
+  <name>ДисциплинарныеВзыскания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дисциплинарные взыскания</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ДисциплинарныеВзыскания.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="55a22510-e1cb-49ec-887d-6b6a21b84f8d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

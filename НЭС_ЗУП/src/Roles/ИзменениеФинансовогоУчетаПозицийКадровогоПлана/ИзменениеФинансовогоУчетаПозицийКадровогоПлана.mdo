@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74db47f7-4c23-45d2-a749-b5e77daf4779">
+  <name>ИзменениеФинансовогоУчетаПозицийКадровогоПлана</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение финансового учета позиций кадрового плана</value>
+  </synonym>
+</mdclass:Role>

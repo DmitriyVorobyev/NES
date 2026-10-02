@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5c0e0f3-70a7-4946-a997-f6170e4c732e">
+  <producedTypes>
+    <selectionType typeId="66c63702-e62b-4b74-bcf0-e40a1eec74f9" valueTypeId="76208b58-a035-4cdc-a226-e13e7934c08e"/>
+    <listType typeId="f6d19ea6-9894-4eb9-b50b-38e6cc72c796" valueTypeId="37eac134-848f-4657-9bb5-f464e24ac2c8"/>
+    <managerType typeId="33cedfec-ebb9-4004-90b5-50d2ba399edb" valueTypeId="3f0d74ce-a0f3-464a-85d7-979492e2b9fc"/>
+  </producedTypes>
+  <name>ДисциплинарныеВзысканияСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дисциплинарные взыскания сотрудников</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ДисциплинарныеВзысканияСотрудников.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ДисциплинарноеВзыскание</registeredDocuments>
+  <registeredDocuments>Document.СнятиеДисциплинарногоВзыскания</registeredDocuments>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <columns uuid="1656494b-52db-41de-b821-9cad7107d160">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+    <references>Document.ДисциплинарноеВзыскание.Attribute.Взыскание</references>
+    <references>Document.СнятиеДисциплинарногоВзыскания.Attribute.ДатаСобытия</references>
+  </columns>
+  <columns uuid="e9cefae0-be06-4a23-83df-6743c770482d">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <references>Document.ДисциплинарноеВзыскание.Attribute.КраткийСоставДокумента</references>
+    <references>Document.СнятиеДисциплинарногоВзыскания.Attribute.КраткийСоставДокумента</references>
+  </columns>
+  <columns uuid="14c689d9-9d03-4605-b442-46f6cf633c9b">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <references>Document.ДисциплинарноеВзыскание.Attribute.Организация</references>
+    <references>Document.СнятиеДисциплинарногоВзыскания.Attribute.Организация</references>
+  </columns>
+  <columns uuid="45e1b9be-796e-42e9-862d-a10a288e9e75">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <references>Document.ДисциплинарноеВзыскание.Attribute.Комментарий</references>
+    <references>Document.СнятиеДисциплинарногоВзыскания.Attribute.Комментарий</references>
+  </columns>
+  <columns uuid="efdd2458-c0af-4f4f-b0ae-f5d38dc78556">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <references>Document.ДисциплинарноеВзыскание.Attribute.Ответственный</references>
+    <references>Document.СнятиеДисциплинарногоВзыскания.Attribute.Ответственный</references>
+  </columns>
+  <forms uuid="e1af0988-b887-4f4a-8839-d6810df421b4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

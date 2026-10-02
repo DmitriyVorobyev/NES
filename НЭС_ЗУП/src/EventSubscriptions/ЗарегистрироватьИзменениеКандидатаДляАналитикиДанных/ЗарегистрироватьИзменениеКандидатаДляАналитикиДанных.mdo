@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e57fd4a-122b-4eb5-9fbe-801a65f23647">
+  <name>ЗарегистрироватьИзменениеКандидатаДляАналитикиДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарегистрировать изменение кандидата для аналитики данных</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.Кандидаты</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.КадровыйУчетАналитикаДанных.ЗарегистрироватьИзменениеКандидатаДляАналитикиДанныхПриЗаписи</handler>
+</mdclass:EventSubscription>

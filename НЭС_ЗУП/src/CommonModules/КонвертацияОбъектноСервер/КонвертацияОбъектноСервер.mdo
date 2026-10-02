@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3d82566-56fb-42be-b486-3e06a55f051b">
+  <name>КонвертацияОбъектноСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конвертация объектно сервер</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

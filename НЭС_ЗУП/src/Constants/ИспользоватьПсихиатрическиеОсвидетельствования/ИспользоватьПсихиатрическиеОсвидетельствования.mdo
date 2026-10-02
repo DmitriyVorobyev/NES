@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="682a6297-74dd-42a5-8996-6592616482b5">
+  <producedTypes>
+    <managerType typeId="167941a6-cf1a-44fe-88d0-a8d98402f5b9" valueTypeId="7c48854f-1803-40e1-a1a9-deb9f727a418"/>
+    <valueManagerType typeId="4cadbe0f-37b1-465e-9d49-cf788dd3c1a0" valueTypeId="6769bef1-ba23-42f5-85fc-899600c69596"/>
+    <valueKeyType typeId="612fbd27-27ab-41d6-b47a-85aee990a642" valueTypeId="d6201f03-42a3-426c-a3e8-f2b788dc227e"/>
+  </producedTypes>
+  <name>ИспользоватьПсихиатрическиеОсвидетельствования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать психиатрические освидетельствования</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14049e0f-6ed9-4faa-ac94-292e73bf2795">
+  <producedTypes>
+    <refType typeId="5698166a-457b-4436-b46d-a3445b3383d2" valueTypeId="40d2db33-6535-41cb-83b5-82dd0c47d9b6"/>
+    <listType typeId="4c81e548-df31-4603-a0f5-72733be0142b" valueTypeId="d718ac08-6887-4833-a8f0-778ff240bc1f"/>
+    <managerType typeId="f80c419c-985c-4f8f-982a-7096c948f5ad" valueTypeId="75de6d2e-03fc-4da1-9cf1-b1548f66575f"/>
+  </producedTypes>
+  <name>ВариантыФормированияФормуляровПОД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты формирования формуляров ПОД</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="264ab153-3a3a-4143-9b6a-feba18aa66fd">
+    <name>ФормироватьИПодписыватьТолькоНаЭтомЭтапе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формировать и подписывать только на этом этапе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="237164b0-6482-431b-a0af-c53380ff4c61">
+    <name>ФормироватьИПодписыватьНаЭтомИСледующихЭтапах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формировать и подписывать на этом и следующих этапах</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="40fc53c1-b042-466e-9c41-ac0fd1434978">
+    <name>ПодписыватьНаЭтомЭтапе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписывать ранее созданный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

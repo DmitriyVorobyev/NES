@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b64388ca-2777-4b72-94d8-279a33e6198a">
+  <name>ПроверкаДоступностиИспользованияПриложения1СПерсонал</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка доступности использования приложения 1С:Персонал</value>
+  </synonym>
+  <methodName>CommonModule.Интеграция1СПерсонал.ПроверкаДоступностиИспользованияПриложения1СПерсонал</methodName>
+  <description>Проверка доступности использования приложения 1С:Персонал</description>
+  <key>ПроверкаДоступностиИспользованияПриложения1СПерсонал</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

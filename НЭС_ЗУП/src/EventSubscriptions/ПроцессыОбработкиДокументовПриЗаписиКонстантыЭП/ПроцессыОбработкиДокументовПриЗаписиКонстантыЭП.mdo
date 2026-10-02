@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9c6431f-4ea7-4b42-9b75-a1b919d83a2f">
+  <name>ПроцессыОбработкиДокументовПриЗаписиКонстантыЭП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процессы обработки документов при записи константы ЭП</value>
+  </synonym>
+  <source>
+    <types>ConstantValueManager.ИспользоватьЭлектронныеПодписи</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ПроцессыОбработкиДокументов.ПриЗаписиКонстантыЭП</handler>
+</mdclass:EventSubscription>

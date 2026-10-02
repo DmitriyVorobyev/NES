@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5353385-25ed-4272-89e2-c4ad8a91464c">
+  <producedTypes>
+    <selectionType typeId="ae4a15e7-0807-4267-a200-42412c4fdec0" valueTypeId="fde5f8f7-3322-4109-bed9-d0f9f100ecf1"/>
+    <listType typeId="2ab0665f-09d5-4682-bce9-a0e6dc82847e" valueTypeId="4e3f22cc-14a2-4d35-981f-9c2f644b492c"/>
+    <managerType typeId="fa62f75e-d1f1-43e5-85ec-e378562d500e" valueTypeId="10bdb061-1de0-4141-849d-508f754d1635"/>
+    <recordSetType typeId="4bab054d-31d8-4853-ac2a-d3135a837bd6" valueTypeId="e785a70d-b159-4fb0-9f3b-db6e758b037a"/>
+    <recordKeyType typeId="cef1e4b4-835a-485a-8860-9609222f1063" valueTypeId="5c45e290-89e0-4ddb-9771-6ecd3f1e56c4"/>
+    <recordType typeId="7cf650c8-91b9-4da1-b550-da2e1efab9db" valueTypeId="23f2b475-f6a5-4952-be7d-c73807432441"/>
+    <recordManagerType typeId="aa25fd7d-71f4-4e07-ba28-76af603b3373" valueTypeId="518836de-2392-4309-8e0f-e9efa8ef84a7"/>
+  </producedTypes>
+  <name>АналогичныеРабочиеМестаСпециальнойОценкиУсловийТруда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аналогичные рабочие места специальной оценки условий труда</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Аналогичное рабочее место</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Аналогичное рабочее место специальной оценки условий труда</value>
+  </extendedRecordPresentation>
+  <resources uuid="3f18e90e-6636-457c-81f5-c8f8620e1c60">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеМестаОхраныТруда</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="29e04378-cc5b-414e-930d-c0fb11da2e4b">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e7cc8d3b-46c4-4a29-b880-b21af8afbed2">
+    <name>АналогичноеРабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аналогичное рабочее место</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеМестаОхраныТруда</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

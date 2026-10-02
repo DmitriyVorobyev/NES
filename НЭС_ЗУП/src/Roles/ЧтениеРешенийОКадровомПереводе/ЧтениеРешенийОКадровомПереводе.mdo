@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25d061b1-3f06-4e7c-9e91-60f17f513165">
+  <name>ЧтениеРешенийОКадровомПереводе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение решений о кадровом переводе</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e485efab-7bcf-4116-90f0-045bfacd5d55">
+  <producedTypes>
+    <containerType typeId="d9aad45a-2997-414e-8f82-7d16b6b389d3" valueTypeId="165e81ef-1977-4c56-a764-7695c3c79330"/>
+  </producedTypes>
+  <name>ЭтапРаботыСКандидатами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Этап работы с кандидатами</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ЭтапыРаботыСКандидатами</types>
+    <types>EnumRef.ЭтапыРаботыСКандидатами</types>
+  </type>
+</mdclass:DefinedType>

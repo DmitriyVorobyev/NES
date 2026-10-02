@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8db287a9-e138-4aad-88db-248769d3410d">
+  <producedTypes>
+    <selectionType typeId="a8b249d3-9ec0-4d23-af41-56bbfaa75ee8" valueTypeId="a5b0bdf2-e0cd-4d21-92e7-f0b530983c27"/>
+    <listType typeId="ee09eb83-bb03-4937-8851-13b11d35c7f7" valueTypeId="3bccb9c8-65bb-4105-8fe9-a9a98c61f3e0"/>
+    <managerType typeId="085ba5b1-b4de-4691-85e9-f88dcd38d27a" valueTypeId="596ef8cb-5187-4ba4-82d2-d23e4a45453f"/>
+    <recordSetType typeId="5287ede0-c184-4319-8b73-436f1e03c8ad" valueTypeId="898625bb-e71f-48fa-8f93-3a5f4b480d60"/>
+    <recordKeyType typeId="da2d162f-0d0c-4cfc-844b-f1a6ef844e04" valueTypeId="4ec9166c-e7af-423c-a40f-236e6be051fe"/>
+    <recordType typeId="6c7a43e2-354e-4a95-8cc4-8c05e375d9a0" valueTypeId="ada2c71f-e626-48f1-b1f7-f12fcbd39d99"/>
+    <recordManagerType typeId="2a9b5187-d1ec-4726-af35-5fa6716edcee" valueTypeId="bdac2890-a8ed-4d36-bb66-fe9fa23aae1b"/>
+  </producedTypes>
+  <name>РезультатыСпециальнойОценкиУсловийТруда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты специальной оценки условий труда</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f9f687f6-99ef-482c-8536-e636a8a2d354">
+    <name>КлассУсловийТруда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Класс условий труда</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КлассыУсловийТрудаПоРезультатамСпециальнойОценки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3b43a94c-d583-43bf-87b4-92aafc1278de">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b2c3d4e5-f6a7-8901-bcde-f12345678901">
+    <name>ВыявленыВредныеОпасныеФакторы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выявлены вредные (опасные) факторы</value>
+    </synonym>
+    <comment>АПК:58 Различия имени и синонима оправданы</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вредные или опасные факторы выявлены по результатам специальной оценки условий труда (СОУТ)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ac0721e7-d54f-4299-b7e4-50472dbd3298">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеМестаОхраныТруда</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

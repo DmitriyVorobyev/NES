@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b681349b-4a33-46ff-8985-cb511193669a">
+  <producedTypes>
+    <selectionType typeId="b4db8852-6c30-4a12-9872-45bef200d91b" valueTypeId="9dc6b820-ea73-488c-b49d-2fd14c21f0f4"/>
+    <listType typeId="07512806-690b-4620-8dfd-fb99fed37301" valueTypeId="6861a6c9-e477-4d8f-b78b-ea9eb1ba0ce3"/>
+    <managerType typeId="bee78b8b-e9e5-485b-bb9d-5ddf8b703ff0" valueTypeId="425c795f-46df-41cd-8fc3-1917a29a7570"/>
+    <recordSetType typeId="9c950214-be3e-486e-a413-6e93edcc857a" valueTypeId="36bc9e8b-2b55-4185-af39-5cb611f045d4"/>
+    <recordKeyType typeId="8136909f-f8fb-4b3b-b758-54b91e678bb3" valueTypeId="74046720-f6bc-4529-840d-44f058ea04e8"/>
+    <recordType typeId="d792cd69-bf13-4959-9c2b-84e7467a828e" valueTypeId="d41daad0-d3e6-4260-a81c-ce3e6ee8b91e"/>
+    <recordManagerType typeId="931a055b-8f02-4170-9551-aa0fce360153" valueTypeId="97017167-d457-4546-a3be-d1f6e59e3c59"/>
+  </producedTypes>
+  <name>ВзаимодействиеСБанкамиНаАУСН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаимодействие с банками на АУСН</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d665a995-fa19-4e7c-a537-1c082a940ceb">
+    <name>ЗарплатаПередаетсяВБанк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарплата передается в банк</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="14933dbf-4990-423a-9a84-b42d87534ff1">
+    <name>ГоловнаяОрганизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Головная организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="75e4b3f4-114e-4655-abfd-7f850658d590">
+    <name>РедактированиеИстории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование истории</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

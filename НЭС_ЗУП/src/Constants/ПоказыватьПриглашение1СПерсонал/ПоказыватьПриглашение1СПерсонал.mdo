@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2614ae82-ffdb-4c7c-8fcd-df1106816efc">
+  <producedTypes>
+    <managerType typeId="55409ac3-cba0-4c6a-960f-fdf6e44e9499" valueTypeId="1273d34b-4513-4399-bac9-7ff92b646856"/>
+    <valueManagerType typeId="13d4a7af-53a5-459d-85f5-459cfe8b0758" valueTypeId="573aff3a-e2f7-46a0-91d3-bb15288c1d14"/>
+    <valueKeyType typeId="34792658-7886-4892-baf8-a8722fc29e2f" valueTypeId="4bcec4e7-14e5-42dd-ab49-b44552594d25"/>
+  </producedTypes>
+  <name>ПоказыватьПриглашение1СПерсонал</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показывать приглашение 1С:Персонал</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

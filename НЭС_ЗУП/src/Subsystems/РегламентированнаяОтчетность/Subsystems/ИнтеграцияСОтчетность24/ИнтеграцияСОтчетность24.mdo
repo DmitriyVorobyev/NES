@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe6e969e-269d-45ff-a1ce-12cb5169497b">
+  <name>ИнтеграцияСОтчетность24</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с Отчетность 24</value>
+  </synonym>
+  <comment>Интеграция с конфигурацией &quot;1С:Отчетность 24&quot;</comment>
+  <content>CommonModule.Отчетность24БРО</content>
+  <content>CommonPicture.ТреугольникВниманиеОранжевыйСтатичный</content>
+  <content>CommonModule.ИнтеграцияСОтчетность24Клиент</content>
+  <content>CommonModule.Отчетность24БРОКлиентПереопределяемый</content>
+  <content>CommonModule.Отчетность24БРОШинаСлужебный</content>
+  <content>CommonPicture.СостоянияВводаПинКодаОблачнойОтчетности</content>
+  <content>Constant.КлиентШиныОтчетности</content>
+  <content>CommonModule.Отчетность24БРОКлиент</content>
+  <content>CommonModule.ИнтеграцияСОтчетность24</content>
+  <content>CommonModule.Отчетность24БРОКлиентСервер</content>
+  <content>CommonModule.Отчетность24БРОСериализацияПовтИсп</content>
+  <content>CommonPicture.ЛоготипОбменСОтчетностью</content>
+  <content>CommonModule.Отчетность24БРОСериализация</content>
+  <content>CommonPicture.ГалкаУспешноЗеленаяАнимированная</content>
+  <content>CommonModule.ИнтеграцияСОтчетность24ВызовСервера</content>
+  <content>CommonModule.ИнтеграцияСОтчетность24ПовтИсп</content>
+  <content>ScheduledJob.ПолучениеСообщенийИзОтчетность24</content>
+  <content>CommonModule.ИнтеграцияСОтчетность24КлиентСервер</content>
+  <content>InformationRegister.Отчетность24БРОНастройкиПодтверждения</content>
+  <content>CommonModule.Отчетность24БРОШинаУведомления</content>
+  <content>CommonModule.Отчетность24БРОШинаУведомленияВызовСервера</content>
+  <content>Role.ПодтверждениеОтправкиДанныхВОтчетность24</content>
+  <content>Role.СозданиеНастроекПодключенияКОтчетность24</content>
+  <content>CommonTemplate.КомпонентаШиныОтчетности</content>
+  <content>CommonPicture.ТреугольникВниманиеОранжевыйАнимированный</content>
+  <content>Constant.СекретШиныОтчетности</content>
+  <content>InformationRegister.Отчетность24БРОПодключения</content>
+  <content>InformationRegister.Отчетность24БРОЗапросы</content>
+  <content>InformationRegister.Отчетность24БРООграниченияПоОрганизациям</content>
+  <content>InformationRegister.Отчетность24БРОСоответствиеСсылок</content>
+  <content>InformationRegister.Отчетность24БРОПараметрыШины</content>
+  <content>DataProcessor.ПереносСправочниковБРО</content>
+  <content>CommonPicture.ГалкаУспешноЗеленаяСтатичная</content>
+  <parentSubsystem>Subsystem.РегламентированнаяОтчетность</parentSubsystem>
+</mdclass:Subsystem>

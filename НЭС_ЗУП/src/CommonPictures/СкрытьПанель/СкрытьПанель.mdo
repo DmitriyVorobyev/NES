@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b473862c-7bec-47a6-9efa-d15c5d1fe190">
+  <name>СкрытьПанель</name>
+  <synonym>
+    <key>ru</key>
+    <value>Скрыть панель</value>
+  </synonym>
+</mdclass:CommonPicture>

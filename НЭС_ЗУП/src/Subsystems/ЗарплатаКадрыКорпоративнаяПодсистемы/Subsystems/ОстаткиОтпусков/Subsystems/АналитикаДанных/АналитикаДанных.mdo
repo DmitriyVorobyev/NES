@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14e4fb88-e49e-4f1c-a989-d8026d64f75c">
+  <name>АналитикаДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аналитика данных</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>EventSubscription.ЗарегистрироватьИзменениеЗаработанныхПравНаОтпускаДляАналитикиДанных</content>
+  <content>EventSubscription.ЗарегистрироватьИзменениеФактическихОтпусковДляАналитикиДанных</content>
+  <content>InformationRegister.АналитикаОстатковОтпусков</content>
+  <content>InformationRegister.ОбновлениеАналитикиОстатковОтпусков</content>
+  <content>CommonModule.ОстаткиОтпусковАналитикаДанных</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы.Subsystem.ОстаткиОтпусков</parentSubsystem>
+</mdclass:Subsystem>

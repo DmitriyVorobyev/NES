@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="837be382-6139-412b-9b20-25b2436fc4a3">
+  <name>ПродлениеСертификатаЭлектроннойПодписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продление сертификата электронной подписи</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

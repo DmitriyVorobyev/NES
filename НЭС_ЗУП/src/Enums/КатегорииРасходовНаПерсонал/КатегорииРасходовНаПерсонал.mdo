@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74a6f567-1511-4440-9ea6-b4cffa38b2a3">
+  <producedTypes>
+    <refType typeId="e40658aa-8083-4f0a-b3ea-12e1cedfc80d" valueTypeId="afec2a42-3ef0-47dd-bc0f-7152298c5045"/>
+    <listType typeId="44961f7e-b845-4c09-8ddc-14b0dee278a8" valueTypeId="d2cd2f8c-03f3-4f37-8ec6-3c5e0beeb16d"/>
+    <managerType typeId="ac8f4c14-f441-480a-85a1-35c9273f065d" valueTypeId="260a1a44-4c9d-4fe9-a6b3-f0393baf4491"/>
+  </producedTypes>
+  <name>КатегорииРасходовНаПерсонал</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории расходов на персонал</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <enumValues uuid="f837d9dd-9fbb-4642-bbbb-d2c257e12947">
+    <name>Займы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Займы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2f1a4a23-ad1a-4867-b35c-9e2c04bdbf42">
+    <name>Зарплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарплата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2c1de970-8591-4e86-8136-6ceb1515f7e0">
+    <name>КоличествоСтавок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество ставок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="48cb0201-f484-4502-9927-4ed8a88a24ac">
+    <name>Обучение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обучение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2853911f-b060-4155-ac42-8e54c897938e">
+    <name>СтраховыеВзносы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страховые взносы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="986782c8-e7d9-464f-89b5-f597ebca82f0">
+    <name>УдержаннаяЗарплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удержанная зарплата</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

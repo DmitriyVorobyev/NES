@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2029e5c-65f7-4059-92b1-bc931ec7edea">
+  <name>ЧтениеНастроекВидовКонтактнойИнформацииКандидатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение настроек видов контактной информации кандидатов</value>
+  </synonym>
+</mdclass:Role>

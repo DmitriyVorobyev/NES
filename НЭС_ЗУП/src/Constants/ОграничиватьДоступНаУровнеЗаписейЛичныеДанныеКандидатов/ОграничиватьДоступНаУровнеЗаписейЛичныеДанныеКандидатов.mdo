@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88a5da47-5e18-4ef6-aa07-dd53a03974ae">
+  <producedTypes>
+    <managerType typeId="d6bf2ce8-dfb8-4f7b-916c-0ad847a92ef5" valueTypeId="94b49239-e0bc-41a5-b48f-f711b7c9c009"/>
+    <valueManagerType typeId="e99ec439-d74e-4434-b88d-6e6c4bc3c57c" valueTypeId="ad69ce18-003b-44d8-b127-4107f4476dd9"/>
+    <valueKeyType typeId="86904444-d5bd-4a18-bbf0-530a080a8fe4" valueTypeId="52051654-6b47-471f-9425-c08e0686e7a3"/>
+  </producedTypes>
+  <name>ОграничиватьДоступНаУровнеЗаписейЛичныеДанныеКандидатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ограничивать доступ на уровне записей личные данные кандидатов</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

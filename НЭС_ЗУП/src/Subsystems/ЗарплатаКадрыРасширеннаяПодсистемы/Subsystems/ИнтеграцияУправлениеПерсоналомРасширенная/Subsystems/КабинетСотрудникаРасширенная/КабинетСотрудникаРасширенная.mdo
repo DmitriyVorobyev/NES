@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff154950-b11e-4218-bf42-96bbf4ceb837">
+  <name>КабинетСотрудникаРасширенная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кабинет сотрудника расширенная</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.КабинетСотрудникаРасширенный</content>
+  <content>InformationRegister.УдалитьСотрудникиДляОбновленияПубликацииПравНаОтпуск</content>
+  <content>CommonModule.КабинетСотрудникаРасширенныйПереопределяемый</content>
+  <content>InformationRegister.УдалитьСотрудникиДляОбновленияПубликацииГрафикаОтпусков</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыРасширеннаяПодсистемы.Subsystem.ИнтеграцияУправлениеПерсоналомРасширенная</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d307ca9b-bd15-40ee-a5b2-d4de488ad5ad">
+  <name>НормыВыдачиСредствИндивидуальнойЗащиты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормы выдачи средств индивидуальной защиты</value>
+  </synonym>
+  <comment>АПК:58 различия имени и синонима оправданы</comment>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

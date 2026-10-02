@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="535c0bcc-ca7f-4340-b3e2-61fcc1c5f1b6">
+  <name>УстановитьСоответствиеПолученномуОбъекту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить соответствие полученному объекту</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fff633d4-2421-41ec-a7ff-b82b99668a31">
+  <name>ПФ_MXL_СписокЗачисленийПоЗарплатномуПроекту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список зачислений в банк по зарплатному проекту</value>
+  </synonym>
+  <comment>АПК:58 различия имени и синонима оправданы</comment>
+</mdclass:CommonTemplate>

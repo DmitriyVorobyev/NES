@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6187df17-d32f-49f0-bf14-f9ed54882d16">
+  <name>ВыборАнкетыЭлектронногоИнтервью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выбор анкеты электронного интервью</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

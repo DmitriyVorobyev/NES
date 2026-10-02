@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6a2c4e2-00ec-46d6-997b-29d64b50018b">
+  <producedTypes>
+    <objectType typeId="7ffafb84-9818-4728-8bd5-9519a471eb8e" valueTypeId="7a5d654b-a323-45fe-bf11-06e1b5e236c1"/>
+    <managerType typeId="1f529d85-ffe1-4256-90a3-99b44f5ac919" valueTypeId="a60ff50c-c53b-4ed2-9ea4-78fbb7ee5174"/>
+  </producedTypes>
+  <name>ОткликиКандидатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отклики кандидатов</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ОткликиКандидатов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="ee09aad6-0a18-4b10-b929-4ba4a2e66aca">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

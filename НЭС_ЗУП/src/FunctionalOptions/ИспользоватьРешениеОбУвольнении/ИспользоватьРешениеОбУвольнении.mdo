@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d14a0941-e836-4333-a817-b131012beb23">
+  <name>ИспользоватьРешениеОбУвольнении</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать «Решение об увольнении»</value>
+  </synonym>
+  <location>InformationRegister.НастройкиКадровыхРешений.Resource.ИспользоватьРешениеОбУвольнении</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.РешенияПоКадровымИзменениямПрисоединенныеФайлы</content>
+  <content>DocumentJournal.РешенияПоКадровымИзменениям</content>
+  <content>Document.РешениеОбУвольнении</content>
+  <content>Catalog.РешениеОбУвольненииПрисоединенныеФайлы</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d9f12d6-dfa1-42b1-bb68-6e1b0c8aa4b5">
+  <producedTypes>
+    <objectType typeId="536192ba-1ee7-40da-88aa-31fc193a0aea" valueTypeId="f07033bd-296b-4005-b623-cd57ef1479b9"/>
+    <managerType typeId="46ac3505-c940-4211-b0b2-dc6b6aa406f4" valueTypeId="0fa71b42-94d0-4cad-bb79-11f3a3c598cf"/>
+  </producedTypes>
+  <name>ИнтеграцияZoom</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция zoom</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИнтеграцияZoom.Form.Форма</defaultForm>
+  <attributes uuid="18784eed-6733-4c54-b454-a70fd069413d">
+    <name>Сервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8c00b3f0-efc7-454a-acdd-25038a117876">
+    <name>ДанныеСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные сервиса</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6e38e925-3fe1-44ae-a260-3053c086d0c7">
+    <name>УчетнаяЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчетныеЗаписиВидеоконференций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4d9c5779-51a7-4d4d-9084-1bb2ac8924aa">
+    <name>ТокенДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен доступа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f32e05fe-1b89-4ea5-87fd-c237b336ca78">
+    <name>ТокенОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен обновления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e3d7f3ea-bdc9-4105-ab1a-de2d3a323d9a">
+    <name>ДатаОкончанияДействияТокена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания действия токена</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9a52c3a7-f72e-446f-a1cd-2aa05508091d">
+    <name>КодАвторизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код авторизации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="fc367534-c248-441f-8ad3-46fabc6e3c59">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
