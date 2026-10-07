@@ -25,13 +25,13 @@
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="49634528-118e-4ebd-8668-8f8774f339b5"/>
   <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
   <namePrefix>NES</namePrefix>
-  <configurationExtensionCompatibilityMode>8.3.24</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>NES</vendor>
-  <version>1.0.0.1</version>
+  <version>1.0.0.2</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
     <key>ru</key>
@@ -41,7 +41,7 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.24</compatibilityMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
   <languages uuid="6ec41672-ca59-40aa-a4cf-3fef74cdc3c6">
     <name>Русский</name>
     <synonym>
