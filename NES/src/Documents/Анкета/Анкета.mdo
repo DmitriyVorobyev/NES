@@ -12,6 +12,7 @@
   <extension xsi:type="mdclassExtension:DocumentExtension"/>
   <attributes uuid="c1da6e46-30ab-436a-90e5-3ac070f458aa">
     <name>NESСтатус</name>
+    <objectBelonging>Native</objectBelonging>
     <synonym>
       <key>ru</key>
       <value>Статус</value>
@@ -28,7 +29,9 @@
   <forms uuid="f829e2a9-5bdb-4171-8b32-8d10d5968813">
     <name>ФормаДокумента</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:BasicFormExtension"/>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Checked</form>
+    </extension>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
