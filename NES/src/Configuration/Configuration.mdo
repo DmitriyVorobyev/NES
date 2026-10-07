@@ -44,19 +44,28 @@
   <compatibilityMode>8.3.27</compatibilityMode>
   <languages uuid="6ec41672-ca59-40aa-a4cf-3fef74cdc3c6">
     <name>Русский</name>
-    <synonym>
-      <key>ru</key>
-      <value>Русский</value>
-    </synonym>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:LanguageExtension">
       <languageCode>Checked</languageCode>
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <styleItems>StyleItem.ОбъединенныеЭлементыФормыФон</styleItems>
+  <styleItems>StyleItem.ЦветФонаСлабогоПредупрежденияБЗК</styleItems>
+  <styleItems>StyleItem.ПоясняющийТекст</styleItems>
+  <styleItems>StyleItem.ПоясняющийОшибкуТекст</styleItems>
+  <styleItems>StyleItem.ТекстИнформационнойНадписи</styleItems>
+  <commonPictures>CommonPicture.ДлительнаяОперация24БЗК</commonPictures>
+  <commonPictures>CommonPicture.Предупреждение</commonPictures>
+  <commonPictures>CommonPicture.СоздатьДокументБЗК</commonPictures>
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.ДобавлениеИзменениеОтветовНаВопросыАнкет</roles>
   <roles>Role.ЧтениеОтветовНаВопросыАнкет</roles>
   <documents>Document.Анкета</documents>
+  <documents>Document.БольничныйЛист</documents>
+  <documents>Document.ИсходящееСообщениеОСтраховомСлучаеФСС</documents>
+  <documents>Document.ОтветНаЗапросФССДляРасчетаПособия</documents>
   <enums>Enum.NESСтатусы</enums>
+  <enums>Enum.ИсточникиСреднегоДляПособий</enums>
+  <enums>Enum.ОснованияФинансированияПособияФедеральнымБюджетом</enums>
 </mdclass:Configuration>

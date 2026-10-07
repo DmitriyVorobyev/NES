@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="50c18a70-c951-4c3d-b401-cc7ad781c639" extendedConfigurationObject="0cc942d0-7925-437e-88d3-ab7c24b32ede">
+  <producedTypes>
+    <objectType typeId="43fdaebe-ab6c-48d4-9dfd-a562fb294a43" valueTypeId="2e41b55b-0406-42b2-a4b9-dea50add3400"/>
+    <refType typeId="7a6e9f44-a3ca-4f17-8699-4cb295fcce02" valueTypeId="b92d055f-1586-4b7a-9c99-a55a57765021"/>
+    <selectionType typeId="0c0d791c-cb94-4d22-a045-b4b82184a6cd" valueTypeId="050611b4-9dc8-4e63-8068-80325556170a"/>
+    <listType typeId="1d2b9d00-d441-4c65-ab2b-be65b04ec851" valueTypeId="2120de3b-2dbc-4803-bc5a-1a28c8612e05"/>
+    <managerType typeId="214ce402-ded4-42fa-b552-83db34d3e673" valueTypeId="464be59d-4251-4e94-8f42-2d35c6b07fc7"/>
+  </producedTypes>
+  <name>БольничныйЛист</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="2ab3da6b-d6f1-4757-9f9a-f91fa2c8775e" extendedConfigurationObject="a17b10e3-78a9-45da-abfb-28047a5ee99e">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>
