@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="63e3bbe6-5c29-4bdb-a2f4-42bcdd82ea4b">
+  <name>NES</name>
+  <synonym>
+    <key>ru</key>
+    <value>NES</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <commandInterface>Checked</commandInterface>
+    <mainSectionCommandInterface>Checked</mainSectionCommandInterface>
+    <defaultLanguage>Checked</defaultLanguage>
+    <modalityUseMode>Checked</modalityUseMode>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="4456958d-b122-4530-bce5-c2a0bc161ece"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="50894838-a4ca-4356-8551-2cdea552a90d"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="2d010e49-c23a-4c03-a38a-bcc9c9879c16"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="0044365a-4af0-4476-9f62-1799fc79f680"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="8e442530-d74d-4c73-b2f2-d1bd1770570c"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="80141704-0270-4c52-9ad7-51621e5b5629"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="49634528-118e-4ebd-8668-8f8774f339b5"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>NES</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.24</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>NES</vendor>
+  <version>1.0.0.1</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>NES</value>
+  </briefInformation>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.24</compatibilityMode>
+  <languages uuid="6ec41672-ca59-40aa-a4cf-3fef74cdc3c6">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.ДобавлениеИзменениеОтветовНаВопросыАнкет</roles>
+  <roles>Role.ЧтениеОтветовНаВопросыАнкет</roles>
+  <documents>Document.Анкета</documents>
+  <enums>Enum.NESСтатусы</enums>
+</mdclass:Configuration>
