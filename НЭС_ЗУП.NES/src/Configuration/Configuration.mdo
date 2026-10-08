@@ -20,6 +20,7 @@
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="6052091e-56ae-47fc-b327-bbb955310667"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="92e70329-8c2a-4de1-9ebd-93c130f8fdc5"/>
   <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>NES</namePrefix>
   <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
   <defaultRunMode>ManagedApplication</defaultRunMode>
@@ -36,4 +37,9 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <roles>Role.ДобавлениеИзменениеОтветовНаВопросыАнкет</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.ЧтениеОтветовНаВопросыАнкет</roles>
+  <documents>Document.Анкета</documents>
+  <enums>Enum.NESСтатусы</enums>
 </mdclass:Configuration>
