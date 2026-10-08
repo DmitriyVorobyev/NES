@@ -1400,6 +1400,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
+          <pointerType>Special</pointerType>
           <verticalScrollBar>ScrollAuto</verticalScrollBar>
           <horizontalScrollBar>ScrollAuto</horizontalScrollBar>
           <protection>true</protection>

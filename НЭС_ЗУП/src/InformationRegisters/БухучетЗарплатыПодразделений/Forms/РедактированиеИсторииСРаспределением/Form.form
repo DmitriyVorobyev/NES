@@ -340,9 +340,6 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
-          <font xsi:type="core:FontRef">
-            <font>0</font>
-          </font>
         </extInfo>
       </items>
       <visible>true</visible>

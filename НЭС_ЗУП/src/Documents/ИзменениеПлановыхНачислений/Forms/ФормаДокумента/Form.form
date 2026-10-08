@@ -1189,9 +1189,6 @@
           <textColor xsi:type="core:ColorRef">
             <color>Style.ПоясняющийТекст</color>
           </textColor>
-          <font xsi:type="core:FontRef">
-            <font>0</font>
-          </font>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -1309,9 +1306,6 @@
           <textColor xsi:type="core:ColorRef">
             <color>Style.ПоясняющийТекст</color>
           </textColor>
-          <font xsi:type="core:FontRef">
-            <font>0</font>
-          </font>
         </extInfo>
       </items>
       <visible>true</visible>

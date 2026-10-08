@@ -817,7 +817,6 @@
           <verticalStretch>true</verticalStretch>
           <scale>100</scale>
           <currentPageNumber>1</currentPageNumber>
-          <viewStatusLocation>None</viewStatusLocation>
         </extInfo>
       </items>
       <visible>true</visible>

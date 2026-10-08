@@ -2361,9 +2361,6 @@
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>false</horizontalStretch>
           <hyperlink>true</hyperlink>
-          <font xsi:type="core:FontRef">
-            <font>0</font>
-          </font>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">

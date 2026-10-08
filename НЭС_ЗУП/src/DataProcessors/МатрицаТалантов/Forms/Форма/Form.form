@@ -818,6 +818,7 @@
             <maxWidth>3</maxWidth>
             <height>10</height>
             <maxHeight>14</maxHeight>
+            <pointerType>Special</pointerType>
             <protection>true</protection>
             <selectionShowMode>DontShow</selectionShowMode>
             <drawingSelectionShowMode>DontShow</drawingSelectionShowMode>

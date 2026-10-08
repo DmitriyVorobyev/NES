@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonPicture xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="40529007-07a5-4ffa-9595-ee49aa0439ce" extendedConfigurationObject="937d7081-dae6-4480-b167-bc7ba102846f">
-  <name>ДлительнаяОперация24БЗК</name>
-  <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:CommonPictureExtension">
-    <extendedConfigurationObject>Checked</extendedConfigurationObject>
-  </extension>
-</mdclass:CommonPicture>
