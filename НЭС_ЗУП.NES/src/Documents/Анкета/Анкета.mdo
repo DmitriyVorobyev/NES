@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a9ec035e-c8a3-43ac-a080-a1c6d56b0a7c" extendedConfigurationObject="73eff626-a363-4a5a-879e-61ef6ce0726f">
+  <producedTypes>
+    <objectType typeId="5364ee75-47b1-4052-a28c-1776e0aafb7e" valueTypeId="4671c6fc-bf07-4d0e-a4c9-7945bcb2657d"/>
+    <refType typeId="12abafd9-0a19-4b67-9bb4-613bccacffac" valueTypeId="366ce502-7e78-485d-bfd2-524539582a6b"/>
+    <selectionType typeId="20f366a6-6825-49e7-9f43-3c508f6f39eb" valueTypeId="bd0451ce-4a7a-44fa-8b54-173a1cdbaa2b"/>
+    <listType typeId="ef65e841-bd83-4a58-a9ba-a5c1887605ee" valueTypeId="3159b5db-a58b-4f74-aafc-ec505b79d4d5"/>
+    <managerType typeId="1d0b8df2-557c-4ad7-b36d-7c940ceaa7cf" valueTypeId="7683ca82-06a9-4a6b-ad9d-743e14ad6191"/>
+  </producedTypes>
+  <name>Анкета</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="126a3089-c71f-4789-9991-543d1f19c710">
+    <name>NESСтатус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <objectBelonging>Native</objectBelonging>
+    <type>
+      <types>EnumRef.NESСтатусы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a6b8a219-2343-4b18-aed8-e5fe96dcd40a" extendedConfigurationObject="f829e2a9-5bdb-4171-8b32-8d10d5968813">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>
