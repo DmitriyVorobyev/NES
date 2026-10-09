@@ -10,6 +10,7 @@
     <defaultRunMode>Checked</defaultRunMode>
     <usePurposes>Checked</usePurposes>
     <defaultLanguage>Checked</defaultLanguage>
+    <compatibilityMode>Checked</compatibilityMode>
     <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
   </extension>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="2877c819-2f69-442b-bd40-eca5488165cf"/>
@@ -23,11 +24,13 @@
   <namePrefix>NES</namePrefix>
   <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <version>1.0.0.4</version>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
   <languages uuid="de960959-ab91-47f2-a332-3d95e505be48" extendedConfigurationObject="6ec41672-ca59-40aa-a4cf-3fef74cdc3c6">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -37,6 +40,7 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <commonPictures>CommonPicture.КоллекцияДеревоАнкеты</commonPictures>
   <roles>Role.ДобавлениеИзменениеОтветовНаВопросыАнкет</roles>
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.ЧтениеОтветовНаВопросыАнкет</roles>
