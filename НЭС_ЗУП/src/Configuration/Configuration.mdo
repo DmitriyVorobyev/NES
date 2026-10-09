@@ -8935,6 +8935,7 @@
   <documentJournals>DocumentJournal.УведомленияОВыплатеПособий</documentJournals>
   <documentJournals>DocumentJournal.ФактПоказателейЭффективности</documentJournals>
   <documentJournals>DocumentJournal.ЭлектронныеТрудовыеКнижки</documentJournals>
+  <enums>Enum.NESСтатусы</enums>
   <enums>Enum.SMSАвторизацияОбменСБанками</enums>
   <enums>Enum.БонусныеПрограммыБанков</enums>
   <enums>Enum.ВажностьПроблемыУчета</enums>

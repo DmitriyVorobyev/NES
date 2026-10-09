@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="702ca370-a776-4c59-aaaf-e0146c1b55ec">
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="692a1994-a49b-462b-98d3-d0395bbce8e3">
   <producedTypes>
-    <refType typeId="b7cfa0b7-fbc9-4125-8eda-cf36c5d40c34" valueTypeId="dcd7b3cb-34e4-4795-beec-589d00ae6b82"/>
-    <listType typeId="110e120f-9e1d-4678-b9bb-a37f9b247c77" valueTypeId="778d6fb7-b2be-47ce-a8bd-d49412e9f35e"/>
-    <managerType typeId="d76b7361-4895-49a8-82ac-5acbd4671f72" valueTypeId="d09bb6c2-0dce-4967-a8a7-d01ae875d8d2"/>
+    <refType typeId="dc7eaae9-d5fd-4446-9c9c-530029971459" valueTypeId="fd17b5b2-d84c-40c9-aa6a-1977992d03b1"/>
+    <listType typeId="bc32c2f1-93f7-419a-9617-bac38e5c1baf" valueTypeId="73bc3cbf-e12d-45ef-8c99-bbedc20b632a"/>
+    <managerType typeId="0069cf65-4492-4f17-ba19-6069e58ade98" valueTypeId="d519232b-3c85-416a-ae2e-ac5ef252e026"/>
   </producedTypes>
   <name>NESСтатусы</name>
   <synonym>
@@ -28,21 +28,21 @@
   </standardAttributes>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
-  <enumValues uuid="cc7f8f02-5629-4bfc-8326-70f3dff1440e">
+  <enumValues uuid="ee8a9ac3-d82a-4418-98b9-e68e71f0eb71">
     <name>Важно</name>
     <synonym>
       <key>ru</key>
       <value>Важно</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="4c9485b9-a482-4b31-912b-c96b9fe9e9d7">
+  <enumValues uuid="8470ea96-4351-4b35-ab56-f82d0ffda591">
     <name>НеВажно</name>
     <synonym>
       <key>ru</key>
       <value>Не важно</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="b26dc297-ad1a-46e5-b155-625d9a5a53e5">
+  <enumValues uuid="b8710fc1-40c6-4609-9042-b811fad523eb">
     <name>ВсеРавно</name>
     <synonym>
       <key>ru</key>

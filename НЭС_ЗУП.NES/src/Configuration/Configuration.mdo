@@ -41,9 +41,5 @@
     <languageCode>ru</languageCode>
   </languages>
   <commonPictures>CommonPicture.КоллекцияДеревоАнкеты</commonPictures>
-  <roles>Role.ДобавлениеИзменениеОтветовНаВопросыАнкет</roles>
-  <roles>Role.ПолныеПрава</roles>
-  <roles>Role.ЧтениеОтветовНаВопросыАнкет</roles>
   <documents>Document.Анкета</documents>
-  <enums>Enum.NESСтатусы</enums>
 </mdclass:Configuration>
