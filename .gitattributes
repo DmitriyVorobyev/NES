@@ -1,17 +1,5 @@
 * text=auto eol=crlf
 
-*.bsl text eol=crlf
-*.os text eol=crlf
-*.mdo text eol=crlf
-*.xml text eol=crlf
-*.dcs text eol=crlf
-*.form text eol=crlf
-*.cmi text eol=crlf
-*.rights text eol=crlf
-*.json text eol=crlf
-*.txt text eol=crlf
-*.md text eol=crlf
-
 *.sh text eol=lf
 *.py text eol=lf
 
@@ -22,7 +10,6 @@
 *.cfe binary
 *.dt binary
 *.1cd binary
-*.mxl binary
 *.png binary
 *.jpg binary
 *.jpeg binary
@@ -32,6 +19,3 @@
 *.zip binary
 *.7z binary
 *.gz binary
-*.bin binary
-*.svg binary
-*.geom binary
