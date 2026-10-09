@@ -33,13 +33,8 @@
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFormExtension">
       <extendedConfigurationObject>Checked</extendedConfigurationObject>
-      <form>Extended</form>
+      <form>Checked</form>
     </extension>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
