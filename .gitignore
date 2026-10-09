@@ -5,3 +5,5 @@
 *.cfe
 *.epf
 *.erf
+
+.cursor/

@@ -691,6 +691,51 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
+        <name>NESСтатус</name>
+        <id>1000001</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.NESСтатус</segments>
+        </dataPath>
+        <title>
+          <key>ru</key>
+          <value>Статус</value>
+        </title>
+        <extendedTooltip>
+          <name>NESСтатусРасширеннаяПодсказка</name>
+          <id>1000003</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>NESСтатусКонтекстноеМеню</name>
+          <id>1000002</id>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
+
+      <items xsi:type="form:FormField">
         <name>Опрос</name>
         <id>10</id>
         <visible>true</visible>

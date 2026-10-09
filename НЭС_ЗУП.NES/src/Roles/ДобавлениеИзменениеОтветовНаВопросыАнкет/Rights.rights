@@ -18,4 +18,15 @@
 			<value>true</value>
 		</right>
 	</object>
+	<object>
+		<name>Document.Анкета.Attribute.NESСтатус</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
 </Rights>
